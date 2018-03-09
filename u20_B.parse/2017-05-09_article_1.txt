@@ -1,0 +1,2578 @@
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "[U20 WC] '한국 같은 조' 잉글랜드, U-20 WC 명단 발표···래쉬포드, 데이비스, 튀앙제브 제외",
+	"morp" : [
+		{"id" : 0, "lemma" : "[", "type" : "SS", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "U", "type" : "SL", "position" : 1, "weight" : 1 },
+		{"id" : 2, "lemma" : "20", "type" : "SN", "position" : 2, "weight" : 1 },
+		{"id" : 3, "lemma" : "WC", "type" : "SL", "position" : 5, "weight" : 1 },
+		{"id" : 4, "lemma" : "]", "type" : "SS", "position" : 7, "weight" : 1 },
+		{"id" : 5, "lemma" : "'", "type" : "SS", "position" : 9, "weight" : 1 },
+		{"id" : 6, "lemma" : "한국", "type" : "NNP", "position" : 10, "weight" : 0.0673808 },
+		{"id" : 7, "lemma" : "같", "type" : "VA", "position" : 17, "weight" : 0.0012625 },
+		{"id" : 8, "lemma" : "은", "type" : "ETM", "position" : 20, "weight" : 0.155123 },
+		{"id" : 9, "lemma" : "조", "type" : "NNG", "position" : 24, "weight" : 0.0907583 },
+		{"id" : 10, "lemma" : "'", "type" : "SS", "position" : 27, "weight" : 1 },
+		{"id" : 11, "lemma" : "잉글랜드", "type" : "NNP", "position" : 29, "weight" : 0.9 },
+		{"id" : 12, "lemma" : ",", "type" : "SP", "position" : 41, "weight" : 1 },
+		{"id" : 13, "lemma" : "U", "type" : "SL", "position" : 43, "weight" : 1 },
+		{"id" : 14, "lemma" : "-", "type" : "SS", "position" : 44, "weight" : 1 },
+		{"id" : 15, "lemma" : "20", "type" : "SN", "position" : 45, "weight" : 1 },
+		{"id" : 16, "lemma" : "WC", "type" : "SL", "position" : 48, "weight" : 1 },
+		{"id" : 17, "lemma" : "명단", "type" : "NNG", "position" : 51, "weight" : 0.9 },
+		{"id" : 18, "lemma" : "발표", "type" : "NNG", "position" : 58, "weight" : 0.9 },
+		{"id" : 19, "lemma" : "·", "type" : "SP", "position" : 64, "weight" : 1 },
+		{"id" : 20, "lemma" : "·", "type" : "SP", "position" : 66, "weight" : 1 },
+		{"id" : 21, "lemma" : "·", "type" : "SP", "position" : 68, "weight" : 1 },
+		{"id" : 22, "lemma" : "래쉬포드", "type" : "NNP", "position" : 70, "weight" : 0.6 },
+		{"id" : 23, "lemma" : ",", "type" : "SP", "position" : 82, "weight" : 1 },
+		{"id" : 24, "lemma" : "데이비스", "type" : "NNP", "position" : 84, "weight" : 0.9 },
+		{"id" : 25, "lemma" : ",", "type" : "SP", "position" : 96, "weight" : 1 },
+		{"id" : 26, "lemma" : "튀앙", "type" : "NNP", "position" : 98, "weight" : 0.6 },
+		{"id" : 27, "lemma" : "제브", "type" : "NNP", "position" : 104, "weight" : 0.6 },
+		{"id" : 28, "lemma" : "제외", "type" : "NNG", "position" : 111, "weight" : 0.9 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "[/SS+U/SL+20/SN", "target" : "[U20", "word_id" : 0, "m_begin" : 0, "m_end" : 2},
+		{"id" : 1, "result" : "WC/SL+]/SS", "target" : "WC]", "word_id" : 1, "m_begin" : 3, "m_end" : 4},
+		{"id" : 2, "result" : "'/SS+한국/NNG", "target" : "'한국", "word_id" : 2, "m_begin" : 5, "m_end" : 6},
+		{"id" : 3, "result" : "같/VA+은/ETM", "target" : "같은", "word_id" : 3, "m_begin" : 7, "m_end" : 8},
+		{"id" : 4, "result" : "조/NNG+'/SS", "target" : "조'", "word_id" : 4, "m_begin" : 9, "m_end" : 10},
+		{"id" : 5, "result" : "잉글랜드/NNG+,/SP", "target" : "잉글랜드,", "word_id" : 5, "m_begin" : 11, "m_end" : 12},
+		{"id" : 6, "result" : "U/SL+-/SS+20/SN", "target" : "U-20", "word_id" : 6, "m_begin" : 13, "m_end" : 15},
+		{"id" : 7, "result" : "WC/SL", "target" : "WC", "word_id" : 7, "m_begin" : 16, "m_end" : 16},
+		{"id" : 8, "result" : "명단/NNG", "target" : "명단", "word_id" : 8, "m_begin" : 17, "m_end" : 17},
+		{"id" : 9, "result" : "발표/NNG+·/SP+·/SP+·/SP+래쉬포드/NNG+,/SP", "target" : "발표···래쉬포드,", "word_id" : 9, "m_begin" : 18, "m_end" : 23},
+		{"id" : 10, "result" : "데이비스/NNG+,/SP", "target" : "데이비스,", "word_id" : 10, "m_begin" : 24, "m_end" : 25},
+		{"id" : 11, "result" : "튀앙제브/NNG", "target" : "튀앙제브", "word_id" : 11, "m_begin" : 26, "m_end" : 27},
+		{"id" : 12, "result" : "제외/NNG", "target" : "제외", "word_id" : 12, "m_begin" : 28, "m_end" : 28}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "[", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 1, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 2, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "WC", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 5, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "]", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 7, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "한국", "type" : "NNP", "scode" : "05", "weight" : 3.2, "position" : 10, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "같", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 17, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "조", "type" : "NNG", "scode" : "15", "weight" : 4.50909, "position" : 24, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 27, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "잉글랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 29, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 41, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 44, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 45, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "WC", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 48, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "명단", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 51, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "발표", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 58, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 64, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 66, "begin" : 20, "end" : 20},
+		{"id" : 21, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 68, "begin" : 21, "end" : 21},
+		{"id" : 22, "text" : "래쉬포드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 70, "begin" : 22, "end" : 22},
+		{"id" : 23, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 82, "begin" : 23, "end" : 23},
+		{"id" : 24, "text" : "데이비스", "type" : "NNP", "scode" : "01", "weight" : 1, "position" : 84, "begin" : 24, "end" : 24},
+		{"id" : 25, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 96, "begin" : 25, "end" : 25},
+		{"id" : 26, "text" : "튀앙", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 98, "begin" : 26, "end" : 26},
+		{"id" : 27, "text" : "제브", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 104, "begin" : 27, "end" : 27},
+		{"id" : 28, "text" : "제외", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 111, "begin" : 28, "end" : 28}
+	],
+	"word" : [
+		{"id" : 0, "text" : "[U20", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "WC]", "type" : "", "begin" : 3, "end" : 4},
+		{"id" : 2, "text" : "'한국", "type" : "", "begin" : 5, "end" : 6},
+		{"id" : 3, "text" : "같은", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 4, "text" : "조'", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 5, "text" : "잉글랜드,", "type" : "", "begin" : 11, "end" : 12},
+		{"id" : 6, "text" : "U-20", "type" : "", "begin" : 13, "end" : 15},
+		{"id" : 7, "text" : "WC", "type" : "", "begin" : 16, "end" : 16},
+		{"id" : 8, "text" : "명단", "type" : "", "begin" : 17, "end" : 17},
+		{"id" : 9, "text" : "발표···래쉬포드,", "type" : "", "begin" : 18, "end" : 23},
+		{"id" : 10, "text" : "데이비스,", "type" : "", "begin" : 24, "end" : 25},
+		{"id" : 11, "text" : "튀앙제브", "type" : "", "begin" : 26, "end" : 27},
+		{"id" : 12, "text" : "제외", "type" : "", "begin" : 28, "end" : 28}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "U20 WC", "type" : "AFW_DOCUMENT", "begin" : 1, "end" : 3, "weight" : 0.312062, "common_noun" : 0},
+		{"id" : 1, "text" : "한국", "type" : "LCP_COUNTRY", "begin" : 6, "end" : 6, "weight" : 0.559968, "common_noun" : 0},
+		{"id" : 2, "text" : "잉글랜드", "type" : "LCP_COUNTRY", "begin" : 11, "end" : 11, "weight" : 0.541582, "common_noun" : 0},
+		{"id" : 3, "text" : "U-20 WC", "type" : "EV_SPORTS", "begin" : 13, "end" : 16, "weight" : 0.219654, "common_noun" : 0},
+		{"id" : 4, "text" : "래쉬포드", "type" : "PS_NAME", "begin" : 22, "end" : 22, "weight" : 0.0992016, "common_noun" : 0},
+		{"id" : 5, "text" : "데이비스", "type" : "PS_NAME", "begin" : 24, "end" : 24, "weight" : 0.530107, "common_noun" : 0},
+		{"id" : 6, "text" : "튀앙제브", "type" : "PS_NAME", "begin" : 26, "end" : 27, "weight" : 0.143559, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "[U20", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.609886 },
+		{"id" : 1, "text" : "WC]", "head" : 12, "label" : "NP", "mod" : [0], "weight" : 0.278094 },
+		{"id" : 2, "text" : "'한국", "head" : 3, "label" : "NP_AJT", "mod" : [], "weight" : 0.568777 },
+		{"id" : 3, "text" : "같은", "head" : 4, "label" : "VP_MOD", "mod" : [2], "weight" : 0.695597 },
+		{"id" : 4, "text" : "조'", "head" : 12, "label" : "NP", "mod" : [3], "weight" : 0.802482 },
+		{"id" : 5, "text" : "잉글랜드,", "head" : 12, "label" : "NP", "mod" : [], "weight" : 0.611169 },
+		{"id" : 6, "text" : "U-20", "head" : 7, "label" : "NP", "mod" : [], "weight" : 0.617697 },
+		{"id" : 7, "text" : "WC", "head" : 9, "label" : "NP", "mod" : [6], "weight" : 0.490604 },
+		{"id" : 8, "text" : "명단", "head" : 9, "label" : "NP", "mod" : [], "weight" : 0.832786 },
+		{"id" : 9, "text" : "발표···래쉬포드,", "head" : 12, "label" : "NP", "mod" : [7, 8], "weight" : 0.315665 },
+		{"id" : 10, "text" : "데이비스,", "head" : 12, "label" : "NP", "mod" : [], "weight" : 0.337066 },
+		{"id" : 11, "text" : "튀앙제브", "head" : 12, "label" : "NP", "mod" : [], "weight" : 0.724988 },
+		{"id" : 12, "text" : "제외", "head" : -1, "label" : "NP", "mod" : [1, 4, 5, 9, 10, 11], "weight" : 0.00048765 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "[U20 WC] '한국 같은 조' 잉글랜드, U-20 WC 명단 발표···래쉬포드, 데이비스, 튀앙제브 제외", "begin" : 0, "end" : 12, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "같", "sense" : 1, "word_id" : 3, "weight" : 0.530064,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 2, "text" : "'한국", "weight" : 0.484777 },
+				{"type" : "ARG1", "word_id" : 4, "text" : "조'", "weight" : 0.575351 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "스포티비뉴스",
+	"morp" : [
+		{"id" : 0, "lemma" : "스포티비", "type" : "NNP", "position" : 0, "weight" : 0.6 },
+		{"id" : 1, "lemma" : "뉴스", "type" : "NNG", "position" : 12, "weight" : 0.9 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "스포티비뉴스/NNG", "target" : "스포티비뉴스", "word_id" : 0, "m_begin" : 0, "m_end" : 1}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "스포티비", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "뉴스", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 12, "begin" : 1, "end" : 1}
+	],
+	"word" : [
+		{"id" : 0, "text" : "스포티비뉴스", "type" : "", "begin" : 0, "end" : 1}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "스포티비뉴스", "type" : "OGG_MEDIA", "begin" : 0, "end" : 1, "weight" : 0.288705, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "스포티비뉴스", "head" : -1, "label" : "NP", "mod" : [], "weight" : 0.786836 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "스포티비뉴스", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "[스포티비뉴스=이종현 기자] 잉글랜드 U-20 대표 팀이 월드컵 출전 명단을 발표했다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "[", "type" : "SS", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "스포티비", "type" : "NNP", "position" : 1, "weight" : 0.6 },
+		{"id" : 2, "lemma" : "뉴스", "type" : "NNG", "position" : 13, "weight" : 0.9 },
+		{"id" : 3, "lemma" : "=", "type" : "SW", "position" : 19, "weight" : 1 },
+		{"id" : 4, "lemma" : "이종현", "type" : "NNP", "position" : 20, "weight" : 0.6 },
+		{"id" : 5, "lemma" : "기자", "type" : "NNG", "position" : 30, "weight" : 0.281745 },
+		{"id" : 6, "lemma" : "]", "type" : "SS", "position" : 36, "weight" : 1 },
+		{"id" : 7, "lemma" : "잉글랜드", "type" : "NNP", "position" : 38, "weight" : 0.9 },
+		{"id" : 8, "lemma" : "U", "type" : "SL", "position" : 51, "weight" : 1 },
+		{"id" : 9, "lemma" : "-", "type" : "SS", "position" : 52, "weight" : 1 },
+		{"id" : 10, "lemma" : "20", "type" : "SN", "position" : 53, "weight" : 1 },
+		{"id" : 11, "lemma" : "대표", "type" : "NNG", "position" : 56, "weight" : 0.9 },
+		{"id" : 12, "lemma" : "팀", "type" : "NNG", "position" : 63, "weight" : 0.184232 },
+		{"id" : 13, "lemma" : "이", "type" : "JKS", "position" : 66, "weight" : 0.0360723 },
+		{"id" : 14, "lemma" : "월드컵", "type" : "NNG", "position" : 70, "weight" : 0.9 },
+		{"id" : 15, "lemma" : "출전", "type" : "NNG", "position" : 80, "weight" : 0.9 },
+		{"id" : 16, "lemma" : "명단", "type" : "NNG", "position" : 87, "weight" : 0.9 },
+		{"id" : 17, "lemma" : "을", "type" : "JKO", "position" : 93, "weight" : 0.129611 },
+		{"id" : 18, "lemma" : "발표", "type" : "NNG", "position" : 97, "weight" : 0.9 },
+		{"id" : 19, "lemma" : "하", "type" : "XSV", "position" : 103, "weight" : 0.0001 },
+		{"id" : 20, "lemma" : "었", "type" : "EP", "position" : 103, "weight" : 0.9 },
+		{"id" : 21, "lemma" : "다", "type" : "EF", "position" : 106, "weight" : 0.640954 },
+		{"id" : 22, "lemma" : ".", "type" : "SF", "position" : 109, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "[/SS+스포티비뉴스/NNG+=/SW+이종현/NNG", "target" : "[스포티비뉴스=이종현", "word_id" : 0, "m_begin" : 0, "m_end" : 4},
+		{"id" : 1, "result" : "기자/NNG+]/SS", "target" : "기자]", "word_id" : 1, "m_begin" : 5, "m_end" : 6},
+		{"id" : 2, "result" : "잉글랜드/NNG", "target" : "잉글랜드", "word_id" : 2, "m_begin" : 7, "m_end" : 7},
+		{"id" : 3, "result" : "U/SL+-/SS+20/SN", "target" : "U-20", "word_id" : 3, "m_begin" : 8, "m_end" : 10},
+		{"id" : 4, "result" : "대표/NNG", "target" : "대표", "word_id" : 4, "m_begin" : 11, "m_end" : 11},
+		{"id" : 5, "result" : "팀/NNG+이/JKS", "target" : "팀이", "word_id" : 5, "m_begin" : 12, "m_end" : 13},
+		{"id" : 6, "result" : "월드컵/NNG", "target" : "월드컵", "word_id" : 6, "m_begin" : 14, "m_end" : 14},
+		{"id" : 7, "result" : "출전/NNG", "target" : "출전", "word_id" : 7, "m_begin" : 15, "m_end" : 15},
+		{"id" : 8, "result" : "명단/NNG+을/JKO", "target" : "명단을", "word_id" : 8, "m_begin" : 16, "m_end" : 17},
+		{"id" : 9, "result" : "발표하/VV+었/EP+다/EF+./SF", "target" : "발표했다.", "word_id" : 9, "m_begin" : 18, "m_end" : 22}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "[", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "스포티비", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 1, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "뉴스", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "=", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 19, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "이종현", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "기자", "type" : "NNG", "scode" : "05", "weight" : 2.2, "position" : 30, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "]", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 36, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "잉글랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 38, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 51, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 52, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 53, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "대표", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 56, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "팀", "type" : "NNG", "scode" : "01", "weight" : 5.4, "position" : 63, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 66, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "월드컵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 70, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "출전", "type" : "NNG", "scode" : "02", "weight" : 5.2, "position" : 80, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "명단", "type" : "NNG", "scode" : "01", "weight" : 2, "position" : 87, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 93, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "발표하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 97, "begin" : 18, "end" : 19},
+		{"id" : 19, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 103, "begin" : 20, "end" : 20},
+		{"id" : 20, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 106, "begin" : 21, "end" : 21},
+		{"id" : 21, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 109, "begin" : 22, "end" : 22}
+	],
+	"word" : [
+		{"id" : 0, "text" : "[스포티비뉴스=이종현", "type" : "", "begin" : 0, "end" : 4},
+		{"id" : 1, "text" : "기자]", "type" : "", "begin" : 5, "end" : 6},
+		{"id" : 2, "text" : "잉글랜드", "type" : "", "begin" : 7, "end" : 7},
+		{"id" : 3, "text" : "U-20", "type" : "", "begin" : 8, "end" : 10},
+		{"id" : 4, "text" : "대표", "type" : "", "begin" : 11, "end" : 11},
+		{"id" : 5, "text" : "팀이", "type" : "", "begin" : 12, "end" : 13},
+		{"id" : 6, "text" : "월드컵", "type" : "", "begin" : 14, "end" : 14},
+		{"id" : 7, "text" : "출전", "type" : "", "begin" : 15, "end" : 15},
+		{"id" : 8, "text" : "명단을", "type" : "", "begin" : 16, "end" : 17},
+		{"id" : 9, "text" : "발표했다.", "type" : "", "begin" : 18, "end" : 22}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "스포티비뉴스", "type" : "OGG_MEDIA", "begin" : 1, "end" : 2, "weight" : 0.400626, "common_noun" : 0},
+		{"id" : 1, "text" : "이종현", "type" : "PS_NAME", "begin" : 4, "end" : 4, "weight" : 0.852745, "common_noun" : 0},
+		{"id" : 2, "text" : "기자", "type" : "CV_OCCUPATION", "begin" : 5, "end" : 5, "weight" : 0.814869, "common_noun" : 0},
+		{"id" : 3, "text" : "잉글랜드", "type" : "LCP_COUNTRY", "begin" : 7, "end" : 7, "weight" : 0.481686, "common_noun" : 0},
+		{"id" : 4, "text" : "U-20", "type" : "OGG_SPORTS", "begin" : 8, "end" : 10, "weight" : 0.4828, "common_noun" : 0},
+		{"id" : 5, "text" : "대표 팀", "type" : "OGG_SPORTS", "begin" : 11, "end" : 12, "weight" : 0.265217, "common_noun" : 0},
+		{"id" : 6, "text" : "월드컵", "type" : "EV_SPORTS", "begin" : 14, "end" : 14, "weight" : 0.59614, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "[스포티비뉴스=이종현", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.622152 },
+		{"id" : 1, "text" : "기자]", "head" : 5, "label" : "NP", "mod" : [0], "weight" : 0.120779 },
+		{"id" : 2, "text" : "잉글랜드", "head" : 4, "label" : "NP", "mod" : [], "weight" : 0.109518 },
+		{"id" : 3, "text" : "U-20", "head" : 4, "label" : "NP", "mod" : [], "weight" : 0.143005 },
+		{"id" : 4, "text" : "대표", "head" : 5, "label" : "NP", "mod" : [2, 3], "weight" : 0.745694 },
+		{"id" : 5, "text" : "팀이", "head" : 9, "label" : "NP_SBJ", "mod" : [1, 4], "weight" : 0.894312 },
+		{"id" : 6, "text" : "월드컵", "head" : 7, "label" : "NP", "mod" : [], "weight" : 0.582465 },
+		{"id" : 7, "text" : "출전", "head" : 8, "label" : "NP", "mod" : [6], "weight" : 0.729627 },
+		{"id" : 8, "text" : "명단을", "head" : 9, "label" : "NP_OBJ", "mod" : [7], "weight" : 0.859298 },
+		{"id" : 9, "text" : "발표했다.", "head" : -1, "label" : "VP", "mod" : [5, 8], "weight" : 0.000243883 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "[스포티비뉴스=이종현 기자] 잉글랜드 U-20 대표 팀이", "begin" : 0, "end" : 5, "key_begin" : 0, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_OBJ", "text" : "월드컵 출전 명단을", "begin" : 6, "end" : 8, "key_begin" : 6, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "S", "text" : "P#0@SBJ이 P#1@OBJ을 발표했다.", "begin" : 0, "end" : 9, "key_begin" : 9, "head_phrase" : -1, "sub_phrase" : [0, 1], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "발표", "sense" : 1, "word_id" : 9, "weight" : 0.30744,
+			"argument" : [
+				{"type" : "ARG0", "word_id" : 5, "text" : "팀이", "weight" : 0.300925 },
+				{"type" : "ARG1", "word_id" : 8, "text" : "명단을", "weight" : 0.313955 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "잉글랜드축구협회(FA)는 8일(이하 한국 시간) 20일부터 한국에서 개최되는 FIFA U-20 월드컵 코리아 2017에 나설 잉글랜드 U-20 대표 팀 명단을 발표했다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "잉글랜드", "type" : "NNP", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "축구", "type" : "NNG", "position" : 12, "weight" : 0.9 },
+		{"id" : 2, "lemma" : "협회", "type" : "NNG", "position" : 18, "weight" : 0.9 },
+		{"id" : 3, "lemma" : "(", "type" : "SS", "position" : 24, "weight" : 1 },
+		{"id" : 4, "lemma" : "FA", "type" : "SL", "position" : 25, "weight" : 1 },
+		{"id" : 5, "lemma" : ")", "type" : "SS", "position" : 27, "weight" : 1 },
+		{"id" : 6, "lemma" : "는", "type" : "JX", "position" : 28, "weight" : 0.00823314 },
+		{"id" : 7, "lemma" : "8", "type" : "SN", "position" : 32, "weight" : 1 },
+		{"id" : 8, "lemma" : "일", "type" : "NNB", "position" : 33, "weight" : 0.126777 },
+		{"id" : 9, "lemma" : "(", "type" : "SS", "position" : 36, "weight" : 1 },
+		{"id" : 10, "lemma" : "이하", "type" : "NNG", "position" : 37, "weight" : 0.199325 },
+		{"id" : 11, "lemma" : "한국", "type" : "NNP", "position" : 44, "weight" : 0.0070955 },
+		{"id" : 12, "lemma" : "시간", "type" : "NNG", "position" : 51, "weight" : 0.244963 },
+		{"id" : 13, "lemma" : ")", "type" : "SS", "position" : 57, "weight" : 1 },
+		{"id" : 14, "lemma" : "20", "type" : "SN", "position" : 59, "weight" : 1 },
+		{"id" : 15, "lemma" : "일", "type" : "NNB", "position" : 61, "weight" : 0.126777 },
+		{"id" : 16, "lemma" : "부터", "type" : "JX", "position" : 64, "weight" : 0.105319 },
+		{"id" : 17, "lemma" : "한국", "type" : "NNP", "position" : 71, "weight" : 0.0448181 },
+		{"id" : 18, "lemma" : "에서", "type" : "JKB", "position" : 77, "weight" : 0.0823859 },
+		{"id" : 19, "lemma" : "개최", "type" : "NNG", "position" : 84, "weight" : 0.9 },
+		{"id" : 20, "lemma" : "되", "type" : "XSV", "position" : 90, "weight" : 0.000224177 },
+		{"id" : 21, "lemma" : "는", "type" : "ETM", "position" : 93, "weight" : 0.238503 },
+		{"id" : 22, "lemma" : "FIFA", "type" : "SL", "position" : 97, "weight" : 1 },
+		{"id" : 23, "lemma" : "U", "type" : "SL", "position" : 102, "weight" : 1 },
+		{"id" : 24, "lemma" : "-", "type" : "SS", "position" : 103, "weight" : 1 },
+		{"id" : 25, "lemma" : "20", "type" : "SN", "position" : 104, "weight" : 1 },
+		{"id" : 26, "lemma" : "월드컵", "type" : "NNG", "position" : 107, "weight" : 0.9 },
+		{"id" : 27, "lemma" : "코리아", "type" : "NNP", "position" : 117, "weight" : 0.9 },
+		{"id" : 28, "lemma" : "2017", "type" : "SN", "position" : 127, "weight" : 1 },
+		{"id" : 29, "lemma" : "에", "type" : "JKB", "position" : 131, "weight" : 0.00395698 },
+		{"id" : 30, "lemma" : "나서", "type" : "VV", "position" : 135, "weight" : 0.9 },
+		{"id" : 31, "lemma" : "ㄹ", "type" : "ETM", "position" : 138, "weight" : 0.300746 },
+		{"id" : 32, "lemma" : "잉글랜드", "type" : "NNP", "position" : 142, "weight" : 0.9 },
+		{"id" : 33, "lemma" : "U", "type" : "SL", "position" : 155, "weight" : 1 },
+		{"id" : 34, "lemma" : "-", "type" : "SS", "position" : 156, "weight" : 1 },
+		{"id" : 35, "lemma" : "20", "type" : "SN", "position" : 157, "weight" : 1 },
+		{"id" : 36, "lemma" : "대표", "type" : "NNG", "position" : 160, "weight" : 0.9 },
+		{"id" : 37, "lemma" : "팀", "type" : "NNG", "position" : 167, "weight" : 0.184232 },
+		{"id" : 38, "lemma" : "명단", "type" : "NNG", "position" : 171, "weight" : 0.9 },
+		{"id" : 39, "lemma" : "을", "type" : "JKO", "position" : 177, "weight" : 0.129611 },
+		{"id" : 40, "lemma" : "발표", "type" : "NNG", "position" : 181, "weight" : 0.9 },
+		{"id" : 41, "lemma" : "하", "type" : "XSV", "position" : 187, "weight" : 0.0001 },
+		{"id" : 42, "lemma" : "었", "type" : "EP", "position" : 187, "weight" : 0.9 },
+		{"id" : 43, "lemma" : "다", "type" : "EF", "position" : 190, "weight" : 0.640954 },
+		{"id" : 44, "lemma" : ".", "type" : "SF", "position" : 193, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "잉글랜드축구협회/NNG+(/SS+FA/SL+)/SS+는/JX", "target" : "잉글랜드축구협회(FA)는", "word_id" : 0, "m_begin" : 0, "m_end" : 6},
+		{"id" : 1, "result" : "8/SN+일/NNB+(/SS+이하/NNG", "target" : "8일(이하", "word_id" : 1, "m_begin" : 7, "m_end" : 10},
+		{"id" : 2, "result" : "한국/NNG", "target" : "한국", "word_id" : 2, "m_begin" : 11, "m_end" : 11},
+		{"id" : 3, "result" : "시간/NNG+)/SS", "target" : "시간)", "word_id" : 3, "m_begin" : 12, "m_end" : 13},
+		{"id" : 4, "result" : "20/SN+일/NNB+부터/JX", "target" : "20일부터", "word_id" : 4, "m_begin" : 14, "m_end" : 16},
+		{"id" : 5, "result" : "한국/NNG+에서/JKB", "target" : "한국에서", "word_id" : 5, "m_begin" : 17, "m_end" : 18},
+		{"id" : 6, "result" : "개최되/VV+는/ETM", "target" : "개최되는", "word_id" : 6, "m_begin" : 19, "m_end" : 21},
+		{"id" : 7, "result" : "FIFA/SL", "target" : "FIFA", "word_id" : 7, "m_begin" : 22, "m_end" : 22},
+		{"id" : 8, "result" : "U/SL+-/SS+20/SN", "target" : "U-20", "word_id" : 8, "m_begin" : 23, "m_end" : 25},
+		{"id" : 9, "result" : "월드컵/NNG", "target" : "월드컵", "word_id" : 9, "m_begin" : 26, "m_end" : 26},
+		{"id" : 10, "result" : "코리아/NNG", "target" : "코리아", "word_id" : 10, "m_begin" : 27, "m_end" : 27},
+		{"id" : 11, "result" : "2017/SN+에/JKB", "target" : "2017에", "word_id" : 11, "m_begin" : 28, "m_end" : 29},
+		{"id" : 12, "result" : "나서/VV+ㄹ/ETM", "target" : "나설", "word_id" : 12, "m_begin" : 30, "m_end" : 31},
+		{"id" : 13, "result" : "잉글랜드/NNG", "target" : "잉글랜드", "word_id" : 13, "m_begin" : 32, "m_end" : 32},
+		{"id" : 14, "result" : "U/SL+-/SS+20/SN", "target" : "U-20", "word_id" : 14, "m_begin" : 33, "m_end" : 35},
+		{"id" : 15, "result" : "대표/NNG", "target" : "대표", "word_id" : 15, "m_begin" : 36, "m_end" : 36},
+		{"id" : 16, "result" : "팀/NNG", "target" : "팀", "word_id" : 16, "m_begin" : 37, "m_end" : 37},
+		{"id" : 17, "result" : "명단/NNG+을/JKO", "target" : "명단을", "word_id" : 17, "m_begin" : 38, "m_end" : 39},
+		{"id" : 18, "result" : "발표하/VV+었/EP+다/EF+./SF", "target" : "발표했다.", "word_id" : 18, "m_begin" : 40, "m_end" : 44}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "잉글랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "축구", "type" : "NNG", "scode" : "04", "weight" : 6.3, "position" : 12, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "협회", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 18, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 24, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "FA", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 27, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 28, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "8", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 8.3, "position" : 33, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 36, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "이하", "type" : "NNG", "scode" : "02", "weight" : 3.5, "position" : 37, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "한국", "type" : "NNP", "scode" : "05", "weight" : 5.2, "position" : 44, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "시간", "type" : "NNG", "scode" : "04", "weight" : 4, "position" : 51, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 57, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 59, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 9.2, "position" : 61, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "부터", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 64, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "한국", "type" : "NNP", "scode" : "05", "weight" : 2, "position" : 71, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "개최되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 84, "begin" : 19, "end" : 20},
+		{"id" : 20, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 93, "begin" : 21, "end" : 21},
+		{"id" : 21, "text" : "FIFA", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 97, "begin" : 22, "end" : 22},
+		{"id" : 22, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 102, "begin" : 23, "end" : 23},
+		{"id" : 23, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 103, "begin" : 24, "end" : 24},
+		{"id" : 24, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 104, "begin" : 25, "end" : 25},
+		{"id" : 25, "text" : "월드컵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 107, "begin" : 26, "end" : 26},
+		{"id" : 26, "text" : "코리아", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 117, "begin" : 27, "end" : 27},
+		{"id" : 27, "text" : "2017", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 127, "begin" : 28, "end" : 28},
+		{"id" : 28, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 131, "begin" : 29, "end" : 29},
+		{"id" : 29, "text" : "나서", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 135, "begin" : 30, "end" : 30},
+		{"id" : 30, "text" : "ㄹ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 138, "begin" : 31, "end" : 31},
+		{"id" : 31, "text" : "잉글랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 142, "begin" : 32, "end" : 32},
+		{"id" : 32, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 155, "begin" : 33, "end" : 33},
+		{"id" : 33, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 156, "begin" : 34, "end" : 34},
+		{"id" : 34, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 157, "begin" : 35, "end" : 35},
+		{"id" : 35, "text" : "대표", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 160, "begin" : 36, "end" : 36},
+		{"id" : 36, "text" : "팀", "type" : "NNG", "scode" : "01", "weight" : 4.2, "position" : 167, "begin" : 37, "end" : 37},
+		{"id" : 37, "text" : "명단", "type" : "NNG", "scode" : "01", "weight" : 3, "position" : 171, "begin" : 38, "end" : 38},
+		{"id" : 38, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 177, "begin" : 39, "end" : 39},
+		{"id" : 39, "text" : "발표하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 181, "begin" : 40, "end" : 41},
+		{"id" : 40, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 187, "begin" : 42, "end" : 42},
+		{"id" : 41, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 190, "begin" : 43, "end" : 43},
+		{"id" : 42, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 193, "begin" : 44, "end" : 44}
+	],
+	"word" : [
+		{"id" : 0, "text" : "잉글랜드축구협회(FA)는", "type" : "", "begin" : 0, "end" : 6},
+		{"id" : 1, "text" : "8일(이하", "type" : "", "begin" : 7, "end" : 10},
+		{"id" : 2, "text" : "한국", "type" : "", "begin" : 11, "end" : 11},
+		{"id" : 3, "text" : "시간)", "type" : "", "begin" : 12, "end" : 13},
+		{"id" : 4, "text" : "20일부터", "type" : "", "begin" : 14, "end" : 16},
+		{"id" : 5, "text" : "한국에서", "type" : "", "begin" : 17, "end" : 18},
+		{"id" : 6, "text" : "개최되는", "type" : "", "begin" : 19, "end" : 21},
+		{"id" : 7, "text" : "FIFA", "type" : "", "begin" : 22, "end" : 22},
+		{"id" : 8, "text" : "U-20", "type" : "", "begin" : 23, "end" : 25},
+		{"id" : 9, "text" : "월드컵", "type" : "", "begin" : 26, "end" : 26},
+		{"id" : 10, "text" : "코리아", "type" : "", "begin" : 27, "end" : 27},
+		{"id" : 11, "text" : "2017에", "type" : "", "begin" : 28, "end" : 29},
+		{"id" : 12, "text" : "나설", "type" : "", "begin" : 30, "end" : 31},
+		{"id" : 13, "text" : "잉글랜드", "type" : "", "begin" : 32, "end" : 32},
+		{"id" : 14, "text" : "U-20", "type" : "", "begin" : 33, "end" : 35},
+		{"id" : 15, "text" : "대표", "type" : "", "begin" : 36, "end" : 36},
+		{"id" : 16, "text" : "팀", "type" : "", "begin" : 37, "end" : 37},
+		{"id" : 17, "text" : "명단을", "type" : "", "begin" : 38, "end" : 39},
+		{"id" : 18, "text" : "발표했다.", "type" : "", "begin" : 40, "end" : 44}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "잉글랜드축구협회", "type" : "OGG_SPORTS", "begin" : 0, "end" : 2, "weight" : 0.936636, "common_noun" : 0},
+		{"id" : 1, "text" : "FA", "type" : "CV_POSITION", "begin" : 4, "end" : 4, "weight" : 0.266812, "common_noun" : 0},
+		{"id" : 2, "text" : "8일", "type" : "DT_DAY", "begin" : 7, "end" : 8, "weight" : 0.835236, "common_noun" : 0},
+		{"id" : 3, "text" : "한국", "type" : "LCP_COUNTRY", "begin" : 11, "end" : 11, "weight" : 0.637967, "common_noun" : 0},
+		{"id" : 4, "text" : "20일부터", "type" : "DT_OTHERS", "begin" : 14, "end" : 16, "weight" : 0.689532, "common_noun" : 0},
+		{"id" : 5, "text" : "한국", "type" : "LCP_COUNTRY", "begin" : 17, "end" : 17, "weight" : 0.785171, "common_noun" : 0},
+		{"id" : 6, "text" : "FIFA U-20 월드컵 코리아", "type" : "EV_SPORTS", "begin" : 22, "end" : 27, "weight" : 0.618244, "common_noun" : 0},
+		{"id" : 7, "text" : "2017", "type" : "DT_YEAR", "begin" : 28, "end" : 28, "weight" : 0.346042, "common_noun" : 0},
+		{"id" : 8, "text" : "잉글랜드", "type" : "LCP_COUNTRY", "begin" : 32, "end" : 32, "weight" : 0.447963, "common_noun" : 0},
+		{"id" : 9, "text" : "U-20", "type" : "OGG_SPORTS", "begin" : 33, "end" : 35, "weight" : 0.459109, "common_noun" : 0},
+		{"id" : 10, "text" : "대표 팀", "type" : "OGG_SPORTS", "begin" : 36, "end" : 37, "weight" : 0.407363, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "잉글랜드축구협회(FA)는", "head" : 18, "label" : "NP_SBJ", "mod" : [], "weight" : 0.846405 },
+		{"id" : 1, "text" : "8일(이하", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.388394 },
+		{"id" : 2, "text" : "한국", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.686181 },
+		{"id" : 3, "text" : "시간)", "head" : 18, "label" : "NP_PRN", "mod" : [1, 2], "weight" : 0.349308 },
+		{"id" : 4, "text" : "20일부터", "head" : 6, "label" : "NP_AJT", "mod" : [], "weight" : 0.0611206 },
+		{"id" : 5, "text" : "한국에서", "head" : 6, "label" : "NP_AJT", "mod" : [], "weight" : 0.838399 },
+		{"id" : 6, "text" : "개최되는", "head" : 11, "label" : "VP_MOD", "mod" : [4, 5], "weight" : 0.421606 },
+		{"id" : 7, "text" : "FIFA", "head" : 8, "label" : "NP", "mod" : [], "weight" : 0.565878 },
+		{"id" : 8, "text" : "U-20", "head" : 9, "label" : "NP", "mod" : [7], "weight" : 0.17423 },
+		{"id" : 9, "text" : "월드컵", "head" : 10, "label" : "NP", "mod" : [8], "weight" : 0.707749 },
+		{"id" : 10, "text" : "코리아", "head" : 11, "label" : "NP", "mod" : [9], "weight" : 0.50837 },
+		{"id" : 11, "text" : "2017에", "head" : 12, "label" : "NP_AJT", "mod" : [6, 10], "weight" : 0.682915 },
+		{"id" : 12, "text" : "나설", "head" : 17, "label" : "VP_MOD", "mod" : [11], "weight" : 0.687204 },
+		{"id" : 13, "text" : "잉글랜드", "head" : 14, "label" : "NP", "mod" : [], "weight" : 0.197065 },
+		{"id" : 14, "text" : "U-20", "head" : 15, "label" : "NP", "mod" : [13], "weight" : 0.0325181 },
+		{"id" : 15, "text" : "대표", "head" : 16, "label" : "NP", "mod" : [14], "weight" : 0.372287 },
+		{"id" : 16, "text" : "팀", "head" : 17, "label" : "NP", "mod" : [15], "weight" : 0.642042 },
+		{"id" : 17, "text" : "명단을", "head" : 18, "label" : "NP_OBJ", "mod" : [12, 16], "weight" : 0.860481 },
+		{"id" : 18, "text" : "발표했다.", "head" : -1, "label" : "VP", "mod" : [0, 3, 17], "weight" : 3.16933e-08 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "잉글랜드축구협회(FA)는", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 8, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_PRN", "text" : "8일(이하 한국 시간)", "begin" : 1, "end" : 3, "key_begin" : 1, "head_phrase" : 8, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_AJT", "text" : "20일부터", "begin" : 4, "end" : 4, "key_begin" : 4, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_AJT", "text" : "한국에서", "begin" : 5, "end" : 5, "key_begin" : 5, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "VP_MOD", "text" : "P#2@AJT부터 P#3@AJT에서 개최되는", "begin" : 4, "end" : 6, "key_begin" : 6, "head_phrase" : 5, "sub_phrase" : [2, 3], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "NP_AJT", "text" : "P#4@MOD는 FIFA U-20 월드컵 코리아 2017에", "begin" : 4, "end" : 11, "key_begin" : 7, "head_phrase" : 6, "sub_phrase" : [4], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "VP_MOD", "text" : "P#5@AJT에 나설", "begin" : 4, "end" : 12, "key_begin" : 12, "head_phrase" : 7, "sub_phrase" : [5], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "NP_OBJ", "text" : "P#6@MODㄹ 잉글랜드 U-20 대표 팀 명단을", "begin" : 4, "end" : 17, "key_begin" : 13, "head_phrase" : 8, "sub_phrase" : [6], "weight" : 0, "element" : [] },
+		{"id" : 8, "label" : "S", "text" : "P#0@SBJ는 P#1@PRN시간) P#7@OBJ을 발표했다.", "begin" : 0, "end" : 18, "key_begin" : 18, "head_phrase" : -1, "sub_phrase" : [0, 1, 7], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "개최", "sense" : 1, "word_id" : 6, "weight" : 0.45664,
+			"argument" : [
+				{"type" : "ARGM-TMP", "word_id" : 4, "text" : "20일부터", "weight" : 0.526196 },
+				{"type" : "ARGM-LOC", "word_id" : 5, "text" : "한국에서", "weight" : 0.387084 }
+			] },
+		{"verb" : "나서", "sense" : 1, "word_id" : 12, "weight" : 0.315813,
+			"argument" : [
+				{"type" : "ARGM-TMP", "word_id" : 11, "text" : "2017에", "weight" : 0.315813 }
+			] },
+		{"verb" : "발표", "sense" : 1, "word_id" : 18, "weight" : 0.413078,
+			"argument" : [
+				{"type" : "ARG0", "word_id" : 0, "text" : "잉글랜드축구협회(FA)는", "weight" : 0.419411 },
+				{"type" : "ARGM-TMP", "word_id" : 3, "text" : "시간)", "weight" : 0.431156 },
+				{"type" : "ARG1", "word_id" : 17, "text" : "명단을", "weight" : 0.388666 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "월드컵 출전이 기대됐던 마커스 래쉬포드, 악셀 튀앙제브(이하 맨체스터 유나이티드), 톰 데이비스(에버튼)는 제외됐다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "월드컵", "type" : "NNG", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "출전", "type" : "NNG", "position" : 10, "weight" : 0.9 },
+		{"id" : 2, "lemma" : "이", "type" : "JKS", "position" : 16, "weight" : 0.0360723 },
+		{"id" : 3, "lemma" : "기대", "type" : "NNG", "position" : 20, "weight" : 0.147193 },
+		{"id" : 4, "lemma" : "되", "type" : "XSV", "position" : 26, "weight" : 0.000224177 },
+		{"id" : 5, "lemma" : "었", "type" : "EP", "position" : 26, "weight" : 0.9 },
+		{"id" : 6, "lemma" : "던", "type" : "ETM", "position" : 29, "weight" : 0.107547 },
+		{"id" : 7, "lemma" : "마커스", "type" : "NNP", "position" : 33, "weight" : 0.35 },
+		{"id" : 8, "lemma" : "래쉬포드", "type" : "NNP", "position" : 43, "weight" : 0.6 },
+		{"id" : 9, "lemma" : ",", "type" : "SP", "position" : 55, "weight" : 1 },
+		{"id" : 10, "lemma" : "악셀", "type" : "NNG", "position" : 57, "weight" : 0.1 },
+		{"id" : 11, "lemma" : "튀앙제브", "type" : "NNP", "position" : 64, "weight" : 0.6 },
+		{"id" : 12, "lemma" : "(", "type" : "SS", "position" : 76, "weight" : 1 },
+		{"id" : 13, "lemma" : "이하", "type" : "NNG", "position" : 77, "weight" : 0.199325 },
+		{"id" : 14, "lemma" : "맨체스터", "type" : "NNP", "position" : 84, "weight" : 0.9 },
+		{"id" : 15, "lemma" : "유나이티드", "type" : "NNG", "position" : 97, "weight" : 0.240215 },
+		{"id" : 16, "lemma" : ")", "type" : "SS", "position" : 112, "weight" : 1 },
+		{"id" : 17, "lemma" : ",", "type" : "SP", "position" : 113, "weight" : 1 },
+		{"id" : 18, "lemma" : "톰", "type" : "NNP", "position" : 115, "weight" : 0.9 },
+		{"id" : 19, "lemma" : "데이비스", "type" : "NNP", "position" : 119, "weight" : 0.9 },
+		{"id" : 20, "lemma" : "(", "type" : "SS", "position" : 131, "weight" : 1 },
+		{"id" : 21, "lemma" : "에버튼", "type" : "NNP", "position" : 132, "weight" : 0.6 },
+		{"id" : 22, "lemma" : ")", "type" : "SS", "position" : 141, "weight" : 1 },
+		{"id" : 23, "lemma" : "는", "type" : "JX", "position" : 142, "weight" : 0.00823314 },
+		{"id" : 24, "lemma" : "제외", "type" : "NNG", "position" : 146, "weight" : 0.9 },
+		{"id" : 25, "lemma" : "되", "type" : "XSV", "position" : 152, "weight" : 0.000224177 },
+		{"id" : 26, "lemma" : "었", "type" : "EP", "position" : 152, "weight" : 0.9 },
+		{"id" : 27, "lemma" : "다", "type" : "EF", "position" : 155, "weight" : 0.640954 },
+		{"id" : 28, "lemma" : ".", "type" : "SF", "position" : 158, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "월드컵/NNG", "target" : "월드컵", "word_id" : 0, "m_begin" : 0, "m_end" : 0},
+		{"id" : 1, "result" : "출전/NNG+이/JKS", "target" : "출전이", "word_id" : 1, "m_begin" : 1, "m_end" : 2},
+		{"id" : 2, "result" : "기대되/VV+었/EP+던/ETM", "target" : "기대됐던", "word_id" : 2, "m_begin" : 3, "m_end" : 6},
+		{"id" : 3, "result" : "마커스/NNG", "target" : "마커스", "word_id" : 3, "m_begin" : 7, "m_end" : 7},
+		{"id" : 4, "result" : "래쉬포드/NNG+,/SP", "target" : "래쉬포드,", "word_id" : 4, "m_begin" : 8, "m_end" : 9},
+		{"id" : 5, "result" : "악셀/NNG", "target" : "악셀", "word_id" : 5, "m_begin" : 10, "m_end" : 10},
+		{"id" : 6, "result" : "튀앙제브/NNG+(/SS+이하/NNG", "target" : "튀앙제브(이하", "word_id" : 6, "m_begin" : 11, "m_end" : 13},
+		{"id" : 7, "result" : "맨체스터/NNG", "target" : "맨체스터", "word_id" : 7, "m_begin" : 14, "m_end" : 14},
+		{"id" : 8, "result" : "유나이티드/NNG+)/SS+,/SP", "target" : "유나이티드),", "word_id" : 8, "m_begin" : 15, "m_end" : 17},
+		{"id" : 9, "result" : "톰/NNG", "target" : "톰", "word_id" : 9, "m_begin" : 18, "m_end" : 18},
+		{"id" : 10, "result" : "데이비스/NNG+(/SS+에버튼/NNG+)/SS+는/JX", "target" : "데이비스(에버튼)는", "word_id" : 10, "m_begin" : 19, "m_end" : 23},
+		{"id" : 11, "result" : "제외되/VV+었/EP+다/EF+./SF", "target" : "제외됐다.", "word_id" : 11, "m_begin" : 24, "m_end" : 28}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "월드컵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "출전", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 10, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 16, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "기대되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 3, "end" : 4},
+		{"id" : 4, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 5, "end" : 5},
+		{"id" : 5, "text" : "던", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 29, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "마커스", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 33, "begin" : 7, "end" : 7},
+		{"id" : 7, "text" : "래쉬포드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 43, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 55, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : "악셀", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 57, "begin" : 10, "end" : 10},
+		{"id" : 10, "text" : "튀앙제브", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 64, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 76, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : "이하", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 77, "begin" : 13, "end" : 13},
+		{"id" : 13, "text" : "맨체스터", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 84, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "유나이티드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 97, "begin" : 15, "end" : 15},
+		{"id" : 15, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 112, "begin" : 16, "end" : 16},
+		{"id" : 16, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 113, "begin" : 17, "end" : 17},
+		{"id" : 17, "text" : "톰", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 115, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : "데이비스", "type" : "NNP", "scode" : "01", "weight" : 1, "position" : 119, "begin" : 19, "end" : 19},
+		{"id" : 19, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 131, "begin" : 20, "end" : 20},
+		{"id" : 20, "text" : "에버튼", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 132, "begin" : 21, "end" : 21},
+		{"id" : 21, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 141, "begin" : 22, "end" : 22},
+		{"id" : 22, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 142, "begin" : 23, "end" : 23},
+		{"id" : 23, "text" : "제외되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 146, "begin" : 24, "end" : 25},
+		{"id" : 24, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 152, "begin" : 26, "end" : 26},
+		{"id" : 25, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 155, "begin" : 27, "end" : 27},
+		{"id" : 26, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 158, "begin" : 28, "end" : 28}
+	],
+	"word" : [
+		{"id" : 0, "text" : "월드컵", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "출전이", "type" : "", "begin" : 1, "end" : 2},
+		{"id" : 2, "text" : "기대됐던", "type" : "", "begin" : 3, "end" : 6},
+		{"id" : 3, "text" : "마커스", "type" : "", "begin" : 7, "end" : 7},
+		{"id" : 4, "text" : "래쉬포드,", "type" : "", "begin" : 8, "end" : 9},
+		{"id" : 5, "text" : "악셀", "type" : "", "begin" : 10, "end" : 10},
+		{"id" : 6, "text" : "튀앙제브(이하", "type" : "", "begin" : 11, "end" : 13},
+		{"id" : 7, "text" : "맨체스터", "type" : "", "begin" : 14, "end" : 14},
+		{"id" : 8, "text" : "유나이티드),", "type" : "", "begin" : 15, "end" : 17},
+		{"id" : 9, "text" : "톰", "type" : "", "begin" : 18, "end" : 18},
+		{"id" : 10, "text" : "데이비스(에버튼)는", "type" : "", "begin" : 19, "end" : 23},
+		{"id" : 11, "text" : "제외됐다.", "type" : "", "begin" : 24, "end" : 28}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "월드컵", "type" : "EV_SPORTS", "begin" : 0, "end" : 0, "weight" : 0.44546, "common_noun" : 0},
+		{"id" : 1, "text" : "마커스 래쉬포드", "type" : "PS_NAME", "begin" : 7, "end" : 8, "weight" : 0.217112, "common_noun" : 0},
+		{"id" : 2, "text" : "악셀 튀앙제브", "type" : "PS_NAME", "begin" : 10, "end" : 11, "weight" : 0.21417, "common_noun" : 0},
+		{"id" : 3, "text" : "맨체스터 유나이티드", "type" : "OGG_SPORTS", "begin" : 14, "end" : 15, "weight" : 0.760157, "common_noun" : 0},
+		{"id" : 4, "text" : "톰 데이비스", "type" : "PS_NAME", "begin" : 18, "end" : 19, "weight" : 0.671855, "common_noun" : 0},
+		{"id" : 5, "text" : "에버튼", "type" : "OGG_SPORTS", "begin" : 21, "end" : 21, "weight" : 0.266579, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "월드컵", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.62319 },
+		{"id" : 1, "text" : "출전이", "head" : 2, "label" : "NP_SBJ", "mod" : [0], "weight" : 0.744941 },
+		{"id" : 2, "text" : "기대됐던", "head" : 4, "label" : "VP_MOD", "mod" : [1], "weight" : 0.171248 },
+		{"id" : 3, "text" : "마커스", "head" : 4, "label" : "NP", "mod" : [], "weight" : 0.797926 },
+		{"id" : 4, "text" : "래쉬포드,", "head" : 10, "label" : "NP_CNJ", "mod" : [2, 3], "weight" : 0.111995 },
+		{"id" : 5, "text" : "악셀", "head" : 6, "label" : "NP", "mod" : [], "weight" : 0.271216 },
+		{"id" : 6, "text" : "튀앙제브(이하", "head" : 8, "label" : "NP", "mod" : [5], "weight" : 0.854569 },
+		{"id" : 7, "text" : "맨체스터", "head" : 8, "label" : "NP", "mod" : [], "weight" : 0.88211 },
+		{"id" : 8, "text" : "유나이티드),", "head" : 10, "label" : "NP_CNJ", "mod" : [6, 7], "weight" : 0.141306 },
+		{"id" : 9, "text" : "톰", "head" : 10, "label" : "NP", "mod" : [], "weight" : 0.799981 },
+		{"id" : 10, "text" : "데이비스(에버튼)는", "head" : 11, "label" : "NP_SBJ", "mod" : [4, 8, 9], "weight" : 0.692621 },
+		{"id" : 11, "text" : "제외됐다.", "head" : -1, "label" : "VP", "mod" : [10], "weight" : 9.12608e-05 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "월드컵 출전이", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : 1, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "S_MOD", "text" : "P#0@SBJ이 기대됐던", "begin" : 0, "end" : 2, "key_begin" : 2, "head_phrase" : 2, "sub_phrase" : [0], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_SBJ", "text" : "S#1@MOD던 마커스 래쉬포드, 악셀 튀앙제브(이하 맨체스터 유나이티드), 톰 데이비스(에버튼)는", "begin" : 0, "end" : 10, "key_begin" : 3, "head_phrase" : 3, "sub_phrase" : [1], "weight" : 0, 
+			"element" : [
+				{ "text" : "월드컵 출전이 기대됐던 마커스 래쉬포드", "label" : "NP_SBJ", "begin" : 0, "end" : 8, "ne_type" : "" },
+				{ "text" : "악셀 튀앙제브(이하 맨체스터 유나이티드)", "label" : "NP_SBJ", "begin" : 10, "end" : 16, "ne_type" : "" },
+				{ "text" : "톰 데이비스(에버튼)", "label" : "NP_SBJ", "begin" : 18, "end" : 22, "ne_type" : "" }
+			] },
+		{"id" : 3, "label" : "S", "text" : "P#2@SBJ는 제외됐다.", "begin" : 0, "end" : 11, "key_begin" : 11, "head_phrase" : -1, "sub_phrase" : [2], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "기대", "sense" : 1, "word_id" : 2, "weight" : 0.17021,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 1, "text" : "출전이", "weight" : 0.17021 }
+			] },
+		{"verb" : "제외", "sense" : 1, "word_id" : 11, "weight" : 0.306199,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 10, "text" : "데이비스(에버튼)는", "weight" : 0.306199 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "잉글랜드를 개최국 한국을 비롯해, 기니, 아르헨티나와 A조에 속했다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "잉글랜드", "type" : "NNP", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "를", "type" : "JKO", "position" : 12, "weight" : 0.0283046 },
+		{"id" : 2, "lemma" : "개최", "type" : "NNG", "position" : 16, "weight" : 0.9 },
+		{"id" : 3, "lemma" : "국", "type" : "XSN", "position" : 22, "weight" : 0.0205107 },
+		{"id" : 4, "lemma" : "한국", "type" : "NNP", "position" : 26, "weight" : 0.00808759 },
+		{"id" : 5, "lemma" : "을", "type" : "JKO", "position" : 32, "weight" : 0.0266447 },
+		{"id" : 6, "lemma" : "비롯하", "type" : "VV", "position" : 36, "weight" : 0.9 },
+		{"id" : 7, "lemma" : "어", "type" : "EC", "position" : 42, "weight" : 0.41831 },
+		{"id" : 8, "lemma" : ",", "type" : "SP", "position" : 45, "weight" : 1 },
+		{"id" : 9, "lemma" : "기니", "type" : "NNG", "position" : 47, "weight" : 0.0113106 },
+		{"id" : 10, "lemma" : ",", "type" : "SP", "position" : 53, "weight" : 1 },
+		{"id" : 11, "lemma" : "아르헨티나", "type" : "NNP", "position" : 55, "weight" : 0.9 },
+		{"id" : 12, "lemma" : "와", "type" : "JKB", "position" : 70, "weight" : 0.0304966 },
+		{"id" : 13, "lemma" : "A", "type" : "SL", "position" : 74, "weight" : 1 },
+		{"id" : 14, "lemma" : "조", "type" : "NNG", "position" : 75, "weight" : 0.0238925 },
+		{"id" : 15, "lemma" : "에", "type" : "JKB", "position" : 78, "weight" : 0.153364 },
+		{"id" : 16, "lemma" : "속", "type" : "NNG", "position" : 82, "weight" : 0.205064 },
+		{"id" : 17, "lemma" : "하", "type" : "XSV", "position" : 85, "weight" : 0.0001 },
+		{"id" : 18, "lemma" : "었", "type" : "EP", "position" : 85, "weight" : 0.9 },
+		{"id" : 19, "lemma" : "다", "type" : "EF", "position" : 88, "weight" : 0.640954 },
+		{"id" : 20, "lemma" : ".", "type" : "SF", "position" : 91, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "잉글랜드/NNG+를/JKO", "target" : "잉글랜드를", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "개최국/NNG", "target" : "개최국", "word_id" : 1, "m_begin" : 2, "m_end" : 3},
+		{"id" : 2, "result" : "한국/NNG+을/JKO", "target" : "한국을", "word_id" : 2, "m_begin" : 4, "m_end" : 5},
+		{"id" : 3, "result" : "비롯하/VV+어/EC+,/SP", "target" : "비롯해,", "word_id" : 3, "m_begin" : 6, "m_end" : 8},
+		{"id" : 4, "result" : "기니/NNG+,/SP", "target" : "기니,", "word_id" : 4, "m_begin" : 9, "m_end" : 10},
+		{"id" : 5, "result" : "아르헨티나/NNG+와/JKB", "target" : "아르헨티나와", "word_id" : 5, "m_begin" : 11, "m_end" : 12},
+		{"id" : 6, "result" : "A/SL+조/NNG+에/JKB", "target" : "A조에", "word_id" : 6, "m_begin" : 13, "m_end" : 15},
+		{"id" : 7, "result" : "속하/VV+었/EP+다/EF+./SF", "target" : "속했다.", "word_id" : 7, "m_begin" : 16, "m_end" : 20}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "잉글랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "개최", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 16, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "국", "type" : "XSN", "scode" : "10", "weight" : 4.17105, "position" : 22, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "한국", "type" : "NNP", "scode" : "05", "weight" : 3.2, "position" : 26, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "비롯하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 36, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 42, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 45, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "기니", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 47, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 53, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "아르헨티나", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 55, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "와", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "A", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 74, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "조", "type" : "NNG", "scode" : "15", "weight" : 0.777778, "position" : 75, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 78, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "속하", "type" : "VV", "scode" : "02", "weight" : 2.2, "position" : 82, "begin" : 16, "end" : 17},
+		{"id" : 17, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 85, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 88, "begin" : 19, "end" : 19},
+		{"id" : 19, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 91, "begin" : 20, "end" : 20}
+	],
+	"word" : [
+		{"id" : 0, "text" : "잉글랜드를", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "개최국", "type" : "", "begin" : 2, "end" : 3},
+		{"id" : 2, "text" : "한국을", "type" : "", "begin" : 4, "end" : 5},
+		{"id" : 3, "text" : "비롯해,", "type" : "", "begin" : 6, "end" : 8},
+		{"id" : 4, "text" : "기니,", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 5, "text" : "아르헨티나와", "type" : "", "begin" : 11, "end" : 12},
+		{"id" : 6, "text" : "A조에", "type" : "", "begin" : 13, "end" : 15},
+		{"id" : 7, "text" : "속했다.", "type" : "", "begin" : 16, "end" : 20}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "잉글랜드", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.566999, "common_noun" : 0},
+		{"id" : 1, "text" : "한국", "type" : "LCP_COUNTRY", "begin" : 4, "end" : 4, "weight" : 0.598844, "common_noun" : 0},
+		{"id" : 2, "text" : "기니", "type" : "LCP_COUNTRY", "begin" : 9, "end" : 9, "weight" : 0.212229, "common_noun" : 0},
+		{"id" : 3, "text" : "아르헨티나", "type" : "LCP_COUNTRY", "begin" : 11, "end" : 11, "weight" : 0.640719, "common_noun" : 0},
+		{"id" : 4, "text" : "A조", "type" : "OGG_SPORTS", "begin" : 13, "end" : 14, "weight" : 0.29357, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "잉글랜드를", "head" : 3, "label" : "NP_OBJ", "mod" : [], "weight" : 0.703088 },
+		{"id" : 1, "text" : "개최국", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.200856 },
+		{"id" : 2, "text" : "한국을", "head" : 3, "label" : "NP_OBJ", "mod" : [1], "weight" : 0.743238 },
+		{"id" : 3, "text" : "비롯해,", "head" : 7, "label" : "VP", "mod" : [0, 2], "weight" : 0.770615 },
+		{"id" : 4, "text" : "기니,", "head" : 7, "label" : "NP", "mod" : [], "weight" : 0.212219 },
+		{"id" : 5, "text" : "아르헨티나와", "head" : 6, "label" : "NP_CNJ", "mod" : [], "weight" : 0.331526 },
+		{"id" : 6, "text" : "A조에", "head" : 7, "label" : "NP_AJT", "mod" : [5], "weight" : 0.743408 },
+		{"id" : 7, "text" : "속했다.", "head" : -1, "label" : "VP", "mod" : [3, 4, 6], "weight" : 0.0035435 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_OBJ", "text" : "잉글랜드를", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_OBJ", "text" : "개최국 한국을", "begin" : 1, "end" : 2, "key_begin" : 1, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "VP", "text" : "P#0@OBJ를 P#1@OBJ을 비롯해,", "begin" : 0, "end" : 3, "key_begin" : 3, "head_phrase" : 5, "sub_phrase" : [0, 1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP", "text" : "기니,", "begin" : 4, "end" : 4, "key_begin" : 4, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_AJT", "text" : "아르헨티나와 A조에", "begin" : 5, "end" : 6, "key_begin" : 5, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, 
+			"element" : [
+				{ "text" : "아르헨티나", "label" : "NP_AJT", "begin" : 11, "end" : 11, "ne_type" : "LCP_COUNTRY" },
+				{ "text" : "A조", "label" : "NP_AJT", "begin" : 13, "end" : 14, "ne_type" : "OGG_SPORTS" }
+			] },
+		{"id" : 5, "label" : "VP", "text" : "P#2@VP어, P#3@NP기니, P#4@AJT에 속했다.", "begin" : 0, "end" : 7, "key_begin" : 7, "head_phrase" : -1, "sub_phrase" : [2, 3, 4], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "비롯하", "sense" : 1, "word_id" : 3, "weight" : 0.541976,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 0, "text" : "잉글랜드를", "weight" : 0.575525 },
+				{"type" : "ARG2", "word_id" : 2, "text" : "한국을", "weight" : 0.508427 }
+			] },
+		{"verb" : "속", "sense" : 1, "word_id" : 7, "weight" : 0.446742,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 6, "text" : "A조에", "weight" : 0.446742 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 1,
+	"reserve_str" : "",
+	"text" : " 한국과 잉글랜드는 26일 수원월드컵경기장에서 예선 3차전에서 만난다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "한국", "type" : "NNP", "position" : 93, "weight" : 0.0891983 },
+		{"id" : 1, "lemma" : "과", "type" : "JC", "position" : 99, "weight" : 0.0108215 },
+		{"id" : 2, "lemma" : "잉글랜드", "type" : "NNP", "position" : 103, "weight" : 0.9 },
+		{"id" : 3, "lemma" : "는", "type" : "JX", "position" : 115, "weight" : 0.0332677 },
+		{"id" : 4, "lemma" : "26", "type" : "SN", "position" : 119, "weight" : 1 },
+		{"id" : 5, "lemma" : "일", "type" : "NNB", "position" : 121, "weight" : 0.126777 },
+		{"id" : 6, "lemma" : "수원월드컵경기장", "type" : "NNP", "position" : 125, "weight" : 0.05 },
+		{"id" : 7, "lemma" : "에서", "type" : "JKB", "position" : 149, "weight" : 0.0823859 },
+		{"id" : 8, "lemma" : "예선", "type" : "NNG", "position" : 156, "weight" : 0.9 },
+		{"id" : 9, "lemma" : "3", "type" : "SN", "position" : 163, "weight" : 1 },
+		{"id" : 10, "lemma" : "차", "type" : "NNB", "position" : 164, "weight" : 0.109163 },
+		{"id" : 11, "lemma" : "전", "type" : "XSN", "position" : 167, "weight" : 0.00224271 },
+		{"id" : 12, "lemma" : "에서", "type" : "JKB", "position" : 170, "weight" : 0.121718 },
+		{"id" : 13, "lemma" : "만나", "type" : "VV", "position" : 177, "weight" : 0.445131 },
+		{"id" : 14, "lemma" : "ㄴ다", "type" : "EF", "position" : 180, "weight" : 0.0793196 },
+		{"id" : 15, "lemma" : ".", "type" : "SF", "position" : 186, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "한국/NNG+과/JC", "target" : "한국과", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "잉글랜드/NNG+는/JX", "target" : "잉글랜드는", "word_id" : 1, "m_begin" : 2, "m_end" : 3},
+		{"id" : 2, "result" : "26/SN+일/NNB", "target" : "26일", "word_id" : 2, "m_begin" : 4, "m_end" : 5},
+		{"id" : 3, "result" : "수원월드컵경기장/NNG+에서/JKB", "target" : "수원월드컵경기장에서", "word_id" : 3, "m_begin" : 6, "m_end" : 7},
+		{"id" : 4, "result" : "예선/NNG", "target" : "예선", "word_id" : 4, "m_begin" : 8, "m_end" : 8},
+		{"id" : 5, "result" : "3/SN+차전/NNB+에서/JKB", "target" : "3차전에서", "word_id" : 5, "m_begin" : 9, "m_end" : 12},
+		{"id" : 6, "result" : "만나/VV+ㄴ다/EF+./SF", "target" : "만난다.", "word_id" : 6, "m_begin" : 13, "m_end" : 15}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "한국", "type" : "NNP", "scode" : "05", "weight" : 1.5, "position" : 93, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 99, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "잉글랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 103, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "26", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 119, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 2.5, "position" : 121, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "수원월드컵경기장", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 125, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 149, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "예선", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 156, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "3", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 163, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "차", "type" : "NNB", "scode" : "03", "weight" : 3.2, "position" : 164, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "전", "type" : "XSN", "scode" : "32", "weight" : 2, "position" : 167, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 170, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "만나", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 177, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 180, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 186, "begin" : 15, "end" : 15}
+	],
+	"word" : [
+		{"id" : 0, "text" : "한국과", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "잉글랜드는", "type" : "", "begin" : 2, "end" : 3},
+		{"id" : 2, "text" : "26일", "type" : "", "begin" : 4, "end" : 5},
+		{"id" : 3, "text" : "수원월드컵경기장에서", "type" : "", "begin" : 6, "end" : 7},
+		{"id" : 4, "text" : "예선", "type" : "", "begin" : 8, "end" : 8},
+		{"id" : 5, "text" : "3차전에서", "type" : "", "begin" : 9, "end" : 12},
+		{"id" : 6, "text" : "만난다.", "type" : "", "begin" : 13, "end" : 15}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "한국", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.54534, "common_noun" : 0},
+		{"id" : 1, "text" : "잉글랜드", "type" : "LCP_COUNTRY", "begin" : 2, "end" : 2, "weight" : 0.440412, "common_noun" : 0},
+		{"id" : 2, "text" : "26일", "type" : "DT_DAY", "begin" : 4, "end" : 5, "weight" : 0.755033, "common_noun" : 0},
+		{"id" : 3, "text" : "수원월드컵경기장", "type" : "AF_BUILDING", "begin" : 6, "end" : 6, "weight" : 0.269109, "common_noun" : 0},
+		{"id" : 4, "text" : "예선 3차전", "type" : "EV_SPORTS", "begin" : 8, "end" : 11, "weight" : 0.651576, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "한국과", "head" : 1, "label" : "NP_CNJ", "mod" : [], "weight" : 0.755171 },
+		{"id" : 1, "text" : "잉글랜드는", "head" : 6, "label" : "NP_SBJ", "mod" : [0], "weight" : 0.590138 },
+		{"id" : 2, "text" : "26일", "head" : 6, "label" : "NP_AJT", "mod" : [], "weight" : 0.781173 },
+		{"id" : 3, "text" : "수원월드컵경기장에서", "head" : 6, "label" : "NP_AJT", "mod" : [], "weight" : 0.866186 },
+		{"id" : 4, "text" : "예선", "head" : 5, "label" : "NP", "mod" : [], "weight" : 0.650653 },
+		{"id" : 5, "text" : "3차전에서", "head" : 6, "label" : "NP_AJT", "mod" : [4], "weight" : 0.830993 },
+		{"id" : 6, "text" : "만난다.", "head" : -1, "label" : "VP", "mod" : [1, 2, 3, 5], "weight" : 0.132811 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "한국과 잉글랜드는", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, 
+			"element" : [
+				{ "text" : "한국", "label" : "NP_SBJ", "begin" : 0, "end" : 0, "ne_type" : "LCP_COUNTRY" },
+				{ "text" : "잉글랜드", "label" : "NP_SBJ", "begin" : 2, "end" : 2, "ne_type" : "LCP_COUNTRY" }
+			] },
+		{"id" : 1, "label" : "NP_AJT", "text" : "26일", "begin" : 2, "end" : 2, "key_begin" : 2, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_AJT", "text" : "수원월드컵경기장에서", "begin" : 3, "end" : 3, "key_begin" : 3, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_AJT", "text" : "예선 3차전에서", "begin" : 4, "end" : 5, "key_begin" : 4, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "S", "text" : "P#0@SBJ는 P#1@AJT일 P#2@AJT에서 P#3@AJT에서 만난다.", "begin" : 0, "end" : 6, "key_begin" : 6, "head_phrase" : -1, "sub_phrase" : [0, 1, 2, 3], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "만나", "sense" : 1, "word_id" : 6, "weight" : 0.390969,
+			"argument" : [
+				{"type" : "ARG0", "word_id" : 1, "text" : "잉글랜드는", "weight" : 0.300798 },
+				{"type" : "ARGM-TMP", "word_id" : 2, "text" : "26일", "weight" : 0.570357 },
+				{"type" : "ARGM-LOC", "word_id" : 3, "text" : "수원월드컵경기장에서", "weight" : 0.477522 },
+				{"type" : "ARGM-LOC", "word_id" : 5, "text" : "3차전에서", "weight" : 0.215199 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 2,
+	"reserve_str" : "",
+	"text" : " 16강 진출을 위해 중요한 한판이다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "16", "type" : "SN", "position" : 188, "weight" : 1 },
+		{"id" : 1, "lemma" : "강", "type" : "NNG", "position" : 190, "weight" : 0.0849025 },
+		{"id" : 2, "lemma" : "진출", "type" : "NNG", "position" : 194, "weight" : 0.9 },
+		{"id" : 3, "lemma" : "을", "type" : "JKO", "position" : 200, "weight" : 0.129611 },
+		{"id" : 4, "lemma" : "위하", "type" : "VV", "position" : 204, "weight" : 0.778555 },
+		{"id" : 5, "lemma" : "어", "type" : "EC", "position" : 207, "weight" : 0.41831 },
+		{"id" : 6, "lemma" : "중요", "type" : "NNG", "position" : 211, "weight" : 0.9 },
+		{"id" : 7, "lemma" : "하", "type" : "XSA", "position" : 217, "weight" : 0.0001 },
+		{"id" : 8, "lemma" : "ㄴ", "type" : "ETM", "position" : 217, "weight" : 0.488779 },
+		{"id" : 9, "lemma" : "한", "type" : "MM", "position" : 221, "weight" : 0.0130979 },
+		{"id" : 10, "lemma" : "판", "type" : "NNB", "position" : 224, "weight" : 0.0419467 },
+		{"id" : 11, "lemma" : "이", "type" : "VCP", "position" : 227, "weight" : 0.0607843 },
+		{"id" : 12, "lemma" : "다", "type" : "EF", "position" : 230, "weight" : 0.353579 },
+		{"id" : 13, "lemma" : ".", "type" : "SF", "position" : 233, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "16/SN+강/NNG", "target" : "16강", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "진출/NNG+을/JKO", "target" : "진출을", "word_id" : 1, "m_begin" : 2, "m_end" : 3},
+		{"id" : 2, "result" : "위하/VV+어/EC", "target" : "위해", "word_id" : 2, "m_begin" : 4, "m_end" : 5},
+		{"id" : 3, "result" : "중요하/VA+ㄴ/ETM", "target" : "중요한", "word_id" : 3, "m_begin" : 6, "m_end" : 8},
+		{"id" : 4, "result" : "한/MM+판/NNB+이/VCP+다/EF+./SF", "target" : "한판이다.", "word_id" : 4, "m_begin" : 9, "m_end" : 13}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "16", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 188, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 1.77143, "position" : 190, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "진출", "type" : "NNG", "scode" : "02", "weight" : 3.2, "position" : 194, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 200, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "위하", "type" : "VV", "scode" : "01", "weight" : 8.8, "position" : 204, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 207, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "중요하", "type" : "VA", "scode" : "02", "weight" : 4.4, "position" : 211, "begin" : 6, "end" : 7},
+		{"id" : 7, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 217, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : "한", "type" : "MM", "scode" : "01", "weight" : 4.4, "position" : 221, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : "판", "type" : "NNB", "scode" : "01", "weight" : 2, "position" : 224, "begin" : 10, "end" : 10},
+		{"id" : 10, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 227, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 230, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 233, "begin" : 13, "end" : 13}
+	],
+	"word" : [
+		{"id" : 0, "text" : "16강", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "진출을", "type" : "", "begin" : 2, "end" : 3},
+		{"id" : 2, "text" : "위해", "type" : "", "begin" : 4, "end" : 5},
+		{"id" : 3, "text" : "중요한", "type" : "", "begin" : 6, "end" : 8},
+		{"id" : 4, "text" : "한판이다.", "type" : "", "begin" : 9, "end" : 13}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "16강", "type" : "EV_SPORTS", "begin" : 0, "end" : 1, "weight" : 0.316921, "common_noun" : 0},
+		{"id" : 1, "text" : "한판", "type" : "QT_COUNT", "begin" : 9, "end" : 10, "weight" : 0.293396, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "16강", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.702946 },
+		{"id" : 1, "text" : "진출을", "head" : 2, "label" : "NP_OBJ", "mod" : [0], "weight" : 0.829712 },
+		{"id" : 2, "text" : "위해", "head" : 3, "label" : "VP", "mod" : [1], "weight" : 0.725999 },
+		{"id" : 3, "text" : "중요한", "head" : 4, "label" : "VP_MOD", "mod" : [2], "weight" : 0.801847 },
+		{"id" : 4, "text" : "한판이다.", "head" : -1, "label" : "VNP", "mod" : [3], "weight" : 0.295725 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_OBJ", "text" : "16강 진출을", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : 1, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "VP_MOD", "text" : "P#0@OBJ을 위해 중요한", "begin" : 0, "end" : 3, "key_begin" : 2, "head_phrase" : 2, "sub_phrase" : [0], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "VNP", "text" : "P#1@MODㄴ 한판이다.", "begin" : 0, "end" : 4, "key_begin" : 4, "head_phrase" : -1, "sub_phrase" : [1], "weight" : 0, 
+			"element" : [
+				{ "text" : "한판", "label" : "NP", "begin" : 9, "end" : 10, "ne_type" : "QT_COUNT" },
+				{ "text" : "이다.", "label" : "VP", "begin" : 11, "end" : 13, "ne_type" : "" }
+			] }
+	],
+	"SRL" : [
+		{"verb" : "위하", "sense" : 1, "word_id" : 2, "weight" : 0.248692,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 1, "text" : "진출을", "weight" : 0.248692 }
+			] },
+		{"verb" : "중요", "sense" : 1, "word_id" : 3, "weight" : 0.286455,
+			"argument" : [
+				{"type" : "ARGM-PRP", "word_id" : 2, "text" : "위해", "weight" : 0.286455 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "래쉬포드는 이미 잉글랜드 A대표 팀에 꾸준히 부름 받을 정도로 입지가 탄탄하며, 톰 데이비스, 악셀 튀앙제브는 소속 팀에서 중요한 선수로 분류돼 소집에서 제외된 것으로 추측된다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "래쉬포드", "type" : "NNP", "position" : 0, "weight" : 0.6 },
+		{"id" : 1, "lemma" : "는", "type" : "JX", "position" : 12, "weight" : 0.0332677 },
+		{"id" : 2, "lemma" : "이미", "type" : "MAG", "position" : 16, "weight" : 0.127197 },
+		{"id" : 3, "lemma" : "잉글랜드", "type" : "NNP", "position" : 23, "weight" : 0.9 },
+		{"id" : 4, "lemma" : "A", "type" : "SL", "position" : 36, "weight" : 1 },
+		{"id" : 5, "lemma" : "대표", "type" : "NNG", "position" : 37, "weight" : 0.9 },
+		{"id" : 6, "lemma" : "팀", "type" : "NNG", "position" : 44, "weight" : 0.184232 },
+		{"id" : 7, "lemma" : "에", "type" : "JKB", "position" : 47, "weight" : 0.153364 },
+		{"id" : 8, "lemma" : "꾸준히", "type" : "MAG", "position" : 51, "weight" : 0.9 },
+		{"id" : 9, "lemma" : "부름", "type" : "NNG", "position" : 61, "weight" : 0.9 },
+		{"id" : 10, "lemma" : "받", "type" : "VV", "position" : 68, "weight" : 0.0147799 },
+		{"id" : 11, "lemma" : "을", "type" : "ETM", "position" : 71, "weight" : 0.0216774 },
+		{"id" : 12, "lemma" : "정도", "type" : "NNG", "position" : 75, "weight" : 0.6587 },
+		{"id" : 13, "lemma" : "로", "type" : "JKB", "position" : 81, "weight" : 0.153229 },
+		{"id" : 14, "lemma" : "입지", "type" : "NNG", "position" : 85, "weight" : 0.206046 },
+		{"id" : 15, "lemma" : "가", "type" : "JKS", "position" : 91, "weight" : 0.066324 },
+		{"id" : 16, "lemma" : "탄탄하", "type" : "VA", "position" : 95, "weight" : 0.9 },
+		{"id" : 17, "lemma" : "며", "type" : "EC", "position" : 104, "weight" : 0.320075 },
+		{"id" : 18, "lemma" : ",", "type" : "SP", "position" : 107, "weight" : 1 },
+		{"id" : 19, "lemma" : "톰", "type" : "NNP", "position" : 109, "weight" : 0.9 },
+		{"id" : 20, "lemma" : "데이비스", "type" : "NNP", "position" : 113, "weight" : 0.9 },
+		{"id" : 21, "lemma" : ",", "type" : "SP", "position" : 125, "weight" : 1 },
+		{"id" : 22, "lemma" : "악셀", "type" : "NNG", "position" : 127, "weight" : 0.1 },
+		{"id" : 23, "lemma" : "튀앙", "type" : "NNP", "position" : 134, "weight" : 0.6 },
+		{"id" : 24, "lemma" : "제브", "type" : "NNP", "position" : 140, "weight" : 0.6 },
+		{"id" : 25, "lemma" : "는", "type" : "JX", "position" : 146, "weight" : 0.0332677 },
+		{"id" : 26, "lemma" : "소속", "type" : "NNG", "position" : 150, "weight" : 0.9 },
+		{"id" : 27, "lemma" : "팀", "type" : "NNG", "position" : 157, "weight" : 0.184232 },
+		{"id" : 28, "lemma" : "에서", "type" : "JKB", "position" : 160, "weight" : 0.153407 },
+		{"id" : 29, "lemma" : "중요", "type" : "NNG", "position" : 167, "weight" : 0.9 },
+		{"id" : 30, "lemma" : "하", "type" : "XSA", "position" : 173, "weight" : 0.0001 },
+		{"id" : 31, "lemma" : "ㄴ", "type" : "ETM", "position" : 173, "weight" : 0.488779 },
+		{"id" : 32, "lemma" : "선수", "type" : "NNG", "position" : 177, "weight" : 0.9 },
+		{"id" : 33, "lemma" : "로", "type" : "JKB", "position" : 183, "weight" : 0.153229 },
+		{"id" : 34, "lemma" : "분류", "type" : "NNG", "position" : 187, "weight" : 0.9 },
+		{"id" : 35, "lemma" : "되", "type" : "XSV", "position" : 193, "weight" : 0.000224177 },
+		{"id" : 36, "lemma" : "어", "type" : "EC", "position" : 193, "weight" : 0.361326 },
+		{"id" : 37, "lemma" : "소집", "type" : "NNG", "position" : 197, "weight" : 0.9 },
+		{"id" : 38, "lemma" : "에서", "type" : "JKB", "position" : 203, "weight" : 0.153407 },
+		{"id" : 39, "lemma" : "제외", "type" : "NNG", "position" : 210, "weight" : 0.9 },
+		{"id" : 40, "lemma" : "되", "type" : "XSV", "position" : 216, "weight" : 0.000224177 },
+		{"id" : 41, "lemma" : "ㄴ", "type" : "ETM", "position" : 216, "weight" : 0.392321 },
+		{"id" : 42, "lemma" : "것", "type" : "NNB", "position" : 220, "weight" : 0.228788 },
+		{"id" : 43, "lemma" : "으로", "type" : "JKB", "position" : 223, "weight" : 0.135596 },
+		{"id" : 44, "lemma" : "추측", "type" : "NNG", "position" : 230, "weight" : 0.9 },
+		{"id" : 45, "lemma" : "되", "type" : "XSV", "position" : 236, "weight" : 0.000224177 },
+		{"id" : 46, "lemma" : "ㄴ다", "type" : "EF", "position" : 236, "weight" : 0.0449045 },
+		{"id" : 47, "lemma" : ".", "type" : "SF", "position" : 242, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "래쉬포드/NNG+는/JX", "target" : "래쉬포드는", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "이미/MAG", "target" : "이미", "word_id" : 1, "m_begin" : 2, "m_end" : 2},
+		{"id" : 2, "result" : "잉글랜드/NNG", "target" : "잉글랜드", "word_id" : 2, "m_begin" : 3, "m_end" : 3},
+		{"id" : 3, "result" : "A/SL+대표/NNG", "target" : "A대표", "word_id" : 3, "m_begin" : 4, "m_end" : 5},
+		{"id" : 4, "result" : "팀/NNG+에/JKB", "target" : "팀에", "word_id" : 4, "m_begin" : 6, "m_end" : 7},
+		{"id" : 5, "result" : "꾸준히/MAG", "target" : "꾸준히", "word_id" : 5, "m_begin" : 8, "m_end" : 8},
+		{"id" : 6, "result" : "부름/NNG", "target" : "부름", "word_id" : 6, "m_begin" : 9, "m_end" : 9},
+		{"id" : 7, "result" : "받/VV+을/ETM", "target" : "받을", "word_id" : 7, "m_begin" : 10, "m_end" : 11},
+		{"id" : 8, "result" : "정도/NNG+로/JKB", "target" : "정도로", "word_id" : 8, "m_begin" : 12, "m_end" : 13},
+		{"id" : 9, "result" : "입지/NNG+가/JKS", "target" : "입지가", "word_id" : 9, "m_begin" : 14, "m_end" : 15},
+		{"id" : 10, "result" : "탄탄하/VA+며/EC+,/SP", "target" : "탄탄하며,", "word_id" : 10, "m_begin" : 16, "m_end" : 18},
+		{"id" : 11, "result" : "톰/NNG", "target" : "톰", "word_id" : 11, "m_begin" : 19, "m_end" : 19},
+		{"id" : 12, "result" : "데이비스/NNG+,/SP", "target" : "데이비스,", "word_id" : 12, "m_begin" : 20, "m_end" : 21},
+		{"id" : 13, "result" : "악셀/NNG", "target" : "악셀", "word_id" : 13, "m_begin" : 22, "m_end" : 22},
+		{"id" : 14, "result" : "튀앙제브/NNG+는/JX", "target" : "튀앙제브는", "word_id" : 14, "m_begin" : 23, "m_end" : 25},
+		{"id" : 15, "result" : "소속/NNG", "target" : "소속", "word_id" : 15, "m_begin" : 26, "m_end" : 26},
+		{"id" : 16, "result" : "팀/NNG+에서/JKB", "target" : "팀에서", "word_id" : 16, "m_begin" : 27, "m_end" : 28},
+		{"id" : 17, "result" : "중요하/VA+ㄴ/ETM", "target" : "중요한", "word_id" : 17, "m_begin" : 29, "m_end" : 31},
+		{"id" : 18, "result" : "선수/NNG+로/JKB", "target" : "선수로", "word_id" : 18, "m_begin" : 32, "m_end" : 33},
+		{"id" : 19, "result" : "분류되/VV+어/EC", "target" : "분류돼", "word_id" : 19, "m_begin" : 34, "m_end" : 36},
+		{"id" : 20, "result" : "소집/NNG+에서/JKB", "target" : "소집에서", "word_id" : 20, "m_begin" : 37, "m_end" : 38},
+		{"id" : 21, "result" : "제외되/VV+ㄴ/ETM", "target" : "제외된", "word_id" : 21, "m_begin" : 39, "m_end" : 41},
+		{"id" : 22, "result" : "것/NNB+으로/JKB", "target" : "것으로", "word_id" : 22, "m_begin" : 42, "m_end" : 43},
+		{"id" : 23, "result" : "추측되/VV+ㄴ다/EF+./SF", "target" : "추측된다.", "word_id" : 23, "m_begin" : 44, "m_end" : 47}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "래쉬포드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "이미", "type" : "MAG", "scode" : "01", "weight" : 1, "position" : 16, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "잉글랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 23, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "A", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 36, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "대표", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 37, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "팀", "type" : "NNG", "scode" : "01", "weight" : 3.7, "position" : 44, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 47, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "꾸준히", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 51, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "부름", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 61, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "받", "type" : "VV", "scode" : "01", "weight" : 5.4, "position" : 68, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "을", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 71, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "정도", "type" : "NNG", "scode" : "11", "weight" : 5.4, "position" : 75, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "입지", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 85, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 91, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "탄탄하", "type" : "VA", "scode" : "02", "weight" : 1.7, "position" : 95, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 104, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 107, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "톰", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 109, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : "데이비스", "type" : "NNP", "scode" : "01", "weight" : 1, "position" : 113, "begin" : 20, "end" : 20},
+		{"id" : 21, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 125, "begin" : 21, "end" : 21},
+		{"id" : 22, "text" : "악셀", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 127, "begin" : 22, "end" : 22},
+		{"id" : 23, "text" : "튀앙", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 134, "begin" : 23, "end" : 23},
+		{"id" : 24, "text" : "제브", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 140, "begin" : 24, "end" : 24},
+		{"id" : 25, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 146, "begin" : 25, "end" : 25},
+		{"id" : 26, "text" : "소속", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 150, "begin" : 26, "end" : 26},
+		{"id" : 27, "text" : "팀", "type" : "NNG", "scode" : "01", "weight" : 6.6, "position" : 157, "begin" : 27, "end" : 27},
+		{"id" : 28, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 160, "begin" : 28, "end" : 28},
+		{"id" : 29, "text" : "중요하", "type" : "VA", "scode" : "02", "weight" : 3.2, "position" : 167, "begin" : 29, "end" : 30},
+		{"id" : 30, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 173, "begin" : 31, "end" : 31},
+		{"id" : 31, "text" : "선수", "type" : "NNG", "scode" : "05", "weight" : 4.2, "position" : 177, "begin" : 32, "end" : 32},
+		{"id" : 32, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 183, "begin" : 33, "end" : 33},
+		{"id" : 33, "text" : "분류되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 187, "begin" : 34, "end" : 35},
+		{"id" : 34, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 193, "begin" : 36, "end" : 36},
+		{"id" : 35, "text" : "소집", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 197, "begin" : 37, "end" : 37},
+		{"id" : 36, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 203, "begin" : 38, "end" : 38},
+		{"id" : 37, "text" : "제외되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 210, "begin" : 39, "end" : 40},
+		{"id" : 38, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 216, "begin" : 41, "end" : 41},
+		{"id" : 39, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 4.2, "position" : 220, "begin" : 42, "end" : 42},
+		{"id" : 40, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 223, "begin" : 43, "end" : 43},
+		{"id" : 41, "text" : "추측되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 230, "begin" : 44, "end" : 45},
+		{"id" : 42, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 236, "begin" : 46, "end" : 46},
+		{"id" : 43, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 242, "begin" : 47, "end" : 47}
+	],
+	"word" : [
+		{"id" : 0, "text" : "래쉬포드는", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "이미", "type" : "", "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "잉글랜드", "type" : "", "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "A대표", "type" : "", "begin" : 4, "end" : 5},
+		{"id" : 4, "text" : "팀에", "type" : "", "begin" : 6, "end" : 7},
+		{"id" : 5, "text" : "꾸준히", "type" : "", "begin" : 8, "end" : 8},
+		{"id" : 6, "text" : "부름", "type" : "", "begin" : 9, "end" : 9},
+		{"id" : 7, "text" : "받을", "type" : "", "begin" : 10, "end" : 11},
+		{"id" : 8, "text" : "정도로", "type" : "", "begin" : 12, "end" : 13},
+		{"id" : 9, "text" : "입지가", "type" : "", "begin" : 14, "end" : 15},
+		{"id" : 10, "text" : "탄탄하며,", "type" : "", "begin" : 16, "end" : 18},
+		{"id" : 11, "text" : "톰", "type" : "", "begin" : 19, "end" : 19},
+		{"id" : 12, "text" : "데이비스,", "type" : "", "begin" : 20, "end" : 21},
+		{"id" : 13, "text" : "악셀", "type" : "", "begin" : 22, "end" : 22},
+		{"id" : 14, "text" : "튀앙제브는", "type" : "", "begin" : 23, "end" : 25},
+		{"id" : 15, "text" : "소속", "type" : "", "begin" : 26, "end" : 26},
+		{"id" : 16, "text" : "팀에서", "type" : "", "begin" : 27, "end" : 28},
+		{"id" : 17, "text" : "중요한", "type" : "", "begin" : 29, "end" : 31},
+		{"id" : 18, "text" : "선수로", "type" : "", "begin" : 32, "end" : 33},
+		{"id" : 19, "text" : "분류돼", "type" : "", "begin" : 34, "end" : 36},
+		{"id" : 20, "text" : "소집에서", "type" : "", "begin" : 37, "end" : 38},
+		{"id" : 21, "text" : "제외된", "type" : "", "begin" : 39, "end" : 41},
+		{"id" : 22, "text" : "것으로", "type" : "", "begin" : 42, "end" : 43},
+		{"id" : 23, "text" : "추측된다.", "type" : "", "begin" : 44, "end" : 47}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "래쉬포드", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.0962012, "common_noun" : 0},
+		{"id" : 1, "text" : "잉글랜드 A대표 팀", "type" : "OGG_SPORTS", "begin" : 3, "end" : 6, "weight" : 0.468235, "common_noun" : 0},
+		{"id" : 2, "text" : "톰 데이비스", "type" : "PS_NAME", "begin" : 19, "end" : 20, "weight" : 0.469359, "common_noun" : 0},
+		{"id" : 3, "text" : "악셀 튀앙제브", "type" : "PS_NAME", "begin" : 22, "end" : 24, "weight" : 0.225844, "common_noun" : 0},
+		{"id" : 4, "text" : "선수", "type" : "CV_OCCUPATION", "begin" : 32, "end" : 32, "weight" : 0.550505, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "래쉬포드는", "head" : 10, "label" : "NP_SBJ", "mod" : [], "weight" : 0.746163 },
+		{"id" : 1, "text" : "이미", "head" : 10, "label" : "AP", "mod" : [], "weight" : 0.686032 },
+		{"id" : 2, "text" : "잉글랜드", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.462774 },
+		{"id" : 3, "text" : "A대표", "head" : 4, "label" : "NP", "mod" : [2], "weight" : 0.722159 },
+		{"id" : 4, "text" : "팀에", "head" : 7, "label" : "NP_AJT", "mod" : [3], "weight" : 0.411854 },
+		{"id" : 5, "text" : "꾸준히", "head" : 7, "label" : "AP", "mod" : [], "weight" : 0.415182 },
+		{"id" : 6, "text" : "부름", "head" : 7, "label" : "NP_OBJ", "mod" : [], "weight" : 0.67541 },
+		{"id" : 7, "text" : "받을", "head" : 8, "label" : "VP_MOD", "mod" : [4, 5, 6], "weight" : 0.816903 },
+		{"id" : 8, "text" : "정도로", "head" : 10, "label" : "NP_AJT", "mod" : [7], "weight" : 0.842313 },
+		{"id" : 9, "text" : "입지가", "head" : 10, "label" : "NP_SBJ", "mod" : [], "weight" : 0.686218 },
+		{"id" : 10, "text" : "탄탄하며,", "head" : 23, "label" : "VP", "mod" : [0, 1, 8, 9], "weight" : 0.696687 },
+		{"id" : 11, "text" : "톰", "head" : 12, "label" : "NP", "mod" : [], "weight" : 0.780659 },
+		{"id" : 12, "text" : "데이비스,", "head" : 14, "label" : "NP_CNJ", "mod" : [11], "weight" : 0.108749 },
+		{"id" : 13, "text" : "악셀", "head" : 14, "label" : "NP", "mod" : [], "weight" : 0.685611 },
+		{"id" : 14, "text" : "튀앙제브는", "head" : 23, "label" : "NP_SBJ", "mod" : [12, 13], "weight" : 0.734483 },
+		{"id" : 15, "text" : "소속", "head" : 16, "label" : "NP", "mod" : [], "weight" : 0.723175 },
+		{"id" : 16, "text" : "팀에서", "head" : 19, "label" : "NP_AJT", "mod" : [15], "weight" : 0.531933 },
+		{"id" : 17, "text" : "중요한", "head" : 18, "label" : "VP_MOD", "mod" : [], "weight" : 0.769144 },
+		{"id" : 18, "text" : "선수로", "head" : 19, "label" : "NP_AJT", "mod" : [17], "weight" : 0.624621 },
+		{"id" : 19, "text" : "분류돼", "head" : 21, "label" : "VP", "mod" : [16, 18], "weight" : 0.383361 },
+		{"id" : 20, "text" : "소집에서", "head" : 21, "label" : "NP_AJT", "mod" : [], "weight" : 0.696966 },
+		{"id" : 21, "text" : "제외된", "head" : 22, "label" : "VP_MOD", "mod" : [19, 20], "weight" : 0.787344 },
+		{"id" : 22, "text" : "것으로", "head" : 23, "label" : "NP_AJT", "mod" : [21], "weight" : 0.756272 },
+		{"id" : 23, "text" : "추측된다.", "head" : -1, "label" : "VP", "mod" : [10, 14, 22], "weight" : 7.4014e-06 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "래쉬포드는", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 8, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "AP", "text" : "이미", "begin" : 1, "end" : 1, "key_begin" : 1, "head_phrase" : 8, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_AJT", "text" : "잉글랜드 A대표 팀에", "begin" : 2, "end" : 4, "key_begin" : 2, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "AP", "text" : "꾸준히", "begin" : 5, "end" : 5, "key_begin" : 5, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_OBJ", "text" : "부름", "begin" : 6, "end" : 6, "key_begin" : 6, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "VP_MOD", "text" : "P#2@AJT에 P#3@AP꾸준히 P#4@OBJ부름 받을", "begin" : 2, "end" : 7, "key_begin" : 7, "head_phrase" : 6, "sub_phrase" : [2, 3, 4], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "NP_AJT", "text" : "P#5@MOD을 정도로", "begin" : 2, "end" : 8, "key_begin" : 8, "head_phrase" : 8, "sub_phrase" : [5], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "NP_SBJ", "text" : "입지가", "begin" : 9, "end" : 9, "key_begin" : 9, "head_phrase" : 8, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 8, "label" : "S", "text" : "P#0@SBJ는 P#1@AP이미 P#6@AJT로 P#7@SBJ가 탄탄하며,", "begin" : 0, "end" : 10, "key_begin" : 10, "head_phrase" : 16, "sub_phrase" : [0, 1, 6, 7], "weight" : 0, "element" : [] },
+		{"id" : 9, "label" : "NP_SBJ", "text" : "톰 데이비스, 악셀 튀앙제브는", "begin" : 11, "end" : 14, "key_begin" : 11, "head_phrase" : 16, "sub_phrase" : [], "weight" : 0, 
+			"element" : [
+				{ "text" : "톰 데이비스", "label" : "NP_SBJ", "begin" : 19, "end" : 20, "ne_type" : "PS_NAME" },
+				{ "text" : "악셀 튀앙제브", "label" : "NP_SBJ", "begin" : 22, "end" : 24, "ne_type" : "PS_NAME" }
+			] },
+		{"id" : 10, "label" : "NP_AJT", "text" : "소속 팀에서", "begin" : 15, "end" : 16, "key_begin" : 15, "head_phrase" : 12, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 11, "label" : "NP_AJT", "text" : "중요한 선수로", "begin" : 17, "end" : 18, "key_begin" : 17, "head_phrase" : 12, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 12, "label" : "VP", "text" : "P#10@AJT에서 P#11@AJT로 분류돼", "begin" : 15, "end" : 19, "key_begin" : 19, "head_phrase" : 14, "sub_phrase" : [10, 11], "weight" : 0, "element" : [] },
+		{"id" : 13, "label" : "NP_AJT", "text" : "소집에서", "begin" : 20, "end" : 20, "key_begin" : 20, "head_phrase" : 14, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 14, "label" : "VP_MOD", "text" : "P#12@VP어 P#13@AJT에서 제외된", "begin" : 15, "end" : 21, "key_begin" : 21, "head_phrase" : 15, "sub_phrase" : [12, 13], "weight" : 0, "element" : [] },
+		{"id" : 15, "label" : "NP_AJT", "text" : "P#14@MODㄴ 것으로", "begin" : 15, "end" : 22, "key_begin" : 22, "head_phrase" : 16, "sub_phrase" : [14], "weight" : 0, "element" : [] },
+		{"id" : 16, "label" : "S", "text" : "S#8@S며, P#9@SBJ는 P#15@AJT으로 추측된다.", "begin" : 0, "end" : 23, "key_begin" : 23, "head_phrase" : -1, "sub_phrase" : [8, 9, 15], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "받", "sense" : 1, "word_id" : 7, "weight" : 0.243934,
+			"argument" : [
+				{"type" : "ARGM-ADV", "word_id" : 1, "text" : "이미", "weight" : 1 },
+				{"type" : "ARG2", "word_id" : 4, "text" : "팀에", "weight" : 0.32658 },
+				{"type" : "ARGM-ADV", "word_id" : 5, "text" : "꾸준히", "weight" : 0.153402 },
+				{"type" : "ARG1", "word_id" : 6, "text" : "부름", "weight" : 0.22461 }
+			] },
+		{"verb" : "탄탄하", "sense" : 1, "word_id" : 10, "weight" : 0.295422,
+			"argument" : [
+				{"type" : "ARGM-ADV", "word_id" : 1, "text" : "이미", "weight" : 1 },
+				{"type" : "ARGM-EXT", "word_id" : 8, "text" : "정도로", "weight" : 0.183721 },
+				{"type" : "ARG1", "word_id" : 9, "text" : "입지가", "weight" : 0.442443 }
+			] },
+		{"verb" : "중요", "sense" : 1, "word_id" : 17, "weight" : 0.499554,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 18, "text" : "선수로", "weight" : 0.499554 }
+			] },
+		{"verb" : "분류", "sense" : 1, "word_id" : 19, "weight" : 0.379528,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 16, "text" : "팀에서", "weight" : 0.327027 },
+				{"type" : "ARG2", "word_id" : 18, "text" : "선수로", "weight" : 0.432029 }
+			] },
+		{"verb" : "제외", "sense" : 1, "word_id" : 21, "weight" : 0.141484,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 14, "text" : "튀앙제브는", "weight" : 0.159158 },
+				{"type" : "ARGM-CAU", "word_id" : 19, "text" : "분류돼", "weight" : 0.145339 },
+				{"type" : "ARG2", "word_id" : 20, "text" : "소집에서", "weight" : 0.119955 }
+			] },
+		{"verb" : "추측", "sense" : 1, "word_id" : 23, "weight" : 0.100994,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 22, "text" : "것으로", "weight" : 0.100994 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : ":::잉글랜드 U-20 대표 팀 명단:::",
+	"morp" : [
+		{"id" : 0, "lemma" : ":", "type" : "SP", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : ":", "type" : "SP", "position" : 1, "weight" : 1 },
+		{"id" : 2, "lemma" : ":", "type" : "SP", "position" : 2, "weight" : 1 },
+		{"id" : 3, "lemma" : "잉글랜드", "type" : "NNP", "position" : 3, "weight" : 0.9 },
+		{"id" : 4, "lemma" : "U", "type" : "SL", "position" : 16, "weight" : 1 },
+		{"id" : 5, "lemma" : "-", "type" : "SS", "position" : 17, "weight" : 1 },
+		{"id" : 6, "lemma" : "20", "type" : "SN", "position" : 18, "weight" : 1 },
+		{"id" : 7, "lemma" : "대표", "type" : "NNG", "position" : 21, "weight" : 0.9 },
+		{"id" : 8, "lemma" : "팀", "type" : "NNG", "position" : 28, "weight" : 0.184232 },
+		{"id" : 9, "lemma" : "명단", "type" : "NNG", "position" : 32, "weight" : 0.9 },
+		{"id" : 10, "lemma" : ":", "type" : "SP", "position" : 38, "weight" : 1 },
+		{"id" : 11, "lemma" : ":", "type" : "SP", "position" : 39, "weight" : 1 },
+		{"id" : 12, "lemma" : ":", "type" : "SP", "position" : 40, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : ":/SP+:/SP+:/SP+잉글랜드/NNG", "target" : ":::잉글랜드", "word_id" : 0, "m_begin" : 0, "m_end" : 3},
+		{"id" : 1, "result" : "U/SL+-/SS+20/SN", "target" : "U-20", "word_id" : 1, "m_begin" : 4, "m_end" : 6},
+		{"id" : 2, "result" : "대표/NNG", "target" : "대표", "word_id" : 2, "m_begin" : 7, "m_end" : 7},
+		{"id" : 3, "result" : "팀/NNG", "target" : "팀", "word_id" : 3, "m_begin" : 8, "m_end" : 8},
+		{"id" : 4, "result" : "명단/NNG+:/SP+:/SP+:/SP", "target" : "명단:::", "word_id" : 4, "m_begin" : 9, "m_end" : 12}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 1, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 2, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "잉글랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 3, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 16, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 17, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 18, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "대표", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 21, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "팀", "type" : "NNG", "scode" : "01", "weight" : 3.2, "position" : 28, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "명단", "type" : "NNG", "scode" : "01", "weight" : 2, "position" : 32, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 38, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 40, "begin" : 12, "end" : 12}
+	],
+	"word" : [
+		{"id" : 0, "text" : ":::잉글랜드", "type" : "", "begin" : 0, "end" : 3},
+		{"id" : 1, "text" : "U-20", "type" : "", "begin" : 4, "end" : 6},
+		{"id" : 2, "text" : "대표", "type" : "", "begin" : 7, "end" : 7},
+		{"id" : 3, "text" : "팀", "type" : "", "begin" : 8, "end" : 8},
+		{"id" : 4, "text" : "명단:::", "type" : "", "begin" : 9, "end" : 12}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "잉글랜드", "type" : "LCP_COUNTRY", "begin" : 3, "end" : 3, "weight" : 0.593675, "common_noun" : 0},
+		{"id" : 1, "text" : "U-20", "type" : "OGG_SPORTS", "begin" : 4, "end" : 6, "weight" : 0.41453, "common_noun" : 0},
+		{"id" : 2, "text" : "대표 팀", "type" : "OGG_SPORTS", "begin" : 7, "end" : 8, "weight" : 0.412019, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : ":::잉글랜드", "head" : 4, "label" : "NP", "mod" : [], "weight" : 0.712313 },
+		{"id" : 1, "text" : "U-20", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.118359 },
+		{"id" : 2, "text" : "대표", "head" : 3, "label" : "NP", "mod" : [1], "weight" : 0.513584 },
+		{"id" : 3, "text" : "팀", "head" : 4, "label" : "NP", "mod" : [2], "weight" : 0.695961 },
+		{"id" : 4, "text" : "명단:::", "head" : -1, "label" : "NP", "mod" : [0, 3], "weight" : 0.0214883 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : ":::잉글랜드 U-20 대표 팀 명단:::", "begin" : 0, "end" : 4, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "골키퍼: 1.프레디 우드먼(뉴캐슬 유나이티드), 13.딘 헨더슨(맨체스터 유나이티드), 21.루크 사우스우드(레딩)",
+	"morp" : [
+		{"id" : 0, "lemma" : "골", "type" : "NNG", "position" : 0, "weight" : 0.381882 },
+		{"id" : 1, "lemma" : "키퍼", "type" : "NNG", "position" : 3, "weight" : 0.0410755 },
+		{"id" : 2, "lemma" : ":", "type" : "SP", "position" : 9, "weight" : 1 },
+		{"id" : 3, "lemma" : "1", "type" : "SN", "position" : 11, "weight" : 1 },
+		{"id" : 4, "lemma" : ".", "type" : "SF", "position" : 12, "weight" : 1 },
+		{"id" : 5, "lemma" : "프레디", "type" : "NNP", "position" : 13, "weight" : 0.2 },
+		{"id" : 6, "lemma" : "우드먼", "type" : "NNP", "position" : 23, "weight" : 0.6 },
+		{"id" : 7, "lemma" : "(", "type" : "SS", "position" : 32, "weight" : 1 },
+		{"id" : 8, "lemma" : "뉴캐슬", "type" : "NNP", "position" : 33, "weight" : 0.1 },
+		{"id" : 9, "lemma" : "유나이티드", "type" : "NNG", "position" : 43, "weight" : 0.240215 },
+		{"id" : 10, "lemma" : ")", "type" : "SS", "position" : 58, "weight" : 1 },
+		{"id" : 11, "lemma" : ",", "type" : "SP", "position" : 59, "weight" : 1 },
+		{"id" : 12, "lemma" : "13", "type" : "SN", "position" : 61, "weight" : 1 },
+		{"id" : 13, "lemma" : ".", "type" : "SF", "position" : 63, "weight" : 1 },
+		{"id" : 14, "lemma" : "딘", "type" : "NNP", "position" : 64, "weight" : 0.9 },
+		{"id" : 15, "lemma" : "헨더슨", "type" : "NNP", "position" : 68, "weight" : 0.6 },
+		{"id" : 16, "lemma" : "(", "type" : "SS", "position" : 77, "weight" : 1 },
+		{"id" : 17, "lemma" : "맨체스터", "type" : "NNP", "position" : 78, "weight" : 0.9 },
+		{"id" : 18, "lemma" : "유나이티드", "type" : "NNG", "position" : 91, "weight" : 0.240215 },
+		{"id" : 19, "lemma" : ")", "type" : "SS", "position" : 106, "weight" : 1 },
+		{"id" : 20, "lemma" : ",", "type" : "SP", "position" : 107, "weight" : 1 },
+		{"id" : 21, "lemma" : "21", "type" : "SN", "position" : 109, "weight" : 1 },
+		{"id" : 22, "lemma" : ".", "type" : "SF", "position" : 111, "weight" : 1 },
+		{"id" : 23, "lemma" : "루크", "type" : "NNP", "position" : 112, "weight" : 0.6 },
+		{"id" : 24, "lemma" : "사우스우드", "type" : "NNP", "position" : 119, "weight" : 0.6 },
+		{"id" : 25, "lemma" : "(", "type" : "SS", "position" : 134, "weight" : 1 },
+		{"id" : 26, "lemma" : "레딩", "type" : "NNP", "position" : 135, "weight" : 0.6 },
+		{"id" : 27, "lemma" : ")", "type" : "SS", "position" : 141, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "골키퍼/NNG+:/SP", "target" : "골키퍼:", "word_id" : 0, "m_begin" : 0, "m_end" : 2},
+		{"id" : 1, "result" : "1/SN+./SF+프레디/NNG", "target" : "1.프레디", "word_id" : 1, "m_begin" : 3, "m_end" : 5},
+		{"id" : 2, "result" : "우드먼/NNG+(/SS+뉴캐슬/NNG", "target" : "우드먼(뉴캐슬", "word_id" : 2, "m_begin" : 6, "m_end" : 8},
+		{"id" : 3, "result" : "유나이티드/NNG+)/SS+,/SP", "target" : "유나이티드),", "word_id" : 3, "m_begin" : 9, "m_end" : 11},
+		{"id" : 4, "result" : "13/SN+./SF+딘/NNG", "target" : "13.딘", "word_id" : 4, "m_begin" : 12, "m_end" : 14},
+		{"id" : 5, "result" : "헨더슨/NNG+(/SS+맨체스터/NNG", "target" : "헨더슨(맨체스터", "word_id" : 5, "m_begin" : 15, "m_end" : 17},
+		{"id" : 6, "result" : "유나이티드/NNG+)/SS+,/SP", "target" : "유나이티드),", "word_id" : 6, "m_begin" : 18, "m_end" : 20},
+		{"id" : 7, "result" : "21/SN+./SF+루크/NNG", "target" : "21.루크", "word_id" : 7, "m_begin" : 21, "m_end" : 23},
+		{"id" : 8, "result" : "사우스우드/NNG+(/SS+레딩/NNG+)/SS", "target" : "사우스우드(레딩)", "word_id" : 8, "m_begin" : 24, "m_end" : 27}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "골키퍼", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 11, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "프레디", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 5, "end" : 5},
+		{"id" : 5, "text" : "우드먼", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 23, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 7, "end" : 7},
+		{"id" : 7, "text" : "뉴캐슬", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 33, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : "유나이티드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 43, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 58, "begin" : 10, "end" : 10},
+		{"id" : 10, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 59, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "13", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 13, "end" : 13},
+		{"id" : 13, "text" : "딘", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 64, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "헨더슨", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 68, "begin" : 15, "end" : 15},
+		{"id" : 15, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 16, "end" : 16},
+		{"id" : 16, "text" : "맨체스터", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 78, "begin" : 17, "end" : 17},
+		{"id" : 17, "text" : "유나이티드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 91, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 106, "begin" : 19, "end" : 19},
+		{"id" : 19, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 107, "begin" : 20, "end" : 20},
+		{"id" : 20, "text" : "21", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 109, "begin" : 21, "end" : 21},
+		{"id" : 21, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 111, "begin" : 22, "end" : 22},
+		{"id" : 22, "text" : "루크", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 112, "begin" : 23, "end" : 23},
+		{"id" : 23, "text" : "사우스우드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 119, "begin" : 24, "end" : 24},
+		{"id" : 24, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 134, "begin" : 25, "end" : 25},
+		{"id" : 25, "text" : "레딩", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 135, "begin" : 26, "end" : 26},
+		{"id" : 26, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 141, "begin" : 27, "end" : 27}
+	],
+	"word" : [
+		{"id" : 0, "text" : "골키퍼:", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "1.프레디", "type" : "", "begin" : 3, "end" : 5},
+		{"id" : 2, "text" : "우드먼(뉴캐슬", "type" : "", "begin" : 6, "end" : 8},
+		{"id" : 3, "text" : "유나이티드),", "type" : "", "begin" : 9, "end" : 11},
+		{"id" : 4, "text" : "13.딘", "type" : "", "begin" : 12, "end" : 14},
+		{"id" : 5, "text" : "헨더슨(맨체스터", "type" : "", "begin" : 15, "end" : 17},
+		{"id" : 6, "text" : "유나이티드),", "type" : "", "begin" : 18, "end" : 20},
+		{"id" : 7, "text" : "21.루크", "type" : "", "begin" : 21, "end" : 23},
+		{"id" : 8, "text" : "사우스우드(레딩)", "type" : "", "begin" : 24, "end" : 27}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "골키퍼", "type" : "CV_POSITION", "begin" : 0, "end" : 1, "weight" : 0.668247, "common_noun" : 0},
+		{"id" : 1, "text" : "1", "type" : "QT_ORDER", "begin" : 3, "end" : 3, "weight" : 0.593336, "common_noun" : 0},
+		{"id" : 2, "text" : "프레디 우드먼", "type" : "PS_NAME", "begin" : 5, "end" : 6, "weight" : 0.18995, "common_noun" : 0},
+		{"id" : 3, "text" : "뉴캐슬 유나이티드", "type" : "OGG_SPORTS", "begin" : 8, "end" : 9, "weight" : 0.399423, "common_noun" : 0},
+		{"id" : 4, "text" : "13", "type" : "QT_ORDER", "begin" : 12, "end" : 12, "weight" : 0.397833, "common_noun" : 0},
+		{"id" : 5, "text" : "딘 헨더슨", "type" : "PS_NAME", "begin" : 14, "end" : 15, "weight" : 0.357074, "common_noun" : 0},
+		{"id" : 6, "text" : "맨체스터 유나이티드", "type" : "OGG_SPORTS", "begin" : 17, "end" : 18, "weight" : 0.735688, "common_noun" : 0},
+		{"id" : 7, "text" : "21", "type" : "QT_ORDER", "begin" : 21, "end" : 21, "weight" : 0.348471, "common_noun" : 0},
+		{"id" : 8, "text" : "루크 사우스우드", "type" : "PS_NAME", "begin" : 23, "end" : 24, "weight" : 0.190174, "common_noun" : 0},
+		{"id" : 9, "text" : "레딩", "type" : "OGG_SPORTS", "begin" : 26, "end" : 26, "weight" : 0.201043, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "골키퍼:", "head" : 3, "label" : "NP_CNJ", "mod" : [], "weight" : 0.331509 },
+		{"id" : 1, "text" : "1.프레디", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.303516 },
+		{"id" : 2, "text" : "우드먼(뉴캐슬", "head" : 3, "label" : "NP", "mod" : [1], "weight" : 0.747329 },
+		{"id" : 3, "text" : "유나이티드),", "head" : 8, "label" : "NP", "mod" : [0, 2], "weight" : 0.250193 },
+		{"id" : 4, "text" : "13.딘", "head" : 5, "label" : "NP", "mod" : [], "weight" : 0.521849 },
+		{"id" : 5, "text" : "헨더슨(맨체스터", "head" : 6, "label" : "NP", "mod" : [4], "weight" : 0.847068 },
+		{"id" : 6, "text" : "유나이티드),", "head" : 8, "label" : "NP", "mod" : [5], "weight" : 0.107782 },
+		{"id" : 7, "text" : "21.루크", "head" : 8, "label" : "NP", "mod" : [], "weight" : 0.791118 },
+		{"id" : 8, "text" : "사우스우드(레딩)", "head" : -1, "label" : "NP", "mod" : [3, 6, 7], "weight" : 0.000489297 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "골키퍼: 1.프레디 우드먼(뉴캐슬 유나이티드), 13.딘 헨더슨(맨체스터 유나이티드), 21.루크 사우스우드(레딩)", "begin" : 0, "end" : 8, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "수비수: 2.존조 케니(에버튼), 3.칼럼 코놀리(에버튼), 5.피카요 토모리(첼시), 6.제이크 클라크-슬레이터(첼시),12.리코 헨리(브렌트포드),14.카일 워커-피터스(토트넘 핫스퍼),15.다엘 프라이(미들즈브러)",
+	"morp" : [
+		{"id" : 0, "lemma" : "수비", "type" : "NNG", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "수", "type" : "NNG", "position" : 6, "weight" : 0.00933311 },
+		{"id" : 2, "lemma" : ":", "type" : "SP", "position" : 9, "weight" : 1 },
+		{"id" : 3, "lemma" : "2", "type" : "SN", "position" : 11, "weight" : 1 },
+		{"id" : 4, "lemma" : ".", "type" : "SF", "position" : 12, "weight" : 1 },
+		{"id" : 5, "lemma" : "존조", "type" : "NNP", "position" : 13, "weight" : 0.6 },
+		{"id" : 6, "lemma" : "케니", "type" : "NNP", "position" : 20, "weight" : 0.5 },
+		{"id" : 7, "lemma" : "(", "type" : "SS", "position" : 26, "weight" : 1 },
+		{"id" : 8, "lemma" : "에버튼", "type" : "NNP", "position" : 27, "weight" : 0.6 },
+		{"id" : 9, "lemma" : ")", "type" : "SS", "position" : 36, "weight" : 1 },
+		{"id" : 10, "lemma" : ",", "type" : "SP", "position" : 37, "weight" : 1 },
+		{"id" : 11, "lemma" : "3", "type" : "SN", "position" : 39, "weight" : 1 },
+		{"id" : 12, "lemma" : ".", "type" : "SF", "position" : 40, "weight" : 1 },
+		{"id" : 13, "lemma" : "칼럼", "type" : "NNG", "position" : 41, "weight" : 0.9 },
+		{"id" : 14, "lemma" : "코놀리", "type" : "NNP", "position" : 48, "weight" : 0.6 },
+		{"id" : 15, "lemma" : "(", "type" : "SS", "position" : 57, "weight" : 1 },
+		{"id" : 16, "lemma" : "에버튼", "type" : "NNP", "position" : 58, "weight" : 0.6 },
+		{"id" : 17, "lemma" : ")", "type" : "SS", "position" : 67, "weight" : 1 },
+		{"id" : 18, "lemma" : ",", "type" : "SP", "position" : 68, "weight" : 1 },
+		{"id" : 19, "lemma" : "5", "type" : "SN", "position" : 70, "weight" : 1 },
+		{"id" : 20, "lemma" : ".", "type" : "SF", "position" : 71, "weight" : 1 },
+		{"id" : 21, "lemma" : "피카요", "type" : "NNP", "position" : 72, "weight" : 0.6 },
+		{"id" : 22, "lemma" : "토모리", "type" : "NNP", "position" : 82, "weight" : 0.6 },
+		{"id" : 23, "lemma" : "(", "type" : "SS", "position" : 91, "weight" : 1 },
+		{"id" : 24, "lemma" : "첼시", "type" : "NNP", "position" : 92, "weight" : 0.4 },
+		{"id" : 25, "lemma" : ")", "type" : "SS", "position" : 98, "weight" : 1 },
+		{"id" : 26, "lemma" : ",", "type" : "SP", "position" : 99, "weight" : 1 },
+		{"id" : 27, "lemma" : "6", "type" : "SN", "position" : 101, "weight" : 1 },
+		{"id" : 28, "lemma" : ".", "type" : "SF", "position" : 102, "weight" : 1 },
+		{"id" : 29, "lemma" : "제이크", "type" : "NNP", "position" : 103, "weight" : 0.7 },
+		{"id" : 30, "lemma" : "클라크", "type" : "NNP", "position" : 113, "weight" : 0.9 },
+		{"id" : 31, "lemma" : "-", "type" : "SS", "position" : 122, "weight" : 1 },
+		{"id" : 32, "lemma" : "슬레이터", "type" : "NNP", "position" : 123, "weight" : 0.6 },
+		{"id" : 33, "lemma" : "(", "type" : "SS", "position" : 135, "weight" : 1 },
+		{"id" : 34, "lemma" : "첼시", "type" : "NNP", "position" : 136, "weight" : 0.4 },
+		{"id" : 35, "lemma" : ")", "type" : "SS", "position" : 142, "weight" : 1 },
+		{"id" : 36, "lemma" : ",", "type" : "SP", "position" : 143, "weight" : 1 },
+		{"id" : 37, "lemma" : "12", "type" : "SN", "position" : 144, "weight" : 1 },
+		{"id" : 38, "lemma" : ".", "type" : "SF", "position" : 146, "weight" : 1 },
+		{"id" : 39, "lemma" : "리코", "type" : "NNP", "position" : 147, "weight" : 0.6 },
+		{"id" : 40, "lemma" : "헨리", "type" : "NNP", "position" : 154, "weight" : 0.0805985 },
+		{"id" : 41, "lemma" : "(", "type" : "SS", "position" : 160, "weight" : 1 },
+		{"id" : 42, "lemma" : "브렌트포드", "type" : "NNP", "position" : 161, "weight" : 0.6 },
+		{"id" : 43, "lemma" : ")", "type" : "SS", "position" : 176, "weight" : 1 },
+		{"id" : 44, "lemma" : ",", "type" : "SP", "position" : 177, "weight" : 1 },
+		{"id" : 45, "lemma" : "14", "type" : "SN", "position" : 178, "weight" : 1 },
+		{"id" : 46, "lemma" : ".", "type" : "SF", "position" : 180, "weight" : 1 },
+		{"id" : 47, "lemma" : "카일", "type" : "NNP", "position" : 181, "weight" : 0.2 },
+		{"id" : 48, "lemma" : "워커", "type" : "NNG", "position" : 188, "weight" : 0.105747 },
+		{"id" : 49, "lemma" : "-", "type" : "SS", "position" : 194, "weight" : 1 },
+		{"id" : 50, "lemma" : "피터스", "type" : "NNP", "position" : 195, "weight" : 0.45 },
+		{"id" : 51, "lemma" : "(", "type" : "SS", "position" : 204, "weight" : 1 },
+		{"id" : 52, "lemma" : "토트넘", "type" : "NNP", "position" : 205, "weight" : 0.6 },
+		{"id" : 53, "lemma" : "핫스퍼", "type" : "NNP", "position" : 215, "weight" : 0.6 },
+		{"id" : 54, "lemma" : ")", "type" : "SS", "position" : 224, "weight" : 1 },
+		{"id" : 55, "lemma" : ",", "type" : "SP", "position" : 225, "weight" : 1 },
+		{"id" : 56, "lemma" : "15", "type" : "SN", "position" : 226, "weight" : 1 },
+		{"id" : 57, "lemma" : ".", "type" : "SF", "position" : 228, "weight" : 1 },
+		{"id" : 58, "lemma" : "다엘", "type" : "NNP", "position" : 229, "weight" : 0.6 },
+		{"id" : 59, "lemma" : "프라이", "type" : "NNG", "position" : 236, "weight" : 0.221565 },
+		{"id" : 60, "lemma" : "(", "type" : "SS", "position" : 245, "weight" : 1 },
+		{"id" : 61, "lemma" : "미들즈브러", "type" : "NNP", "position" : 246, "weight" : 0.6 },
+		{"id" : 62, "lemma" : ")", "type" : "SS", "position" : 261, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "수비수/NNG+:/SP", "target" : "수비수:", "word_id" : 0, "m_begin" : 0, "m_end" : 2},
+		{"id" : 1, "result" : "2/SN+./SF+존조/NNG", "target" : "2.존조", "word_id" : 1, "m_begin" : 3, "m_end" : 5},
+		{"id" : 2, "result" : "케니/NNG+(/SS+에버튼/NNG+)/SS+,/SP", "target" : "케니(에버튼),", "word_id" : 2, "m_begin" : 6, "m_end" : 10},
+		{"id" : 3, "result" : "3/SN+./SF+칼럼/NNG", "target" : "3.칼럼", "word_id" : 3, "m_begin" : 11, "m_end" : 13},
+		{"id" : 4, "result" : "코놀리/NNG+(/SS+에버튼/NNG+)/SS+,/SP", "target" : "코놀리(에버튼),", "word_id" : 4, "m_begin" : 14, "m_end" : 18},
+		{"id" : 5, "result" : "5/SN+./SF+피카요/NNG", "target" : "5.피카요", "word_id" : 5, "m_begin" : 19, "m_end" : 21},
+		{"id" : 6, "result" : "토모리/NNG+(/SS+첼시/NNG+)/SS+,/SP", "target" : "토모리(첼시),", "word_id" : 6, "m_begin" : 22, "m_end" : 26},
+		{"id" : 7, "result" : "6/SN+./SF+제이크/NNG", "target" : "6.제이크", "word_id" : 7, "m_begin" : 27, "m_end" : 29},
+		{"id" : 8, "result" : "클라크/NNG+-/SS+슬레이터/NNG+(/SS+첼시/NNG+)/SS+,/SP+12/SN+./SF+리코/NNG", "target" : "클라크-슬레이터(첼시),12.리코", "word_id" : 8, "m_begin" : 30, "m_end" : 39},
+		{"id" : 9, "result" : "헨리/NNG+(/SS+브렌트포드/NNG+)/SS+,/SP+14/SN+./SF+카일/NNG", "target" : "헨리(브렌트포드),14.카일", "word_id" : 9, "m_begin" : 40, "m_end" : 47},
+		{"id" : 10, "result" : "워커/NNG+-/SS+피터스/NNG+(/SS+토트넘/NNG", "target" : "워커-피터스(토트넘", "word_id" : 10, "m_begin" : 48, "m_end" : 52},
+		{"id" : 11, "result" : "핫스퍼/NNG+)/SS+,/SP+15/SN+./SF+다엘/NNG", "target" : "핫스퍼),15.다엘", "word_id" : 11, "m_begin" : 53, "m_end" : 58},
+		{"id" : 12, "result" : "프라이/NNG+(/SS+미들즈브러/NNG+)/SS", "target" : "프라이(미들즈브러)", "word_id" : 12, "m_begin" : 59, "m_end" : 62}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "수비수", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "2", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 11, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "존조", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 5, "end" : 5},
+		{"id" : 5, "text" : "케니", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 7, "end" : 7},
+		{"id" : 7, "text" : "에버튼", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 27, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 36, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 37, "begin" : 10, "end" : 10},
+		{"id" : 10, "text" : "3", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 40, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : "칼럼", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 41, "begin" : 13, "end" : 13},
+		{"id" : 13, "text" : "코놀리", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 48, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 57, "begin" : 15, "end" : 15},
+		{"id" : 15, "text" : "에버튼", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 58, "begin" : 16, "end" : 16},
+		{"id" : 16, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 17, "end" : 17},
+		{"id" : 17, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 68, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : "5", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 19, "end" : 19},
+		{"id" : 19, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 71, "begin" : 20, "end" : 20},
+		{"id" : 20, "text" : "피카요", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 72, "begin" : 21, "end" : 21},
+		{"id" : 21, "text" : "토모리", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 82, "begin" : 22, "end" : 22},
+		{"id" : 22, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 91, "begin" : 23, "end" : 23},
+		{"id" : 23, "text" : "첼시", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 92, "begin" : 24, "end" : 24},
+		{"id" : 24, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 98, "begin" : 25, "end" : 25},
+		{"id" : 25, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 99, "begin" : 26, "end" : 26},
+		{"id" : 26, "text" : "6", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 101, "begin" : 27, "end" : 27},
+		{"id" : 27, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 102, "begin" : 28, "end" : 28},
+		{"id" : 28, "text" : "제이크", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 103, "begin" : 29, "end" : 29},
+		{"id" : 29, "text" : "클라크", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 113, "begin" : 30, "end" : 30},
+		{"id" : 30, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 122, "begin" : 31, "end" : 31},
+		{"id" : 31, "text" : "슬레이터", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 123, "begin" : 32, "end" : 32},
+		{"id" : 32, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 135, "begin" : 33, "end" : 33},
+		{"id" : 33, "text" : "첼시", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 136, "begin" : 34, "end" : 34},
+		{"id" : 34, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 142, "begin" : 35, "end" : 35},
+		{"id" : 35, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 143, "begin" : 36, "end" : 36},
+		{"id" : 36, "text" : "12", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 37, "end" : 37},
+		{"id" : 37, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 146, "begin" : 38, "end" : 38},
+		{"id" : 38, "text" : "리코", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 147, "begin" : 39, "end" : 39},
+		{"id" : 39, "text" : "헨리", "type" : "NNP", "scode" : "04", "weight" : 1, "position" : 154, "begin" : 40, "end" : 40},
+		{"id" : 40, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 160, "begin" : 41, "end" : 41},
+		{"id" : 41, "text" : "브렌트포드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 161, "begin" : 42, "end" : 42},
+		{"id" : 42, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 176, "begin" : 43, "end" : 43},
+		{"id" : 43, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 177, "begin" : 44, "end" : 44},
+		{"id" : 44, "text" : "14", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 178, "begin" : 45, "end" : 45},
+		{"id" : 45, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 180, "begin" : 46, "end" : 46},
+		{"id" : 46, "text" : "카일", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 181, "begin" : 47, "end" : 47},
+		{"id" : 47, "text" : "워커", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 188, "begin" : 48, "end" : 48},
+		{"id" : 48, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 194, "begin" : 49, "end" : 49},
+		{"id" : 49, "text" : "피터스", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 195, "begin" : 50, "end" : 50},
+		{"id" : 50, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 204, "begin" : 51, "end" : 51},
+		{"id" : 51, "text" : "토트넘", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 205, "begin" : 52, "end" : 52},
+		{"id" : 52, "text" : "핫스퍼", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 215, "begin" : 53, "end" : 53},
+		{"id" : 53, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 224, "begin" : 54, "end" : 54},
+		{"id" : 54, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 225, "begin" : 55, "end" : 55},
+		{"id" : 55, "text" : "15", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 226, "begin" : 56, "end" : 56},
+		{"id" : 56, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 228, "begin" : 57, "end" : 57},
+		{"id" : 57, "text" : "다엘", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 229, "begin" : 58, "end" : 58},
+		{"id" : 58, "text" : "프라이", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 236, "begin" : 59, "end" : 59},
+		{"id" : 59, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 245, "begin" : 60, "end" : 60},
+		{"id" : 60, "text" : "미들즈브러", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 246, "begin" : 61, "end" : 61},
+		{"id" : 61, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 261, "begin" : 62, "end" : 62}
+	],
+	"word" : [
+		{"id" : 0, "text" : "수비수:", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "2.존조", "type" : "", "begin" : 3, "end" : 5},
+		{"id" : 2, "text" : "케니(에버튼),", "type" : "", "begin" : 6, "end" : 10},
+		{"id" : 3, "text" : "3.칼럼", "type" : "", "begin" : 11, "end" : 13},
+		{"id" : 4, "text" : "코놀리(에버튼),", "type" : "", "begin" : 14, "end" : 18},
+		{"id" : 5, "text" : "5.피카요", "type" : "", "begin" : 19, "end" : 21},
+		{"id" : 6, "text" : "토모리(첼시),", "type" : "", "begin" : 22, "end" : 26},
+		{"id" : 7, "text" : "6.제이크", "type" : "", "begin" : 27, "end" : 29},
+		{"id" : 8, "text" : "클라크-슬레이터(첼시),12.리코", "type" : "", "begin" : 30, "end" : 39},
+		{"id" : 9, "text" : "헨리(브렌트포드),14.카일", "type" : "", "begin" : 40, "end" : 47},
+		{"id" : 10, "text" : "워커-피터스(토트넘", "type" : "", "begin" : 48, "end" : 52},
+		{"id" : 11, "text" : "핫스퍼),15.다엘", "type" : "", "begin" : 53, "end" : 58},
+		{"id" : 12, "text" : "프라이(미들즈브러)", "type" : "", "begin" : 59, "end" : 62}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "수비수", "type" : "CV_POSITION", "begin" : 0, "end" : 1, "weight" : 0.653053, "common_noun" : 0},
+		{"id" : 1, "text" : "2", "type" : "QT_ORDER", "begin" : 3, "end" : 3, "weight" : 0.454843, "common_noun" : 0},
+		{"id" : 2, "text" : "존조 케니", "type" : "PS_NAME", "begin" : 5, "end" : 6, "weight" : 0.138168, "common_noun" : 0},
+		{"id" : 3, "text" : "에버튼", "type" : "OGG_SPORTS", "begin" : 8, "end" : 8, "weight" : 0.197916, "common_noun" : 0},
+		{"id" : 4, "text" : "3", "type" : "QT_ORDER", "begin" : 11, "end" : 11, "weight" : 0.376832, "common_noun" : 0},
+		{"id" : 5, "text" : "코놀리", "type" : "PS_NAME", "begin" : 14, "end" : 14, "weight" : 0.33519, "common_noun" : 0},
+		{"id" : 6, "text" : "에버튼", "type" : "OGG_SPORTS", "begin" : 16, "end" : 16, "weight" : 0.229706, "common_noun" : 0},
+		{"id" : 7, "text" : "5", "type" : "QT_ORDER", "begin" : 19, "end" : 19, "weight" : 0.383698, "common_noun" : 0},
+		{"id" : 8, "text" : "피카요 토모리", "type" : "PS_NAME", "begin" : 21, "end" : 22, "weight" : 0.12673, "common_noun" : 0},
+		{"id" : 9, "text" : "첼시", "type" : "OGG_SPORTS", "begin" : 24, "end" : 24, "weight" : 0.280496, "common_noun" : 0},
+		{"id" : 10, "text" : "6", "type" : "QT_ORDER", "begin" : 27, "end" : 27, "weight" : 0.402882, "common_noun" : 0},
+		{"id" : 11, "text" : "제이크 클라크", "type" : "PS_NAME", "begin" : 29, "end" : 30, "weight" : 0.177532, "common_noun" : 0},
+		{"id" : 12, "text" : "슬레이터", "type" : "PS_NAME", "begin" : 32, "end" : 32, "weight" : 0.278659, "common_noun" : 0},
+		{"id" : 13, "text" : "첼시", "type" : "OGG_SPORTS", "begin" : 34, "end" : 34, "weight" : 0.299912, "common_noun" : 0},
+		{"id" : 14, "text" : "12", "type" : "QT_ORDER", "begin" : 37, "end" : 37, "weight" : 0.2238, "common_noun" : 0},
+		{"id" : 15, "text" : "리코", "type" : "AFW_MUSIC", "begin" : 39, "end" : 39, "weight" : 0.0983038, "common_noun" : 0},
+		{"id" : 16, "text" : "헨리", "type" : "PS_NAME", "begin" : 40, "end" : 40, "weight" : 0.335798, "common_noun" : 0},
+		{"id" : 17, "text" : "브렌트포드", "type" : "LCP_CITY", "begin" : 42, "end" : 42, "weight" : 0.11886, "common_noun" : 0},
+		{"id" : 18, "text" : "14", "type" : "QT_ORDER", "begin" : 45, "end" : 45, "weight" : 0.233787, "common_noun" : 0},
+		{"id" : 19, "text" : "카일 워커-피터스", "type" : "PS_NAME", "begin" : 47, "end" : 50, "weight" : 0.216611, "common_noun" : 0},
+		{"id" : 20, "text" : "토트넘 핫스퍼", "type" : "OGG_SPORTS", "begin" : 52, "end" : 53, "weight" : 0.453767, "common_noun" : 0},
+		{"id" : 21, "text" : "15", "type" : "QT_ORDER", "begin" : 56, "end" : 56, "weight" : 0.277162, "common_noun" : 0},
+		{"id" : 22, "text" : "미들즈브러", "type" : "OGG_SPORTS", "begin" : 61, "end" : 61, "weight" : 0.243649, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "수비수:", "head" : 12, "label" : "NP_CNJ", "mod" : [], "weight" : 0.127045 },
+		{"id" : 1, "text" : "2.존조", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.761818 },
+		{"id" : 2, "text" : "케니(에버튼),", "head" : 12, "label" : "NP_CNJ", "mod" : [1], "weight" : 0.278973 },
+		{"id" : 3, "text" : "3.칼럼", "head" : 4, "label" : "NP", "mod" : [], "weight" : 0.739476 },
+		{"id" : 4, "text" : "코놀리(에버튼),", "head" : 12, "label" : "NP_CNJ", "mod" : [3], "weight" : 0.445449 },
+		{"id" : 5, "text" : "5.피카요", "head" : 6, "label" : "NP", "mod" : [], "weight" : 0.710783 },
+		{"id" : 6, "text" : "토모리(첼시),", "head" : 12, "label" : "NP_CNJ", "mod" : [5], "weight" : 0.41686 },
+		{"id" : 7, "text" : "6.제이크", "head" : 8, "label" : "NP", "mod" : [], "weight" : 0.71299 },
+		{"id" : 8, "text" : "클라크-슬레이터(첼시),12.리코", "head" : 9, "label" : "NP", "mod" : [7], "weight" : 0.251691 },
+		{"id" : 9, "text" : "헨리(브렌트포드),14.카일", "head" : 10, "label" : "NP", "mod" : [8], "weight" : 0.668164 },
+		{"id" : 10, "text" : "워커-피터스(토트넘", "head" : 11, "label" : "NP", "mod" : [9], "weight" : 0.184182 },
+		{"id" : 11, "text" : "핫스퍼),15.다엘", "head" : 12, "label" : "NP", "mod" : [10], "weight" : 0.526883 },
+		{"id" : 12, "text" : "프라이(미들즈브러)", "head" : -1, "label" : "NP", "mod" : [0, 2, 4, 6, 11], "weight" : 1.63966e-05 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "수비수: 2.존조 케니(에버튼), 3.칼럼 코놀리(에버튼), 5.피카요 토모리(첼시), 6.제이크 클라크-슬레이터(첼시),12.리코 헨리(브렌트포드),14.카일 워커-피터스(토트넘 핫스퍼),15.다엘 프라이(미들즈브러)", "begin" : 0, "end" : 12, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, 
+			"element" : [
+				{ "text" : "수비수", "label" : "NP", "begin" : 0, "end" : 1, "ne_type" : "CV_POSITION" },
+				{ "text" : "2.존조 케니(에버튼)", "label" : "NP", "begin" : 3, "end" : 9, "ne_type" : "" },
+				{ "text" : "3.칼럼 코놀리(에버튼)", "label" : "NP", "begin" : 11, "end" : 17, "ne_type" : "" },
+				{ "text" : "5.피카요 토모리(첼시)", "label" : "NP", "begin" : 19, "end" : 25, "ne_type" : "" },
+				{ "text" : "6.제이크 클라크-슬레이터(첼시),12.리코 헨리(브렌트포드),14.카일 워커-피터스(토트넘 핫스퍼),15.다엘 프라이(미들즈브러)", "label" : "NP", "begin" : 27, "end" : 62, "ne_type" : "" }
+			] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "미드필더: 5.루이스 쿡(본머스), 7.조쉬 오노마(토트넘 핫스퍼), 8.에인슬리 메잇랜드-나일스(아스널), 18.키에런 도웰(에버튼), 19.셰이 오조(리버풀), 20.오비 에자리아(리버풀)",
+	"morp" : [
+		{"id" : 0, "lemma" : "미드필더", "type" : "NNG", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : ":", "type" : "SP", "position" : 12, "weight" : 1 },
+		{"id" : 2, "lemma" : "5", "type" : "SN", "position" : 14, "weight" : 1 },
+		{"id" : 3, "lemma" : ".", "type" : "SF", "position" : 15, "weight" : 1 },
+		{"id" : 4, "lemma" : "루이스", "type" : "NNP", "position" : 16, "weight" : 0.9 },
+		{"id" : 5, "lemma" : "쿡", "type" : "NNG", "position" : 26, "weight" : 0.0132183 },
+		{"id" : 6, "lemma" : "(", "type" : "SS", "position" : 29, "weight" : 1 },
+		{"id" : 7, "lemma" : "본머스", "type" : "NNP", "position" : 30, "weight" : 0.6 },
+		{"id" : 8, "lemma" : ")", "type" : "SS", "position" : 39, "weight" : 1 },
+		{"id" : 9, "lemma" : ",", "type" : "SP", "position" : 40, "weight" : 1 },
+		{"id" : 10, "lemma" : "7", "type" : "SN", "position" : 42, "weight" : 1 },
+		{"id" : 11, "lemma" : ".", "type" : "SF", "position" : 43, "weight" : 1 },
+		{"id" : 12, "lemma" : "조쉬", "type" : "NNP", "position" : 44, "weight" : 0.2 },
+		{"id" : 13, "lemma" : "오노마", "type" : "NNP", "position" : 51, "weight" : 0.6 },
+		{"id" : 14, "lemma" : "(", "type" : "SS", "position" : 60, "weight" : 1 },
+		{"id" : 15, "lemma" : "토트넘", "type" : "NNP", "position" : 61, "weight" : 0.6 },
+		{"id" : 16, "lemma" : "핫스퍼", "type" : "NNP", "position" : 71, "weight" : 0.6 },
+		{"id" : 17, "lemma" : ")", "type" : "SS", "position" : 80, "weight" : 1 },
+		{"id" : 18, "lemma" : ",", "type" : "SP", "position" : 81, "weight" : 1 },
+		{"id" : 19, "lemma" : "8", "type" : "SN", "position" : 83, "weight" : 1 },
+		{"id" : 20, "lemma" : ".", "type" : "SF", "position" : 84, "weight" : 1 },
+		{"id" : 21, "lemma" : "에인슬리", "type" : "NNP", "position" : 85, "weight" : 0.6 },
+		{"id" : 22, "lemma" : "메잇랜드", "type" : "NNP", "position" : 98, "weight" : 0.6 },
+		{"id" : 23, "lemma" : "-", "type" : "SS", "position" : 110, "weight" : 1 },
+		{"id" : 24, "lemma" : "나일스", "type" : "NNP", "position" : 111, "weight" : 0.6 },
+		{"id" : 25, "lemma" : "(", "type" : "SS", "position" : 120, "weight" : 1 },
+		{"id" : 26, "lemma" : "아스널", "type" : "NNP", "position" : 121, "weight" : 0.6 },
+		{"id" : 27, "lemma" : ")", "type" : "SS", "position" : 130, "weight" : 1 },
+		{"id" : 28, "lemma" : ",", "type" : "SP", "position" : 131, "weight" : 1 },
+		{"id" : 29, "lemma" : "18", "type" : "SN", "position" : 133, "weight" : 1 },
+		{"id" : 30, "lemma" : ".", "type" : "SF", "position" : 135, "weight" : 1 },
+		{"id" : 31, "lemma" : "키", "type" : "NNG", "position" : 136, "weight" : 0.00246643 },
+		{"id" : 32, "lemma" : "에런", "type" : "JKB", "position" : 139, "weight" : 0 },
+		{"id" : 33, "lemma" : "도웰", "type" : "NNP", "position" : 146, "weight" : 0.6 },
+		{"id" : 34, "lemma" : "(", "type" : "SS", "position" : 152, "weight" : 1 },
+		{"id" : 35, "lemma" : "에버튼", "type" : "NNP", "position" : 153, "weight" : 0.6 },
+		{"id" : 36, "lemma" : ")", "type" : "SS", "position" : 162, "weight" : 1 },
+		{"id" : 37, "lemma" : ",", "type" : "SP", "position" : 163, "weight" : 1 },
+		{"id" : 38, "lemma" : "19", "type" : "SN", "position" : 165, "weight" : 1 },
+		{"id" : 39, "lemma" : ".", "type" : "SF", "position" : 167, "weight" : 1 },
+		{"id" : 40, "lemma" : "셰", "type" : "NNP", "position" : 168, "weight" : 0.6 },
+		{"id" : 41, "lemma" : "이", "type" : "JKS", "position" : 171, "weight" : 0.0234517 },
+		{"id" : 42, "lemma" : "오조", "type" : "NNG", "position" : 175, "weight" : 0.139495 },
+		{"id" : 43, "lemma" : "(", "type" : "SS", "position" : 181, "weight" : 1 },
+		{"id" : 44, "lemma" : "리버풀", "type" : "NNP", "position" : 182, "weight" : 0.8 },
+		{"id" : 45, "lemma" : ")", "type" : "SS", "position" : 191, "weight" : 1 },
+		{"id" : 46, "lemma" : ",", "type" : "SP", "position" : 192, "weight" : 1 },
+		{"id" : 47, "lemma" : "20", "type" : "SN", "position" : 194, "weight" : 1 },
+		{"id" : 48, "lemma" : ".", "type" : "SF", "position" : 196, "weight" : 1 },
+		{"id" : 49, "lemma" : "오비", "type" : "NNG", "position" : 197, "weight" : 0.000157619 },
+		{"id" : 50, "lemma" : "에자리아", "type" : "NNP", "position" : 204, "weight" : 0.6 },
+		{"id" : 51, "lemma" : "(", "type" : "SS", "position" : 216, "weight" : 1 },
+		{"id" : 52, "lemma" : "리버풀", "type" : "NNP", "position" : 217, "weight" : 0.8 },
+		{"id" : 53, "lemma" : ")", "type" : "SS", "position" : 226, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "미드필더/NNG+:/SP", "target" : "미드필더:", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "5/SN+./SF+루이스/NNG", "target" : "5.루이스", "word_id" : 1, "m_begin" : 2, "m_end" : 4},
+		{"id" : 2, "result" : "쿡/NNG+(/SS+본머스/NNG+)/SS+,/SP", "target" : "쿡(본머스),", "word_id" : 2, "m_begin" : 5, "m_end" : 9},
+		{"id" : 3, "result" : "7/SN+./SF+조쉬/NNG", "target" : "7.조쉬", "word_id" : 3, "m_begin" : 10, "m_end" : 12},
+		{"id" : 4, "result" : "오노마/NNG+(/SS+토트넘/NNG", "target" : "오노마(토트넘", "word_id" : 4, "m_begin" : 13, "m_end" : 15},
+		{"id" : 5, "result" : "핫스퍼/NNG+)/SS+,/SP", "target" : "핫스퍼),", "word_id" : 5, "m_begin" : 16, "m_end" : 18},
+		{"id" : 6, "result" : "8/SN+./SF+에인슬리/NNG", "target" : "8.에인슬리", "word_id" : 6, "m_begin" : 19, "m_end" : 21},
+		{"id" : 7, "result" : "메잇랜드/NNG+-/SS+나일스/NNG+(/SS+아스널/NNG+)/SS+,/SP", "target" : "메잇랜드-나일스(아스널),", "word_id" : 7, "m_begin" : 22, "m_end" : 28},
+		{"id" : 8, "result" : "18/SN+./SF+키/NNG+에런/JKB", "target" : "18.키에런", "word_id" : 8, "m_begin" : 29, "m_end" : 32},
+		{"id" : 9, "result" : "도웰/NNG+(/SS+에버튼/NNG+)/SS+,/SP", "target" : "도웰(에버튼),", "word_id" : 9, "m_begin" : 33, "m_end" : 37},
+		{"id" : 10, "result" : "19/SN+./SF+셰/NNG+이/JKS", "target" : "19.셰이", "word_id" : 10, "m_begin" : 38, "m_end" : 41},
+		{"id" : 11, "result" : "오조/NNG+(/SS+리버풀/NNG+)/SS+,/SP", "target" : "오조(리버풀),", "word_id" : 11, "m_begin" : 42, "m_end" : 46},
+		{"id" : 12, "result" : "20/SN+./SF+오비/NNG", "target" : "20.오비", "word_id" : 12, "m_begin" : 47, "m_end" : 49},
+		{"id" : 13, "result" : "에자리아/NNG+(/SS+리버풀/NNG+)/SS", "target" : "에자리아(리버풀)", "word_id" : 13, "m_begin" : 50, "m_end" : 53}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "미드필더", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "5", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 14, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 15, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "루이스", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 16, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "쿡", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 26, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 29, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "본머스", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 30, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 40, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "7", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 42, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "조쉬", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 44, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "오노마", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 51, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 60, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "토트넘", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 61, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "핫스퍼", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 71, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 80, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "8", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 83, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 84, "begin" : 20, "end" : 20},
+		{"id" : 21, "text" : "에인슬리", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 85, "begin" : 21, "end" : 21},
+		{"id" : 22, "text" : "메잇랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 98, "begin" : 22, "end" : 22},
+		{"id" : 23, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 110, "begin" : 23, "end" : 23},
+		{"id" : 24, "text" : "나일스", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 111, "begin" : 24, "end" : 24},
+		{"id" : 25, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 120, "begin" : 25, "end" : 25},
+		{"id" : 26, "text" : "아스널", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 121, "begin" : 26, "end" : 26},
+		{"id" : 27, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 130, "begin" : 27, "end" : 27},
+		{"id" : 28, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 131, "begin" : 28, "end" : 28},
+		{"id" : 29, "text" : "18", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 133, "begin" : 29, "end" : 29},
+		{"id" : 30, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 135, "begin" : 30, "end" : 30},
+		{"id" : 31, "text" : "키", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 136, "begin" : 31, "end" : 31},
+		{"id" : 32, "text" : "에런", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 139, "begin" : 32, "end" : 32},
+		{"id" : 33, "text" : "도웰", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 146, "begin" : 33, "end" : 33},
+		{"id" : 34, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 152, "begin" : 34, "end" : 34},
+		{"id" : 35, "text" : "에버튼", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 153, "begin" : 35, "end" : 35},
+		{"id" : 36, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 162, "begin" : 36, "end" : 36},
+		{"id" : 37, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 163, "begin" : 37, "end" : 37},
+		{"id" : 38, "text" : "19", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 165, "begin" : 38, "end" : 38},
+		{"id" : 39, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 167, "begin" : 39, "end" : 39},
+		{"id" : 40, "text" : "셰", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 168, "begin" : 40, "end" : 40},
+		{"id" : 41, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 171, "begin" : 41, "end" : 41},
+		{"id" : 42, "text" : "오조", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 175, "begin" : 42, "end" : 42},
+		{"id" : 43, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 181, "begin" : 43, "end" : 43},
+		{"id" : 44, "text" : "리버풀", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 182, "begin" : 44, "end" : 44},
+		{"id" : 45, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 191, "begin" : 45, "end" : 45},
+		{"id" : 46, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 192, "begin" : 46, "end" : 46},
+		{"id" : 47, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 194, "begin" : 47, "end" : 47},
+		{"id" : 48, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 196, "begin" : 48, "end" : 48},
+		{"id" : 49, "text" : "오비", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 197, "begin" : 49, "end" : 49},
+		{"id" : 50, "text" : "에자리아", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 204, "begin" : 50, "end" : 50},
+		{"id" : 51, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 216, "begin" : 51, "end" : 51},
+		{"id" : 52, "text" : "리버풀", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 217, "begin" : 52, "end" : 52},
+		{"id" : 53, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 226, "begin" : 53, "end" : 53}
+	],
+	"word" : [
+		{"id" : 0, "text" : "미드필더:", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "5.루이스", "type" : "", "begin" : 2, "end" : 4},
+		{"id" : 2, "text" : "쿡(본머스),", "type" : "", "begin" : 5, "end" : 9},
+		{"id" : 3, "text" : "7.조쉬", "type" : "", "begin" : 10, "end" : 12},
+		{"id" : 4, "text" : "오노마(토트넘", "type" : "", "begin" : 13, "end" : 15},
+		{"id" : 5, "text" : "핫스퍼),", "type" : "", "begin" : 16, "end" : 18},
+		{"id" : 6, "text" : "8.에인슬리", "type" : "", "begin" : 19, "end" : 21},
+		{"id" : 7, "text" : "메잇랜드-나일스(아스널),", "type" : "", "begin" : 22, "end" : 28},
+		{"id" : 8, "text" : "18.키에런", "type" : "", "begin" : 29, "end" : 32},
+		{"id" : 9, "text" : "도웰(에버튼),", "type" : "", "begin" : 33, "end" : 37},
+		{"id" : 10, "text" : "19.셰이", "type" : "", "begin" : 38, "end" : 41},
+		{"id" : 11, "text" : "오조(리버풀),", "type" : "", "begin" : 42, "end" : 46},
+		{"id" : 12, "text" : "20.오비", "type" : "", "begin" : 47, "end" : 49},
+		{"id" : 13, "text" : "에자리아(리버풀)", "type" : "", "begin" : 50, "end" : 53}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "미드필더", "type" : "CV_POSITION", "begin" : 0, "end" : 0, "weight" : 0.216572, "common_noun" : 0},
+		{"id" : 1, "text" : "5", "type" : "QT_ORDER", "begin" : 2, "end" : 2, "weight" : 0.321569, "common_noun" : 0},
+		{"id" : 2, "text" : "루이스 쿡", "type" : "PS_NAME", "begin" : 4, "end" : 5, "weight" : 0.253947, "common_noun" : 0},
+		{"id" : 3, "text" : "본머스", "type" : "LCP_CITY", "begin" : 7, "end" : 7, "weight" : 1, "common_noun" : 0},
+		{"id" : 4, "text" : "7", "type" : "QT_ORDER", "begin" : 10, "end" : 10, "weight" : 0.48195, "common_noun" : 0},
+		{"id" : 5, "text" : "조쉬 오노마", "type" : "PS_NAME", "begin" : 12, "end" : 13, "weight" : 0.175734, "common_noun" : 0},
+		{"id" : 6, "text" : "토트넘 핫스퍼", "type" : "OGG_SPORTS", "begin" : 15, "end" : 16, "weight" : 0.430595, "common_noun" : 0},
+		{"id" : 7, "text" : "8", "type" : "QT_ORDER", "begin" : 19, "end" : 19, "weight" : 0.392538, "common_noun" : 0},
+		{"id" : 8, "text" : "에인슬리 메잇랜드-나일스", "type" : "OGG_SPORTS", "begin" : 21, "end" : 24, "weight" : 0.0738675, "common_noun" : 0},
+		{"id" : 9, "text" : "아스널", "type" : "OGG_SPORTS", "begin" : 26, "end" : 26, "weight" : 0.297457, "common_noun" : 0},
+		{"id" : 10, "text" : "18", "type" : "QT_ORDER", "begin" : 29, "end" : 29, "weight" : 0.311416, "common_noun" : 0},
+		{"id" : 11, "text" : "키에런 도웰", "type" : "PS_NAME", "begin" : 31, "end" : 33, "weight" : 0.251046, "common_noun" : 0},
+		{"id" : 12, "text" : "에버튼", "type" : "OGG_SPORTS", "begin" : 35, "end" : 35, "weight" : 0.178599, "common_noun" : 0},
+		{"id" : 13, "text" : "19", "type" : "QT_ORDER", "begin" : 38, "end" : 38, "weight" : 0.355877, "common_noun" : 0},
+		{"id" : 14, "text" : "셰이 오조", "type" : "PS_NAME", "begin" : 40, "end" : 42, "weight" : 0.243677, "common_noun" : 0},
+		{"id" : 15, "text" : "리버풀", "type" : "OGG_SPORTS", "begin" : 44, "end" : 44, "weight" : 0.344592, "common_noun" : 0},
+		{"id" : 16, "text" : "20", "type" : "QT_ORDER", "begin" : 47, "end" : 47, "weight" : 0.42125, "common_noun" : 0},
+		{"id" : 17, "text" : "오비 에자리아", "type" : "AFW_MUSIC", "begin" : 49, "end" : 50, "weight" : 0.0996293, "common_noun" : 0},
+		{"id" : 18, "text" : "리버풀", "type" : "OGG_SPORTS", "begin" : 52, "end" : 52, "weight" : 0.336842, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "미드필더:", "head" : 13, "label" : "NP", "mod" : [], "weight" : 0.712509 },
+		{"id" : 1, "text" : "5.루이스", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.784641 },
+		{"id" : 2, "text" : "쿡(본머스),", "head" : 13, "label" : "NP_CNJ", "mod" : [1], "weight" : 0.612069 },
+		{"id" : 3, "text" : "7.조쉬", "head" : 4, "label" : "NP", "mod" : [], "weight" : 0.509632 },
+		{"id" : 4, "text" : "오노마(토트넘", "head" : 5, "label" : "NP", "mod" : [3], "weight" : 0.817706 },
+		{"id" : 5, "text" : "핫스퍼),", "head" : 13, "label" : "NP_CNJ", "mod" : [4], "weight" : 0.0325412 },
+		{"id" : 6, "text" : "8.에인슬리", "head" : 7, "label" : "NP", "mod" : [], "weight" : 0.730457 },
+		{"id" : 7, "text" : "메잇랜드-나일스(아스널),", "head" : 13, "label" : "NP_CNJ", "mod" : [6], "weight" : 0.510033 },
+		{"id" : 8, "text" : "18.키에런", "head" : 9, "label" : "NP_AJT", "mod" : [], "weight" : 0.727612 },
+		{"id" : 9, "text" : "도웰(에버튼),", "head" : 13, "label" : "NP_CNJ", "mod" : [8], "weight" : 0.46393 },
+		{"id" : 10, "text" : "19.셰이", "head" : 11, "label" : "NP_SBJ", "mod" : [], "weight" : 0.293016 },
+		{"id" : 11, "text" : "오조(리버풀),", "head" : 13, "label" : "NP_CNJ", "mod" : [10], "weight" : 0.119922 },
+		{"id" : 12, "text" : "20.오비", "head" : 13, "label" : "NP", "mod" : [], "weight" : 0.806681 },
+		{"id" : 13, "text" : "에자리아(리버풀)", "head" : -1, "label" : "NP", "mod" : [0, 2, 5, 7, 9, 11, 12], "weight" : 9.74967e-06 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "미드필더: 5.루이스 쿡(본머스), 7.조쉬 오노마(토트넘 핫스퍼), 8.에인슬리 메잇랜드-나일스(아스널), 18.키에런 도웰(에버튼), 19.셰이 오조(리버풀), 20.오비 에자리아(리버풀)", "begin" : 0, "end" : 13, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "공격수: 9.아담 암스트롱(뉴캐슬 유나이티드), 10.도미닉 솔랑케(첼시), 11.아데몰라 루크만(에버튼), 16.도미닉 칼버트-르윈(에버튼), 17.해리슨 채프먼(미들즈브러),",
+	"morp" : [
+		{"id" : 0, "lemma" : "공격", "type" : "NNG", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "수", "type" : "XSN", "position" : 6, "weight" : 0.0001 },
+		{"id" : 2, "lemma" : ":", "type" : "SP", "position" : 9, "weight" : 1 },
+		{"id" : 3, "lemma" : "9", "type" : "SN", "position" : 11, "weight" : 1 },
+		{"id" : 4, "lemma" : ".", "type" : "SF", "position" : 12, "weight" : 1 },
+		{"id" : 5, "lemma" : "아담", "type" : "NNG", "position" : 13, "weight" : 0.000466378 },
+		{"id" : 6, "lemma" : "암스트롱", "type" : "NNP", "position" : 20, "weight" : 0.9 },
+		{"id" : 7, "lemma" : "(", "type" : "SS", "position" : 32, "weight" : 1 },
+		{"id" : 8, "lemma" : "뉴캐슬", "type" : "NNP", "position" : 33, "weight" : 0.1 },
+		{"id" : 9, "lemma" : "유나이티드", "type" : "NNG", "position" : 43, "weight" : 0.240215 },
+		{"id" : 10, "lemma" : ")", "type" : "SS", "position" : 58, "weight" : 1 },
+		{"id" : 11, "lemma" : ",", "type" : "SP", "position" : 59, "weight" : 1 },
+		{"id" : 12, "lemma" : "10", "type" : "SN", "position" : 61, "weight" : 1 },
+		{"id" : 13, "lemma" : ".", "type" : "SF", "position" : 63, "weight" : 1 },
+		{"id" : 14, "lemma" : "도미닉", "type" : "NNP", "position" : 64, "weight" : 0.6 },
+		{"id" : 15, "lemma" : "솔랑케", "type" : "NNP", "position" : 74, "weight" : 0.6 },
+		{"id" : 16, "lemma" : "(", "type" : "SS", "position" : 83, "weight" : 1 },
+		{"id" : 17, "lemma" : "첼시", "type" : "NNP", "position" : 84, "weight" : 0.4 },
+		{"id" : 18, "lemma" : ")", "type" : "SS", "position" : 90, "weight" : 1 },
+		{"id" : 19, "lemma" : ",", "type" : "SP", "position" : 91, "weight" : 1 },
+		{"id" : 20, "lemma" : "11", "type" : "SN", "position" : 93, "weight" : 1 },
+		{"id" : 21, "lemma" : ".", "type" : "SF", "position" : 95, "weight" : 1 },
+		{"id" : 22, "lemma" : "아데", "type" : "EC", "position" : 96, "weight" : 0 },
+		{"id" : 23, "lemma" : "모르", "type" : "VV", "position" : 102, "weight" : 0.22656 },
+		{"id" : 24, "lemma" : "아", "type" : "EC", "position" : 102, "weight" : 0.398809 },
+		{"id" : 25, "lemma" : "루크만", "type" : "NNP", "position" : 109, "weight" : 0.6 },
+		{"id" : 26, "lemma" : "(", "type" : "SS", "position" : 118, "weight" : 1 },
+		{"id" : 27, "lemma" : "에버튼", "type" : "NNP", "position" : 119, "weight" : 0.6 },
+		{"id" : 28, "lemma" : ")", "type" : "SS", "position" : 128, "weight" : 1 },
+		{"id" : 29, "lemma" : ",", "type" : "SP", "position" : 129, "weight" : 1 },
+		{"id" : 30, "lemma" : "16", "type" : "SN", "position" : 131, "weight" : 1 },
+		{"id" : 31, "lemma" : ".", "type" : "SF", "position" : 133, "weight" : 1 },
+		{"id" : 32, "lemma" : "도미닉", "type" : "NNP", "position" : 134, "weight" : 0.6 },
+		{"id" : 33, "lemma" : "칼버트", "type" : "NNP", "position" : 144, "weight" : 0.6 },
+		{"id" : 34, "lemma" : "-", "type" : "SS", "position" : 153, "weight" : 1 },
+		{"id" : 35, "lemma" : "르윈", "type" : "NNP", "position" : 154, "weight" : 0.15 },
+		{"id" : 36, "lemma" : "(", "type" : "SS", "position" : 160, "weight" : 1 },
+		{"id" : 37, "lemma" : "에버튼", "type" : "NNP", "position" : 161, "weight" : 0.6 },
+		{"id" : 38, "lemma" : ")", "type" : "SS", "position" : 170, "weight" : 1 },
+		{"id" : 39, "lemma" : ",", "type" : "SP", "position" : 171, "weight" : 1 },
+		{"id" : 40, "lemma" : "17", "type" : "SN", "position" : 173, "weight" : 1 },
+		{"id" : 41, "lemma" : ".", "type" : "SF", "position" : 175, "weight" : 1 },
+		{"id" : 42, "lemma" : "해리슨", "type" : "NNP", "position" : 176, "weight" : 0.9 },
+		{"id" : 43, "lemma" : "채프먼", "type" : "NNP", "position" : 186, "weight" : 0.15 },
+		{"id" : 44, "lemma" : "(", "type" : "SS", "position" : 195, "weight" : 1 },
+		{"id" : 45, "lemma" : "미들즈브러", "type" : "NNP", "position" : 196, "weight" : 0.6 },
+		{"id" : 46, "lemma" : ")", "type" : "SS", "position" : 211, "weight" : 1 },
+		{"id" : 47, "lemma" : ",", "type" : "SP", "position" : 212, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "공격수/NNG+:/SP", "target" : "공격수:", "word_id" : 0, "m_begin" : 0, "m_end" : 2},
+		{"id" : 1, "result" : "9/SN+./SF+아담/NNG", "target" : "9.아담", "word_id" : 1, "m_begin" : 3, "m_end" : 5},
+		{"id" : 2, "result" : "암스트롱/NNG+(/SS+뉴캐슬/NNG", "target" : "암스트롱(뉴캐슬", "word_id" : 2, "m_begin" : 6, "m_end" : 8},
+		{"id" : 3, "result" : "유나이티드/NNG+)/SS+,/SP", "target" : "유나이티드),", "word_id" : 3, "m_begin" : 9, "m_end" : 11},
+		{"id" : 4, "result" : "10/SN+./SF+도미닉/NNG", "target" : "10.도미닉", "word_id" : 4, "m_begin" : 12, "m_end" : 14},
+		{"id" : 5, "result" : "솔랑케/NNG+(/SS+첼시/NNG+)/SS+,/SP", "target" : "솔랑케(첼시),", "word_id" : 5, "m_begin" : 15, "m_end" : 19},
+		{"id" : 6, "result" : "11/SN+./SF+아데/EC+모르/VV+어/EC", "target" : "11.아데몰라", "word_id" : 6, "m_begin" : 20, "m_end" : 24},
+		{"id" : 7, "result" : "루크만/NNG+(/SS+에버튼/NNG+)/SS+,/SP", "target" : "루크만(에버튼),", "word_id" : 7, "m_begin" : 25, "m_end" : 29},
+		{"id" : 8, "result" : "16/SN+./SF+도미닉/NNG", "target" : "16.도미닉", "word_id" : 8, "m_begin" : 30, "m_end" : 32},
+		{"id" : 9, "result" : "칼버트/NNG+-/SS+르윈/NNG+(/SS+에버튼/NNG+)/SS+,/SP", "target" : "칼버트-르윈(에버튼),", "word_id" : 9, "m_begin" : 33, "m_end" : 39},
+		{"id" : 10, "result" : "17/SN+./SF+해리슨/NNG", "target" : "17.해리슨", "word_id" : 10, "m_begin" : 40, "m_end" : 42},
+		{"id" : 11, "result" : "채프먼/NNG+(/SS+미들즈브러/NNG+)/SS+,/SP", "target" : "채프먼(미들즈브러),", "word_id" : 11, "m_begin" : 43, "m_end" : 47}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "공격수", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "9", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 11, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "아담", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 13, "begin" : 5, "end" : 5},
+		{"id" : 5, "text" : "암스트롱", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 20, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 7, "end" : 7},
+		{"id" : 7, "text" : "뉴캐슬", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 33, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : "유나이티드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 43, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 58, "begin" : 10, "end" : 10},
+		{"id" : 10, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 59, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "10", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 13, "end" : 13},
+		{"id" : 13, "text" : "도미닉", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 64, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "솔랑케", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 74, "begin" : 15, "end" : 15},
+		{"id" : 15, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 83, "begin" : 16, "end" : 16},
+		{"id" : 16, "text" : "첼시", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 84, "begin" : 17, "end" : 17},
+		{"id" : 17, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 90, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 91, "begin" : 19, "end" : 19},
+		{"id" : 19, "text" : "11", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 93, "begin" : 20, "end" : 20},
+		{"id" : 20, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 95, "begin" : 21, "end" : 21},
+		{"id" : 21, "text" : "아데", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 96, "begin" : 22, "end" : 22},
+		{"id" : 22, "text" : "모르", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 102, "begin" : 23, "end" : 23},
+		{"id" : 23, "text" : "아", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 102, "begin" : 24, "end" : 24},
+		{"id" : 24, "text" : "루크만", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 109, "begin" : 25, "end" : 25},
+		{"id" : 25, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 118, "begin" : 26, "end" : 26},
+		{"id" : 26, "text" : "에버튼", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 119, "begin" : 27, "end" : 27},
+		{"id" : 27, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 128, "begin" : 28, "end" : 28},
+		{"id" : 28, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 129, "begin" : 29, "end" : 29},
+		{"id" : 29, "text" : "16", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 131, "begin" : 30, "end" : 30},
+		{"id" : 30, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 133, "begin" : 31, "end" : 31},
+		{"id" : 31, "text" : "도미닉", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 134, "begin" : 32, "end" : 32},
+		{"id" : 32, "text" : "칼버트", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 144, "begin" : 33, "end" : 33},
+		{"id" : 33, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 153, "begin" : 34, "end" : 34},
+		{"id" : 34, "text" : "르윈", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 154, "begin" : 35, "end" : 35},
+		{"id" : 35, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 160, "begin" : 36, "end" : 36},
+		{"id" : 36, "text" : "에버튼", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 161, "begin" : 37, "end" : 37},
+		{"id" : 37, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 170, "begin" : 38, "end" : 38},
+		{"id" : 38, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 171, "begin" : 39, "end" : 39},
+		{"id" : 39, "text" : "17", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 173, "begin" : 40, "end" : 40},
+		{"id" : 40, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 175, "begin" : 41, "end" : 41},
+		{"id" : 41, "text" : "해리슨", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 176, "begin" : 42, "end" : 42},
+		{"id" : 42, "text" : "채프먼", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 186, "begin" : 43, "end" : 43},
+		{"id" : 43, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 195, "begin" : 44, "end" : 44},
+		{"id" : 44, "text" : "미들즈브러", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 196, "begin" : 45, "end" : 45},
+		{"id" : 45, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 211, "begin" : 46, "end" : 46},
+		{"id" : 46, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 212, "begin" : 47, "end" : 47}
+	],
+	"word" : [
+		{"id" : 0, "text" : "공격수:", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "9.아담", "type" : "", "begin" : 3, "end" : 5},
+		{"id" : 2, "text" : "암스트롱(뉴캐슬", "type" : "", "begin" : 6, "end" : 8},
+		{"id" : 3, "text" : "유나이티드),", "type" : "", "begin" : 9, "end" : 11},
+		{"id" : 4, "text" : "10.도미닉", "type" : "", "begin" : 12, "end" : 14},
+		{"id" : 5, "text" : "솔랑케(첼시),", "type" : "", "begin" : 15, "end" : 19},
+		{"id" : 6, "text" : "11.아데몰라", "type" : "", "begin" : 20, "end" : 24},
+		{"id" : 7, "text" : "루크만(에버튼),", "type" : "", "begin" : 25, "end" : 29},
+		{"id" : 8, "text" : "16.도미닉", "type" : "", "begin" : 30, "end" : 32},
+		{"id" : 9, "text" : "칼버트-르윈(에버튼),", "type" : "", "begin" : 33, "end" : 39},
+		{"id" : 10, "text" : "17.해리슨", "type" : "", "begin" : 40, "end" : 42},
+		{"id" : 11, "text" : "채프먼(미들즈브러),", "type" : "", "begin" : 43, "end" : 47}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "공격수", "type" : "CV_POSITION", "begin" : 0, "end" : 1, "weight" : 0.743092, "common_noun" : 0},
+		{"id" : 1, "text" : "9", "type" : "QT_ORDER", "begin" : 3, "end" : 3, "weight" : 0.450204, "common_noun" : 0},
+		{"id" : 2, "text" : "아담 암스트롱", "type" : "PS_NAME", "begin" : 5, "end" : 6, "weight" : 0.211648, "common_noun" : 0},
+		{"id" : 3, "text" : "뉴캐슬 유나이티드", "type" : "OGG_SPORTS", "begin" : 8, "end" : 9, "weight" : 0.337052, "common_noun" : 0},
+		{"id" : 4, "text" : "10", "type" : "QT_ORDER", "begin" : 12, "end" : 12, "weight" : 0.371171, "common_noun" : 0},
+		{"id" : 5, "text" : "도미닉 솔랑케", "type" : "AFW_MUSIC", "begin" : 14, "end" : 15, "weight" : 0.101571, "common_noun" : 0},
+		{"id" : 6, "text" : "첼시", "type" : "OGG_SPORTS", "begin" : 17, "end" : 17, "weight" : 0.395215, "common_noun" : 0},
+		{"id" : 7, "text" : "11", "type" : "QT_ORDER", "begin" : 20, "end" : 20, "weight" : 0.257682, "common_noun" : 0},
+		{"id" : 8, "text" : "루크만", "type" : "PS_NAME", "begin" : 25, "end" : 25, "weight" : 0.132975, "common_noun" : 0},
+		{"id" : 9, "text" : "에버튼", "type" : "OGG_SPORTS", "begin" : 27, "end" : 27, "weight" : 0.236457, "common_noun" : 0},
+		{"id" : 10, "text" : "16", "type" : "QT_ORDER", "begin" : 30, "end" : 30, "weight" : 0.353027, "common_noun" : 0},
+		{"id" : 11, "text" : "도미닉", "type" : "OGG_SPORTS", "begin" : 32, "end" : 32, "weight" : 0.229586, "common_noun" : 0},
+		{"id" : 12, "text" : "칼버트-르윈", "type" : "PS_NAME", "begin" : 33, "end" : 35, "weight" : 0.0803843, "common_noun" : 0},
+		{"id" : 13, "text" : "에버튼", "type" : "OGG_SPORTS", "begin" : 37, "end" : 37, "weight" : 0.239884, "common_noun" : 0},
+		{"id" : 14, "text" : "17", "type" : "QT_ORDER", "begin" : 40, "end" : 40, "weight" : 0.357781, "common_noun" : 0},
+		{"id" : 15, "text" : "해리슨 채프먼", "type" : "PS_NAME", "begin" : 42, "end" : 43, "weight" : 0.143041, "common_noun" : 0},
+		{"id" : 16, "text" : "미들즈브러", "type" : "OGG_SPORTS", "begin" : 45, "end" : 45, "weight" : 0.244354, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "공격수:", "head" : 11, "label" : "NP_CNJ", "mod" : [], "weight" : 0.256699 },
+		{"id" : 1, "text" : "9.아담", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.495874 },
+		{"id" : 2, "text" : "암스트롱(뉴캐슬", "head" : 3, "label" : "NP", "mod" : [1], "weight" : 0.810884 },
+		{"id" : 3, "text" : "유나이티드),", "head" : 11, "label" : "NP_PRN", "mod" : [2], "weight" : 0.02194 },
+		{"id" : 4, "text" : "10.도미닉", "head" : 5, "label" : "NP", "mod" : [], "weight" : 0.783319 },
+		{"id" : 5, "text" : "솔랑케(첼시),", "head" : 11, "label" : "NP_CNJ", "mod" : [4], "weight" : 0.599333 },
+		{"id" : 6, "text" : "11.아데몰라", "head" : 11, "label" : "VP", "mod" : [], "weight" : 0.026237 },
+		{"id" : 7, "text" : "루크만(에버튼),", "head" : 11, "label" : "NP_CNJ", "mod" : [], "weight" : 0.53508 },
+		{"id" : 8, "text" : "16.도미닉", "head" : 9, "label" : "NP", "mod" : [], "weight" : 0.69271 },
+		{"id" : 9, "text" : "칼버트-르윈(에버튼),", "head" : 11, "label" : "NP_CNJ", "mod" : [8], "weight" : 0.493925 },
+		{"id" : 10, "text" : "17.해리슨", "head" : 11, "label" : "NP", "mod" : [], "weight" : 0.747963 },
+		{"id" : 11, "text" : "채프먼(미들즈브러),", "head" : -1, "label" : "NP", "mod" : [0, 3, 5, 6, 7, 9, 10], "weight" : 5.61703e-07 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "공격수: 9.아담 암스트롱(뉴캐슬 유나이티드), 10.도미닉 솔랑케(첼시), 11.아데몰라 루크만(에버튼), 16.도미닉 칼버트-르윈(에버튼), 17.해리슨 채프먼(미들즈브러),", "begin" : 0, "end" : 11, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, 
+			"element" : [
+				{ "text" : "공격수", "label" : "NP", "begin" : 0, "end" : 1, "ne_type" : "CV_POSITION" },
+				{ "text" : "10.도미닉 솔랑케(첼시)", "label" : "NP", "begin" : 12, "end" : 18, "ne_type" : "" },
+				{ "text" : "루크만(에버튼)", "label" : "NP", "begin" : 25, "end" : 28, "ne_type" : "" },
+				{ "text" : "16.도미닉 칼버트-르윈(에버튼)", "label" : "NP", "begin" : 30, "end" : 38, "ne_type" : "" },
+				{ "text" : "17.해리슨 채프먼(미들즈브러)", "label" : "NP", "begin" : 40, "end" : 46, "ne_type" : "" }
+			] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "[EPL 영상] 손흥민, EPL 4월의 선수 후보 선정",
+	"morp" : [
+		{"id" : 0, "lemma" : "[", "type" : "SS", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "EPL", "type" : "SL", "position" : 1, "weight" : 1 },
+		{"id" : 2, "lemma" : "영상", "type" : "NNG", "position" : 5, "weight" : 0.9 },
+		{"id" : 3, "lemma" : "]", "type" : "SS", "position" : 11, "weight" : 1 },
+		{"id" : 4, "lemma" : "손흥민", "type" : "NNP", "position" : 13, "weight" : 0.6 },
+		{"id" : 5, "lemma" : ",", "type" : "SP", "position" : 22, "weight" : 1 },
+		{"id" : 6, "lemma" : "EPL", "type" : "SL", "position" : 24, "weight" : 1 },
+		{"id" : 7, "lemma" : "4", "type" : "SN", "position" : 28, "weight" : 1 },
+		{"id" : 8, "lemma" : "월", "type" : "NNB", "position" : 29, "weight" : 0.408539 },
+		{"id" : 9, "lemma" : "의", "type" : "JKG", "position" : 32, "weight" : 0.0520933 },
+		{"id" : 10, "lemma" : "선수", "type" : "NNG", "position" : 36, "weight" : 0.9 },
+		{"id" : 11, "lemma" : "후보", "type" : "NNG", "position" : 43, "weight" : 0.9 },
+		{"id" : 12, "lemma" : "선정", "type" : "NNG", "position" : 50, "weight" : 0.184592 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "[/SS+EPL/SL", "target" : "[EPL", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "영상/NNG+]/SS", "target" : "영상]", "word_id" : 1, "m_begin" : 2, "m_end" : 3},
+		{"id" : 2, "result" : "손흥민/NNG+,/SP", "target" : "손흥민,", "word_id" : 2, "m_begin" : 4, "m_end" : 5},
+		{"id" : 3, "result" : "EPL/SL", "target" : "EPL", "word_id" : 3, "m_begin" : 6, "m_end" : 6},
+		{"id" : 4, "result" : "4/SN+월/NNB+의/JKG", "target" : "4월의", "word_id" : 4, "m_begin" : 7, "m_end" : 9},
+		{"id" : 5, "result" : "선수/NNG", "target" : "선수", "word_id" : 5, "m_begin" : 10, "m_end" : 10},
+		{"id" : 6, "result" : "후보/NNG", "target" : "후보", "word_id" : 6, "m_begin" : 11, "m_end" : 11},
+		{"id" : 7, "result" : "선정/NNG", "target" : "선정", "word_id" : 7, "m_begin" : 12, "m_end" : 12}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "[", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "EPL", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 1, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "영상", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 5, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "]", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 11, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "손흥민", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 22, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "EPL", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 24, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "4", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 28, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "월", "type" : "NNB", "scode" : "02", "weight" : 2, "position" : 29, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "선수", "type" : "NNG", "scode" : "05", "weight" : 3.2, "position" : 36, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "후보", "type" : "NNG", "scode" : "04", "weight" : 3.2, "position" : 43, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "선정", "type" : "NNG", "scode" : "07", "weight" : 2, "position" : 50, "begin" : 12, "end" : 12}
+	],
+	"word" : [
+		{"id" : 0, "text" : "[EPL", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "영상]", "type" : "", "begin" : 2, "end" : 3},
+		{"id" : 2, "text" : "손흥민,", "type" : "", "begin" : 4, "end" : 5},
+		{"id" : 3, "text" : "EPL", "type" : "", "begin" : 6, "end" : 6},
+		{"id" : 4, "text" : "4월의", "type" : "", "begin" : 7, "end" : 9},
+		{"id" : 5, "text" : "선수", "type" : "", "begin" : 10, "end" : 10},
+		{"id" : 6, "text" : "후보", "type" : "", "begin" : 11, "end" : 11},
+		{"id" : 7, "text" : "선정", "type" : "", "begin" : 12, "end" : 12}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "EPL", "type" : "OGG_SPORTS", "begin" : 1, "end" : 1, "weight" : 0.237459, "common_noun" : 0},
+		{"id" : 1, "text" : "손흥민", "type" : "PS_NAME", "begin" : 4, "end" : 4, "weight" : 0.373635, "common_noun" : 0},
+		{"id" : 2, "text" : "EPL", "type" : "OGG_SPORTS", "begin" : 6, "end" : 6, "weight" : 0.472264, "common_noun" : 0},
+		{"id" : 3, "text" : "4월", "type" : "DT_MONTH", "begin" : 7, "end" : 8, "weight" : 0.340869, "common_noun" : 0},
+		{"id" : 4, "text" : "선수", "type" : "CV_OCCUPATION", "begin" : 10, "end" : 10, "weight" : 0.70928, "common_noun" : 0},
+		{"id" : 5, "text" : "후보", "type" : "CV_POSITION", "begin" : 11, "end" : 11, "weight" : 0.581397, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "[EPL", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.67373 },
+		{"id" : 1, "text" : "영상]", "head" : 7, "label" : "NP", "mod" : [0], "weight" : 0.759829 },
+		{"id" : 2, "text" : "손흥민,", "head" : 7, "label" : "NP", "mod" : [], "weight" : 0.731591 },
+		{"id" : 3, "text" : "EPL", "head" : 4, "label" : "NP", "mod" : [], "weight" : 0.63239 },
+		{"id" : 4, "text" : "4월의", "head" : 7, "label" : "NP_MOD", "mod" : [3], "weight" : 0.759266 },
+		{"id" : 5, "text" : "선수", "head" : 6, "label" : "NP", "mod" : [], "weight" : 0.525666 },
+		{"id" : 6, "text" : "후보", "head" : 7, "label" : "NP", "mod" : [5], "weight" : 0.83078 },
+		{"id" : 7, "text" : "선정", "head" : -1, "label" : "NP", "mod" : [1, 2, 4, 6], "weight" : 0.0669752 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "[EPL 영상] 손흥민, EPL 4월의 선수 후보 선정", "begin" : 0, "end" : 7, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "[라리가 영상] 10년 전, '열아홉 메시' 바르사 공격 책임지다",
+	"morp" : [
+		{"id" : 0, "lemma" : "[", "type" : "SS", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "라리", "type" : "NNP", "position" : 1, "weight" : 0.05 },
+		{"id" : 2, "lemma" : "가", "type" : "JKS", "position" : 7, "weight" : 0.0431193 },
+		{"id" : 3, "lemma" : "영상", "type" : "NNG", "position" : 11, "weight" : 0.9 },
+		{"id" : 4, "lemma" : "]", "type" : "SS", "position" : 17, "weight" : 1 },
+		{"id" : 5, "lemma" : "10", "type" : "SN", "position" : 19, "weight" : 1 },
+		{"id" : 6, "lemma" : "년", "type" : "NNB", "position" : 21, "weight" : 0.414343 },
+		{"id" : 7, "lemma" : "전", "type" : "NNG", "position" : 25, "weight" : 0.0645237 },
+		{"id" : 8, "lemma" : ",", "type" : "SP", "position" : 28, "weight" : 1 },
+		{"id" : 9, "lemma" : "'", "type" : "SS", "position" : 30, "weight" : 1 },
+		{"id" : 10, "lemma" : "열", "type" : "NR", "position" : 31, "weight" : 0.000274052 },
+		{"id" : 11, "lemma" : "아홉", "type" : "NR", "position" : 34, "weight" : 0.9 },
+		{"id" : 12, "lemma" : "메시", "type" : "NNG", "position" : 41, "weight" : 0 },
+		{"id" : 13, "lemma" : "'", "type" : "SS", "position" : 47, "weight" : 1 },
+		{"id" : 14, "lemma" : "바르사", "type" : "NNP", "position" : 49, "weight" : 0.6 },
+		{"id" : 15, "lemma" : "공격", "type" : "NNG", "position" : 59, "weight" : 0.9 },
+		{"id" : 16, "lemma" : "책임지", "type" : "VV", "position" : 66, "weight" : 0.9 },
+		{"id" : 17, "lemma" : "다", "type" : "EF", "position" : 75, "weight" : 0.0775868 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "[/SS+라리/NNG+가/JKS", "target" : "[라리가", "word_id" : 0, "m_begin" : 0, "m_end" : 2},
+		{"id" : 1, "result" : "영상/NNG+]/SS", "target" : "영상]", "word_id" : 1, "m_begin" : 3, "m_end" : 4},
+		{"id" : 2, "result" : "10/SN+년/NNB", "target" : "10년", "word_id" : 2, "m_begin" : 5, "m_end" : 6},
+		{"id" : 3, "result" : "전/NNG+,/SP", "target" : "전,", "word_id" : 3, "m_begin" : 7, "m_end" : 8},
+		{"id" : 4, "result" : "'/SS+열/NR+아홉/NR", "target" : "'열아홉", "word_id" : 4, "m_begin" : 9, "m_end" : 11},
+		{"id" : 5, "result" : "메시/NNG+'/SS", "target" : "메시'", "word_id" : 5, "m_begin" : 12, "m_end" : 13},
+		{"id" : 6, "result" : "바르사/NNG", "target" : "바르사", "word_id" : 6, "m_begin" : 14, "m_end" : 14},
+		{"id" : 7, "result" : "공격/NNG", "target" : "공격", "word_id" : 7, "m_begin" : 15, "m_end" : 15},
+		{"id" : 8, "result" : "책임지/VV+다/EF", "target" : "책임지다", "word_id" : 8, "m_begin" : 16, "m_end" : 17}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "[", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "라리", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 1, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 7, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "영상", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 11, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "]", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 17, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "10", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 19, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 7.6, "position" : 21, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "전", "type" : "NNG", "scode" : "08", "weight" : 4.4, "position" : 25, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 28, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "열", "type" : "NR", "scode" : "03", "weight" : 7.6, "position" : 31, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "아홉", "type" : "NR", "scode" : "00", "weight" : 0, "position" : 34, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "메시", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 41, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 47, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "바르사", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 49, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "공격", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 59, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "책임지", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 66, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 75, "begin" : 17, "end" : 17}
+	],
+	"word" : [
+		{"id" : 0, "text" : "[라리가", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "영상]", "type" : "", "begin" : 3, "end" : 4},
+		{"id" : 2, "text" : "10년", "type" : "", "begin" : 5, "end" : 6},
+		{"id" : 3, "text" : "전,", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 4, "text" : "'열아홉", "type" : "", "begin" : 9, "end" : 11},
+		{"id" : 5, "text" : "메시'", "type" : "", "begin" : 12, "end" : 13},
+		{"id" : 6, "text" : "바르사", "type" : "", "begin" : 14, "end" : 14},
+		{"id" : 7, "text" : "공격", "type" : "", "begin" : 15, "end" : 15},
+		{"id" : 8, "text" : "책임지다", "type" : "", "begin" : 16, "end" : 17}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "라리가 영상", "type" : "AFW_DOCUMENT", "begin" : 1, "end" : 3, "weight" : 0.190996, "common_noun" : 0},
+		{"id" : 1, "text" : "10년 전", "type" : "DT_OTHERS", "begin" : 5, "end" : 7, "weight" : 0.772065, "common_noun" : 0},
+		{"id" : 2, "text" : "열아홉 메시", "type" : "QT_OTHERS", "begin" : 10, "end" : 12, "weight" : 0.0974368, "common_noun" : 0},
+		{"id" : 3, "text" : "바르사", "type" : "AF_CULTURAL_ASSET", "begin" : 14, "end" : 14, "weight" : 0.262372, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "[라리가", "head" : 1, "label" : "NP_SBJ", "mod" : [], "weight" : 0.31032 },
+		{"id" : 1, "text" : "영상]", "head" : 8, "label" : "NP", "mod" : [0], "weight" : 0.446802 },
+		{"id" : 2, "text" : "10년", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.811171 },
+		{"id" : 3, "text" : "전,", "head" : 8, "label" : "NP_AJT", "mod" : [2], "weight" : 0.545391 },
+		{"id" : 4, "text" : "'열아홉", "head" : 5, "label" : "NP", "mod" : [], "weight" : 0.652758 },
+		{"id" : 5, "text" : "메시'", "head" : 8, "label" : "NP", "mod" : [4], "weight" : 0.317413 },
+		{"id" : 6, "text" : "바르사", "head" : 7, "label" : "NP", "mod" : [], "weight" : 0.612464 },
+		{"id" : 7, "text" : "공격", "head" : 8, "label" : "NP_OBJ", "mod" : [6], "weight" : 0.323525 },
+		{"id" : 8, "text" : "책임지다", "head" : -1, "label" : "VP", "mod" : [1, 3, 5, 7], "weight" : 0.00184689 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "[라리가 영상]", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_AJT", "text" : "10년 전,", "begin" : 2, "end" : 3, "key_begin" : 2, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP", "text" : "'열아홉 메시'", "begin" : 4, "end" : 5, "key_begin" : 4, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_OBJ", "text" : "바르사 공격", "begin" : 6, "end" : 7, "key_begin" : 6, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "VP", "text" : "P#0@NP영상] P#1@AJT전, P#2@NP메시' P#3@OBJ공격 책임지다", "begin" : 0, "end" : 8, "key_begin" : 8, "head_phrase" : -1, "sub_phrase" : [0, 1, 2, 3], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "책임지", "sense" : 1, "word_id" : 8, "weight" : 0.274634,
+			"argument" : [
+				{"type" : "ARGM-TMP", "word_id" : 3, "text" : "전,", "weight" : 0.376321 },
+				{"type" : "ARG2", "word_id" : 7, "text" : "공격", "weight" : 0.172948 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "<저작권자 ⓒ SPOTV NEWS 무단전재 및 재배포 금지>",
+	"morp" : [
+		{"id" : 0, "lemma" : "<", "type" : "SS", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "저작", "type" : "NNG", "position" : 1, "weight" : 0.9 },
+		{"id" : 2, "lemma" : "권", "type" : "XSN", "position" : 7, "weight" : 0.0140728 },
+		{"id" : 3, "lemma" : "자", "type" : "XSN", "position" : 10, "weight" : 0.00137282 },
+		{"id" : 4, "lemma" : "ⓒ", "type" : "SW", "position" : 14, "weight" : 1 },
+		{"id" : 5, "lemma" : "SPOTV", "type" : "SL", "position" : 18, "weight" : 1 },
+		{"id" : 6, "lemma" : "NEWS", "type" : "SL", "position" : 24, "weight" : 1 },
+		{"id" : 7, "lemma" : "무단", "type" : "NNG", "position" : 29, "weight" : 0.9 },
+		{"id" : 8, "lemma" : "전재", "type" : "NNG", "position" : 35, "weight" : 0.6 },
+		{"id" : 9, "lemma" : "및", "type" : "MAJ", "position" : 42, "weight" : 0.00215414 },
+		{"id" : 10, "lemma" : "재", "type" : "XPN", "position" : 46, "weight" : 0.00098195 },
+		{"id" : 11, "lemma" : "배포", "type" : "NNG", "position" : 49, "weight" : 0.9 },
+		{"id" : 12, "lemma" : "금지", "type" : "NNG", "position" : 56, "weight" : 0.184637 },
+		{"id" : 13, "lemma" : ">", "type" : "SS", "position" : 62, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "</SS+저작권자/NNG", "target" : "<저작권자", "word_id" : 0, "m_begin" : 0, "m_end" : 3},
+		{"id" : 1, "result" : "ⓒ/SW", "target" : "ⓒ", "word_id" : 1, "m_begin" : 4, "m_end" : 4},
+		{"id" : 2, "result" : "SPOTV/SL", "target" : "SPOTV", "word_id" : 2, "m_begin" : 5, "m_end" : 5},
+		{"id" : 3, "result" : "NEWS/SL", "target" : "NEWS", "word_id" : 3, "m_begin" : 6, "m_end" : 6},
+		{"id" : 4, "result" : "무단전재/NNG", "target" : "무단전재", "word_id" : 4, "m_begin" : 7, "m_end" : 8},
+		{"id" : 5, "result" : "및/MAJ", "target" : "및", "word_id" : 5, "m_begin" : 9, "m_end" : 9},
+		{"id" : 6, "result" : "재배포/NNG", "target" : "재배포", "word_id" : 6, "m_begin" : 10, "m_end" : 11},
+		{"id" : 7, "result" : "금지/NNG+>/SS", "target" : "금지>", "word_id" : 7, "m_begin" : 12, "m_end" : 13}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "<", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "저작권자", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 1, "begin" : 1, "end" : 3},
+		{"id" : 2, "text" : "ⓒ", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 14, "begin" : 4, "end" : 4},
+		{"id" : 3, "text" : "SPOTV", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 18, "begin" : 5, "end" : 5},
+		{"id" : 4, "text" : "NEWS", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 24, "begin" : 6, "end" : 6},
+		{"id" : 5, "text" : "무단", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 29, "begin" : 7, "end" : 7},
+		{"id" : 6, "text" : "전재", "type" : "NNG", "scode" : "10", "weight" : 1, "position" : 35, "begin" : 8, "end" : 8},
+		{"id" : 7, "text" : "및", "type" : "MAJ", "scode" : "00", "weight" : 0, "position" : 42, "begin" : 9, "end" : 9},
+		{"id" : 8, "text" : "재", "type" : "XPN", "scode" : "17", "weight" : 1, "position" : 46, "begin" : 10, "end" : 10},
+		{"id" : 9, "text" : "배포", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 49, "begin" : 11, "end" : 11},
+		{"id" : 10, "text" : "금지", "type" : "NNG", "scode" : "04", "weight" : 1, "position" : 56, "begin" : 12, "end" : 12},
+		{"id" : 11, "text" : ">", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 62, "begin" : 13, "end" : 13}
+	],
+	"word" : [
+		{"id" : 0, "text" : "<저작권자", "type" : "", "begin" : 0, "end" : 3},
+		{"id" : 1, "text" : "ⓒ", "type" : "", "begin" : 4, "end" : 4},
+		{"id" : 2, "text" : "SPOTV", "type" : "", "begin" : 5, "end" : 5},
+		{"id" : 3, "text" : "NEWS", "type" : "", "begin" : 6, "end" : 6},
+		{"id" : 4, "text" : "무단전재", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 5, "text" : "및", "type" : "", "begin" : 9, "end" : 9},
+		{"id" : 6, "text" : "재배포", "type" : "", "begin" : 10, "end" : 11},
+		{"id" : 7, "text" : "금지>", "type" : "", "begin" : 12, "end" : 13}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "저작권자", "type" : "CV_POSITION", "begin" : 1, "end" : 3, "weight" : 0.654514, "common_noun" : 0},
+		{"id" : 1, "text" : "SPOTV", "type" : "OGG_MEDIA", "begin" : 5, "end" : 5, "weight" : 0.364018, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "<저작권자", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.173072 },
+		{"id" : 1, "text" : "ⓒ", "head" : 7, "label" : "NP", "mod" : [0], "weight" : 0.71489 },
+		{"id" : 2, "text" : "SPOTV", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.562285 },
+		{"id" : 3, "text" : "NEWS", "head" : 4, "label" : "NP", "mod" : [2], "weight" : 0.350392 },
+		{"id" : 4, "text" : "무단전재", "head" : 6, "label" : "NP_CNJ", "mod" : [3], "weight" : 0.543763 },
+		{"id" : 5, "text" : "및", "head" : 6, "label" : "AP", "mod" : [], "weight" : 0.31217 },
+		{"id" : 6, "text" : "재배포", "head" : 7, "label" : "NP", "mod" : [4, 5], "weight" : 0.432519 },
+		{"id" : 7, "text" : "금지>", "head" : -1, "label" : "NP", "mod" : [1, 6], "weight" : 0.00136979 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "<저작권자 ⓒ SPOTV NEWS 무단전재 및 재배포 금지>", "begin" : 0, "end" : 7, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "기사제공",
+	"morp" : [
+		{"id" : 0, "lemma" : "기사", "type" : "NNG", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "제공", "type" : "NNG", "position" : 6, "weight" : 0.184188 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "기사제공/NNG", "target" : "기사제공", "word_id" : 0, "m_begin" : 0, "m_end" : 1}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "기사", "type" : "NNG", "scode" : "10", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "제공", "type" : "NNG", "scode" : "04", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1}
+	],
+	"word" : [
+		{"id" : 0, "text" : "기사제공", "type" : "", "begin" : 0, "end" : 1}
+	],
+	"NE" : [
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "기사제공", "head" : -1, "label" : "NP", "mod" : [], "weight" : 0.840911 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "기사제공", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "스포티비뉴스",
+	"morp" : [
+		{"id" : 0, "lemma" : "스포티비", "type" : "NNP", "position" : 0, "weight" : 0.6 },
+		{"id" : 1, "lemma" : "뉴스", "type" : "NNG", "position" : 12, "weight" : 0.9 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "스포티비뉴스/NNG", "target" : "스포티비뉴스", "word_id" : 0, "m_begin" : 0, "m_end" : 1}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "스포티비", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "뉴스", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 12, "begin" : 1, "end" : 1}
+	],
+	"word" : [
+		{"id" : 0, "text" : "스포티비뉴스", "type" : "", "begin" : 0, "end" : 1}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "스포티비뉴스", "type" : "OGG_MEDIA", "begin" : 0, "end" : 1, "weight" : 0.288705, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "스포티비뉴스", "head" : -1, "label" : "NP", "mod" : [], "weight" : 0.786836 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "스포티비뉴스", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+ ],
+ "entity" : [
+ ]
+}
+

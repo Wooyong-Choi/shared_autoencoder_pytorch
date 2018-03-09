@@ -1,0 +1,2434 @@
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "<U-20 월드컵> 잉글랜드전,'iMBC스포츠온에어'와 '해요TV'에서 온라인 중계",
+	"morp" : [
+		{"id" : 0, "lemma" : "<", "type" : "SS", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "U", "type" : "SL", "position" : 1, "weight" : 1 },
+		{"id" : 2, "lemma" : "-", "type" : "SS", "position" : 2, "weight" : 1 },
+		{"id" : 3, "lemma" : "20", "type" : "SN", "position" : 3, "weight" : 1 },
+		{"id" : 4, "lemma" : "월드컵", "type" : "NNG", "position" : 6, "weight" : 0.9 },
+		{"id" : 5, "lemma" : ">", "type" : "SS", "position" : 15, "weight" : 1 },
+		{"id" : 6, "lemma" : "잉글랜드전", "type" : "NNP", "position" : 17, "weight" : 0.6 },
+		{"id" : 7, "lemma" : ",", "type" : "SP", "position" : 32, "weight" : 1 },
+		{"id" : 8, "lemma" : "'", "type" : "SS", "position" : 33, "weight" : 1 },
+		{"id" : 9, "lemma" : "iMBC", "type" : "SL", "position" : 34, "weight" : 1 },
+		{"id" : 10, "lemma" : "스포츠온", "type" : "NNP", "position" : 38, "weight" : 0.6 },
+		{"id" : 11, "lemma" : "에어", "type" : "JKB", "position" : 50, "weight" : 0 },
+		{"id" : 12, "lemma" : "'", "type" : "SS", "position" : 56, "weight" : 1 },
+		{"id" : 13, "lemma" : "와", "type" : "JC", "position" : 57, "weight" : 0.00426109 },
+		{"id" : 14, "lemma" : "'", "type" : "SS", "position" : 61, "weight" : 1 },
+		{"id" : 15, "lemma" : "해요", "type" : "NNP", "position" : 62, "weight" : 0.6 },
+		{"id" : 16, "lemma" : "TV", "type" : "SL", "position" : 68, "weight" : 1 },
+		{"id" : 17, "lemma" : "'", "type" : "SS", "position" : 70, "weight" : 1 },
+		{"id" : 18, "lemma" : "에서", "type" : "JKB", "position" : 71, "weight" : 0.0486066 },
+		{"id" : 19, "lemma" : "온라인", "type" : "NNG", "position" : 78, "weight" : 0.9 },
+		{"id" : 20, "lemma" : "중계", "type" : "NNG", "position" : 88, "weight" : 0.182744 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "</SS+U/SL+-/SS+20/SN", "target" : "<U-20", "word_id" : 0, "m_begin" : 0, "m_end" : 3},
+		{"id" : 1, "result" : "월드컵/NNG+>/SS", "target" : "월드컵>", "word_id" : 1, "m_begin" : 4, "m_end" : 5},
+		{"id" : 2, "result" : "잉글랜드전/NNG+,/SP+'/SS+iMBC/SL+스포츠온/NNG+에어/JKB+'/SS+와/JC", "target" : "잉글랜드전,'iMBC스포츠온에어'와", "word_id" : 2, "m_begin" : 6, "m_end" : 13},
+		{"id" : 3, "result" : "'/SS+해요/NNG+TV/SL+'/SS+에서/JKB", "target" : "'해요TV'에서", "word_id" : 3, "m_begin" : 14, "m_end" : 18},
+		{"id" : 4, "result" : "온라인/NNG", "target" : "온라인", "word_id" : 4, "m_begin" : 19, "m_end" : 19},
+		{"id" : 5, "result" : "중계/NNG", "target" : "중계", "word_id" : 5, "m_begin" : 20, "m_end" : 20}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "<", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 1, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 2, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 3, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "월드컵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 6, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : ">", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 15, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "잉글랜드전", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 17, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 33, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "iMBC", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 34, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "스포츠온", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 38, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "에어", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 50, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 56, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "와", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 57, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "해요", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 62, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "TV", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 68, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 71, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "온라인", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 78, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : "중계", "type" : "NNG", "scode" : "04", "weight" : 1, "position" : 88, "begin" : 20, "end" : 20}
+	],
+	"word" : [
+		{"id" : 0, "text" : "<U-20", "type" : "", "begin" : 0, "end" : 3},
+		{"id" : 1, "text" : "월드컵>", "type" : "", "begin" : 4, "end" : 5},
+		{"id" : 2, "text" : "잉글랜드전,'iMBC스포츠온에어'와", "type" : "", "begin" : 6, "end" : 13},
+		{"id" : 3, "text" : "'해요TV'에서", "type" : "", "begin" : 14, "end" : 18},
+		{"id" : 4, "text" : "온라인", "type" : "", "begin" : 19, "end" : 19},
+		{"id" : 5, "text" : "중계", "type" : "", "begin" : 20, "end" : 20}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "U-20 월드컵", "type" : "EV_SPORTS", "begin" : 1, "end" : 4, "weight" : 0.612895, "common_noun" : 0},
+		{"id" : 1, "text" : "잉글랜드전", "type" : "EV_SPORTS", "begin" : 6, "end" : 6, "weight" : 0.15661, "common_noun" : 0},
+		{"id" : 2, "text" : "iMBC스포츠온에어", "type" : "OGG_MEDIA", "begin" : 9, "end" : 11, "weight" : 0.12134, "common_noun" : 0},
+		{"id" : 3, "text" : "해요TV", "type" : "AFW_VIDEO", "begin" : 15, "end" : 16, "weight" : 0.146801, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "<U-20", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.0966855 },
+		{"id" : 1, "text" : "월드컵>", "head" : 5, "label" : "NP", "mod" : [0], "weight" : 0.725814 },
+		{"id" : 2, "text" : "잉글랜드전,'iMBC스포츠온에어'와", "head" : 3, "label" : "NP_CNJ", "mod" : [], "weight" : 0.777555 },
+		{"id" : 3, "text" : "'해요TV'에서", "head" : 5, "label" : "NP_AJT", "mod" : [2], "weight" : 0.506367 },
+		{"id" : 4, "text" : "온라인", "head" : 5, "label" : "NP", "mod" : [], "weight" : 0.690577 },
+		{"id" : 5, "text" : "중계", "head" : -1, "label" : "NP", "mod" : [1, 3, 4], "weight" : 0.0156096 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "<U-20 월드컵>", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_AJT", "text" : "잉글랜드전,'iMBC스포츠온에어'와 '해요TV'에서", "begin" : 2, "end" : 3, "key_begin" : 2, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, 
+			"element" : [
+				{ "text" : "잉글랜드전,'iMBC스포츠온에어'", "label" : "NP_AJT", "begin" : 6, "end" : 12, "ne_type" : "" },
+				{ "text" : "'해요TV'", "label" : "NP_AJT", "begin" : 14, "end" : 17, "ne_type" : "AFW_VIDEO" }
+			] },
+		{"id" : 2, "label" : "NP", "text" : "P#0@NP월드컵> P#1@AJT에서 온라인 중계", "begin" : 0, "end" : 5, "key_begin" : 4, "head_phrase" : -1, "sub_phrase" : [0, 1], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "MBC연예",
+	"morp" : [
+		{"id" : 0, "lemma" : "MBC", "type" : "SL", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "연예", "type" : "NNG", "position" : 3, "weight" : 0.9 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "MBC/SL+연예/NNG", "target" : "MBC연예", "word_id" : 0, "m_begin" : 0, "m_end" : 1}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "MBC", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "연예", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 3, "begin" : 1, "end" : 1}
+	],
+	"word" : [
+		{"id" : 0, "text" : "MBC연예", "type" : "", "begin" : 0, "end" : 1}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "MBC연예", "type" : "OGG_MEDIA", "begin" : 0, "end" : 1, "weight" : 0.460931, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "MBC연예", "head" : -1, "label" : "NP", "mod" : [], "weight" : 0.833223 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "MBC연예", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "젊은 태극전사들의 막강 화력이 폭발한다!",
+	"morp" : [
+		{"id" : 0, "lemma" : "젊", "type" : "VA", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "은", "type" : "ETM", "position" : 3, "weight" : 0.155123 },
+		{"id" : 2, "lemma" : "태극", "type" : "NNG", "position" : 7, "weight" : 0.9 },
+		{"id" : 3, "lemma" : "전사", "type" : "NNG", "position" : 13, "weight" : 0.9 },
+		{"id" : 4, "lemma" : "들", "type" : "XSN", "position" : 19, "weight" : 0.0299841 },
+		{"id" : 5, "lemma" : "의", "type" : "JKG", "position" : 22, "weight" : 0.120732 },
+		{"id" : 6, "lemma" : "막강", "type" : "NNG", "position" : 26, "weight" : 0.8 },
+		{"id" : 7, "lemma" : "화력", "type" : "NNG", "position" : 33, "weight" : 0.9 },
+		{"id" : 8, "lemma" : "이", "type" : "JKS", "position" : 39, "weight" : 0.0360723 },
+		{"id" : 9, "lemma" : "폭발", "type" : "NNG", "position" : 43, "weight" : 0.9 },
+		{"id" : 10, "lemma" : "하", "type" : "XSV", "position" : 49, "weight" : 0.0001 },
+		{"id" : 11, "lemma" : "ㄴ다", "type" : "EF", "position" : 49, "weight" : 0.0449045 },
+		{"id" : 12, "lemma" : "!", "type" : "SF", "position" : 55, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "젊/VA+은/ETM", "target" : "젊은", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "태극전사들/NNG+의/JKG", "target" : "태극전사들의", "word_id" : 1, "m_begin" : 2, "m_end" : 5},
+		{"id" : 2, "result" : "막강/NNG", "target" : "막강", "word_id" : 2, "m_begin" : 6, "m_end" : 6},
+		{"id" : 3, "result" : "화력/NNG+이/JKS", "target" : "화력이", "word_id" : 3, "m_begin" : 7, "m_end" : 8},
+		{"id" : 4, "result" : "폭발하/VV+ㄴ다/EF+!/SF", "target" : "폭발한다!", "word_id" : 4, "m_begin" : 9, "m_end" : 12}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "젊", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 3, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "태극", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "전사", "type" : "NNG", "scode" : "20", "weight" : 3, "position" : 13, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "들", "type" : "XSN", "scode" : "09", "weight" : 6, "position" : 19, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 22, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "막강", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 26, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "화력", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 33, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "폭발하", "type" : "VV", "scode" : "01", "weight" : 1, "position" : 43, "begin" : 9, "end" : 10},
+		{"id" : 10, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "!", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 55, "begin" : 12, "end" : 12}
+	],
+	"word" : [
+		{"id" : 0, "text" : "젊은", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "태극전사들의", "type" : "", "begin" : 2, "end" : 5},
+		{"id" : 2, "text" : "막강", "type" : "", "begin" : 6, "end" : 6},
+		{"id" : 3, "text" : "화력이", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 4, "text" : "폭발한다!", "type" : "", "begin" : 9, "end" : 12}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "태극전사", "type" : "CV_POSITION", "begin" : 2, "end" : 3, "weight" : 0.315799, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "젊은", "head" : 1, "label" : "VP_MOD", "mod" : [], "weight" : 0.701079 },
+		{"id" : 1, "text" : "태극전사들의", "head" : 3, "label" : "NP_MOD", "mod" : [0], "weight" : 0.61318 },
+		{"id" : 2, "text" : "막강", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.70952 },
+		{"id" : 3, "text" : "화력이", "head" : 4, "label" : "NP_SBJ", "mod" : [1, 2], "weight" : 0.849312 },
+		{"id" : 4, "text" : "폭발한다!", "head" : -1, "label" : "VP", "mod" : [3], "weight" : 0.233801 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "젊은 태극전사들의 막강 화력이", "begin" : 0, "end" : 3, "key_begin" : 0, "head_phrase" : 1, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "S", "text" : "P#0@SBJ이 폭발한다!", "begin" : 0, "end" : 4, "key_begin" : 4, "head_phrase" : -1, "sub_phrase" : [0], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "젊", "sense" : 1, "word_id" : 0, "weight" : 0.515453,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 1, "text" : "태극전사들의", "weight" : 0.515453 }
+			] },
+		{"verb" : "폭발", "sense" : 1, "word_id" : 4, "weight" : 0.46527,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 3, "text" : "화력이", "weight" : 0.46527 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "26일(금) 저녁 8시 대한민국 태극전사들이‘FIFA U-20 월드컵’A조 조별리그 1위를 두고 축구종가 잉글랜드와 격돌한다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "26", "type" : "SN", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "일", "type" : "NNB", "position" : 2, "weight" : 0.126777 },
+		{"id" : 2, "lemma" : "(", "type" : "SS", "position" : 5, "weight" : 1 },
+		{"id" : 3, "lemma" : "금", "type" : "NNG", "position" : 6, "weight" : 0.171731 },
+		{"id" : 4, "lemma" : ")", "type" : "SS", "position" : 9, "weight" : 1 },
+		{"id" : 5, "lemma" : "저녁", "type" : "NNG", "position" : 11, "weight" : 0.9 },
+		{"id" : 6, "lemma" : "8", "type" : "SN", "position" : 18, "weight" : 1 },
+		{"id" : 7, "lemma" : "시", "type" : "NNB", "position" : 19, "weight" : 0.084652 },
+		{"id" : 8, "lemma" : "대한민국", "type" : "NNP", "position" : 23, "weight" : 0.015236 },
+		{"id" : 9, "lemma" : "태극", "type" : "NNG", "position" : 36, "weight" : 0.9 },
+		{"id" : 10, "lemma" : "전사", "type" : "NNG", "position" : 42, "weight" : 0.9 },
+		{"id" : 11, "lemma" : "들", "type" : "XSN", "position" : 48, "weight" : 0.0299841 },
+		{"id" : 12, "lemma" : "이", "type" : "JKS", "position" : 51, "weight" : 0.0731805 },
+		{"id" : 13, "lemma" : "‘", "type" : "SS", "position" : 54, "weight" : 1 },
+		{"id" : 14, "lemma" : "FIFA", "type" : "SL", "position" : 57, "weight" : 1 },
+		{"id" : 15, "lemma" : "U", "type" : "SL", "position" : 62, "weight" : 1 },
+		{"id" : 16, "lemma" : "-", "type" : "SS", "position" : 63, "weight" : 1 },
+		{"id" : 17, "lemma" : "20", "type" : "SN", "position" : 64, "weight" : 1 },
+		{"id" : 18, "lemma" : "월드컵", "type" : "NNG", "position" : 67, "weight" : 0.9 },
+		{"id" : 19, "lemma" : "’", "type" : "SS", "position" : 76, "weight" : 1 },
+		{"id" : 20, "lemma" : "A", "type" : "SL", "position" : 79, "weight" : 1 },
+		{"id" : 21, "lemma" : "조", "type" : "NNG", "position" : 80, "weight" : 0.0238925 },
+		{"id" : 22, "lemma" : "조", "type" : "NNG", "position" : 84, "weight" : 0.0254625 },
+		{"id" : 23, "lemma" : "별", "type" : "XSN", "position" : 87, "weight" : 0.0169625 },
+		{"id" : 24, "lemma" : "리그", "type" : "NNG", "position" : 90, "weight" : 0.9 },
+		{"id" : 25, "lemma" : "1", "type" : "SN", "position" : 97, "weight" : 1 },
+		{"id" : 26, "lemma" : "위", "type" : "NNB", "position" : 98, "weight" : 0.04134 },
+		{"id" : 27, "lemma" : "를", "type" : "JKO", "position" : 101, "weight" : 0.0669358 },
+		{"id" : 28, "lemma" : "두", "type" : "VV", "position" : 105, "weight" : 0.192556 },
+		{"id" : 29, "lemma" : "고", "type" : "EC", "position" : 108, "weight" : 0.416679 },
+		{"id" : 30, "lemma" : "축구종", "type" : "NNP", "position" : 112, "weight" : 0.6 },
+		{"id" : 31, "lemma" : "가", "type" : "JKS", "position" : 121, "weight" : 0.0431193 },
+		{"id" : 32, "lemma" : "잉글랜드", "type" : "NNP", "position" : 125, "weight" : 0.9 },
+		{"id" : 33, "lemma" : "와", "type" : "JKB", "position" : 137, "weight" : 0.0304966 },
+		{"id" : 34, "lemma" : "격돌", "type" : "NNG", "position" : 141, "weight" : 0.9 },
+		{"id" : 35, "lemma" : "하", "type" : "XSV", "position" : 147, "weight" : 0.0001 },
+		{"id" : 36, "lemma" : "ㄴ다", "type" : "EF", "position" : 147, "weight" : 0.0449045 },
+		{"id" : 37, "lemma" : ".", "type" : "SF", "position" : 153, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "26/SN+일/NNB+(/SS+금/NNG+)/SS", "target" : "26일(금)", "word_id" : 0, "m_begin" : 0, "m_end" : 4},
+		{"id" : 1, "result" : "저녁/NNG", "target" : "저녁", "word_id" : 1, "m_begin" : 5, "m_end" : 5},
+		{"id" : 2, "result" : "8/SN+시/NNB", "target" : "8시", "word_id" : 2, "m_begin" : 6, "m_end" : 7},
+		{"id" : 3, "result" : "대한민국/NNG", "target" : "대한민국", "word_id" : 3, "m_begin" : 8, "m_end" : 8},
+		{"id" : 4, "result" : "태극전사들/NNG+이/JKS+‘/SS+FIFA/SL", "target" : "태극전사들이‘FIFA", "word_id" : 4, "m_begin" : 9, "m_end" : 14},
+		{"id" : 5, "result" : "U/SL+-/SS+20/SN", "target" : "U-20", "word_id" : 5, "m_begin" : 15, "m_end" : 17},
+		{"id" : 6, "result" : "월드컵/NNG+’/SS+A/SL+조/NNG", "target" : "월드컵’A조", "word_id" : 6, "m_begin" : 18, "m_end" : 21},
+		{"id" : 7, "result" : "조별리그/NNG", "target" : "조별리그", "word_id" : 7, "m_begin" : 22, "m_end" : 24},
+		{"id" : 8, "result" : "1/SN+위/NNB+를/JKO", "target" : "1위를", "word_id" : 8, "m_begin" : 25, "m_end" : 27},
+		{"id" : 9, "result" : "두/VV+고/EC", "target" : "두고", "word_id" : 9, "m_begin" : 28, "m_end" : 29},
+		{"id" : 10, "result" : "축구종/NNG+가/JKS", "target" : "축구종가", "word_id" : 10, "m_begin" : 30, "m_end" : 31},
+		{"id" : 11, "result" : "잉글랜드/NNG+와/JKB", "target" : "잉글랜드와", "word_id" : 11, "m_begin" : 32, "m_end" : 33},
+		{"id" : 12, "result" : "격돌하/VV+ㄴ다/EF+./SF", "target" : "격돌한다.", "word_id" : 12, "m_begin" : 34, "m_end" : 37}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "26", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 4.2, "position" : 2, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 5, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "금", "type" : "NNG", "scode" : "05", "weight" : 1, "position" : 6, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "저녁", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 11, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "8", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 18, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "시", "type" : "NNB", "scode" : "10", "weight" : 3.2, "position" : 19, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "대한민국", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 23, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "태극", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 36, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "전사", "type" : "NNG", "scode" : "20", "weight" : 3, "position" : 42, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "들", "type" : "XSN", "scode" : "09", "weight" : 7.5, "position" : 48, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 51, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "‘", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "FIFA", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 57, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 62, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 64, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "월드컵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 67, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "’", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 76, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : "A", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 79, "begin" : 20, "end" : 20},
+		{"id" : 21, "text" : "조", "type" : "NNG", "scode" : "15", "weight" : 2.10148, "position" : 80, "begin" : 21, "end" : 21},
+		{"id" : 22, "text" : "조별", "type" : "NNG", "scode" : "01", "weight" : 4, "position" : 84, "begin" : 22, "end" : 23},
+		{"id" : 23, "text" : "리그", "type" : "NNG", "scode" : "01", "weight" : 4, "position" : 90, "begin" : 24, "end" : 24},
+		{"id" : 24, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 97, "begin" : 25, "end" : 25},
+		{"id" : 25, "text" : "위", "type" : "NNB", "scode" : "05", "weight" : 4.2, "position" : 98, "begin" : 26, "end" : 26},
+		{"id" : 26, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 101, "begin" : 27, "end" : 27},
+		{"id" : 27, "text" : "두", "type" : "VV", "scode" : "01", "weight" : 1, "position" : 105, "begin" : 28, "end" : 28},
+		{"id" : 28, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 108, "begin" : 29, "end" : 29},
+		{"id" : 29, "text" : "축구종", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 112, "begin" : 30, "end" : 30},
+		{"id" : 30, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 121, "begin" : 31, "end" : 31},
+		{"id" : 31, "text" : "잉글랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 125, "begin" : 32, "end" : 32},
+		{"id" : 32, "text" : "와", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 137, "begin" : 33, "end" : 33},
+		{"id" : 33, "text" : "격돌하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 141, "begin" : 34, "end" : 35},
+		{"id" : 34, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 147, "begin" : 36, "end" : 36},
+		{"id" : 35, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 153, "begin" : 37, "end" : 37}
+	],
+	"word" : [
+		{"id" : 0, "text" : "26일(금)", "type" : "", "begin" : 0, "end" : 4},
+		{"id" : 1, "text" : "저녁", "type" : "", "begin" : 5, "end" : 5},
+		{"id" : 2, "text" : "8시", "type" : "", "begin" : 6, "end" : 7},
+		{"id" : 3, "text" : "대한민국", "type" : "", "begin" : 8, "end" : 8},
+		{"id" : 4, "text" : "태극전사들이‘FIFA", "type" : "", "begin" : 9, "end" : 14},
+		{"id" : 5, "text" : "U-20", "type" : "", "begin" : 15, "end" : 17},
+		{"id" : 6, "text" : "월드컵’A조", "type" : "", "begin" : 18, "end" : 21},
+		{"id" : 7, "text" : "조별리그", "type" : "", "begin" : 22, "end" : 24},
+		{"id" : 8, "text" : "1위를", "type" : "", "begin" : 25, "end" : 27},
+		{"id" : 9, "text" : "두고", "type" : "", "begin" : 28, "end" : 29},
+		{"id" : 10, "text" : "축구종가", "type" : "", "begin" : 30, "end" : 31},
+		{"id" : 11, "text" : "잉글랜드와", "type" : "", "begin" : 32, "end" : 33},
+		{"id" : 12, "text" : "격돌한다.", "type" : "", "begin" : 34, "end" : 37}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "26일(금)", "type" : "DT_OTHERS", "begin" : 0, "end" : 4, "weight" : 0.4867, "common_noun" : 0},
+		{"id" : 1, "text" : "저녁 8시", "type" : "TI_HOUR", "begin" : 5, "end" : 7, "weight" : 0.541684, "common_noun" : 0},
+		{"id" : 2, "text" : "대한민국", "type" : "LCP_COUNTRY", "begin" : 8, "end" : 8, "weight" : 0.425449, "common_noun" : 0},
+		{"id" : 3, "text" : "태극전사", "type" : "CV_POSITION", "begin" : 9, "end" : 10, "weight" : 0.321146, "common_noun" : 0},
+		{"id" : 4, "text" : "FIFA U-20 월드컵", "type" : "EV_SPORTS", "begin" : 14, "end" : 18, "weight" : 0.856203, "common_noun" : 0},
+		{"id" : 5, "text" : "A조 조별리그", "type" : "EV_SPORTS", "begin" : 20, "end" : 24, "weight" : 0.314532, "common_noun" : 0},
+		{"id" : 6, "text" : "1위", "type" : "QT_ORDER", "begin" : 25, "end" : 26, "weight" : 0.842283, "common_noun" : 0},
+		{"id" : 7, "text" : "축구종", "type" : "CV_SPORTS", "begin" : 30, "end" : 30, "weight" : 0.194573, "common_noun" : 0},
+		{"id" : 8, "text" : "잉글랜드", "type" : "LCP_COUNTRY", "begin" : 32, "end" : 32, "weight" : 0.433188, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "26일(금)", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.764366 },
+		{"id" : 1, "text" : "저녁", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.698497 },
+		{"id" : 2, "text" : "8시", "head" : 9, "label" : "NP_AJT", "mod" : [0, 1], "weight" : 0.619633 },
+		{"id" : 3, "text" : "대한민국", "head" : 4, "label" : "NP", "mod" : [], "weight" : 0.638301 },
+		{"id" : 4, "text" : "태극전사들이‘FIFA", "head" : 5, "label" : "NP", "mod" : [3], "weight" : 0.461777 },
+		{"id" : 5, "text" : "U-20", "head" : 6, "label" : "NP", "mod" : [4], "weight" : 0.61183 },
+		{"id" : 6, "text" : "월드컵’A조", "head" : 7, "label" : "NP", "mod" : [5], "weight" : 0.0467619 },
+		{"id" : 7, "text" : "조별리그", "head" : 8, "label" : "NP", "mod" : [6], "weight" : 0.767279 },
+		{"id" : 8, "text" : "1위를", "head" : 9, "label" : "NP_OBJ", "mod" : [7], "weight" : 0.778735 },
+		{"id" : 9, "text" : "두고", "head" : 12, "label" : "VP", "mod" : [2, 8], "weight" : 0.826943 },
+		{"id" : 10, "text" : "축구종가", "head" : 12, "label" : "NP_SBJ", "mod" : [], "weight" : 0.836687 },
+		{"id" : 11, "text" : "잉글랜드와", "head" : 12, "label" : "NP_AJT", "mod" : [], "weight" : 0.842239 },
+		{"id" : 12, "text" : "격돌한다.", "head" : -1, "label" : "VP", "mod" : [9, 10, 11], "weight" : 0.000874398 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_AJT", "text" : "26일(금) 저녁 8시", "begin" : 0, "end" : 2, "key_begin" : 0, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_OBJ", "text" : "대한민국 태극전사들이‘FIFA U-20 월드컵’A조 조별리그 1위를", "begin" : 3, "end" : 8, "key_begin" : 3, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "VP", "text" : "P#0@AJT시 P#1@OBJ를 두고", "begin" : 0, "end" : 9, "key_begin" : 9, "head_phrase" : 5, "sub_phrase" : [0, 1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_SBJ", "text" : "축구종가", "begin" : 10, "end" : 10, "key_begin" : 10, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_AJT", "text" : "잉글랜드와", "begin" : 11, "end" : 11, "key_begin" : 11, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "S", "text" : "P#2@VP고 P#3@SBJ가 P#4@AJT와 격돌한다.", "begin" : 0, "end" : 12, "key_begin" : 12, "head_phrase" : -1, "sub_phrase" : [2, 3, 4], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "두", "sense" : 1, "word_id" : 9, "weight" : 0.391636,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 8, "text" : "1위를", "weight" : 0.391636 }
+			] },
+		{"verb" : "격돌", "sense" : 1, "word_id" : 12, "weight" : 0.13589,
+			"argument" : [
+				{"type" : "ARGM-DIS", "word_id" : 9, "text" : "두고", "weight" : 0.107233 },
+				{"type" : "ARG1", "word_id" : 10, "text" : "축구종가", "weight" : 0.191246 },
+				{"type" : "ARG2", "word_id" : 11, "text" : "잉글랜드와", "weight" : 0.109191 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "앞서 한국은 A조에 속한 기니(3-0)와 아르헨티나(2-1)를 맞아 2번의 승리를 기록하며 조 1위로 선두를 달리고 있다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "앞서", "type" : "MAG", "position" : 0, "weight" : 0.0136897 },
+		{"id" : 1, "lemma" : "한국", "type" : "NNP", "position" : 7, "weight" : 0.0266934 },
+		{"id" : 2, "lemma" : "은", "type" : "JX", "position" : 13, "weight" : 0.0520511 },
+		{"id" : 3, "lemma" : "A", "type" : "SL", "position" : 17, "weight" : 1 },
+		{"id" : 4, "lemma" : "조", "type" : "NNG", "position" : 18, "weight" : 0.0238925 },
+		{"id" : 5, "lemma" : "에", "type" : "JKB", "position" : 21, "weight" : 0.153364 },
+		{"id" : 6, "lemma" : "속", "type" : "NNG", "position" : 25, "weight" : 0.205064 },
+		{"id" : 7, "lemma" : "하", "type" : "XSV", "position" : 28, "weight" : 0.0001 },
+		{"id" : 8, "lemma" : "ㄴ", "type" : "ETM", "position" : 28, "weight" : 0.392321 },
+		{"id" : 9, "lemma" : "기니", "type" : "NNG", "position" : 32, "weight" : 0.0140179 },
+		{"id" : 10, "lemma" : "(", "type" : "SS", "position" : 38, "weight" : 1 },
+		{"id" : 11, "lemma" : "3", "type" : "SN", "position" : 39, "weight" : 1 },
+		{"id" : 12, "lemma" : "-", "type" : "SS", "position" : 40, "weight" : 1 },
+		{"id" : 13, "lemma" : "0", "type" : "SN", "position" : 41, "weight" : 1 },
+		{"id" : 14, "lemma" : ")", "type" : "SS", "position" : 42, "weight" : 1 },
+		{"id" : 15, "lemma" : "와", "type" : "JC", "position" : 43, "weight" : 0.00426109 },
+		{"id" : 16, "lemma" : "아르헨티나", "type" : "NNP", "position" : 47, "weight" : 0.9 },
+		{"id" : 17, "lemma" : "(", "type" : "SS", "position" : 62, "weight" : 1 },
+		{"id" : 18, "lemma" : "2", "type" : "SN", "position" : 63, "weight" : 1 },
+		{"id" : 19, "lemma" : "-", "type" : "SS", "position" : 64, "weight" : 1 },
+		{"id" : 20, "lemma" : "1", "type" : "SN", "position" : 65, "weight" : 1 },
+		{"id" : 21, "lemma" : ")", "type" : "SS", "position" : 66, "weight" : 1 },
+		{"id" : 22, "lemma" : "를", "type" : "JKO", "position" : 67, "weight" : 0.0357023 },
+		{"id" : 23, "lemma" : "맞", "type" : "VV", "position" : 71, "weight" : 0.775594 },
+		{"id" : 24, "lemma" : "아", "type" : "EC", "position" : 74, "weight" : 0.398809 },
+		{"id" : 25, "lemma" : "2", "type" : "SN", "position" : 78, "weight" : 1 },
+		{"id" : 26, "lemma" : "번", "type" : "NNB", "position" : 79, "weight" : 0.413822 },
+		{"id" : 27, "lemma" : "의", "type" : "JKG", "position" : 82, "weight" : 0.0520933 },
+		{"id" : 28, "lemma" : "승리", "type" : "NNG", "position" : 86, "weight" : 0.869217 },
+		{"id" : 29, "lemma" : "를", "type" : "JKO", "position" : 92, "weight" : 0.137686 },
+		{"id" : 30, "lemma" : "기록", "type" : "NNG", "position" : 96, "weight" : 0.9 },
+		{"id" : 31, "lemma" : "하", "type" : "XSV", "position" : 102, "weight" : 0.0001 },
+		{"id" : 32, "lemma" : "며", "type" : "EC", "position" : 105, "weight" : 0.371165 },
+		{"id" : 33, "lemma" : "조", "type" : "NNP", "position" : 109, "weight" : 0.00256861 },
+		{"id" : 34, "lemma" : "1", "type" : "SN", "position" : 113, "weight" : 1 },
+		{"id" : 35, "lemma" : "위", "type" : "NNB", "position" : 114, "weight" : 0.04134 },
+		{"id" : 36, "lemma" : "로", "type" : "JKB", "position" : 117, "weight" : 0.13544 },
+		{"id" : 37, "lemma" : "선두", "type" : "NNG", "position" : 121, "weight" : 0.9 },
+		{"id" : 38, "lemma" : "를", "type" : "JKO", "position" : 127, "weight" : 0.137686 },
+		{"id" : 39, "lemma" : "달리", "type" : "VV", "position" : 131, "weight" : 0.438482 },
+		{"id" : 40, "lemma" : "고", "type" : "EC", "position" : 137, "weight" : 0.416679 },
+		{"id" : 41, "lemma" : "있", "type" : "VX", "position" : 141, "weight" : 0.125953 },
+		{"id" : 42, "lemma" : "다", "type" : "EF", "position" : 144, "weight" : 0.180366 },
+		{"id" : 43, "lemma" : ".", "type" : "SF", "position" : 147, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "앞서/MAG", "target" : "앞서", "word_id" : 0, "m_begin" : 0, "m_end" : 0},
+		{"id" : 1, "result" : "한국/NNG+은/JX", "target" : "한국은", "word_id" : 1, "m_begin" : 1, "m_end" : 2},
+		{"id" : 2, "result" : "A/SL+조/NNG+에/JKB", "target" : "A조에", "word_id" : 2, "m_begin" : 3, "m_end" : 5},
+		{"id" : 3, "result" : "속하/VV+ㄴ/ETM", "target" : "속한", "word_id" : 3, "m_begin" : 6, "m_end" : 8},
+		{"id" : 4, "result" : "기니/NNG+(/SS+3/SN+-/SS+0/SN+)/SS+와/JC", "target" : "기니(3-0)와", "word_id" : 4, "m_begin" : 9, "m_end" : 15},
+		{"id" : 5, "result" : "아르헨티나/NNG+(/SS+2/SN+-/SS+1/SN+)/SS+를/JKO", "target" : "아르헨티나(2-1)를", "word_id" : 5, "m_begin" : 16, "m_end" : 22},
+		{"id" : 6, "result" : "맞/VV+어/EC", "target" : "맞아", "word_id" : 6, "m_begin" : 23, "m_end" : 24},
+		{"id" : 7, "result" : "2/SN+번/NNB+의/JKG", "target" : "2번의", "word_id" : 7, "m_begin" : 25, "m_end" : 27},
+		{"id" : 8, "result" : "승리/NNG+를/JKO", "target" : "승리를", "word_id" : 8, "m_begin" : 28, "m_end" : 29},
+		{"id" : 9, "result" : "기록하/VV+며/EC", "target" : "기록하며", "word_id" : 9, "m_begin" : 30, "m_end" : 32},
+		{"id" : 10, "result" : "조/NNG", "target" : "조", "word_id" : 10, "m_begin" : 33, "m_end" : 33},
+		{"id" : 11, "result" : "1/SN+위/NNB+로/JKB", "target" : "1위로", "word_id" : 11, "m_begin" : 34, "m_end" : 36},
+		{"id" : 12, "result" : "선두/NNG+를/JKO", "target" : "선두를", "word_id" : 12, "m_begin" : 37, "m_end" : 38},
+		{"id" : 13, "result" : "달리/VV+고/EC", "target" : "달리고", "word_id" : 13, "m_begin" : 39, "m_end" : 40},
+		{"id" : 14, "result" : "있/VX+다/EF+./SF", "target" : "있다.", "word_id" : 14, "m_begin" : 41, "m_end" : 43}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "앞서", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "한국", "type" : "NNP", "scode" : "05", "weight" : 3, "position" : 7, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "A", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 17, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "조", "type" : "NNG", "scode" : "15", "weight" : 2.27778, "position" : 18, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 21, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "속하", "type" : "VV", "scode" : "02", "weight" : 3.7, "position" : 25, "begin" : 6, "end" : 7},
+		{"id" : 7, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 28, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : "기니", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 32, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 38, "begin" : 10, "end" : 10},
+		{"id" : 10, "text" : "3", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 40, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : "0", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 41, "begin" : 13, "end" : 13},
+		{"id" : 13, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 42, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "와", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 15, "end" : 15},
+		{"id" : 15, "text" : "아르헨티나", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 47, "begin" : 16, "end" : 16},
+		{"id" : 16, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 62, "begin" : 17, "end" : 17},
+		{"id" : 17, "text" : "2", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 64, "begin" : 19, "end" : 19},
+		{"id" : 19, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 65, "begin" : 20, "end" : 20},
+		{"id" : 20, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 66, "begin" : 21, "end" : 21},
+		{"id" : 21, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 22, "end" : 22},
+		{"id" : 22, "text" : "맞", "type" : "VV", "scode" : "02", "weight" : 1.5, "position" : 71, "begin" : 23, "end" : 23},
+		{"id" : 23, "text" : "아", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 74, "begin" : 24, "end" : 24},
+		{"id" : 24, "text" : "2", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 78, "begin" : 25, "end" : 25},
+		{"id" : 25, "text" : "번", "type" : "NNB", "scode" : "04", "weight" : 4.2, "position" : 79, "begin" : 26, "end" : 26},
+		{"id" : 26, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 82, "begin" : 27, "end" : 27},
+		{"id" : 27, "text" : "승리", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 86, "begin" : 28, "end" : 28},
+		{"id" : 28, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 92, "begin" : 29, "end" : 29},
+		{"id" : 29, "text" : "기록하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 96, "begin" : 30, "end" : 31},
+		{"id" : 30, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 32, "end" : 32},
+		{"id" : 31, "text" : "조", "type" : "NNP", "scode" : "17", "weight" : 1, "position" : 109, "begin" : 33, "end" : 33},
+		{"id" : 32, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 113, "begin" : 34, "end" : 34},
+		{"id" : 33, "text" : "위", "type" : "NNB", "scode" : "05", "weight" : 6.9, "position" : 114, "begin" : 35, "end" : 35},
+		{"id" : 34, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 117, "begin" : 36, "end" : 36},
+		{"id" : 35, "text" : "선두", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 121, "begin" : 37, "end" : 37},
+		{"id" : 36, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 127, "begin" : 38, "end" : 38},
+		{"id" : 37, "text" : "달리", "type" : "VV", "scode" : "04", "weight" : 2.2, "position" : 131, "begin" : 39, "end" : 39},
+		{"id" : 38, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 137, "begin" : 40, "end" : 40},
+		{"id" : 39, "text" : "있", "type" : "VX", "scode" : "01", "weight" : 3.2, "position" : 141, "begin" : 41, "end" : 41},
+		{"id" : 40, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 42, "end" : 42},
+		{"id" : 41, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 147, "begin" : 43, "end" : 43}
+	],
+	"word" : [
+		{"id" : 0, "text" : "앞서", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "한국은", "type" : "", "begin" : 1, "end" : 2},
+		{"id" : 2, "text" : "A조에", "type" : "", "begin" : 3, "end" : 5},
+		{"id" : 3, "text" : "속한", "type" : "", "begin" : 6, "end" : 8},
+		{"id" : 4, "text" : "기니(3-0)와", "type" : "", "begin" : 9, "end" : 15},
+		{"id" : 5, "text" : "아르헨티나(2-1)를", "type" : "", "begin" : 16, "end" : 22},
+		{"id" : 6, "text" : "맞아", "type" : "", "begin" : 23, "end" : 24},
+		{"id" : 7, "text" : "2번의", "type" : "", "begin" : 25, "end" : 27},
+		{"id" : 8, "text" : "승리를", "type" : "", "begin" : 28, "end" : 29},
+		{"id" : 9, "text" : "기록하며", "type" : "", "begin" : 30, "end" : 32},
+		{"id" : 10, "text" : "조", "type" : "", "begin" : 33, "end" : 33},
+		{"id" : 11, "text" : "1위로", "type" : "", "begin" : 34, "end" : 36},
+		{"id" : 12, "text" : "선두를", "type" : "", "begin" : 37, "end" : 38},
+		{"id" : 13, "text" : "달리고", "type" : "", "begin" : 39, "end" : 40},
+		{"id" : 14, "text" : "있다.", "type" : "", "begin" : 41, "end" : 43}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "한국", "type" : "LCP_COUNTRY", "begin" : 1, "end" : 1, "weight" : 0.5551, "common_noun" : 0},
+		{"id" : 1, "text" : "A조", "type" : "OGG_SPORTS", "begin" : 3, "end" : 4, "weight" : 0.248365, "common_noun" : 0},
+		{"id" : 2, "text" : "기니", "type" : "LCP_COUNTRY", "begin" : 9, "end" : 9, "weight" : 0.19064, "common_noun" : 0},
+		{"id" : 3, "text" : "3-0", "type" : "QT_SPORTS", "begin" : 11, "end" : 13, "weight" : 0.514899, "common_noun" : 0},
+		{"id" : 4, "text" : "아르헨티나", "type" : "LCP_COUNTRY", "begin" : 16, "end" : 16, "weight" : 0.543291, "common_noun" : 0},
+		{"id" : 5, "text" : "2-1", "type" : "QT_SPORTS", "begin" : 18, "end" : 20, "weight" : 0.592877, "common_noun" : 0},
+		{"id" : 6, "text" : "2번", "type" : "QT_COUNT", "begin" : 25, "end" : 26, "weight" : 0.76436, "common_noun" : 0},
+		{"id" : 7, "text" : "1위", "type" : "QT_ORDER", "begin" : 34, "end" : 35, "weight" : 0.604967, "common_noun" : 0},
+		{"id" : 8, "text" : "선두", "type" : "CV_POSITION", "begin" : 37, "end" : 37, "weight" : 0.276624, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "앞서", "head" : 6, "label" : "AP", "mod" : [], "weight" : 0.666858 },
+		{"id" : 1, "text" : "한국은", "head" : 6, "label" : "NP_SBJ", "mod" : [], "weight" : 0.778246 },
+		{"id" : 2, "text" : "A조에", "head" : 3, "label" : "NP_AJT", "mod" : [], "weight" : 0.709745 },
+		{"id" : 3, "text" : "속한", "head" : 5, "label" : "VP_MOD", "mod" : [2], "weight" : 0.606704 },
+		{"id" : 4, "text" : "기니(3-0)와", "head" : 5, "label" : "NP_CNJ", "mod" : [], "weight" : 0.371097 },
+		{"id" : 5, "text" : "아르헨티나(2-1)를", "head" : 6, "label" : "NP_OBJ", "mod" : [3, 4], "weight" : 0.794932 },
+		{"id" : 6, "text" : "맞아", "head" : 9, "label" : "VP", "mod" : [0, 1, 5], "weight" : 0.881123 },
+		{"id" : 7, "text" : "2번의", "head" : 8, "label" : "NP_MOD", "mod" : [], "weight" : 0.718845 },
+		{"id" : 8, "text" : "승리를", "head" : 9, "label" : "NP_OBJ", "mod" : [7], "weight" : 0.713497 },
+		{"id" : 9, "text" : "기록하며", "head" : 13, "label" : "VP", "mod" : [6, 8], "weight" : 0.730085 },
+		{"id" : 10, "text" : "조", "head" : 11, "label" : "NP", "mod" : [], "weight" : 0.793504 },
+		{"id" : 11, "text" : "1위로", "head" : 13, "label" : "NP_AJT", "mod" : [10], "weight" : 0.724275 },
+		{"id" : 12, "text" : "선두를", "head" : 13, "label" : "NP_OBJ", "mod" : [], "weight" : 0.742728 },
+		{"id" : 13, "text" : "달리고", "head" : 14, "label" : "VP", "mod" : [9, 11, 12], "weight" : 0.766426 },
+		{"id" : 14, "text" : "있다.", "head" : -1, "label" : "VP", "mod" : [13], "weight" : 0.00512995 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "AP", "text" : "앞서", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_SBJ", "text" : "한국은", "begin" : 1, "end" : 1, "key_begin" : 1, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_AJT", "text" : "A조에", "begin" : 2, "end" : 2, "key_begin" : 2, "head_phrase" : 3, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "VP_MOD", "text" : "P#2@AJT에 속한", "begin" : 2, "end" : 3, "key_begin" : 3, "head_phrase" : 4, "sub_phrase" : [2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_OBJ", "text" : "P#3@MODㄴ 기니(3-0)와 아르헨티나(2-1)를", "begin" : 2, "end" : 5, "key_begin" : 4, "head_phrase" : 5, "sub_phrase" : [3], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "S", "text" : "P#0@AP앞서 P#1@SBJ은 P#4@OBJ를 맞아", "begin" : 0, "end" : 6, "key_begin" : 6, "head_phrase" : 7, "sub_phrase" : [0, 1, 4], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "NP_OBJ", "text" : "2번의 승리를", "begin" : 7, "end" : 8, "key_begin" : 7, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "S", "text" : "S#5@S아 P#6@OBJ를 기록하며", "begin" : 0, "end" : 9, "key_begin" : 9, "head_phrase" : 10, "sub_phrase" : [5, 6], "weight" : 0, "element" : [] },
+		{"id" : 8, "label" : "NP_AJT", "text" : "조 1위로", "begin" : 10, "end" : 11, "key_begin" : 10, "head_phrase" : 10, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 9, "label" : "NP_OBJ", "text" : "선두를", "begin" : 12, "end" : 12, "key_begin" : 12, "head_phrase" : 10, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 10, "label" : "S", "text" : "S#7@S며 P#8@AJT로 P#9@OBJ를 달리고 있다.", "begin" : 0, "end" : 14, "key_begin" : 13, "head_phrase" : -1, "sub_phrase" : [7, 8, 9], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "속", "sense" : 1, "word_id" : 3, "weight" : 0.339199,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 2, "text" : "A조에", "weight" : 0.387538 },
+				{"type" : "ARG1", "word_id" : 5, "text" : "아르헨티나(2-1)를", "weight" : 0.290861 }
+			] },
+		{"verb" : "맞", "sense" : 1, "word_id" : 6, "weight" : 0.36292,
+			"argument" : [
+				{"type" : "ARGM-TMP", "word_id" : 0, "text" : "앞서", "weight" : 0.360272 },
+				{"type" : "ARG2", "word_id" : 5, "text" : "아르헨티나(2-1)를", "weight" : 0.365569 }
+			] },
+		{"verb" : "기록", "sense" : 1, "word_id" : 9, "weight" : 0.691912,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 8, "text" : "승리를", "weight" : 0.691912 }
+			] },
+		{"verb" : "달리", "sense" : 1, "word_id" : 13, "weight" : 0.3515,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 11, "text" : "1위로", "weight" : 0.115277 },
+				{"type" : "ARG1", "word_id" : 12, "text" : "선두를", "weight" : 0.205554 },
+				{"type" : "AUX", "word_id" : 14, "text" : "있다.", "weight" : 0.733668 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 1,
+	"reserve_str" : "",
+	"text" : " 반면, FIFA 랭킹 14위로 한국보다 29계단 위인 잉글랜드는 1승 1무를 기록하고 있는 상황.",
+	"morp" : [
+		{"id" : 0, "lemma" : "반면", "type" : "NNG", "position" : 149, "weight" : 0.9 },
+		{"id" : 1, "lemma" : ",", "type" : "SP", "position" : 155, "weight" : 1 },
+		{"id" : 2, "lemma" : "FIFA", "type" : "SL", "position" : 157, "weight" : 1 },
+		{"id" : 3, "lemma" : "랭킹", "type" : "NNG", "position" : 162, "weight" : 0.9 },
+		{"id" : 4, "lemma" : "14", "type" : "SN", "position" : 169, "weight" : 1 },
+		{"id" : 5, "lemma" : "위", "type" : "NNB", "position" : 171, "weight" : 0.04134 },
+		{"id" : 6, "lemma" : "로", "type" : "JKB", "position" : 174, "weight" : 0.13544 },
+		{"id" : 7, "lemma" : "한국", "type" : "NNP", "position" : 178, "weight" : 0.0229938 },
+		{"id" : 8, "lemma" : "보다", "type" : "JKB", "position" : 184, "weight" : 0.0770559 },
+		{"id" : 9, "lemma" : "29", "type" : "SN", "position" : 191, "weight" : 1 },
+		{"id" : 10, "lemma" : "계단", "type" : "NNG", "position" : 193, "weight" : 0.9 },
+		{"id" : 11, "lemma" : "위", "type" : "NNG", "position" : 200, "weight" : 0.165604 },
+		{"id" : 12, "lemma" : "이", "type" : "VCP", "position" : 203, "weight" : 0.0177525 },
+		{"id" : 13, "lemma" : "ㄴ", "type" : "ETM", "position" : 203, "weight" : 0.220712 },
+		{"id" : 14, "lemma" : "잉글랜드", "type" : "NNP", "position" : 207, "weight" : 0.9 },
+		{"id" : 15, "lemma" : "는", "type" : "JX", "position" : 219, "weight" : 0.0332677 },
+		{"id" : 16, "lemma" : "1", "type" : "SN", "position" : 223, "weight" : 1 },
+		{"id" : 17, "lemma" : "승", "type" : "NNB", "position" : 224, "weight" : 0.309386 },
+		{"id" : 18, "lemma" : "1", "type" : "SN", "position" : 228, "weight" : 1 },
+		{"id" : 19, "lemma" : "무", "type" : "NNB", "position" : 229, "weight" : 0.00289249 },
+		{"id" : 20, "lemma" : "를", "type" : "JKO", "position" : 232, "weight" : 0.0669358 },
+		{"id" : 21, "lemma" : "기록", "type" : "NNG", "position" : 236, "weight" : 0.9 },
+		{"id" : 22, "lemma" : "하", "type" : "XSV", "position" : 242, "weight" : 0.0001 },
+		{"id" : 23, "lemma" : "고", "type" : "EC", "position" : 245, "weight" : 0.359917 },
+		{"id" : 24, "lemma" : "있", "type" : "VX", "position" : 249, "weight" : 0.125953 },
+		{"id" : 25, "lemma" : "는", "type" : "ETM", "position" : 252, "weight" : 0.183966 },
+		{"id" : 26, "lemma" : "상황", "type" : "NNG", "position" : 256, "weight" : 0.9 },
+		{"id" : 27, "lemma" : ".", "type" : "SF", "position" : 262, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "반면/NNG+,/SP", "target" : "반면,", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "FIFA/SL", "target" : "FIFA", "word_id" : 1, "m_begin" : 2, "m_end" : 2},
+		{"id" : 2, "result" : "랭킹/NNG", "target" : "랭킹", "word_id" : 2, "m_begin" : 3, "m_end" : 3},
+		{"id" : 3, "result" : "14/SN+위/NNB+로/JKB", "target" : "14위로", "word_id" : 3, "m_begin" : 4, "m_end" : 6},
+		{"id" : 4, "result" : "한국/NNG+보다/JKB", "target" : "한국보다", "word_id" : 4, "m_begin" : 7, "m_end" : 8},
+		{"id" : 5, "result" : "29/SN+계단/NNG", "target" : "29계단", "word_id" : 5, "m_begin" : 9, "m_end" : 10},
+		{"id" : 6, "result" : "위/NNG+이/VCP+ㄴ/ETM", "target" : "위인", "word_id" : 6, "m_begin" : 11, "m_end" : 13},
+		{"id" : 7, "result" : "잉글랜드/NNG+는/JX", "target" : "잉글랜드는", "word_id" : 7, "m_begin" : 14, "m_end" : 15},
+		{"id" : 8, "result" : "1/SN+승/NNB", "target" : "1승", "word_id" : 8, "m_begin" : 16, "m_end" : 17},
+		{"id" : 9, "result" : "1/SN+무/NNB+를/JKO", "target" : "1무를", "word_id" : 9, "m_begin" : 18, "m_end" : 20},
+		{"id" : 10, "result" : "기록하/VV+고/EC", "target" : "기록하고", "word_id" : 10, "m_begin" : 21, "m_end" : 23},
+		{"id" : 11, "result" : "있/VX+는/ETM", "target" : "있는", "word_id" : 11, "m_begin" : 24, "m_end" : 25},
+		{"id" : 12, "result" : "상황/NNG+./SF", "target" : "상황.", "word_id" : 12, "m_begin" : 26, "m_end" : 27}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "반면", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 149, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 155, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "FIFA", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 157, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "랭킹", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 162, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "14", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 169, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "위", "type" : "NNB", "scode" : "05", "weight" : 4.7, "position" : 171, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 174, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "한국", "type" : "NNP", "scode" : "05", "weight" : 2, "position" : 178, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "보다", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 184, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "29", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 191, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "계단", "type" : "NNG", "scode" : "04", "weight" : 2.2, "position" : 193, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "위", "type" : "NNG", "scode" : "01", "weight" : 2.575, "position" : 200, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 203, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 203, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "잉글랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 207, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 219, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 223, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "승", "type" : "NNB", "scode" : "12", "weight" : 1, "position" : 224, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 228, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "무", "type" : "NNB", "scode" : "07", "weight" : 1, "position" : 229, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 232, "begin" : 20, "end" : 20},
+		{"id" : 21, "text" : "기록하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 236, "begin" : 21, "end" : 22},
+		{"id" : 22, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 245, "begin" : 23, "end" : 23},
+		{"id" : 23, "text" : "있", "type" : "VX", "scode" : "01", "weight" : 4.4, "position" : 249, "begin" : 24, "end" : 24},
+		{"id" : 24, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 252, "begin" : 25, "end" : 25},
+		{"id" : 25, "text" : "상황", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 256, "begin" : 26, "end" : 26},
+		{"id" : 26, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 262, "begin" : 27, "end" : 27}
+	],
+	"word" : [
+		{"id" : 0, "text" : "반면,", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "FIFA", "type" : "", "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "랭킹", "type" : "", "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "14위로", "type" : "", "begin" : 4, "end" : 6},
+		{"id" : 4, "text" : "한국보다", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 5, "text" : "29계단", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 6, "text" : "위인", "type" : "", "begin" : 11, "end" : 13},
+		{"id" : 7, "text" : "잉글랜드는", "type" : "", "begin" : 14, "end" : 15},
+		{"id" : 8, "text" : "1승", "type" : "", "begin" : 16, "end" : 17},
+		{"id" : 9, "text" : "1무를", "type" : "", "begin" : 18, "end" : 20},
+		{"id" : 10, "text" : "기록하고", "type" : "", "begin" : 21, "end" : 23},
+		{"id" : 11, "text" : "있는", "type" : "", "begin" : 24, "end" : 25},
+		{"id" : 12, "text" : "상황.", "type" : "", "begin" : 26, "end" : 27}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "FIFA", "type" : "OGG_SPORTS", "begin" : 2, "end" : 2, "weight" : 0.395079, "common_noun" : 0},
+		{"id" : 1, "text" : "14위", "type" : "QT_ORDER", "begin" : 4, "end" : 5, "weight" : 0.854698, "common_noun" : 0},
+		{"id" : 2, "text" : "한국", "type" : "LCP_COUNTRY", "begin" : 7, "end" : 7, "weight" : 0.435246, "common_noun" : 0},
+		{"id" : 3, "text" : "29계단", "type" : "QT_COUNT", "begin" : 9, "end" : 10, "weight" : 0.583382, "common_noun" : 0},
+		{"id" : 4, "text" : "잉글랜드", "type" : "LCP_COUNTRY", "begin" : 14, "end" : 14, "weight" : 0.423867, "common_noun" : 0},
+		{"id" : 5, "text" : "1승", "type" : "QT_SPORTS", "begin" : 16, "end" : 17, "weight" : 0.863503, "common_noun" : 0},
+		{"id" : 6, "text" : "1무", "type" : "QT_SPORTS", "begin" : 18, "end" : 19, "weight" : 0.729997, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "반면,", "head" : 12, "label" : "NP_AJT", "mod" : [], "weight" : 0.278808 },
+		{"id" : 1, "text" : "FIFA", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.350308 },
+		{"id" : 2, "text" : "랭킹", "head" : 3, "label" : "NP", "mod" : [1], "weight" : 0.629695 },
+		{"id" : 3, "text" : "14위로", "head" : 10, "label" : "NP_AJT", "mod" : [2], "weight" : 0.619263 },
+		{"id" : 4, "text" : "한국보다", "head" : 6, "label" : "NP_AJT", "mod" : [], "weight" : 0.718754 },
+		{"id" : 5, "text" : "29계단", "head" : 6, "label" : "NP", "mod" : [], "weight" : 0.79118 },
+		{"id" : 6, "text" : "위인", "head" : 7, "label" : "VNP_MOD", "mod" : [4, 5], "weight" : 0.523018 },
+		{"id" : 7, "text" : "잉글랜드는", "head" : 10, "label" : "NP_SBJ", "mod" : [6], "weight" : 0.109581 },
+		{"id" : 8, "text" : "1승", "head" : 9, "label" : "NP", "mod" : [], "weight" : 0.315433 },
+		{"id" : 9, "text" : "1무를", "head" : 10, "label" : "NP_OBJ", "mod" : [8], "weight" : 0.735776 },
+		{"id" : 10, "text" : "기록하고", "head" : 11, "label" : "VP", "mod" : [3, 7, 9], "weight" : 0.852675 },
+		{"id" : 11, "text" : "있는", "head" : 12, "label" : "VP_MOD", "mod" : [10], "weight" : 0.833039 },
+		{"id" : 12, "text" : "상황.", "head" : -1, "label" : "NP", "mod" : [0, 11], "weight" : 0.000169286 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_AJT", "text" : "반면,", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_AJT", "text" : "FIFA 랭킹 14위로", "begin" : 1, "end" : 3, "key_begin" : 1, "head_phrase" : 6, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_AJT", "text" : "한국보다", "begin" : 4, "end" : 4, "key_begin" : 4, "head_phrase" : 3, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "VNP_MOD", "text" : "P#2@AJT보다 29계단 위인", "begin" : 4, "end" : 6, "key_begin" : 5, "head_phrase" : 4, "sub_phrase" : [2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_SBJ", "text" : "P#3@MODㄴ 잉글랜드는", "begin" : 4, "end" : 7, "key_begin" : 7, "head_phrase" : 6, "sub_phrase" : [3], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "NP_OBJ", "text" : "1승 1무를", "begin" : 8, "end" : 9, "key_begin" : 8, "head_phrase" : 6, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "S_MOD", "text" : "P#1@AJT로 P#4@SBJ는 P#5@OBJ를 기록하고 있는", "begin" : 1, "end" : 11, "key_begin" : 10, "head_phrase" : 7, "sub_phrase" : [1, 4, 5], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "NP", "text" : "P#0@AJT반면, S#6@MOD는 상황.", "begin" : 0, "end" : 12, "key_begin" : 12, "head_phrase" : -1, "sub_phrase" : [0, 6], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "기록", "sense" : 1, "word_id" : 10, "weight" : 0.381685,
+			"argument" : [
+				{"type" : "ARGM-PRD", "word_id" : 3, "text" : "14위로", "weight" : 0.129681 },
+				{"type" : "ARG1", "word_id" : 9, "text" : "1무를", "weight" : 0.442528 },
+				{"type" : "AUX", "word_id" : 11, "text" : "있는", "weight" : 0.572845 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "따라서 한국이 잉글랜드와의 경기에서 승리하거나 무승부가 되면 조 1위로 C,D,E조 3위와 8강전을 치르게 되며, 반대로 패하게 되면 조 2위로 C조 2위와 16강전을 치르게 된다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "따라서", "type" : "MAJ", "position" : 0, "weight" : 0.0459168 },
+		{"id" : 1, "lemma" : "한국", "type" : "NNP", "position" : 10, "weight" : 0.0629955 },
+		{"id" : 2, "lemma" : "이", "type" : "JKS", "position" : 16, "weight" : 0.0234517 },
+		{"id" : 3, "lemma" : "잉글랜드", "type" : "NNP", "position" : 20, "weight" : 0.9 },
+		{"id" : 4, "lemma" : "와", "type" : "JKB", "position" : 32, "weight" : 0.0304966 },
+		{"id" : 5, "lemma" : "의", "type" : "JKG", "position" : 35, "weight" : 0.00917577 },
+		{"id" : 6, "lemma" : "경기", "type" : "NNG", "position" : 39, "weight" : 0.63909 },
+		{"id" : 7, "lemma" : "에서", "type" : "JKB", "position" : 45, "weight" : 0.153407 },
+		{"id" : 8, "lemma" : "승리", "type" : "NNG", "position" : 52, "weight" : 0.207515 },
+		{"id" : 9, "lemma" : "하", "type" : "XSV", "position" : 58, "weight" : 0.0001 },
+		{"id" : 10, "lemma" : "거나", "type" : "EC", "position" : 61, "weight" : 0.364324 },
+		{"id" : 11, "lemma" : "무", "type" : "XPN", "position" : 68, "weight" : 0.000299674 },
+		{"id" : 12, "lemma" : "승부", "type" : "NNG", "position" : 71, "weight" : 0.9 },
+		{"id" : 13, "lemma" : "가", "type" : "JKC", "position" : 77, "weight" : 0.000442184 },
+		{"id" : 14, "lemma" : "되", "type" : "VV", "position" : 81, "weight" : 0.542406 },
+		{"id" : 15, "lemma" : "면", "type" : "EC", "position" : 84, "weight" : 0.399365 },
+		{"id" : 16, "lemma" : "조", "type" : "NNP", "position" : 88, "weight" : 0.00256861 },
+		{"id" : 17, "lemma" : "1", "type" : "SN", "position" : 92, "weight" : 1 },
+		{"id" : 18, "lemma" : "위", "type" : "NNB", "position" : 93, "weight" : 0.04134 },
+		{"id" : 19, "lemma" : "로", "type" : "JKB", "position" : 96, "weight" : 0.13544 },
+		{"id" : 20, "lemma" : "C", "type" : "SL", "position" : 100, "weight" : 1 },
+		{"id" : 21, "lemma" : ",", "type" : "SP", "position" : 101, "weight" : 1 },
+		{"id" : 22, "lemma" : "D", "type" : "SL", "position" : 102, "weight" : 1 },
+		{"id" : 23, "lemma" : ",", "type" : "SP", "position" : 103, "weight" : 1 },
+		{"id" : 24, "lemma" : "E", "type" : "SL", "position" : 104, "weight" : 1 },
+		{"id" : 25, "lemma" : "조", "type" : "NNG", "position" : 105, "weight" : 0.0238925 },
+		{"id" : 26, "lemma" : "3", "type" : "SN", "position" : 109, "weight" : 1 },
+		{"id" : 27, "lemma" : "위", "type" : "NNB", "position" : 110, "weight" : 0.04134 },
+		{"id" : 28, "lemma" : "와", "type" : "JC", "position" : 113, "weight" : 0.00249375 },
+		{"id" : 29, "lemma" : "8", "type" : "SN", "position" : 117, "weight" : 1 },
+		{"id" : 30, "lemma" : "강", "type" : "NNG", "position" : 118, "weight" : 0.0849025 },
+		{"id" : 31, "lemma" : "전", "type" : "XSN", "position" : 121, "weight" : 0.00343717 },
+		{"id" : 32, "lemma" : "을", "type" : "JKO", "position" : 124, "weight" : 0.0819193 },
+		{"id" : 33, "lemma" : "치르", "type" : "VV", "position" : 128, "weight" : 0.9 },
+		{"id" : 34, "lemma" : "게", "type" : "EC", "position" : 134, "weight" : 0.427975 },
+		{"id" : 35, "lemma" : "되", "type" : "VV", "position" : 138, "weight" : 0.209958 },
+		{"id" : 36, "lemma" : "며", "type" : "EC", "position" : 141, "weight" : 0.429701 },
+		{"id" : 37, "lemma" : ",", "type" : "SP", "position" : 144, "weight" : 1 },
+		{"id" : 38, "lemma" : "반대", "type" : "NNG", "position" : 146, "weight" : 0.9 },
+		{"id" : 39, "lemma" : "로", "type" : "JKB", "position" : 152, "weight" : 0.153229 },
+		{"id" : 40, "lemma" : "패", "type" : "NNG", "position" : 156, "weight" : 0.0930806 },
+		{"id" : 41, "lemma" : "하", "type" : "XSV", "position" : 159, "weight" : 0.0001 },
+		{"id" : 42, "lemma" : "게", "type" : "EC", "position" : 162, "weight" : 0.369675 },
+		{"id" : 43, "lemma" : "되", "type" : "VV", "position" : 166, "weight" : 0.209958 },
+		{"id" : 44, "lemma" : "면", "type" : "EC", "position" : 169, "weight" : 0.399365 },
+		{"id" : 45, "lemma" : "조", "type" : "NNP", "position" : 173, "weight" : 0.00256861 },
+		{"id" : 46, "lemma" : "2", "type" : "SN", "position" : 177, "weight" : 1 },
+		{"id" : 47, "lemma" : "위", "type" : "NNB", "position" : 178, "weight" : 0.04134 },
+		{"id" : 48, "lemma" : "로", "type" : "JKB", "position" : 181, "weight" : 0.13544 },
+		{"id" : 49, "lemma" : "C", "type" : "SL", "position" : 185, "weight" : 1 },
+		{"id" : 50, "lemma" : "조", "type" : "NNG", "position" : 186, "weight" : 0.0238925 },
+		{"id" : 51, "lemma" : "2", "type" : "SN", "position" : 190, "weight" : 1 },
+		{"id" : 52, "lemma" : "위", "type" : "NNB", "position" : 191, "weight" : 0.04134 },
+		{"id" : 53, "lemma" : "와", "type" : "JC", "position" : 194, "weight" : 0.00249375 },
+		{"id" : 54, "lemma" : "16", "type" : "SN", "position" : 198, "weight" : 1 },
+		{"id" : 55, "lemma" : "강", "type" : "NNG", "position" : 200, "weight" : 0.0849025 },
+		{"id" : 56, "lemma" : "전", "type" : "XSN", "position" : 203, "weight" : 0.00343717 },
+		{"id" : 57, "lemma" : "을", "type" : "JKO", "position" : 206, "weight" : 0.0819193 },
+		{"id" : 58, "lemma" : "치르", "type" : "VV", "position" : 210, "weight" : 0.9 },
+		{"id" : 59, "lemma" : "게", "type" : "EC", "position" : 216, "weight" : 0.427975 },
+		{"id" : 60, "lemma" : "되", "type" : "VV", "position" : 220, "weight" : 0.209958 },
+		{"id" : 61, "lemma" : "ㄴ다", "type" : "EF", "position" : 220, "weight" : 0.0793196 },
+		{"id" : 62, "lemma" : ".", "type" : "SF", "position" : 226, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "따라서/MAJ", "target" : "따라서", "word_id" : 0, "m_begin" : 0, "m_end" : 0},
+		{"id" : 1, "result" : "한국/NNG+이/JKS", "target" : "한국이", "word_id" : 1, "m_begin" : 1, "m_end" : 2},
+		{"id" : 2, "result" : "잉글랜드/NNG+와/JKB+의/JKG", "target" : "잉글랜드와의", "word_id" : 2, "m_begin" : 3, "m_end" : 5},
+		{"id" : 3, "result" : "경기/NNG+에서/JKB", "target" : "경기에서", "word_id" : 3, "m_begin" : 6, "m_end" : 7},
+		{"id" : 4, "result" : "승리하/VV+거나/EC", "target" : "승리하거나", "word_id" : 4, "m_begin" : 8, "m_end" : 10},
+		{"id" : 5, "result" : "무승부/NNG+가/JKC", "target" : "무승부가", "word_id" : 5, "m_begin" : 11, "m_end" : 13},
+		{"id" : 6, "result" : "되/VV+면/EC", "target" : "되면", "word_id" : 6, "m_begin" : 14, "m_end" : 15},
+		{"id" : 7, "result" : "조/NNG", "target" : "조", "word_id" : 7, "m_begin" : 16, "m_end" : 16},
+		{"id" : 8, "result" : "1/SN+위/NNB+로/JKB", "target" : "1위로", "word_id" : 8, "m_begin" : 17, "m_end" : 19},
+		{"id" : 9, "result" : "C/SL+,/SP+D/SL+,/SP+E/SL+조/NNG", "target" : "C,D,E조", "word_id" : 9, "m_begin" : 20, "m_end" : 25},
+		{"id" : 10, "result" : "3/SN+위/NNB+와/JC", "target" : "3위와", "word_id" : 10, "m_begin" : 26, "m_end" : 28},
+		{"id" : 11, "result" : "8/SN+강전/NNG+을/JKO", "target" : "8강전을", "word_id" : 11, "m_begin" : 29, "m_end" : 32},
+		{"id" : 12, "result" : "치르/VV+게/EC", "target" : "치르게", "word_id" : 12, "m_begin" : 33, "m_end" : 34},
+		{"id" : 13, "result" : "되/VV+며/EC+,/SP", "target" : "되며,", "word_id" : 13, "m_begin" : 35, "m_end" : 37},
+		{"id" : 14, "result" : "반대/NNG+로/JKB", "target" : "반대로", "word_id" : 14, "m_begin" : 38, "m_end" : 39},
+		{"id" : 15, "result" : "패하/VV+게/EC", "target" : "패하게", "word_id" : 15, "m_begin" : 40, "m_end" : 42},
+		{"id" : 16, "result" : "되/VV+면/EC", "target" : "되면", "word_id" : 16, "m_begin" : 43, "m_end" : 44},
+		{"id" : 17, "result" : "조/NNG", "target" : "조", "word_id" : 17, "m_begin" : 45, "m_end" : 45},
+		{"id" : 18, "result" : "2/SN+위/NNB+로/JKB", "target" : "2위로", "word_id" : 18, "m_begin" : 46, "m_end" : 48},
+		{"id" : 19, "result" : "C/SL+조/NNG", "target" : "C조", "word_id" : 19, "m_begin" : 49, "m_end" : 50},
+		{"id" : 20, "result" : "2/SN+위/NNB+와/JC", "target" : "2위와", "word_id" : 20, "m_begin" : 51, "m_end" : 53},
+		{"id" : 21, "result" : "16/SN+강전/NNG+을/JKO", "target" : "16강전을", "word_id" : 21, "m_begin" : 54, "m_end" : 57},
+		{"id" : 22, "result" : "치르/VV+게/EC", "target" : "치르게", "word_id" : 22, "m_begin" : 58, "m_end" : 59},
+		{"id" : 23, "result" : "되/VV+ㄴ다/EF+./SF", "target" : "된다.", "word_id" : 23, "m_begin" : 60, "m_end" : 62}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "따라서", "type" : "MAJ", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "한국", "type" : "NNP", "scode" : "05", "weight" : 3.7, "position" : 10, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 16, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "잉글랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "와", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 35, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "경기", "type" : "NNG", "scode" : "11", "weight" : 9.13182, "position" : 39, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 45, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "승리하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 52, "begin" : 8, "end" : 9},
+		{"id" : 9, "text" : "거나", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 10, "end" : 10},
+		{"id" : 10, "text" : "무승부", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 68, "begin" : 11, "end" : 12},
+		{"id" : 11, "text" : "가", "type" : "JKC", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 13, "end" : 13},
+		{"id" : 12, "text" : "되", "type" : "VV", "scode" : "01", "weight" : 7.7, "position" : 81, "begin" : 14, "end" : 14},
+		{"id" : 13, "text" : "면", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 84, "begin" : 15, "end" : 15},
+		{"id" : 14, "text" : "조", "type" : "NNP", "scode" : "17", "weight" : 2.4, "position" : 88, "begin" : 16, "end" : 16},
+		{"id" : 15, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 92, "begin" : 17, "end" : 17},
+		{"id" : 16, "text" : "위", "type" : "NNB", "scode" : "05", "weight" : 3.5, "position" : 93, "begin" : 18, "end" : 18},
+		{"id" : 17, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 96, "begin" : 19, "end" : 19},
+		{"id" : 18, "text" : "C", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 100, "begin" : 20, "end" : 20},
+		{"id" : 19, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 101, "begin" : 21, "end" : 21},
+		{"id" : 20, "text" : "D", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 102, "begin" : 22, "end" : 22},
+		{"id" : 21, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 103, "begin" : 23, "end" : 23},
+		{"id" : 22, "text" : "E", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 104, "begin" : 24, "end" : 24},
+		{"id" : 23, "text" : "조", "type" : "NNG", "scode" : "15", "weight" : 2.5, "position" : 105, "begin" : 25, "end" : 25},
+		{"id" : 24, "text" : "3", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 109, "begin" : 26, "end" : 26},
+		{"id" : 25, "text" : "위", "type" : "NNB", "scode" : "05", "weight" : 4.2, "position" : 110, "begin" : 27, "end" : 27},
+		{"id" : 26, "text" : "와", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 113, "begin" : 28, "end" : 28},
+		{"id" : 27, "text" : "8", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 117, "begin" : 29, "end" : 29},
+		{"id" : 28, "text" : "강전", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 118, "begin" : 30, "end" : 31},
+		{"id" : 29, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 124, "begin" : 32, "end" : 32},
+		{"id" : 30, "text" : "치르", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 128, "begin" : 33, "end" : 33},
+		{"id" : 31, "text" : "게", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 134, "begin" : 34, "end" : 34},
+		{"id" : 32, "text" : "되", "type" : "VV", "scode" : "01", "weight" : 8.8, "position" : 138, "begin" : 35, "end" : 35},
+		{"id" : 33, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 141, "begin" : 36, "end" : 36},
+		{"id" : 34, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 37, "end" : 37},
+		{"id" : 35, "text" : "반대", "type" : "NNG", "scode" : "03", "weight" : 4.4, "position" : 146, "begin" : 38, "end" : 38},
+		{"id" : 36, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 152, "begin" : 39, "end" : 39},
+		{"id" : 37, "text" : "패하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 156, "begin" : 40, "end" : 41},
+		{"id" : 38, "text" : "게", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 162, "begin" : 42, "end" : 42},
+		{"id" : 39, "text" : "되", "type" : "VV", "scode" : "01", "weight" : 7.7, "position" : 166, "begin" : 43, "end" : 43},
+		{"id" : 40, "text" : "면", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 169, "begin" : 44, "end" : 44},
+		{"id" : 41, "text" : "조", "type" : "NNP", "scode" : "17", "weight" : 2.4, "position" : 173, "begin" : 45, "end" : 45},
+		{"id" : 42, "text" : "2", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 177, "begin" : 46, "end" : 46},
+		{"id" : 43, "text" : "위", "type" : "NNB", "scode" : "05", "weight" : 3.5, "position" : 178, "begin" : 47, "end" : 47},
+		{"id" : 44, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 181, "begin" : 48, "end" : 48},
+		{"id" : 45, "text" : "C", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 185, "begin" : 49, "end" : 49},
+		{"id" : 46, "text" : "조", "type" : "NNG", "scode" : "15", "weight" : 2.5, "position" : 186, "begin" : 50, "end" : 50},
+		{"id" : 47, "text" : "2", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 190, "begin" : 51, "end" : 51},
+		{"id" : 48, "text" : "위", "type" : "NNB", "scode" : "05", "weight" : 4.2, "position" : 191, "begin" : 52, "end" : 52},
+		{"id" : 49, "text" : "와", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 194, "begin" : 53, "end" : 53},
+		{"id" : 50, "text" : "16", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 198, "begin" : 54, "end" : 54},
+		{"id" : 51, "text" : "강전", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 200, "begin" : 55, "end" : 56},
+		{"id" : 52, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 206, "begin" : 57, "end" : 57},
+		{"id" : 53, "text" : "치르", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 210, "begin" : 58, "end" : 58},
+		{"id" : 54, "text" : "게", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 216, "begin" : 59, "end" : 59},
+		{"id" : 55, "text" : "되", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 220, "begin" : 60, "end" : 60},
+		{"id" : 56, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 220, "begin" : 61, "end" : 61},
+		{"id" : 57, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 226, "begin" : 62, "end" : 62}
+	],
+	"word" : [
+		{"id" : 0, "text" : "따라서", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "한국이", "type" : "", "begin" : 1, "end" : 2},
+		{"id" : 2, "text" : "잉글랜드와의", "type" : "", "begin" : 3, "end" : 5},
+		{"id" : 3, "text" : "경기에서", "type" : "", "begin" : 6, "end" : 7},
+		{"id" : 4, "text" : "승리하거나", "type" : "", "begin" : 8, "end" : 10},
+		{"id" : 5, "text" : "무승부가", "type" : "", "begin" : 11, "end" : 13},
+		{"id" : 6, "text" : "되면", "type" : "", "begin" : 14, "end" : 15},
+		{"id" : 7, "text" : "조", "type" : "", "begin" : 16, "end" : 16},
+		{"id" : 8, "text" : "1위로", "type" : "", "begin" : 17, "end" : 19},
+		{"id" : 9, "text" : "C,D,E조", "type" : "", "begin" : 20, "end" : 25},
+		{"id" : 10, "text" : "3위와", "type" : "", "begin" : 26, "end" : 28},
+		{"id" : 11, "text" : "8강전을", "type" : "", "begin" : 29, "end" : 32},
+		{"id" : 12, "text" : "치르게", "type" : "", "begin" : 33, "end" : 34},
+		{"id" : 13, "text" : "되며,", "type" : "", "begin" : 35, "end" : 37},
+		{"id" : 14, "text" : "반대로", "type" : "", "begin" : 38, "end" : 39},
+		{"id" : 15, "text" : "패하게", "type" : "", "begin" : 40, "end" : 42},
+		{"id" : 16, "text" : "되면", "type" : "", "begin" : 43, "end" : 44},
+		{"id" : 17, "text" : "조", "type" : "", "begin" : 45, "end" : 45},
+		{"id" : 18, "text" : "2위로", "type" : "", "begin" : 46, "end" : 48},
+		{"id" : 19, "text" : "C조", "type" : "", "begin" : 49, "end" : 50},
+		{"id" : 20, "text" : "2위와", "type" : "", "begin" : 51, "end" : 53},
+		{"id" : 21, "text" : "16강전을", "type" : "", "begin" : 54, "end" : 57},
+		{"id" : 22, "text" : "치르게", "type" : "", "begin" : 58, "end" : 59},
+		{"id" : 23, "text" : "된다.", "type" : "", "begin" : 60, "end" : 62}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "한국", "type" : "LCP_COUNTRY", "begin" : 1, "end" : 1, "weight" : 0.535292, "common_noun" : 0},
+		{"id" : 1, "text" : "잉글랜드", "type" : "LCP_COUNTRY", "begin" : 3, "end" : 3, "weight" : 0.544976, "common_noun" : 0},
+		{"id" : 2, "text" : "무승부", "type" : "QT_SPORTS", "begin" : 11, "end" : 12, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "1위", "type" : "QT_ORDER", "begin" : 17, "end" : 18, "weight" : 0.522473, "common_noun" : 0},
+		{"id" : 4, "text" : "E조", "type" : "OGG_SPORTS", "begin" : 24, "end" : 25, "weight" : 0.212053, "common_noun" : 0},
+		{"id" : 5, "text" : "3위", "type" : "QT_ORDER", "begin" : 26, "end" : 27, "weight" : 0.538761, "common_noun" : 0},
+		{"id" : 6, "text" : "8강전", "type" : "EV_SPORTS", "begin" : 29, "end" : 31, "weight" : 0.635524, "common_noun" : 0},
+		{"id" : 7, "text" : "2위", "type" : "QT_ORDER", "begin" : 46, "end" : 47, "weight" : 0.478183, "common_noun" : 0},
+		{"id" : 8, "text" : "C조", "type" : "OGG_SPORTS", "begin" : 49, "end" : 50, "weight" : 0.267035, "common_noun" : 0},
+		{"id" : 9, "text" : "2위", "type" : "QT_ORDER", "begin" : 51, "end" : 52, "weight" : 0.49916, "common_noun" : 0},
+		{"id" : 10, "text" : "16강전", "type" : "EV_SPORTS", "begin" : 54, "end" : 56, "weight" : 0.589909, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "따라서", "head" : 6, "label" : "AP", "mod" : [], "weight" : 0.589112 },
+		{"id" : 1, "text" : "한국이", "head" : 4, "label" : "NP_SBJ", "mod" : [], "weight" : 0.70989 },
+		{"id" : 2, "text" : "잉글랜드와의", "head" : 3, "label" : "NP_MOD", "mod" : [], "weight" : 0.681959 },
+		{"id" : 3, "text" : "경기에서", "head" : 4, "label" : "NP_AJT", "mod" : [2], "weight" : 0.850824 },
+		{"id" : 4, "text" : "승리하거나", "head" : 6, "label" : "VP", "mod" : [1, 3], "weight" : 0.835683 },
+		{"id" : 5, "text" : "무승부가", "head" : 6, "label" : "NP_CMP", "mod" : [], "weight" : 0.706615 },
+		{"id" : 6, "text" : "되면", "head" : 12, "label" : "VP", "mod" : [0, 4, 5], "weight" : 0.684297 },
+		{"id" : 7, "text" : "조", "head" : 8, "label" : "NP", "mod" : [], "weight" : 0.657267 },
+		{"id" : 8, "text" : "1위로", "head" : 12, "label" : "NP_AJT", "mod" : [7], "weight" : 0.772255 },
+		{"id" : 9, "text" : "C,D,E조", "head" : 10, "label" : "NP", "mod" : [], "weight" : 0.0118456 },
+		{"id" : 10, "text" : "3위와", "head" : 11, "label" : "NP_CNJ", "mod" : [9], "weight" : 0.22412 },
+		{"id" : 11, "text" : "8강전을", "head" : 12, "label" : "NP_OBJ", "mod" : [10], "weight" : 0.635646 },
+		{"id" : 12, "text" : "치르게", "head" : 13, "label" : "VP", "mod" : [6, 8, 11], "weight" : 0.69987 },
+		{"id" : 13, "text" : "되며,", "head" : 15, "label" : "VP", "mod" : [12], "weight" : 0.714691 },
+		{"id" : 14, "text" : "반대로", "head" : 15, "label" : "NP_AJT", "mod" : [], "weight" : 0.747229 },
+		{"id" : 15, "text" : "패하게", "head" : 16, "label" : "VP", "mod" : [13, 14], "weight" : 0.529729 },
+		{"id" : 16, "text" : "되면", "head" : 22, "label" : "VP", "mod" : [15], "weight" : 0.788463 },
+		{"id" : 17, "text" : "조", "head" : 18, "label" : "NP", "mod" : [], "weight" : 0.728022 },
+		{"id" : 18, "text" : "2위로", "head" : 22, "label" : "NP_AJT", "mod" : [17], "weight" : 0.734787 },
+		{"id" : 19, "text" : "C조", "head" : 20, "label" : "NP", "mod" : [], "weight" : 0.761448 },
+		{"id" : 20, "text" : "2위와", "head" : 21, "label" : "NP_CNJ", "mod" : [19], "weight" : 0.500085 },
+		{"id" : 21, "text" : "16강전을", "head" : 22, "label" : "NP_OBJ", "mod" : [20], "weight" : 0.731806 },
+		{"id" : 22, "text" : "치르게", "head" : 23, "label" : "VP", "mod" : [16, 18, 21], "weight" : 0.767235 },
+		{"id" : 23, "text" : "된다.", "head" : -1, "label" : "VP", "mod" : [22], "weight" : 1.24789e-06 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "AP", "text" : "따라서", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_SBJ", "text" : "한국이", "begin" : 1, "end" : 1, "key_begin" : 1, "head_phrase" : 3, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_AJT", "text" : "잉글랜드와의 경기에서", "begin" : 2, "end" : 3, "key_begin" : 2, "head_phrase" : 3, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "S", "text" : "P#1@SBJ이 P#2@AJT에서 승리하거나", "begin" : 1, "end" : 4, "key_begin" : 4, "head_phrase" : 5, "sub_phrase" : [1, 2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_CMP", "text" : "무승부가", "begin" : 5, "end" : 5, "key_begin" : 5, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "S", "text" : "P#0@AP따라서 S#3@S거나 P#4@CMP가 되면", "begin" : 0, "end" : 6, "key_begin" : 6, "head_phrase" : 8, "sub_phrase" : [0, 3, 4], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "NP_AJT", "text" : "조 1위로", "begin" : 7, "end" : 8, "key_begin" : 7, "head_phrase" : 8, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "NP_OBJ", "text" : "C,D,E조 3위와 8강전을", "begin" : 9, "end" : 11, "key_begin" : 9, "head_phrase" : 8, "sub_phrase" : [], "weight" : 0, 
+			"element" : [
+				{ "text" : "C,D,E조 3위", "label" : "NP_OBJ", "begin" : 20, "end" : 27, "ne_type" : "" },
+				{ "text" : "8강전", "label" : "NP_OBJ", "begin" : 29, "end" : 31, "ne_type" : "EV_SPORTS" }
+			] },
+		{"id" : 8, "label" : "S", "text" : "S#5@S면 P#6@AJT로 P#7@OBJ을 치르게 되며,", "begin" : 0, "end" : 13, "key_begin" : 12, "head_phrase" : 10, "sub_phrase" : [5, 6, 7], "weight" : 0, "element" : [] },
+		{"id" : 9, "label" : "NP_AJT", "text" : "반대로", "begin" : 14, "end" : 14, "key_begin" : 14, "head_phrase" : 10, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 10, "label" : "S", "text" : "S#8@S며, P#9@AJT로 패하게 되면", "begin" : 0, "end" : 16, "key_begin" : 15, "head_phrase" : 13, "sub_phrase" : [8, 9], "weight" : 0, "element" : [] },
+		{"id" : 11, "label" : "NP_AJT", "text" : "조 2위로", "begin" : 17, "end" : 18, "key_begin" : 17, "head_phrase" : 13, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 12, "label" : "NP_OBJ", "text" : "C조 2위와 16강전을", "begin" : 19, "end" : 21, "key_begin" : 19, "head_phrase" : 13, "sub_phrase" : [], "weight" : 0, 
+			"element" : [
+				{ "text" : "C조 2위", "label" : "NP_OBJ", "begin" : 49, "end" : 52, "ne_type" : "" },
+				{ "text" : "16강전", "label" : "NP_OBJ", "begin" : 54, "end" : 56, "ne_type" : "EV_SPORTS" }
+			] },
+		{"id" : 13, "label" : "S", "text" : "S#10@S면 P#11@AJT로 P#12@OBJ을 치르게 된다.", "begin" : 0, "end" : 23, "key_begin" : 22, "head_phrase" : -1, "sub_phrase" : [10, 11, 12], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "승리", "sense" : 1, "word_id" : 4, "weight" : 0.322328,
+			"argument" : [
+				{"type" : "ARG0", "word_id" : 1, "text" : "한국이", "weight" : 0.382082 },
+				{"type" : "ARGM-TMP", "word_id" : 3, "text" : "경기에서", "weight" : 0.262573 }
+			] },
+		{"verb" : "되", "sense" : 1, "word_id" : 6, "weight" : 0.27152,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 5, "text" : "무승부가", "weight" : 0.27152 }
+			] },
+		{"verb" : "치르", "sense" : 1, "word_id" : 12, "weight" : 0.234492,
+			"argument" : [
+				{"type" : "ARGM-CND", "word_id" : 6, "text" : "되면", "weight" : 0.191228 },
+				{"type" : "ARGM-INS", "word_id" : 8, "text" : "1위로", "weight" : 0.0913999 },
+				{"type" : "ARG1", "word_id" : 11, "text" : "8강전을", "weight" : 0.137577 },
+				{"type" : "AUX", "word_id" : 13, "text" : "되며,", "weight" : 0.517761 }
+			] },
+		{"verb" : "패", "sense" : 1, "word_id" : 15, "weight" : 0.227428,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 14, "text" : "반대로", "weight" : 0.113512 },
+				{"type" : "AUX", "word_id" : 16, "text" : "되면", "weight" : 0.341344 }
+			] },
+		{"verb" : "치르", "sense" : 1, "word_id" : 22, "weight" : 0.32942,
+			"argument" : [
+				{"type" : "ARGM-CND", "word_id" : 16, "text" : "되면", "weight" : 0.239362 },
+				{"type" : "ARG1", "word_id" : 21, "text" : "16강전을", "weight" : 0.164592 },
+				{"type" : "AUX", "word_id" : 23, "text" : "된다.", "weight" : 0.584307 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "MBC는 오늘 있을 한국과 잉글랜드의 경기를 김성주-안정환-서형욱 중계진을 통해 8시부터 생중계 하며, TV 중계 퀄리티 그대로 PC-'iMBC스포츠온에어'와 모바일-'해요TV'를 통해 온라인으로 동시 생중계 한다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "MBC", "type" : "SL", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "는", "type" : "JX", "position" : 3, "weight" : 0.0151243 },
+		{"id" : 2, "lemma" : "오늘", "type" : "MAG", "position" : 7, "weight" : 0.022351 },
+		{"id" : 3, "lemma" : "있", "type" : "VA", "position" : 14, "weight" : 0.0682304 },
+		{"id" : 4, "lemma" : "을", "type" : "ETM", "position" : 17, "weight" : 0.0306722 },
+		{"id" : 5, "lemma" : "한국", "type" : "NNP", "position" : 21, "weight" : 0.0280282 },
+		{"id" : 6, "lemma" : "과", "type" : "JC", "position" : 27, "weight" : 0.0108215 },
+		{"id" : 7, "lemma" : "잉글랜드", "type" : "NNP", "position" : 31, "weight" : 0.9 },
+		{"id" : 8, "lemma" : "의", "type" : "JKG", "position" : 43, "weight" : 0.0987295 },
+		{"id" : 9, "lemma" : "경기", "type" : "NNG", "position" : 47, "weight" : 0.63909 },
+		{"id" : 10, "lemma" : "를", "type" : "JKO", "position" : 53, "weight" : 0.137686 },
+		{"id" : 11, "lemma" : "김성주", "type" : "NNP", "position" : 57, "weight" : 0.2 },
+		{"id" : 12, "lemma" : "-", "type" : "SS", "position" : 66, "weight" : 1 },
+		{"id" : 13, "lemma" : "안정환", "type" : "NNP", "position" : 67, "weight" : 0.9 },
+		{"id" : 14, "lemma" : "-", "type" : "SS", "position" : 76, "weight" : 1 },
+		{"id" : 15, "lemma" : "서형욱", "type" : "NNP", "position" : 77, "weight" : 0.6 },
+		{"id" : 16, "lemma" : "중계진", "type" : "NNP", "position" : 87, "weight" : 0.6 },
+		{"id" : 17, "lemma" : "을", "type" : "JKO", "position" : 96, "weight" : 0.0266447 },
+		{"id" : 18, "lemma" : "통하", "type" : "VV", "position" : 100, "weight" : 0.9 },
+		{"id" : 19, "lemma" : "어", "type" : "EC", "position" : 103, "weight" : 0.41831 },
+		{"id" : 20, "lemma" : "8", "type" : "SN", "position" : 107, "weight" : 1 },
+		{"id" : 21, "lemma" : "시", "type" : "NNB", "position" : 108, "weight" : 0.084652 },
+		{"id" : 22, "lemma" : "부터", "type" : "JX", "position" : 111, "weight" : 0.105319 },
+		{"id" : 23, "lemma" : "생", "type" : "XPN", "position" : 118, "weight" : 0.000205679 },
+		{"id" : 24, "lemma" : "중계", "type" : "NNG", "position" : 121, "weight" : 0.468538 },
+		{"id" : 25, "lemma" : "하", "type" : "VV", "position" : 128, "weight" : 0.00929845 },
+		{"id" : 26, "lemma" : "며", "type" : "EC", "position" : 131, "weight" : 0.429701 },
+		{"id" : 27, "lemma" : ",", "type" : "SP", "position" : 134, "weight" : 1 },
+		{"id" : 28, "lemma" : "TV", "type" : "SL", "position" : 136, "weight" : 1 },
+		{"id" : 29, "lemma" : "중계", "type" : "NNG", "position" : 139, "weight" : 0.171476 },
+		{"id" : 30, "lemma" : "퀄리티", "type" : "NNG", "position" : 146, "weight" : 0.1 },
+		{"id" : 31, "lemma" : "그대로", "type" : "MAG", "position" : 156, "weight" : 0.9 },
+		{"id" : 32, "lemma" : "PC", "type" : "SL", "position" : 166, "weight" : 1 },
+		{"id" : 33, "lemma" : "-", "type" : "SS", "position" : 168, "weight" : 1 },
+		{"id" : 34, "lemma" : "'", "type" : "SS", "position" : 169, "weight" : 1 },
+		{"id" : 35, "lemma" : "iMBC", "type" : "SL", "position" : 170, "weight" : 1 },
+		{"id" : 36, "lemma" : "스포츠온", "type" : "NNP", "position" : 174, "weight" : 0.6 },
+		{"id" : 37, "lemma" : "에어", "type" : "JKB", "position" : 186, "weight" : 0 },
+		{"id" : 38, "lemma" : "'", "type" : "SS", "position" : 192, "weight" : 1 },
+		{"id" : 39, "lemma" : "와", "type" : "JC", "position" : 193, "weight" : 0.00426109 },
+		{"id" : 40, "lemma" : "모바일", "type" : "NNG", "position" : 197, "weight" : 0.9 },
+		{"id" : 41, "lemma" : "-", "type" : "SS", "position" : 206, "weight" : 1 },
+		{"id" : 42, "lemma" : "'", "type" : "SS", "position" : 207, "weight" : 1 },
+		{"id" : 43, "lemma" : "해요", "type" : "NNP", "position" : 208, "weight" : 0.6 },
+		{"id" : 44, "lemma" : "TV", "type" : "SL", "position" : 214, "weight" : 1 },
+		{"id" : 45, "lemma" : "'", "type" : "SS", "position" : 216, "weight" : 1 },
+		{"id" : 46, "lemma" : "를", "type" : "JKO", "position" : 217, "weight" : 0.0357023 },
+		{"id" : 47, "lemma" : "통하", "type" : "VV", "position" : 221, "weight" : 0.9 },
+		{"id" : 48, "lemma" : "어", "type" : "EC", "position" : 224, "weight" : 0.41831 },
+		{"id" : 49, "lemma" : "온라인", "type" : "NNG", "position" : 228, "weight" : 0.9 },
+		{"id" : 50, "lemma" : "으로", "type" : "JKB", "position" : 237, "weight" : 0.153406 },
+		{"id" : 51, "lemma" : "동시", "type" : "NNG", "position" : 244, "weight" : 0.9 },
+		{"id" : 52, "lemma" : "생", "type" : "XPN", "position" : 251, "weight" : 0.0001 },
+		{"id" : 53, "lemma" : "중계", "type" : "NNG", "position" : 254, "weight" : 0.468538 },
+		{"id" : 54, "lemma" : "하", "type" : "VV", "position" : 261, "weight" : 0.00929845 },
+		{"id" : 55, "lemma" : "ㄴ다", "type" : "EF", "position" : 261, "weight" : 0.0793196 },
+		{"id" : 56, "lemma" : ".", "type" : "SF", "position" : 267, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "MBC/SL+는/JX", "target" : "MBC는", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "오늘/MAG", "target" : "오늘", "word_id" : 1, "m_begin" : 2, "m_end" : 2},
+		{"id" : 2, "result" : "있/VA+을/ETM", "target" : "있을", "word_id" : 2, "m_begin" : 3, "m_end" : 4},
+		{"id" : 3, "result" : "한국/NNG+과/JC", "target" : "한국과", "word_id" : 3, "m_begin" : 5, "m_end" : 6},
+		{"id" : 4, "result" : "잉글랜드/NNG+의/JKG", "target" : "잉글랜드의", "word_id" : 4, "m_begin" : 7, "m_end" : 8},
+		{"id" : 5, "result" : "경기/NNG+를/JKO", "target" : "경기를", "word_id" : 5, "m_begin" : 9, "m_end" : 10},
+		{"id" : 6, "result" : "김성주/NNG+-/SS+안정환/NNG+-/SS+서형욱/NNG", "target" : "김성주-안정환-서형욱", "word_id" : 6, "m_begin" : 11, "m_end" : 15},
+		{"id" : 7, "result" : "중계진/NNG+을/JKO", "target" : "중계진을", "word_id" : 7, "m_begin" : 16, "m_end" : 17},
+		{"id" : 8, "result" : "통하/VV+어/EC", "target" : "통해", "word_id" : 8, "m_begin" : 18, "m_end" : 19},
+		{"id" : 9, "result" : "8/SN+시/NNB+부터/JX", "target" : "8시부터", "word_id" : 9, "m_begin" : 20, "m_end" : 22},
+		{"id" : 10, "result" : "생중계/NNG", "target" : "생중계", "word_id" : 10, "m_begin" : 23, "m_end" : 24},
+		{"id" : 11, "result" : "하/VV+며/EC+,/SP", "target" : "하며,", "word_id" : 11, "m_begin" : 25, "m_end" : 27},
+		{"id" : 12, "result" : "TV/SL", "target" : "TV", "word_id" : 12, "m_begin" : 28, "m_end" : 28},
+		{"id" : 13, "result" : "중계/NNG", "target" : "중계", "word_id" : 13, "m_begin" : 29, "m_end" : 29},
+		{"id" : 14, "result" : "퀄리티/NNG", "target" : "퀄리티", "word_id" : 14, "m_begin" : 30, "m_end" : 30},
+		{"id" : 15, "result" : "그대로/MAG", "target" : "그대로", "word_id" : 15, "m_begin" : 31, "m_end" : 31},
+		{"id" : 16, "result" : "PC/SL+-/SS+'/SS+iMBC/SL+스포츠온/NNG+에어/JKB+'/SS+와/JC", "target" : "PC-'iMBC스포츠온에어'와", "word_id" : 16, "m_begin" : 32, "m_end" : 39},
+		{"id" : 17, "result" : "모바일/NNG+-/SS+'/SS+해요/NNG+TV/SL+'/SS+를/JKO", "target" : "모바일-'해요TV'를", "word_id" : 17, "m_begin" : 40, "m_end" : 46},
+		{"id" : 18, "result" : "통하/VV+어/EC", "target" : "통해", "word_id" : 18, "m_begin" : 47, "m_end" : 48},
+		{"id" : 19, "result" : "온라인/NNG+으로/JKB", "target" : "온라인으로", "word_id" : 19, "m_begin" : 49, "m_end" : 50},
+		{"id" : 20, "result" : "동시/NNG", "target" : "동시", "word_id" : 20, "m_begin" : 51, "m_end" : 51},
+		{"id" : 21, "result" : "생중계/NNG", "target" : "생중계", "word_id" : 21, "m_begin" : 52, "m_end" : 53},
+		{"id" : 22, "result" : "하/VV+ㄴ다/EF+./SF", "target" : "한다.", "word_id" : 22, "m_begin" : 54, "m_end" : 56}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "MBC", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 3, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "오늘", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "있", "type" : "VA", "scode" : "01", "weight" : 8.8, "position" : 14, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "을", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 17, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "한국", "type" : "NNP", "scode" : "05", "weight" : 8.1, "position" : 21, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 27, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "잉글랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 31, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "경기", "type" : "NNG", "scode" : "11", "weight" : 6.23182, "position" : 47, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 53, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "김성주", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 57, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 66, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "안정환", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 67, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 76, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "서형욱", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 77, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "중계진", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 87, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 96, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "통하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 100, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 103, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : "8", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 107, "begin" : 20, "end" : 20},
+		{"id" : 21, "text" : "시", "type" : "NNB", "scode" : "10", "weight" : 4.2, "position" : 108, "begin" : 21, "end" : 21},
+		{"id" : 22, "text" : "부터", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 111, "begin" : 22, "end" : 22},
+		{"id" : 23, "text" : "생", "type" : "XPN", "scode" : "06", "weight" : 4, "position" : 118, "begin" : 23, "end" : 23},
+		{"id" : 24, "text" : "중계", "type" : "NNG", "scode" : "04", "weight" : 4.4, "position" : 121, "begin" : 24, "end" : 24},
+		{"id" : 25, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 128, "begin" : 25, "end" : 25},
+		{"id" : 26, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 131, "begin" : 26, "end" : 26},
+		{"id" : 27, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 134, "begin" : 27, "end" : 27},
+		{"id" : 28, "text" : "TV", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 136, "begin" : 28, "end" : 28},
+		{"id" : 29, "text" : "중계", "type" : "NNG", "scode" : "04", "weight" : 2.2, "position" : 139, "begin" : 29, "end" : 29},
+		{"id" : 30, "text" : "퀄리티", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 146, "begin" : 30, "end" : 30},
+		{"id" : 31, "text" : "그대로", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 156, "begin" : 31, "end" : 31},
+		{"id" : 32, "text" : "PC", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 166, "begin" : 32, "end" : 32},
+		{"id" : 33, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 168, "begin" : 33, "end" : 33},
+		{"id" : 34, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 169, "begin" : 34, "end" : 34},
+		{"id" : 35, "text" : "iMBC", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 170, "begin" : 35, "end" : 35},
+		{"id" : 36, "text" : "스포츠온", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 174, "begin" : 36, "end" : 36},
+		{"id" : 37, "text" : "에어", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 186, "begin" : 37, "end" : 37},
+		{"id" : 38, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 192, "begin" : 38, "end" : 38},
+		{"id" : 39, "text" : "와", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 193, "begin" : 39, "end" : 39},
+		{"id" : 40, "text" : "모바일", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 197, "begin" : 40, "end" : 40},
+		{"id" : 41, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 206, "begin" : 41, "end" : 41},
+		{"id" : 42, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 207, "begin" : 42, "end" : 42},
+		{"id" : 43, "text" : "해요", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 208, "begin" : 43, "end" : 43},
+		{"id" : 44, "text" : "TV", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 214, "begin" : 44, "end" : 44},
+		{"id" : 45, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 216, "begin" : 45, "end" : 45},
+		{"id" : 46, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 217, "begin" : 46, "end" : 46},
+		{"id" : 47, "text" : "통하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 221, "begin" : 47, "end" : 47},
+		{"id" : 48, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 224, "begin" : 48, "end" : 48},
+		{"id" : 49, "text" : "온라인", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 228, "begin" : 49, "end" : 49},
+		{"id" : 50, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 237, "begin" : 50, "end" : 50},
+		{"id" : 51, "text" : "동시", "type" : "NNG", "scode" : "02", "weight" : 5.1375, "position" : 244, "begin" : 51, "end" : 51},
+		{"id" : 52, "text" : "생", "type" : "XPN", "scode" : "06", "weight" : 4, "position" : 251, "begin" : 52, "end" : 52},
+		{"id" : 53, "text" : "중계", "type" : "NNG", "scode" : "04", "weight" : 2.2, "position" : 254, "begin" : 53, "end" : 53},
+		{"id" : 54, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 261, "begin" : 54, "end" : 54},
+		{"id" : 55, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 261, "begin" : 55, "end" : 55},
+		{"id" : 56, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 267, "begin" : 56, "end" : 56}
+	],
+	"word" : [
+		{"id" : 0, "text" : "MBC는", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "오늘", "type" : "", "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "있을", "type" : "", "begin" : 3, "end" : 4},
+		{"id" : 3, "text" : "한국과", "type" : "", "begin" : 5, "end" : 6},
+		{"id" : 4, "text" : "잉글랜드의", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 5, "text" : "경기를", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 6, "text" : "김성주-안정환-서형욱", "type" : "", "begin" : 11, "end" : 15},
+		{"id" : 7, "text" : "중계진을", "type" : "", "begin" : 16, "end" : 17},
+		{"id" : 8, "text" : "통해", "type" : "", "begin" : 18, "end" : 19},
+		{"id" : 9, "text" : "8시부터", "type" : "", "begin" : 20, "end" : 22},
+		{"id" : 10, "text" : "생중계", "type" : "", "begin" : 23, "end" : 24},
+		{"id" : 11, "text" : "하며,", "type" : "", "begin" : 25, "end" : 27},
+		{"id" : 12, "text" : "TV", "type" : "", "begin" : 28, "end" : 28},
+		{"id" : 13, "text" : "중계", "type" : "", "begin" : 29, "end" : 29},
+		{"id" : 14, "text" : "퀄리티", "type" : "", "begin" : 30, "end" : 30},
+		{"id" : 15, "text" : "그대로", "type" : "", "begin" : 31, "end" : 31},
+		{"id" : 16, "text" : "PC-'iMBC스포츠온에어'와", "type" : "", "begin" : 32, "end" : 39},
+		{"id" : 17, "text" : "모바일-'해요TV'를", "type" : "", "begin" : 40, "end" : 46},
+		{"id" : 18, "text" : "통해", "type" : "", "begin" : 47, "end" : 48},
+		{"id" : 19, "text" : "온라인으로", "type" : "", "begin" : 49, "end" : 50},
+		{"id" : 20, "text" : "동시", "type" : "", "begin" : 51, "end" : 51},
+		{"id" : 21, "text" : "생중계", "type" : "", "begin" : 52, "end" : 53},
+		{"id" : 22, "text" : "한다.", "type" : "", "begin" : 54, "end" : 56}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "MBC", "type" : "OGG_MEDIA", "begin" : 0, "end" : 0, "weight" : 0.663565, "common_noun" : 0},
+		{"id" : 1, "text" : "오늘", "type" : "DT_DAY", "begin" : 2, "end" : 2, "weight" : 0.824573, "common_noun" : 0},
+		{"id" : 2, "text" : "한국", "type" : "LCP_COUNTRY", "begin" : 5, "end" : 5, "weight" : 0.521205, "common_noun" : 0},
+		{"id" : 3, "text" : "잉글랜드", "type" : "LCP_COUNTRY", "begin" : 7, "end" : 7, "weight" : 0.637151, "common_noun" : 0},
+		{"id" : 4, "text" : "경기", "type" : "LCP_PROVINCE", "begin" : 9, "end" : 9, "weight" : 0.327876, "common_noun" : 0},
+		{"id" : 5, "text" : "김성주", "type" : "PS_NAME", "begin" : 11, "end" : 11, "weight" : 0.458775, "common_noun" : 0},
+		{"id" : 6, "text" : "안정환", "type" : "PS_NAME", "begin" : 13, "end" : 13, "weight" : 0.653931, "common_noun" : 0},
+		{"id" : 7, "text" : "서형욱", "type" : "PS_NAME", "begin" : 15, "end" : 15, "weight" : 0.448676, "common_noun" : 0},
+		{"id" : 8, "text" : "중계진", "type" : "CV_POSITION", "begin" : 16, "end" : 16, "weight" : 0.123886, "common_noun" : 0},
+		{"id" : 9, "text" : "8시부터", "type" : "TI_OTHERS", "begin" : 20, "end" : 22, "weight" : 0.432485, "common_noun" : 0},
+		{"id" : 10, "text" : "TV", "type" : "TMI_HW", "begin" : 28, "end" : 28, "weight" : 0.308636, "common_noun" : 0},
+		{"id" : 11, "text" : "PC", "type" : "TMI_HW", "begin" : 32, "end" : 32, "weight" : 0.460871, "common_noun" : 0},
+		{"id" : 12, "text" : "iMBC스포츠온에어", "type" : "OGG_MEDIA", "begin" : 35, "end" : 37, "weight" : 0.123048, "common_noun" : 0},
+		{"id" : 13, "text" : "모바일", "type" : "TMI_HW", "begin" : 40, "end" : 40, "weight" : 0.261667, "common_noun" : 0},
+		{"id" : 14, "text" : "해요TV", "type" : "TMI_SW", "begin" : 43, "end" : 44, "weight" : 0.130382, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "MBC는", "head" : 8, "label" : "NP_SBJ", "mod" : [], "weight" : 0.367659 },
+		{"id" : 1, "text" : "오늘", "head" : 2, "label" : "AP", "mod" : [], "weight" : 0.218682 },
+		{"id" : 2, "text" : "있을", "head" : 5, "label" : "VP_MOD", "mod" : [1], "weight" : 0.615003 },
+		{"id" : 3, "text" : "한국과", "head" : 4, "label" : "NP_CNJ", "mod" : [], "weight" : 0.452633 },
+		{"id" : 4, "text" : "잉글랜드의", "head" : 5, "label" : "NP_MOD", "mod" : [3], "weight" : 0.620912 },
+		{"id" : 5, "text" : "경기를", "head" : 8, "label" : "NP_OBJ", "mod" : [2, 4], "weight" : 0.849212 },
+		{"id" : 6, "text" : "김성주-안정환-서형욱", "head" : 7, "label" : "NP", "mod" : [], "weight" : 0.424332 },
+		{"id" : 7, "text" : "중계진을", "head" : 8, "label" : "NP_OBJ", "mod" : [6], "weight" : 0.846419 },
+		{"id" : 8, "text" : "통해", "head" : 11, "label" : "VP", "mod" : [0, 5, 7], "weight" : 0.821088 },
+		{"id" : 9, "text" : "8시부터", "head" : 11, "label" : "NP_AJT", "mod" : [], "weight" : 0.647601 },
+		{"id" : 10, "text" : "생중계", "head" : 11, "label" : "NP_OBJ", "mod" : [], "weight" : 0.30121 },
+		{"id" : 11, "text" : "하며,", "head" : 18, "label" : "VP", "mod" : [8, 9, 10], "weight" : 0.642261 },
+		{"id" : 12, "text" : "TV", "head" : 13, "label" : "NP", "mod" : [], "weight" : 0.406669 },
+		{"id" : 13, "text" : "중계", "head" : 14, "label" : "NP", "mod" : [12], "weight" : 0.606385 },
+		{"id" : 14, "text" : "퀄리티", "head" : 18, "label" : "NP_AJT", "mod" : [13], "weight" : 0.137084 },
+		{"id" : 15, "text" : "그대로", "head" : 18, "label" : "AP", "mod" : [], "weight" : 0.708934 },
+		{"id" : 16, "text" : "PC-'iMBC스포츠온에어'와", "head" : 17, "label" : "NP_CNJ", "mod" : [], "weight" : 0.616906 },
+		{"id" : 17, "text" : "모바일-'해요TV'를", "head" : 18, "label" : "NP_OBJ", "mod" : [16], "weight" : 0.611023 },
+		{"id" : 18, "text" : "통해", "head" : 22, "label" : "VP", "mod" : [11, 14, 15, 17], "weight" : 0.799975 },
+		{"id" : 19, "text" : "온라인으로", "head" : 22, "label" : "NP_AJT", "mod" : [], "weight" : 0.832624 },
+		{"id" : 20, "text" : "동시", "head" : 21, "label" : "NP", "mod" : [], "weight" : 0.667653 },
+		{"id" : 21, "text" : "생중계", "head" : 22, "label" : "NP", "mod" : [20], "weight" : 0.00203191 },
+		{"id" : 22, "text" : "한다.", "head" : -1, "label" : "VP", "mod" : [18, 19, 21], "weight" : 3.13656e-09 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "MBC는", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "AP", "text" : "오늘", "begin" : 1, "end" : 1, "key_begin" : 1, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "VP_MOD", "text" : "P#1@AP오늘 있을", "begin" : 1, "end" : 2, "key_begin" : 2, "head_phrase" : 3, "sub_phrase" : [1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_OBJ", "text" : "P#2@MOD을 한국과 잉글랜드의 경기를", "begin" : 1, "end" : 5, "key_begin" : 3, "head_phrase" : 5, "sub_phrase" : [2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_OBJ", "text" : "김성주-안정환-서형욱 중계진을", "begin" : 6, "end" : 7, "key_begin" : 6, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "S", "text" : "P#0@SBJ는 P#3@OBJ를 P#4@OBJ을 통해", "begin" : 0, "end" : 8, "key_begin" : 8, "head_phrase" : 8, "sub_phrase" : [0, 3, 4], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "NP_AJT", "text" : "8시부터", "begin" : 9, "end" : 9, "key_begin" : 9, "head_phrase" : 8, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "NP_OBJ", "text" : "생중계", "begin" : 10, "end" : 10, "key_begin" : 10, "head_phrase" : 8, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 8, "label" : "S", "text" : "S#5@S어 P#6@AJT부터 P#7@OBJ중계 하며,", "begin" : 0, "end" : 11, "key_begin" : 11, "head_phrase" : 12, "sub_phrase" : [5, 6, 7], "weight" : 0, "element" : [] },
+		{"id" : 9, "label" : "NP_AJT", "text" : "TV 중계 퀄리티", "begin" : 12, "end" : 14, "key_begin" : 12, "head_phrase" : 12, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 10, "label" : "AP", "text" : "그대로", "begin" : 15, "end" : 15, "key_begin" : 15, "head_phrase" : 12, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 11, "label" : "NP_OBJ", "text" : "PC-'iMBC스포츠온에어'와 모바일-'해요TV'를", "begin" : 16, "end" : 17, "key_begin" : 16, "head_phrase" : 12, "sub_phrase" : [], "weight" : 0, 
+			"element" : [
+				{ "text" : "PC-'iMBC스포츠온에어'", "label" : "NP_OBJ", "begin" : 32, "end" : 38, "ne_type" : "" },
+				{ "text" : "모바일-'해요TV'", "label" : "NP_OBJ", "begin" : 40, "end" : 45, "ne_type" : "" }
+			] },
+		{"id" : 12, "label" : "S", "text" : "S#8@S며, P#9@AJT퀄리티 P#10@AP그대로 P#11@OBJ를 통해", "begin" : 0, "end" : 18, "key_begin" : 18, "head_phrase" : 14, "sub_phrase" : [8, 9, 10, 11], "weight" : 0, "element" : [] },
+		{"id" : 13, "label" : "NP_AJT", "text" : "온라인으로", "begin" : 19, "end" : 19, "key_begin" : 19, "head_phrase" : 14, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 14, "label" : "S", "text" : "S#12@S어 P#13@AJT으로 동시 생중계 한다.", "begin" : 0, "end" : 22, "key_begin" : 20, "head_phrase" : -1, "sub_phrase" : [12, 13], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "있", "sense" : 1, "word_id" : 2, "weight" : 0.268719,
+			"argument" : [
+				{"type" : "ARGM-TMP", "word_id" : 1, "text" : "오늘", "weight" : 0.309037 },
+				{"type" : "ARG1", "word_id" : 5, "text" : "경기를", "weight" : 0.228401 }
+			] },
+		{"verb" : "통하", "sense" : 1, "word_id" : 8, "weight" : 0.436852,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 7, "text" : "중계진을", "weight" : 0.436852 }
+			] },
+		{"verb" : "하", "sense" : 1, "word_id" : 11, "weight" : 0.257954,
+			"argument" : [
+				{"type" : "ARGM-TMP", "word_id" : 9, "text" : "8시부터", "weight" : 0.182154 },
+				{"type" : "ARG1", "word_id" : 10, "text" : "생중계", "weight" : 0.333753 }
+			] },
+		{"verb" : "통하", "sense" : 1, "word_id" : 18, "weight" : 0.599687,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 17, "text" : "모바일-'해요TV'를", "weight" : 0.599687 }
+			] },
+		{"verb" : "하", "sense" : 1, "word_id" : 22, "weight" : 0.130452,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 19, "text" : "온라인으로", "weight" : 0.130452 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "또한 같은 시간인 저녁 8시에 진행되는 기니 vs 아르헨티나 경기도 같은 채널에서 관람이 가능하다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "또한", "type" : "MAG", "position" : 0, "weight" : 0.0653106 },
+		{"id" : 1, "lemma" : "같", "type" : "VA", "position" : 7, "weight" : 0.133269 },
+		{"id" : 2, "lemma" : "은", "type" : "ETM", "position" : 10, "weight" : 0.155123 },
+		{"id" : 3, "lemma" : "시간", "type" : "NNG", "position" : 14, "weight" : 0.572329 },
+		{"id" : 4, "lemma" : "이", "type" : "VCP", "position" : 20, "weight" : 0.0177525 },
+		{"id" : 5, "lemma" : "ㄴ", "type" : "ETM", "position" : 20, "weight" : 0.220712 },
+		{"id" : 6, "lemma" : "저녁", "type" : "NNG", "position" : 24, "weight" : 0.9 },
+		{"id" : 7, "lemma" : "8", "type" : "SN", "position" : 31, "weight" : 1 },
+		{"id" : 8, "lemma" : "시", "type" : "NNB", "position" : 32, "weight" : 0.084652 },
+		{"id" : 9, "lemma" : "에", "type" : "JKB", "position" : 35, "weight" : 0.135559 },
+		{"id" : 10, "lemma" : "진행", "type" : "NNG", "position" : 39, "weight" : 0.9 },
+		{"id" : 11, "lemma" : "되", "type" : "XSV", "position" : 45, "weight" : 0.000224177 },
+		{"id" : 12, "lemma" : "는", "type" : "ETM", "position" : 48, "weight" : 0.238503 },
+		{"id" : 13, "lemma" : "기니", "type" : "NNG", "position" : 52, "weight" : 0.0140179 },
+		{"id" : 14, "lemma" : "vs", "type" : "SL", "position" : 59, "weight" : 1 },
+		{"id" : 15, "lemma" : "아르헨티나", "type" : "NNP", "position" : 62, "weight" : 0.9 },
+		{"id" : 16, "lemma" : "경기도", "type" : "NNP", "position" : 78, "weight" : 0.9 },
+		{"id" : 17, "lemma" : "같", "type" : "VA", "position" : 88, "weight" : 0.0012625 },
+		{"id" : 18, "lemma" : "은", "type" : "ETM", "position" : 91, "weight" : 0.155123 },
+		{"id" : 19, "lemma" : "채널", "type" : "NNG", "position" : 95, "weight" : 0.9 },
+		{"id" : 20, "lemma" : "에서", "type" : "JKB", "position" : 101, "weight" : 0.153407 },
+		{"id" : 21, "lemma" : "관람", "type" : "NNG", "position" : 108, "weight" : 0.9 },
+		{"id" : 22, "lemma" : "이", "type" : "JKS", "position" : 114, "weight" : 0.0360723 },
+		{"id" : 23, "lemma" : "가능", "type" : "NNG", "position" : 118, "weight" : 0.208321 },
+		{"id" : 24, "lemma" : "하", "type" : "XSA", "position" : 124, "weight" : 0.0001 },
+		{"id" : 25, "lemma" : "다", "type" : "EF", "position" : 127, "weight" : 0.0497538 },
+		{"id" : 26, "lemma" : ".", "type" : "SF", "position" : 130, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "또한/MAG", "target" : "또한", "word_id" : 0, "m_begin" : 0, "m_end" : 0},
+		{"id" : 1, "result" : "같/VA+은/ETM", "target" : "같은", "word_id" : 1, "m_begin" : 1, "m_end" : 2},
+		{"id" : 2, "result" : "시간/NNG+이/VCP+ㄴ/ETM", "target" : "시간인", "word_id" : 2, "m_begin" : 3, "m_end" : 5},
+		{"id" : 3, "result" : "저녁/NNG", "target" : "저녁", "word_id" : 3, "m_begin" : 6, "m_end" : 6},
+		{"id" : 4, "result" : "8/SN+시/NNB+에/JKB", "target" : "8시에", "word_id" : 4, "m_begin" : 7, "m_end" : 9},
+		{"id" : 5, "result" : "진행되/VV+는/ETM", "target" : "진행되는", "word_id" : 5, "m_begin" : 10, "m_end" : 12},
+		{"id" : 6, "result" : "기니/NNG", "target" : "기니", "word_id" : 6, "m_begin" : 13, "m_end" : 13},
+		{"id" : 7, "result" : "vs/SL", "target" : "vs", "word_id" : 7, "m_begin" : 14, "m_end" : 14},
+		{"id" : 8, "result" : "아르헨티나/NNG", "target" : "아르헨티나", "word_id" : 8, "m_begin" : 15, "m_end" : 15},
+		{"id" : 9, "result" : "경기도/NNG", "target" : "경기도", "word_id" : 9, "m_begin" : 16, "m_end" : 16},
+		{"id" : 10, "result" : "같/VA+은/ETM", "target" : "같은", "word_id" : 10, "m_begin" : 17, "m_end" : 18},
+		{"id" : 11, "result" : "채널/NNG+에서/JKB", "target" : "채널에서", "word_id" : 11, "m_begin" : 19, "m_end" : 20},
+		{"id" : 12, "result" : "관람/NNG+이/JKS", "target" : "관람이", "word_id" : 12, "m_begin" : 21, "m_end" : 22},
+		{"id" : 13, "result" : "가능하/VA+다/EF+./SF", "target" : "가능하다.", "word_id" : 13, "m_begin" : 23, "m_end" : 26}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "또한", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "같", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "시간", "type" : "NNG", "scode" : "04", "weight" : 5.4, "position" : 14, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 20, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "저녁", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 24, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "8", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 31, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "시", "type" : "NNB", "scode" : "10", "weight" : 5.4, "position" : 32, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 35, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "진행되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 39, "begin" : 10, "end" : 11},
+		{"id" : 11, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 48, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : "기니", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 52, "begin" : 13, "end" : 13},
+		{"id" : 13, "text" : "vs", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 59, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "아르헨티나", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 62, "begin" : 15, "end" : 15},
+		{"id" : 15, "text" : "경기도", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 78, "begin" : 16, "end" : 16},
+		{"id" : 16, "text" : "같", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 88, "begin" : 17, "end" : 17},
+		{"id" : 17, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 91, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : "채널", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 95, "begin" : 19, "end" : 19},
+		{"id" : 19, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 101, "begin" : 20, "end" : 20},
+		{"id" : 20, "text" : "관람", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 108, "begin" : 21, "end" : 21},
+		{"id" : 21, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 114, "begin" : 22, "end" : 22},
+		{"id" : 22, "text" : "가능하", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 118, "begin" : 23, "end" : 24},
+		{"id" : 23, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 127, "begin" : 25, "end" : 25},
+		{"id" : 24, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 130, "begin" : 26, "end" : 26}
+	],
+	"word" : [
+		{"id" : 0, "text" : "또한", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "같은", "type" : "", "begin" : 1, "end" : 2},
+		{"id" : 2, "text" : "시간인", "type" : "", "begin" : 3, "end" : 5},
+		{"id" : 3, "text" : "저녁", "type" : "", "begin" : 6, "end" : 6},
+		{"id" : 4, "text" : "8시에", "type" : "", "begin" : 7, "end" : 9},
+		{"id" : 5, "text" : "진행되는", "type" : "", "begin" : 10, "end" : 12},
+		{"id" : 6, "text" : "기니", "type" : "", "begin" : 13, "end" : 13},
+		{"id" : 7, "text" : "vs", "type" : "", "begin" : 14, "end" : 14},
+		{"id" : 8, "text" : "아르헨티나", "type" : "", "begin" : 15, "end" : 15},
+		{"id" : 9, "text" : "경기도", "type" : "", "begin" : 16, "end" : 16},
+		{"id" : 10, "text" : "같은", "type" : "", "begin" : 17, "end" : 18},
+		{"id" : 11, "text" : "채널에서", "type" : "", "begin" : 19, "end" : 20},
+		{"id" : 12, "text" : "관람이", "type" : "", "begin" : 21, "end" : 22},
+		{"id" : 13, "text" : "가능하다.", "type" : "", "begin" : 23, "end" : 26}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "저녁 8시", "type" : "TI_HOUR", "begin" : 6, "end" : 8, "weight" : 0.470001, "common_noun" : 0},
+		{"id" : 1, "text" : "기니 vs 아르헨티나 경기도", "type" : "EV_SPORTS", "begin" : 13, "end" : 16, "weight" : 0.182396, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "또한", "head" : 13, "label" : "AP", "mod" : [], "weight" : 0.542146 },
+		{"id" : 1, "text" : "같은", "head" : 2, "label" : "VP_MOD", "mod" : [], "weight" : 0.450119 },
+		{"id" : 2, "text" : "시간인", "head" : 4, "label" : "VNP_MOD", "mod" : [1], "weight" : 0.69354 },
+		{"id" : 3, "text" : "저녁", "head" : 4, "label" : "NP", "mod" : [], "weight" : 0.677989 },
+		{"id" : 4, "text" : "8시에", "head" : 5, "label" : "NP_AJT", "mod" : [2, 3], "weight" : 0.70614 },
+		{"id" : 5, "text" : "진행되는", "head" : 11, "label" : "VP_MOD", "mod" : [4], "weight" : 0.458694 },
+		{"id" : 6, "text" : "기니", "head" : 9, "label" : "NP", "mod" : [], "weight" : 0.381503 },
+		{"id" : 7, "text" : "vs", "head" : 9, "label" : "NP", "mod" : [], "weight" : 0.246132 },
+		{"id" : 8, "text" : "아르헨티나", "head" : 9, "label" : "NP", "mod" : [], "weight" : 0.500659 },
+		{"id" : 9, "text" : "경기도", "head" : 10, "label" : "NP_AJT", "mod" : [6, 7, 8], "weight" : 0.585438 },
+		{"id" : 10, "text" : "같은", "head" : 11, "label" : "VP_MOD", "mod" : [9], "weight" : 0.764602 },
+		{"id" : 11, "text" : "채널에서", "head" : 13, "label" : "NP_AJT", "mod" : [5, 10], "weight" : 0.881543 },
+		{"id" : 12, "text" : "관람이", "head" : 13, "label" : "NP_SBJ", "mod" : [], "weight" : 0.665893 },
+		{"id" : 13, "text" : "가능하다.", "head" : -1, "label" : "VP", "mod" : [0, 11, 12], "weight" : 0.000391669 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "AP", "text" : "또한", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 8, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "VNP_MOD", "text" : "같은 시간인", "begin" : 1, "end" : 2, "key_begin" : 1, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_AJT", "text" : "P#1@MODㄴ 저녁 8시에", "begin" : 1, "end" : 4, "key_begin" : 3, "head_phrase" : 3, "sub_phrase" : [1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "VP_MOD", "text" : "P#2@AJT에 진행되는", "begin" : 1, "end" : 5, "key_begin" : 5, "head_phrase" : 6, "sub_phrase" : [2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_AJT", "text" : "기니 vs 아르헨티나 경기도", "begin" : 6, "end" : 9, "key_begin" : 6, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "VP_MOD", "text" : "P#4@AJT경기도 같은", "begin" : 6, "end" : 10, "key_begin" : 10, "head_phrase" : 6, "sub_phrase" : [4], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "NP_AJT", "text" : "P#3@MOD는 P#5@MOD은 채널에서", "begin" : 1, "end" : 11, "key_begin" : 11, "head_phrase" : 8, "sub_phrase" : [3, 5], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "NP_SBJ", "text" : "관람이", "begin" : 12, "end" : 12, "key_begin" : 12, "head_phrase" : 8, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 8, "label" : "S", "text" : "P#0@AP또한 P#6@AJT에서 P#7@SBJ이 가능하다.", "begin" : 0, "end" : 13, "key_begin" : 13, "head_phrase" : -1, "sub_phrase" : [0, 6, 7], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "같", "sense" : 1, "word_id" : 1, "weight" : 0.579314,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 2, "text" : "시간인", "weight" : 0.579314 }
+			] },
+		{"verb" : "진행", "sense" : 1, "word_id" : 5, "weight" : 0.168255,
+			"argument" : [
+				{"type" : "ARGM-TMP", "word_id" : 4, "text" : "8시에", "weight" : 0.168255 }
+			] },
+		{"verb" : "같", "sense" : 1, "word_id" : 10, "weight" : 0.360927,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 9, "text" : "경기도", "weight" : 0.447839 },
+				{"type" : "ARG1", "word_id" : 11, "text" : "채널에서", "weight" : 0.274015 }
+			] },
+		{"verb" : "가능", "sense" : 1, "word_id" : 13, "weight" : 0.28752,
+			"argument" : [
+				{"type" : "ARGM-CND", "word_id" : 11, "text" : "채널에서", "weight" : 0.13536 },
+				{"type" : "ARG1", "word_id" : 12, "text" : "관람이", "weight" : 0.43968 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "승리의 기운을 제대로 받은 대한민국의 젊은 태극전사들이 과연 3연승을 이어가며 16강을 넘어 8강으로 진출할 수 있을지 기대를 모으는 'FIFA U-20 월드컵’은  'iMBC스포츠온에어'와 '해요TV'를 통해 시청이 가능하며, 경기 직후 순위 및 결과, 다시보기, 하이라이트 영상은 iMBC의 U-20월드컵 사이트 (http://u20worldcup.imbc.com)에서 확인할 수 있다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "승리", "type" : "NNG", "position" : 0, "weight" : 0.43683 },
+		{"id" : 1, "lemma" : "의", "type" : "JKG", "position" : 6, "weight" : 0.0694213 },
+		{"id" : 2, "lemma" : "기운", "type" : "NNG", "position" : 10, "weight" : 0.9 },
+		{"id" : 3, "lemma" : "을", "type" : "JKO", "position" : 16, "weight" : 0.129611 },
+		{"id" : 4, "lemma" : "제대로", "type" : "MAG", "position" : 20, "weight" : 0.9 },
+		{"id" : 5, "lemma" : "받", "type" : "VV", "position" : 30, "weight" : 0.383484 },
+		{"id" : 6, "lemma" : "은", "type" : "ETM", "position" : 33, "weight" : 0.109632 },
+		{"id" : 7, "lemma" : "대한민국", "type" : "NNP", "position" : 37, "weight" : 0.0280028 },
+		{"id" : 8, "lemma" : "의", "type" : "JKG", "position" : 49, "weight" : 0.0987295 },
+		{"id" : 9, "lemma" : "젊", "type" : "VA", "position" : 53, "weight" : 0.9 },
+		{"id" : 10, "lemma" : "은", "type" : "ETM", "position" : 56, "weight" : 0.155123 },
+		{"id" : 11, "lemma" : "태극", "type" : "NNG", "position" : 60, "weight" : 0.9 },
+		{"id" : 12, "lemma" : "전사", "type" : "NNG", "position" : 66, "weight" : 0.9 },
+		{"id" : 13, "lemma" : "들", "type" : "XSN", "position" : 72, "weight" : 0.0299841 },
+		{"id" : 14, "lemma" : "이", "type" : "JKS", "position" : 75, "weight" : 0.0731805 },
+		{"id" : 15, "lemma" : "과연", "type" : "MAG", "position" : 79, "weight" : 0.9 },
+		{"id" : 16, "lemma" : "3", "type" : "SN", "position" : 86, "weight" : 1 },
+		{"id" : 17, "lemma" : "연승", "type" : "NNG", "position" : 87, "weight" : 0.9 },
+		{"id" : 18, "lemma" : "을", "type" : "JKO", "position" : 93, "weight" : 0.129611 },
+		{"id" : 19, "lemma" : "잇", "type" : "VV", "position" : 97, "weight" : 0.774833 },
+		{"id" : 20, "lemma" : "어", "type" : "EC", "position" : 100, "weight" : 0.41831 },
+		{"id" : 21, "lemma" : "가", "type" : "VX", "position" : 103, "weight" : 0.00757084 },
+		{"id" : 22, "lemma" : "며", "type" : "EC", "position" : 106, "weight" : 0.264453 },
+		{"id" : 23, "lemma" : "16", "type" : "SN", "position" : 110, "weight" : 1 },
+		{"id" : 24, "lemma" : "강", "type" : "NNG", "position" : 112, "weight" : 0.0849025 },
+		{"id" : 25, "lemma" : "을", "type" : "JKO", "position" : 115, "weight" : 0.129611 },
+		{"id" : 26, "lemma" : "넘", "type" : "VV", "position" : 119, "weight" : 0.77675 },
+		{"id" : 27, "lemma" : "어", "type" : "EC", "position" : 122, "weight" : 0.41831 },
+		{"id" : 28, "lemma" : "8", "type" : "SN", "position" : 126, "weight" : 1 },
+		{"id" : 29, "lemma" : "강", "type" : "NNG", "position" : 127, "weight" : 0.0849025 },
+		{"id" : 30, "lemma" : "으로", "type" : "JKB", "position" : 130, "weight" : 0.153406 },
+		{"id" : 31, "lemma" : "진출", "type" : "NNG", "position" : 137, "weight" : 0.9 },
+		{"id" : 32, "lemma" : "하", "type" : "XSV", "position" : 143, "weight" : 0.0001 },
+		{"id" : 33, "lemma" : "ㄹ", "type" : "ETM", "position" : 143, "weight" : 0.387847 },
+		{"id" : 34, "lemma" : "수", "type" : "NNB", "position" : 147, "weight" : 0.215617 },
+		{"id" : 35, "lemma" : "있", "type" : "VA", "position" : 151, "weight" : 0.0518488 },
+		{"id" : 36, "lemma" : "을지", "type" : "EC", "position" : 154, "weight" : 0.314197 },
+		{"id" : 37, "lemma" : "기대", "type" : "NNG", "position" : 161, "weight" : 0.154355 },
+		{"id" : 38, "lemma" : "를", "type" : "JKO", "position" : 167, "weight" : 0.137686 },
+		{"id" : 39, "lemma" : "모으", "type" : "VV", "position" : 171, "weight" : 0.9 },
+		{"id" : 40, "lemma" : "는", "type" : "ETM", "position" : 177, "weight" : 0.184941 },
+		{"id" : 41, "lemma" : "'", "type" : "SS", "position" : 181, "weight" : 1 },
+		{"id" : 42, "lemma" : "FIFA", "type" : "SL", "position" : 182, "weight" : 1 },
+		{"id" : 43, "lemma" : "U", "type" : "SL", "position" : 187, "weight" : 1 },
+		{"id" : 44, "lemma" : "-", "type" : "SS", "position" : 188, "weight" : 1 },
+		{"id" : 45, "lemma" : "20", "type" : "SN", "position" : 189, "weight" : 1 },
+		{"id" : 46, "lemma" : "월드컵", "type" : "NNG", "position" : 192, "weight" : 0.9 },
+		{"id" : 47, "lemma" : "’", "type" : "SS", "position" : 201, "weight" : 1 },
+		{"id" : 48, "lemma" : "은", "type" : "JX", "position" : 204, "weight" : 0.0128817 },
+		{"id" : 49, "lemma" : "'", "type" : "SS", "position" : 209, "weight" : 1 },
+		{"id" : 50, "lemma" : "iMBC", "type" : "SL", "position" : 210, "weight" : 1 },
+		{"id" : 51, "lemma" : "스포츠온", "type" : "NNP", "position" : 214, "weight" : 0.6 },
+		{"id" : 52, "lemma" : "에어", "type" : "JKB", "position" : 226, "weight" : 0 },
+		{"id" : 53, "lemma" : "'", "type" : "SS", "position" : 232, "weight" : 1 },
+		{"id" : 54, "lemma" : "와", "type" : "JC", "position" : 233, "weight" : 0.00426109 },
+		{"id" : 55, "lemma" : "'", "type" : "SS", "position" : 237, "weight" : 1 },
+		{"id" : 56, "lemma" : "해요", "type" : "NNP", "position" : 238, "weight" : 0.6 },
+		{"id" : 57, "lemma" : "TV", "type" : "SL", "position" : 244, "weight" : 1 },
+		{"id" : 58, "lemma" : "'", "type" : "SS", "position" : 246, "weight" : 1 },
+		{"id" : 59, "lemma" : "를", "type" : "JKO", "position" : 247, "weight" : 0.0357023 },
+		{"id" : 60, "lemma" : "통하", "type" : "VV", "position" : 251, "weight" : 0.9 },
+		{"id" : 61, "lemma" : "어", "type" : "EC", "position" : 254, "weight" : 0.41831 },
+		{"id" : 62, "lemma" : "시청", "type" : "NNG", "position" : 258, "weight" : 0.9 },
+		{"id" : 63, "lemma" : "이", "type" : "JKS", "position" : 264, "weight" : 0.0360723 },
+		{"id" : 64, "lemma" : "가능", "type" : "NNG", "position" : 268, "weight" : 0.208321 },
+		{"id" : 65, "lemma" : "하", "type" : "XSA", "position" : 274, "weight" : 0.0001 },
+		{"id" : 66, "lemma" : "며", "type" : "EC", "position" : 277, "weight" : 0.363714 },
+		{"id" : 67, "lemma" : ",", "type" : "SP", "position" : 280, "weight" : 1 },
+		{"id" : 68, "lemma" : "경기", "type" : "NNG", "position" : 282, "weight" : 0.389859 },
+		{"id" : 69, "lemma" : "직후", "type" : "NNG", "position" : 289, "weight" : 0.9 },
+		{"id" : 70, "lemma" : "순위", "type" : "NNG", "position" : 296, "weight" : 0.9 },
+		{"id" : 71, "lemma" : "및", "type" : "MAJ", "position" : 303, "weight" : 0.00215414 },
+		{"id" : 72, "lemma" : "결과", "type" : "NNG", "position" : 307, "weight" : 0.9 },
+		{"id" : 73, "lemma" : ",", "type" : "SP", "position" : 313, "weight" : 1 },
+		{"id" : 74, "lemma" : "다시", "type" : "MAG", "position" : 315, "weight" : 0.0572153 },
+		{"id" : 75, "lemma" : "보", "type" : "VV", "position" : 321, "weight" : 0.237962 },
+		{"id" : 76, "lemma" : "기", "type" : "ETN", "position" : 324, "weight" : 0.0380514 },
+		{"id" : 77, "lemma" : ",", "type" : "SP", "position" : 327, "weight" : 1 },
+		{"id" : 78, "lemma" : "하이라이트", "type" : "NNG", "position" : 329, "weight" : 0.9 },
+		{"id" : 79, "lemma" : "영상", "type" : "NNG", "position" : 345, "weight" : 0.9 },
+		{"id" : 80, "lemma" : "은", "type" : "JX", "position" : 351, "weight" : 0.0449928 },
+		{"id" : 81, "lemma" : "iMBC", "type" : "SL", "position" : 355, "weight" : 1 },
+		{"id" : 82, "lemma" : "의", "type" : "JKG", "position" : 359, "weight" : 0.0313522 },
+		{"id" : 83, "lemma" : "U", "type" : "SL", "position" : 363, "weight" : 1 },
+		{"id" : 84, "lemma" : "-", "type" : "SS", "position" : 364, "weight" : 1 },
+		{"id" : 85, "lemma" : "20", "type" : "SN", "position" : 365, "weight" : 1 },
+		{"id" : 86, "lemma" : "월드컵", "type" : "NNG", "position" : 367, "weight" : 0.9 },
+		{"id" : 87, "lemma" : "사이트", "type" : "NNG", "position" : 377, "weight" : 0.9 },
+		{"id" : 88, "lemma" : "(", "type" : "SS", "position" : 387, "weight" : 1 },
+		{"id" : 89, "lemma" : "http", "type" : "SL", "position" : 388, "weight" : 1 },
+		{"id" : 90, "lemma" : ":", "type" : "SP", "position" : 392, "weight" : 1 },
+		{"id" : 91, "lemma" : "/", "type" : "SP", "position" : 393, "weight" : 1 },
+		{"id" : 92, "lemma" : "/", "type" : "SP", "position" : 394, "weight" : 1 },
+		{"id" : 93, "lemma" : "u", "type" : "SL", "position" : 395, "weight" : 1 },
+		{"id" : 94, "lemma" : "20", "type" : "SN", "position" : 396, "weight" : 1 },
+		{"id" : 95, "lemma" : "worldcup", "type" : "SL", "position" : 398, "weight" : 1 },
+		{"id" : 96, "lemma" : ".", "type" : "SF", "position" : 406, "weight" : 1 },
+		{"id" : 97, "lemma" : "imbc", "type" : "SL", "position" : 407, "weight" : 1 },
+		{"id" : 98, "lemma" : ".", "type" : "SF", "position" : 411, "weight" : 1 },
+		{"id" : 99, "lemma" : "com", "type" : "SL", "position" : 412, "weight" : 1 },
+		{"id" : 100, "lemma" : ")", "type" : "SS", "position" : 415, "weight" : 1 },
+		{"id" : 101, "lemma" : "에서", "type" : "JKB", "position" : 416, "weight" : 0.0486066 },
+		{"id" : 102, "lemma" : "확인", "type" : "NNG", "position" : 423, "weight" : 0.9 },
+		{"id" : 103, "lemma" : "하", "type" : "XSV", "position" : 429, "weight" : 0.0001 },
+		{"id" : 104, "lemma" : "ㄹ", "type" : "ETM", "position" : 429, "weight" : 0.387847 },
+		{"id" : 105, "lemma" : "수", "type" : "NNB", "position" : 433, "weight" : 0.215617 },
+		{"id" : 106, "lemma" : "있", "type" : "VA", "position" : 437, "weight" : 0.0518488 },
+		{"id" : 107, "lemma" : "다", "type" : "EF", "position" : 440, "weight" : 0.132573 },
+		{"id" : 108, "lemma" : ".", "type" : "SF", "position" : 443, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "승리/NNG+의/JKG", "target" : "승리의", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "기운/NNG+을/JKO", "target" : "기운을", "word_id" : 1, "m_begin" : 2, "m_end" : 3},
+		{"id" : 2, "result" : "제대로/MAG", "target" : "제대로", "word_id" : 2, "m_begin" : 4, "m_end" : 4},
+		{"id" : 3, "result" : "받/VV+은/ETM", "target" : "받은", "word_id" : 3, "m_begin" : 5, "m_end" : 6},
+		{"id" : 4, "result" : "대한민국/NNG+의/JKG", "target" : "대한민국의", "word_id" : 4, "m_begin" : 7, "m_end" : 8},
+		{"id" : 5, "result" : "젊/VA+은/ETM", "target" : "젊은", "word_id" : 5, "m_begin" : 9, "m_end" : 10},
+		{"id" : 6, "result" : "태극전사들/NNG+이/JKS", "target" : "태극전사들이", "word_id" : 6, "m_begin" : 11, "m_end" : 14},
+		{"id" : 7, "result" : "과연/MAG", "target" : "과연", "word_id" : 7, "m_begin" : 15, "m_end" : 15},
+		{"id" : 8, "result" : "3/SN+연승/NNG+을/JKO", "target" : "3연승을", "word_id" : 8, "m_begin" : 16, "m_end" : 18},
+		{"id" : 9, "result" : "잇/VV+어/EC+가/VX+며/EC", "target" : "이어가며", "word_id" : 9, "m_begin" : 19, "m_end" : 22},
+		{"id" : 10, "result" : "16/SN+강/NNG+을/JKO", "target" : "16강을", "word_id" : 10, "m_begin" : 23, "m_end" : 25},
+		{"id" : 11, "result" : "넘/VV+어/EC", "target" : "넘어", "word_id" : 11, "m_begin" : 26, "m_end" : 27},
+		{"id" : 12, "result" : "8/SN+강/NNG+으로/JKB", "target" : "8강으로", "word_id" : 12, "m_begin" : 28, "m_end" : 30},
+		{"id" : 13, "result" : "진출하/VV+ㄹ/ETM", "target" : "진출할", "word_id" : 13, "m_begin" : 31, "m_end" : 33},
+		{"id" : 14, "result" : "수/NNB", "target" : "수", "word_id" : 14, "m_begin" : 34, "m_end" : 34},
+		{"id" : 15, "result" : "있/VA+을지/EC", "target" : "있을지", "word_id" : 15, "m_begin" : 35, "m_end" : 36},
+		{"id" : 16, "result" : "기대/NNG+를/JKO", "target" : "기대를", "word_id" : 16, "m_begin" : 37, "m_end" : 38},
+		{"id" : 17, "result" : "모으/VV+는/ETM", "target" : "모으는", "word_id" : 17, "m_begin" : 39, "m_end" : 40},
+		{"id" : 18, "result" : "'/SS+FIFA/SL", "target" : "'FIFA", "word_id" : 18, "m_begin" : 41, "m_end" : 42},
+		{"id" : 19, "result" : "U/SL+-/SS+20/SN", "target" : "U-20", "word_id" : 19, "m_begin" : 43, "m_end" : 45},
+		{"id" : 20, "result" : "월드컵/NNG+’/SS+은/JX", "target" : "월드컵’은", "word_id" : 20, "m_begin" : 46, "m_end" : 48},
+		{"id" : 21, "result" : "'/SS+iMBC/SL+스포츠온/NNG+에어/JKB+'/SS+와/JC", "target" : "'iMBC스포츠온에어'와", "word_id" : 21, "m_begin" : 49, "m_end" : 54},
+		{"id" : 22, "result" : "'/SS+해요/NNG+TV/SL+'/SS+를/JKO", "target" : "'해요TV'를", "word_id" : 22, "m_begin" : 55, "m_end" : 59},
+		{"id" : 23, "result" : "통하/VV+어/EC", "target" : "통해", "word_id" : 23, "m_begin" : 60, "m_end" : 61},
+		{"id" : 24, "result" : "시청/NNG+이/JKS", "target" : "시청이", "word_id" : 24, "m_begin" : 62, "m_end" : 63},
+		{"id" : 25, "result" : "가능하/VA+며/EC+,/SP", "target" : "가능하며,", "word_id" : 25, "m_begin" : 64, "m_end" : 67},
+		{"id" : 26, "result" : "경기/NNG", "target" : "경기", "word_id" : 26, "m_begin" : 68, "m_end" : 68},
+		{"id" : 27, "result" : "직후/NNG", "target" : "직후", "word_id" : 27, "m_begin" : 69, "m_end" : 69},
+		{"id" : 28, "result" : "순위/NNG", "target" : "순위", "word_id" : 28, "m_begin" : 70, "m_end" : 70},
+		{"id" : 29, "result" : "및/MAJ", "target" : "및", "word_id" : 29, "m_begin" : 71, "m_end" : 71},
+		{"id" : 30, "result" : "결과/NNG+,/SP", "target" : "결과,", "word_id" : 30, "m_begin" : 72, "m_end" : 73},
+		{"id" : 31, "result" : "다시/MAG+보/VV+기/ETN+,/SP", "target" : "다시보기,", "word_id" : 31, "m_begin" : 74, "m_end" : 77},
+		{"id" : 32, "result" : "하이라이트/NNG", "target" : "하이라이트", "word_id" : 32, "m_begin" : 78, "m_end" : 78},
+		{"id" : 33, "result" : "영상/NNG+은/JX", "target" : "영상은", "word_id" : 33, "m_begin" : 79, "m_end" : 80},
+		{"id" : 34, "result" : "iMBC/SL+의/JKG", "target" : "iMBC의", "word_id" : 34, "m_begin" : 81, "m_end" : 82},
+		{"id" : 35, "result" : "U/SL+-/SS+20/SN+월드컵/NNG", "target" : "U-20월드컵", "word_id" : 35, "m_begin" : 83, "m_end" : 86},
+		{"id" : 36, "result" : "사이트/NNG", "target" : "사이트", "word_id" : 36, "m_begin" : 87, "m_end" : 87},
+		{"id" : 37, "result" : "(/SS+http/SL+:/SP+//SP+//SP+u/SL+20/SN+worldcup/SL+./SF+imbc/SL+./SF+com/SL+)/SS+에서/JKB", "target" : "(http://u20worldcup.imbc.com)에서", "word_id" : 37, "m_begin" : 88, "m_end" : 101},
+		{"id" : 38, "result" : "확인하/VV+ㄹ/ETM", "target" : "확인할", "word_id" : 38, "m_begin" : 102, "m_end" : 104},
+		{"id" : 39, "result" : "수/NNB", "target" : "수", "word_id" : 39, "m_begin" : 105, "m_end" : 105},
+		{"id" : 40, "result" : "있/VA+다/EF+./SF", "target" : "있다.", "word_id" : 40, "m_begin" : 106, "m_end" : 108}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "승리", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "기운", "type" : "NNG", "scode" : "01", "weight" : 4.4, "position" : 10, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 16, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "제대로", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "받", "type" : "VV", "scode" : "01", "weight" : 7.9, "position" : 30, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 33, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "대한민국", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 37, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "젊", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 53, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 56, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "태극", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 60, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "전사", "type" : "NNG", "scode" : "20", "weight" : 3, "position" : 66, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "들", "type" : "XSN", "scode" : "09", "weight" : 8.5, "position" : 72, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 75, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "과연", "type" : "MAG", "scode" : "01", "weight" : 1, "position" : 79, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "3", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 86, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "연승", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 87, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 93, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "잇", "type" : "VV", "scode" : "01", "weight" : 3.2, "position" : 97, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 100, "begin" : 20, "end" : 20},
+		{"id" : 21, "text" : "가", "type" : "VX", "scode" : "01", "weight" : 8.4, "position" : 103, "begin" : 21, "end" : 21},
+		{"id" : 22, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 106, "begin" : 22, "end" : 22},
+		{"id" : 23, "text" : "16", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 110, "begin" : 23, "end" : 23},
+		{"id" : 24, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 3.48212, "position" : 112, "begin" : 24, "end" : 24},
+		{"id" : 25, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 25, "end" : 25},
+		{"id" : 26, "text" : "넘", "type" : "VV", "scode" : "01", "weight" : 8.6, "position" : 119, "begin" : 26, "end" : 26},
+		{"id" : 27, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 122, "begin" : 27, "end" : 27},
+		{"id" : 28, "text" : "8", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 126, "begin" : 28, "end" : 28},
+		{"id" : 29, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 4.455, "position" : 127, "begin" : 29, "end" : 29},
+		{"id" : 30, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 130, "begin" : 30, "end" : 30},
+		{"id" : 31, "text" : "진출하", "type" : "VV", "scode" : "02", "weight" : 5.4, "position" : 137, "begin" : 31, "end" : 32},
+		{"id" : 32, "text" : "ㄹ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 143, "begin" : 33, "end" : 33},
+		{"id" : 33, "text" : "수", "type" : "NNB", "scode" : "02", "weight" : 8.79923, "position" : 147, "begin" : 34, "end" : 34},
+		{"id" : 34, "text" : "있", "type" : "VA", "scode" : "01", "weight" : 6.6, "position" : 151, "begin" : 35, "end" : 35},
+		{"id" : 35, "text" : "을지", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 154, "begin" : 36, "end" : 36},
+		{"id" : 36, "text" : "기대", "type" : "NNG", "scode" : "03", "weight" : 4.4, "position" : 161, "begin" : 37, "end" : 37},
+		{"id" : 37, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 167, "begin" : 38, "end" : 38},
+		{"id" : 38, "text" : "모으", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 171, "begin" : 39, "end" : 39},
+		{"id" : 39, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 177, "begin" : 40, "end" : 40},
+		{"id" : 40, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 181, "begin" : 41, "end" : 41},
+		{"id" : 41, "text" : "FIFA", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 182, "begin" : 42, "end" : 42},
+		{"id" : 42, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 187, "begin" : 43, "end" : 43},
+		{"id" : 43, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 188, "begin" : 44, "end" : 44},
+		{"id" : 44, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 189, "begin" : 45, "end" : 45},
+		{"id" : 45, "text" : "월드컵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 192, "begin" : 46, "end" : 46},
+		{"id" : 46, "text" : "’", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 201, "begin" : 47, "end" : 47},
+		{"id" : 47, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 204, "begin" : 48, "end" : 48},
+		{"id" : 48, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 209, "begin" : 49, "end" : 49},
+		{"id" : 49, "text" : "iMBC", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 210, "begin" : 50, "end" : 50},
+		{"id" : 50, "text" : "스포츠온", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 214, "begin" : 51, "end" : 51},
+		{"id" : 51, "text" : "에어", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 226, "begin" : 52, "end" : 52},
+		{"id" : 52, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 232, "begin" : 53, "end" : 53},
+		{"id" : 53, "text" : "와", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 233, "begin" : 54, "end" : 54},
+		{"id" : 54, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 237, "begin" : 55, "end" : 55},
+		{"id" : 55, "text" : "해요", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 238, "begin" : 56, "end" : 56},
+		{"id" : 56, "text" : "TV", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 244, "begin" : 57, "end" : 57},
+		{"id" : 57, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 246, "begin" : 58, "end" : 58},
+		{"id" : 58, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 247, "begin" : 59, "end" : 59},
+		{"id" : 59, "text" : "통하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 251, "begin" : 60, "end" : 60},
+		{"id" : 60, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 254, "begin" : 61, "end" : 61},
+		{"id" : 61, "text" : "시청", "type" : "NNG", "scode" : "03", "weight" : 2.53333, "position" : 258, "begin" : 62, "end" : 62},
+		{"id" : 62, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 264, "begin" : 63, "end" : 63},
+		{"id" : 63, "text" : "가능하", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 268, "begin" : 64, "end" : 65},
+		{"id" : 64, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 277, "begin" : 66, "end" : 66},
+		{"id" : 65, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 280, "begin" : 67, "end" : 67},
+		{"id" : 66, "text" : "경기", "type" : "NNG", "scode" : "11", "weight" : 3, "position" : 282, "begin" : 68, "end" : 68},
+		{"id" : 67, "text" : "직후", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 289, "begin" : 69, "end" : 69},
+		{"id" : 68, "text" : "순위", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 296, "begin" : 70, "end" : 70},
+		{"id" : 69, "text" : "및", "type" : "MAJ", "scode" : "00", "weight" : 0, "position" : 303, "begin" : 71, "end" : 71},
+		{"id" : 70, "text" : "결과", "type" : "NNG", "scode" : "02", "weight" : 4.4, "position" : 307, "begin" : 72, "end" : 72},
+		{"id" : 71, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 313, "begin" : 73, "end" : 73},
+		{"id" : 72, "text" : "다시", "type" : "MAG", "scode" : "01", "weight" : 6.4, "position" : 315, "begin" : 74, "end" : 74},
+		{"id" : 73, "text" : "보", "type" : "VV", "scode" : "01", "weight" : 6.2, "position" : 321, "begin" : 75, "end" : 75},
+		{"id" : 74, "text" : "기", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 324, "begin" : 76, "end" : 76},
+		{"id" : 75, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 327, "begin" : 77, "end" : 77},
+		{"id" : 76, "text" : "하이라이트", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 329, "begin" : 78, "end" : 78},
+		{"id" : 77, "text" : "영상", "type" : "NNG", "scode" : "01", "weight" : 3.2, "position" : 345, "begin" : 79, "end" : 79},
+		{"id" : 78, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 351, "begin" : 80, "end" : 80},
+		{"id" : 79, "text" : "iMBC", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 355, "begin" : 81, "end" : 81},
+		{"id" : 80, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 359, "begin" : 82, "end" : 82},
+		{"id" : 81, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 363, "begin" : 83, "end" : 83},
+		{"id" : 82, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 364, "begin" : 84, "end" : 84},
+		{"id" : 83, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 365, "begin" : 85, "end" : 85},
+		{"id" : 84, "text" : "월드컵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 367, "begin" : 86, "end" : 86},
+		{"id" : 85, "text" : "사이트", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 377, "begin" : 87, "end" : 87},
+		{"id" : 86, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 387, "begin" : 88, "end" : 88},
+		{"id" : 87, "text" : "http", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 388, "begin" : 89, "end" : 89},
+		{"id" : 88, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 392, "begin" : 90, "end" : 90},
+		{"id" : 89, "text" : "/", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 393, "begin" : 91, "end" : 91},
+		{"id" : 90, "text" : "/", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 394, "begin" : 92, "end" : 92},
+		{"id" : 91, "text" : "u", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 395, "begin" : 93, "end" : 93},
+		{"id" : 92, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 396, "begin" : 94, "end" : 94},
+		{"id" : 93, "text" : "worldcup", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 398, "begin" : 95, "end" : 95},
+		{"id" : 94, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 406, "begin" : 96, "end" : 96},
+		{"id" : 95, "text" : "imbc", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 407, "begin" : 97, "end" : 97},
+		{"id" : 96, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 411, "begin" : 98, "end" : 98},
+		{"id" : 97, "text" : "com", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 412, "begin" : 99, "end" : 99},
+		{"id" : 98, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 415, "begin" : 100, "end" : 100},
+		{"id" : 99, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 416, "begin" : 101, "end" : 101},
+		{"id" : 100, "text" : "확인하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 423, "begin" : 102, "end" : 103},
+		{"id" : 101, "text" : "ㄹ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 429, "begin" : 104, "end" : 104},
+		{"id" : 102, "text" : "수", "type" : "NNB", "scode" : "02", "weight" : 4.39923, "position" : 433, "begin" : 105, "end" : 105},
+		{"id" : 103, "text" : "있", "type" : "VA", "scode" : "01", "weight" : 3.2, "position" : 437, "begin" : 106, "end" : 106},
+		{"id" : 104, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 440, "begin" : 107, "end" : 107},
+		{"id" : 105, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 443, "begin" : 108, "end" : 108}
+	],
+	"word" : [
+		{"id" : 0, "text" : "승리의", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "기운을", "type" : "", "begin" : 2, "end" : 3},
+		{"id" : 2, "text" : "제대로", "type" : "", "begin" : 4, "end" : 4},
+		{"id" : 3, "text" : "받은", "type" : "", "begin" : 5, "end" : 6},
+		{"id" : 4, "text" : "대한민국의", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 5, "text" : "젊은", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 6, "text" : "태극전사들이", "type" : "", "begin" : 11, "end" : 14},
+		{"id" : 7, "text" : "과연", "type" : "", "begin" : 15, "end" : 15},
+		{"id" : 8, "text" : "3연승을", "type" : "", "begin" : 16, "end" : 18},
+		{"id" : 9, "text" : "이어가며", "type" : "", "begin" : 19, "end" : 22},
+		{"id" : 10, "text" : "16강을", "type" : "", "begin" : 23, "end" : 25},
+		{"id" : 11, "text" : "넘어", "type" : "", "begin" : 26, "end" : 27},
+		{"id" : 12, "text" : "8강으로", "type" : "", "begin" : 28, "end" : 30},
+		{"id" : 13, "text" : "진출할", "type" : "", "begin" : 31, "end" : 33},
+		{"id" : 14, "text" : "수", "type" : "", "begin" : 34, "end" : 34},
+		{"id" : 15, "text" : "있을지", "type" : "", "begin" : 35, "end" : 36},
+		{"id" : 16, "text" : "기대를", "type" : "", "begin" : 37, "end" : 38},
+		{"id" : 17, "text" : "모으는", "type" : "", "begin" : 39, "end" : 40},
+		{"id" : 18, "text" : "'FIFA", "type" : "", "begin" : 41, "end" : 42},
+		{"id" : 19, "text" : "U-20", "type" : "", "begin" : 43, "end" : 45},
+		{"id" : 20, "text" : "월드컵’은", "type" : "", "begin" : 46, "end" : 48},
+		{"id" : 21, "text" : "'iMBC스포츠온에어'와", "type" : "", "begin" : 49, "end" : 54},
+		{"id" : 22, "text" : "'해요TV'를", "type" : "", "begin" : 55, "end" : 59},
+		{"id" : 23, "text" : "통해", "type" : "", "begin" : 60, "end" : 61},
+		{"id" : 24, "text" : "시청이", "type" : "", "begin" : 62, "end" : 63},
+		{"id" : 25, "text" : "가능하며,", "type" : "", "begin" : 64, "end" : 67},
+		{"id" : 26, "text" : "경기", "type" : "", "begin" : 68, "end" : 68},
+		{"id" : 27, "text" : "직후", "type" : "", "begin" : 69, "end" : 69},
+		{"id" : 28, "text" : "순위", "type" : "", "begin" : 70, "end" : 70},
+		{"id" : 29, "text" : "및", "type" : "", "begin" : 71, "end" : 71},
+		{"id" : 30, "text" : "결과,", "type" : "", "begin" : 72, "end" : 73},
+		{"id" : 31, "text" : "다시보기,", "type" : "", "begin" : 74, "end" : 77},
+		{"id" : 32, "text" : "하이라이트", "type" : "", "begin" : 78, "end" : 78},
+		{"id" : 33, "text" : "영상은", "type" : "", "begin" : 79, "end" : 80},
+		{"id" : 34, "text" : "iMBC의", "type" : "", "begin" : 81, "end" : 82},
+		{"id" : 35, "text" : "U-20월드컵", "type" : "", "begin" : 83, "end" : 86},
+		{"id" : 36, "text" : "사이트", "type" : "", "begin" : 87, "end" : 87},
+		{"id" : 37, "text" : "(http://u20worldcup.imbc.com)에서", "type" : "", "begin" : 88, "end" : 101},
+		{"id" : 38, "text" : "확인할", "type" : "", "begin" : 102, "end" : 104},
+		{"id" : 39, "text" : "수", "type" : "", "begin" : 105, "end" : 105},
+		{"id" : 40, "text" : "있다.", "type" : "", "begin" : 106, "end" : 108}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "대한민국", "type" : "LCP_COUNTRY", "begin" : 7, "end" : 7, "weight" : 0.358146, "common_noun" : 0},
+		{"id" : 1, "text" : "태극전사", "type" : "CV_POSITION", "begin" : 11, "end" : 12, "weight" : 0.335805, "common_noun" : 0},
+		{"id" : 2, "text" : "3연승", "type" : "QT_SPORTS", "begin" : 16, "end" : 17, "weight" : 0.747318, "common_noun" : 0},
+		{"id" : 3, "text" : "16강", "type" : "EV_SPORTS", "begin" : 23, "end" : 24, "weight" : 0.188842, "common_noun" : 0},
+		{"id" : 4, "text" : "8강", "type" : "EV_SPORTS", "begin" : 28, "end" : 29, "weight" : 0.206202, "common_noun" : 0},
+		{"id" : 5, "text" : "FIFA U-20 월드컵", "type" : "EV_SPORTS", "begin" : 42, "end" : 46, "weight" : 0.880179, "common_noun" : 0},
+		{"id" : 6, "text" : "iMBC스포츠온에어", "type" : "OGG_MEDIA", "begin" : 50, "end" : 52, "weight" : 0.168481, "common_noun" : 0},
+		{"id" : 7, "text" : "해요TV", "type" : "OGG_MEDIA", "begin" : 56, "end" : 57, "weight" : 0.100739, "common_noun" : 0},
+		{"id" : 8, "text" : "iMBC", "type" : "OGG_MEDIA", "begin" : 81, "end" : 81, "weight" : 0.189007, "common_noun" : 0},
+		{"id" : 9, "text" : "U-20월드컵", "type" : "EV_SPORTS", "begin" : 83, "end" : 86, "weight" : 0.657199, "common_noun" : 0},
+		{"id" : 10, "text" : "http://u20worldcup.imbc.com", "type" : "TMI_SITE", "begin" : 89, "end" : 99, "weight" : 0.646335, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "승리의", "head" : 1, "label" : "NP_MOD", "mod" : [], "weight" : 0.669623 },
+		{"id" : 1, "text" : "기운을", "head" : 3, "label" : "NP_OBJ", "mod" : [0], "weight" : 0.646704 },
+		{"id" : 2, "text" : "제대로", "head" : 3, "label" : "AP", "mod" : [], "weight" : 0.62034 },
+		{"id" : 3, "text" : "받은", "head" : 6, "label" : "VP_MOD", "mod" : [1, 2], "weight" : 0.835051 },
+		{"id" : 4, "text" : "대한민국의", "head" : 6, "label" : "NP_MOD", "mod" : [], "weight" : 0.692549 },
+		{"id" : 5, "text" : "젊은", "head" : 6, "label" : "VP_MOD", "mod" : [], "weight" : 0.660468 },
+		{"id" : 6, "text" : "태극전사들이", "head" : 9, "label" : "NP_SBJ", "mod" : [3, 4, 5], "weight" : 0.710164 },
+		{"id" : 7, "text" : "과연", "head" : 9, "label" : "AP", "mod" : [], "weight" : 0.738746 },
+		{"id" : 8, "text" : "3연승을", "head" : 9, "label" : "NP_OBJ", "mod" : [], "weight" : 0.638527 },
+		{"id" : 9, "text" : "이어가며", "head" : 11, "label" : "VP", "mod" : [6, 7, 8], "weight" : 0.341364 },
+		{"id" : 10, "text" : "16강을", "head" : 11, "label" : "NP_OBJ", "mod" : [], "weight" : 0.79354 },
+		{"id" : 11, "text" : "넘어", "head" : 13, "label" : "VP", "mod" : [9, 10], "weight" : 0.723944 },
+		{"id" : 12, "text" : "8강으로", "head" : 13, "label" : "NP_AJT", "mod" : [], "weight" : 0.727191 },
+		{"id" : 13, "text" : "진출할", "head" : 14, "label" : "VP_MOD", "mod" : [11, 12], "weight" : 0.837916 },
+		{"id" : 14, "text" : "수", "head" : 15, "label" : "NP_SBJ", "mod" : [13], "weight" : 0.843563 },
+		{"id" : 15, "text" : "있을지", "head" : 23, "label" : "VP", "mod" : [14], "weight" : 0.611996 },
+		{"id" : 16, "text" : "기대를", "head" : 17, "label" : "NP_OBJ", "mod" : [], "weight" : 0.77672 },
+		{"id" : 17, "text" : "모으는", "head" : 20, "label" : "VP_MOD", "mod" : [16], "weight" : 0.739588 },
+		{"id" : 18, "text" : "'FIFA", "head" : 19, "label" : "NP", "mod" : [], "weight" : 0.685694 },
+		{"id" : 19, "text" : "U-20", "head" : 20, "label" : "NP", "mod" : [18], "weight" : 0.683222 },
+		{"id" : 20, "text" : "월드컵’은", "head" : 23, "label" : "NP_SBJ", "mod" : [17, 19], "weight" : 0.61298 },
+		{"id" : 21, "text" : "'iMBC스포츠온에어'와", "head" : 22, "label" : "NP_CNJ", "mod" : [], "weight" : 0.720655 },
+		{"id" : 22, "text" : "'해요TV'를", "head" : 23, "label" : "NP_OBJ", "mod" : [21], "weight" : 0.547728 },
+		{"id" : 23, "text" : "통해", "head" : 25, "label" : "VP", "mod" : [15, 20, 22], "weight" : 0.747466 },
+		{"id" : 24, "text" : "시청이", "head" : 25, "label" : "NP_SBJ", "mod" : [], "weight" : 0.737946 },
+		{"id" : 25, "text" : "가능하며,", "head" : 31, "label" : "VP", "mod" : [23, 24], "weight" : 0.172549 },
+		{"id" : 26, "text" : "경기", "head" : 27, "label" : "NP", "mod" : [], "weight" : 0.818113 },
+		{"id" : 27, "text" : "직후", "head" : 31, "label" : "NP_AJT", "mod" : [26], "weight" : 0.449018 },
+		{"id" : 28, "text" : "순위", "head" : 30, "label" : "NP_CNJ", "mod" : [], "weight" : 0.345316 },
+		{"id" : 29, "text" : "및", "head" : 30, "label" : "AP", "mod" : [], "weight" : 0.725586 },
+		{"id" : 30, "text" : "결과,", "head" : 31, "label" : "NP_INT", "mod" : [28, 29], "weight" : 0.128625 },
+		{"id" : 31, "text" : "다시보기,", "head" : 38, "label" : "VP", "mod" : [25, 27, 30], "weight" : 0.0133164 },
+		{"id" : 32, "text" : "하이라이트", "head" : 33, "label" : "NP", "mod" : [], "weight" : 0.711252 },
+		{"id" : 33, "text" : "영상은", "head" : 38, "label" : "NP_SBJ", "mod" : [32], "weight" : 0.471652 },
+		{"id" : 34, "text" : "iMBC의", "head" : 35, "label" : "NP_MOD", "mod" : [], "weight" : 0.406326 },
+		{"id" : 35, "text" : "U-20월드컵", "head" : 37, "label" : "NP", "mod" : [34], "weight" : 0.399507 },
+		{"id" : 36, "text" : "사이트", "head" : 37, "label" : "NP", "mod" : [], "weight" : 0.540434 },
+		{"id" : 37, "text" : "(http://u20worldcup.imbc.com)에서", "head" : 38, "label" : "NP_AJT", "mod" : [35, 36], "weight" : 0.604345 },
+		{"id" : 38, "text" : "확인할", "head" : 39, "label" : "VP_MOD", "mod" : [31, 33, 37], "weight" : 0.779305 },
+		{"id" : 39, "text" : "수", "head" : 40, "label" : "NP_SBJ", "mod" : [38], "weight" : 0.800925 },
+		{"id" : 40, "text" : "있다.", "head" : -1, "label" : "VP", "mod" : [39], "weight" : 1.44744e-11 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_OBJ", "text" : "승리의 기운을", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "AP", "text" : "제대로", "begin" : 2, "end" : 2, "key_begin" : 2, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "VP_MOD", "text" : "P#0@OBJ을 P#1@AP제대로 받은", "begin" : 0, "end" : 3, "key_begin" : 3, "head_phrase" : 3, "sub_phrase" : [0, 1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_SBJ", "text" : "P#2@MOD은 대한민국의 젊은 태극전사들이", "begin" : 0, "end" : 6, "key_begin" : 4, "head_phrase" : 6, "sub_phrase" : [2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "AP", "text" : "과연", "begin" : 7, "end" : 7, "key_begin" : 7, "head_phrase" : 6, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "NP_OBJ", "text" : "3연승을", "begin" : 8, "end" : 8, "key_begin" : 8, "head_phrase" : 6, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "S", "text" : "P#3@SBJ이 P#4@AP과연 P#5@OBJ을 이어가며", "begin" : 0, "end" : 9, "key_begin" : 9, "head_phrase" : 8, "sub_phrase" : [3, 4, 5], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "NP_OBJ", "text" : "16강을", "begin" : 10, "end" : 10, "key_begin" : 10, "head_phrase" : 8, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 8, "label" : "S", "text" : "S#6@S며 P#7@OBJ을 넘어", "begin" : 0, "end" : 11, "key_begin" : 11, "head_phrase" : 10, "sub_phrase" : [6, 7], "weight" : 0, "element" : [] },
+		{"id" : 9, "label" : "NP_AJT", "text" : "8강으로", "begin" : 12, "end" : 12, "key_begin" : 12, "head_phrase" : 10, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 10, "label" : "S_MOD", "text" : "S#8@S어 P#9@AJT으로 진출할", "begin" : 0, "end" : 13, "key_begin" : 13, "head_phrase" : 11, "sub_phrase" : [8, 9], "weight" : 0, "element" : [] },
+		{"id" : 11, "label" : "NP_SBJ", "text" : "S#10@MODㄹ 수", "begin" : 0, "end" : 14, "key_begin" : 14, "head_phrase" : 12, "sub_phrase" : [10], "weight" : 0, "element" : [] },
+		{"id" : 12, "label" : "S", "text" : "P#11@SBJ수 있을지", "begin" : 0, "end" : 15, "key_begin" : 15, "head_phrase" : 17, "sub_phrase" : [11], "weight" : 0, "element" : [] },
+		{"id" : 13, "label" : "NP_OBJ", "text" : "기대를", "begin" : 16, "end" : 16, "key_begin" : 16, "head_phrase" : 14, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 14, "label" : "VP_MOD", "text" : "P#13@OBJ를 모으는", "begin" : 16, "end" : 17, "key_begin" : 17, "head_phrase" : 15, "sub_phrase" : [13], "weight" : 0, "element" : [] },
+		{"id" : 15, "label" : "NP_SBJ", "text" : "P#14@MOD는 'FIFA U-20 월드컵’은", "begin" : 16, "end" : 20, "key_begin" : 18, "head_phrase" : 17, "sub_phrase" : [14], "weight" : 0, "element" : [] },
+		{"id" : 16, "label" : "NP_OBJ", "text" : "'iMBC스포츠온에어'와 '해요TV'를", "begin" : 21, "end" : 22, "key_begin" : 21, "head_phrase" : 17, "sub_phrase" : [], "weight" : 0, 
+			"element" : [
+				{ "text" : "'iMBC스포츠온에어'", "label" : "NP_OBJ", "begin" : 49, "end" : 53, "ne_type" : "OGG_MEDIA" },
+				{ "text" : "'해요TV'", "label" : "NP_OBJ", "begin" : 55, "end" : 58, "ne_type" : "OGG_MEDIA" }
+			] },
+		{"id" : 17, "label" : "S", "text" : "S#12@S을지 P#15@SBJ은 P#16@OBJ를 통해", "begin" : 0, "end" : 23, "key_begin" : 23, "head_phrase" : 19, "sub_phrase" : [12, 15, 16], "weight" : 0, "element" : [] },
+		{"id" : 18, "label" : "NP_SBJ", "text" : "시청이", "begin" : 24, "end" : 24, "key_begin" : 24, "head_phrase" : 19, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 19, "label" : "S", "text" : "S#17@S어 P#18@SBJ이 가능하며,", "begin" : 0, "end" : 25, "key_begin" : 25, "head_phrase" : 21, "sub_phrase" : [17, 18], "weight" : 0, "element" : [] },
+		{"id" : 20, "label" : "NP_AJT", "text" : "경기 직후", "begin" : 26, "end" : 27, "key_begin" : 26, "head_phrase" : 21, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 21, "label" : "S", "text" : "S#19@S며, P#20@AJT직후 순위 및 결과, 다시보기,", "begin" : 0, "end" : 31, "key_begin" : 28, "head_phrase" : 24, "sub_phrase" : [19, 20], "weight" : 0, "element" : [] },
+		{"id" : 22, "label" : "NP_SBJ", "text" : "하이라이트 영상은", "begin" : 32, "end" : 33, "key_begin" : 32, "head_phrase" : 24, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 23, "label" : "NP_AJT", "text" : "iMBC의 U-20월드컵 사이트 (http://u20worldcup.imbc.com)에서", "begin" : 34, "end" : 37, "key_begin" : 34, "head_phrase" : 24, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 24, "label" : "S_MOD", "text" : "S#21@S기, P#22@SBJ은 P#23@AJT에서 확인할", "begin" : 0, "end" : 38, "key_begin" : 38, "head_phrase" : 25, "sub_phrase" : [21, 22, 23], "weight" : 0, "element" : [] },
+		{"id" : 25, "label" : "NP_SBJ", "text" : "S#24@MODㄹ 수", "begin" : 0, "end" : 39, "key_begin" : 39, "head_phrase" : 26, "sub_phrase" : [24], "weight" : 0, "element" : [] },
+		{"id" : 26, "label" : "S", "text" : "P#25@SBJ수 있다.", "begin" : 0, "end" : 40, "key_begin" : 40, "head_phrase" : -1, "sub_phrase" : [25], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "받", "sense" : 1, "word_id" : 3, "weight" : 0.375133,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 1, "text" : "기운을", "weight" : 0.371583 },
+				{"type" : "ARGM-MNR", "word_id" : 2, "text" : "제대로", "weight" : 0.315584 },
+				{"type" : "ARG0", "word_id" : 6, "text" : "태극전사들이", "weight" : 0.438233 }
+			] },
+		{"verb" : "젊", "sense" : 1, "word_id" : 5, "weight" : 0.615814,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 6, "text" : "태극전사들이", "weight" : 0.615814 }
+			] },
+		{"verb" : "잇", "sense" : 1, "word_id" : 9, "weight" : 0.230132,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 8, "text" : "3연승을", "weight" : 0.230132 }
+			] },
+		{"verb" : "넘", "sense" : 1, "word_id" : 11, "weight" : 0.215065,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 10, "text" : "16강을", "weight" : 0.215065 }
+			] },
+		{"verb" : "진출", "sense" : 1, "word_id" : 13, "weight" : 0.411803,
+			"argument" : [
+				{"type" : "ARGM-INS", "word_id" : 11, "text" : "넘어", "weight" : 0.107138 },
+				{"type" : "ARG3", "word_id" : 12, "text" : "8강으로", "weight" : 0.406236 },
+				{"type" : "AUX", "word_id" : 15, "text" : "있을지", "weight" : 0.722037 }
+			] },
+		{"verb" : "모으", "sense" : 1, "word_id" : 17, "weight" : 0.439102,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 16, "text" : "기대를", "weight" : 0.439102 }
+			] },
+		{"verb" : "통하", "sense" : 1, "word_id" : 23, "weight" : 0.635785,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 22, "text" : "'해요TV'를", "weight" : 0.635785 }
+			] },
+		{"verb" : "가능", "sense" : 1, "word_id" : 25, "weight" : 0.240447,
+			"argument" : [
+				{"type" : "ARGM-MNR", "word_id" : 23, "text" : "통해", "weight" : 0.150357 },
+				{"type" : "ARG1", "word_id" : 24, "text" : "시청이", "weight" : 0.330537 }
+			] },
+		{"verb" : "다시", "sense" : 1, "word_id" : 31, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "확인", "sense" : 1, "word_id" : 38, "weight" : 0.381669,
+			"argument" : [
+				{"type" : "ARG0", "word_id" : 33, "text" : "영상은", "weight" : 0.286709 },
+				{"type" : "ARGM-LOC", "word_id" : 37, "text" : "(http://u20worldcup.imbc.com)에서", "weight" : 0.199441 },
+				{"type" : "AUX", "word_id" : 40, "text" : "있다.", "weight" : 0.658856 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "☞ 'iMBC스포츠 온에어' PC 바로가기",
+	"morp" : [
+		{"id" : 0, "lemma" : "☞", "type" : "NNG", "position" : 0, "weight" : 0 },
+		{"id" : 1, "lemma" : "'", "type" : "SS", "position" : 4, "weight" : 1 },
+		{"id" : 2, "lemma" : "iMBC", "type" : "SL", "position" : 5, "weight" : 1 },
+		{"id" : 3, "lemma" : "스포츠", "type" : "NNG", "position" : 9, "weight" : 0.9 },
+		{"id" : 4, "lemma" : "온에어", "type" : "NNP", "position" : 19, "weight" : 0.6 },
+		{"id" : 5, "lemma" : "'", "type" : "SS", "position" : 28, "weight" : 1 },
+		{"id" : 6, "lemma" : "PC", "type" : "SL", "position" : 30, "weight" : 1 },
+		{"id" : 7, "lemma" : "바로가", "type" : "NNP", "position" : 33, "weight" : 0.6 },
+		{"id" : 8, "lemma" : "기", "type" : "ETN", "position" : 42, "weight" : 0 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "☞/NNG", "target" : "☞", "word_id" : 0, "m_begin" : 0, "m_end" : 0},
+		{"id" : 1, "result" : "'/SS+iMBC/SL+스포츠/NNG", "target" : "'iMBC스포츠", "word_id" : 1, "m_begin" : 1, "m_end" : 3},
+		{"id" : 2, "result" : "온에어/NNG+'/SS", "target" : "온에어'", "word_id" : 2, "m_begin" : 4, "m_end" : 5},
+		{"id" : 3, "result" : "PC/SL", "target" : "PC", "word_id" : 3, "m_begin" : 6, "m_end" : 6},
+		{"id" : 4, "result" : "바로가/NNG+기/ETN", "target" : "바로가기", "word_id" : 4, "m_begin" : 7, "m_end" : 8}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "☞", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 4, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "iMBC", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 5, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "스포츠", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 9, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "온에어", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 19, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 28, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "PC", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "바로가", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 33, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "기", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 42, "begin" : 8, "end" : 8}
+	],
+	"word" : [
+		{"id" : 0, "text" : "☞", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "'iMBC스포츠", "type" : "", "begin" : 1, "end" : 3},
+		{"id" : 2, "text" : "온에어'", "type" : "", "begin" : 4, "end" : 5},
+		{"id" : 3, "text" : "PC", "type" : "", "begin" : 6, "end" : 6},
+		{"id" : 4, "text" : "바로가기", "type" : "", "begin" : 7, "end" : 8}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "iMBC스포츠 온에어", "type" : "EV_SPORTS", "begin" : 2, "end" : 4, "weight" : 0.117604, "common_noun" : 0},
+		{"id" : 1, "text" : "PC", "type" : "TMI_HW", "begin" : 6, "end" : 6, "weight" : 0.395306, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "☞", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.130742 },
+		{"id" : 1, "text" : "'iMBC스포츠", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.654615 },
+		{"id" : 2, "text" : "온에어'", "head" : 4, "label" : "NP", "mod" : [0, 1], "weight" : 0.723882 },
+		{"id" : 3, "text" : "PC", "head" : 4, "label" : "NP", "mod" : [], "weight" : 0.315396 },
+		{"id" : 4, "text" : "바로가기", "head" : -1, "label" : "VP", "mod" : [2, 3], "weight" : 0.00848128 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "VP", "text" : "☞ 'iMBC스포츠 온에어' PC 바로가기", "begin" : 0, "end" : 4, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "☞ <해요!>APP 다운받으러 가기",
+	"morp" : [
+		{"id" : 0, "lemma" : "☞", "type" : "NNG", "position" : 0, "weight" : 0 },
+		{"id" : 1, "lemma" : "<", "type" : "SS", "position" : 4, "weight" : 1 },
+		{"id" : 2, "lemma" : "하", "type" : "VV", "position" : 5, "weight" : 0.0174226 },
+		{"id" : 3, "lemma" : "어요", "type" : "EF", "position" : 5, "weight" : 0.0764265 },
+		{"id" : 4, "lemma" : "!", "type" : "SF", "position" : 11, "weight" : 1 },
+		{"id" : 5, "lemma" : ">", "type" : "SS", "position" : 12, "weight" : 1 },
+		{"id" : 6, "lemma" : "APP", "type" : "SL", "position" : 13, "weight" : 1 },
+		{"id" : 7, "lemma" : "다운", "type" : "NNG", "position" : 17, "weight" : 0.155879 },
+		{"id" : 8, "lemma" : "받", "type" : "VV", "position" : 23, "weight" : 0.0147799 },
+		{"id" : 9, "lemma" : "으러", "type" : "EC", "position" : 26, "weight" : 0.429433 },
+		{"id" : 10, "lemma" : "가", "type" : "VV", "position" : 33, "weight" : 0.0183561 },
+		{"id" : 11, "lemma" : "기", "type" : "ETN", "position" : 36, "weight" : 0.0380514 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "☞/NNG", "target" : "☞", "word_id" : 0, "m_begin" : 0, "m_end" : 0},
+		{"id" : 1, "result" : "</SS+하/VV+어요/EF+!/SF+>/SS+APP/SL", "target" : "<해요!>APP", "word_id" : 1, "m_begin" : 1, "m_end" : 6},
+		{"id" : 2, "result" : "다운/NNG+받/VV+으러/EC", "target" : "다운받으러", "word_id" : 2, "m_begin" : 7, "m_end" : 9},
+		{"id" : 3, "result" : "가/VV+기/ETN", "target" : "가기", "word_id" : 3, "m_begin" : 10, "m_end" : 11}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "☞", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "<", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 4, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 5.4, "position" : 5, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "어요", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 5, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "!", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 11, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : ">", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "APP", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "다운", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 17, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "받", "type" : "VV", "scode" : "01", "weight" : 6.86712, "position" : 23, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "으러", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "가", "type" : "VV", "scode" : "01", "weight" : 5.4, "position" : 33, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "기", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 36, "begin" : 11, "end" : 11}
+	],
+	"word" : [
+		{"id" : 0, "text" : "☞", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "<해요!>APP", "type" : "", "begin" : 1, "end" : 6},
+		{"id" : 2, "text" : "다운받으러", "type" : "", "begin" : 7, "end" : 9},
+		{"id" : 3, "text" : "가기", "type" : "", "begin" : 10, "end" : 11}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "해요!", "type" : "AFW_MUSIC", "begin" : 2, "end" : 4, "weight" : 0.388382, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "☞", "head" : 1, "label" : "NP_OBJ", "mod" : [], "weight" : 0.230752 },
+		{"id" : 1, "text" : "<해요!>APP", "head" : 2, "label" : "VP", "mod" : [0], "weight" : 0.251328 },
+		{"id" : 2, "text" : "다운받으러", "head" : 3, "label" : "VP", "mod" : [1], "weight" : 0.720255 },
+		{"id" : 3, "text" : "가기", "head" : -1, "label" : "VP", "mod" : [2], "weight" : 0.033893 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_OBJ", "text" : "☞", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 1, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "VP", "text" : "P#0@OBJ☞ <해요!>APP 다운받으러 가기", "begin" : 0, "end" : 3, "key_begin" : 1, "head_phrase" : -1, "sub_phrase" : [0], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "하", "sense" : 1, "word_id" : 1, "weight" : 0.325794,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 0, "text" : "☞", "weight" : 0.325794 }
+			] },
+		{"verb" : "다운", "sense" : 1, "word_id" : 2, "weight" : 0,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 0, "text" : "☞", "weight" : 0.325794 }
+			] },
+		{"verb" : "가", "sense" : 1, "word_id" : 3, "weight" : 0.0893896,
+			"argument" : [
+				{"type" : "ARG3", "word_id" : 2, "text" : "다운받으러", "weight" : 0.0893896 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "☞ U-20월드컵 순위 및 결과 보기",
+	"morp" : [
+		{"id" : 0, "lemma" : "☞", "type" : "NNG", "position" : 0, "weight" : 0 },
+		{"id" : 1, "lemma" : "U", "type" : "SL", "position" : 4, "weight" : 1 },
+		{"id" : 2, "lemma" : "-", "type" : "SS", "position" : 5, "weight" : 1 },
+		{"id" : 3, "lemma" : "20", "type" : "SN", "position" : 6, "weight" : 1 },
+		{"id" : 4, "lemma" : "월드컵", "type" : "NNG", "position" : 8, "weight" : 0.9 },
+		{"id" : 5, "lemma" : "순위", "type" : "NNG", "position" : 18, "weight" : 0.9 },
+		{"id" : 6, "lemma" : "및", "type" : "MAJ", "position" : 25, "weight" : 0.00215414 },
+		{"id" : 7, "lemma" : "결과", "type" : "NNG", "position" : 29, "weight" : 0.9 },
+		{"id" : 8, "lemma" : "보", "type" : "VV", "position" : 36, "weight" : 0.00917135 },
+		{"id" : 9, "lemma" : "기", "type" : "ETN", "position" : 39, "weight" : 0.0380514 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "☞/NNG", "target" : "☞", "word_id" : 0, "m_begin" : 0, "m_end" : 0},
+		{"id" : 1, "result" : "U/SL+-/SS+20/SN+월드컵/NNG", "target" : "U-20월드컵", "word_id" : 1, "m_begin" : 1, "m_end" : 4},
+		{"id" : 2, "result" : "순위/NNG", "target" : "순위", "word_id" : 2, "m_begin" : 5, "m_end" : 5},
+		{"id" : 3, "result" : "및/MAJ", "target" : "및", "word_id" : 3, "m_begin" : 6, "m_end" : 6},
+		{"id" : 4, "result" : "결과/NNG", "target" : "결과", "word_id" : 4, "m_begin" : 7, "m_end" : 7},
+		{"id" : 5, "result" : "보/VV+기/ETN", "target" : "보기", "word_id" : 5, "m_begin" : 8, "m_end" : 9}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "☞", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 4, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 5, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "월드컵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 8, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "순위", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 18, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "및", "type" : "MAJ", "scode" : "00", "weight" : 0, "position" : 25, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "결과", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 29, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "보", "type" : "VV", "scode" : "01", "weight" : 3.2, "position" : 36, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "기", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 9, "end" : 9}
+	],
+	"word" : [
+		{"id" : 0, "text" : "☞", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "U-20월드컵", "type" : "", "begin" : 1, "end" : 4},
+		{"id" : 2, "text" : "순위", "type" : "", "begin" : 5, "end" : 5},
+		{"id" : 3, "text" : "및", "type" : "", "begin" : 6, "end" : 6},
+		{"id" : 4, "text" : "결과", "type" : "", "begin" : 7, "end" : 7},
+		{"id" : 5, "text" : "보기", "type" : "", "begin" : 8, "end" : 9}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "U-20월드컵", "type" : "EV_SPORTS", "begin" : 1, "end" : 4, "weight" : 0.656633, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "☞", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.28568 },
+		{"id" : 1, "text" : "U-20월드컵", "head" : 4, "label" : "NP", "mod" : [0], "weight" : 0.0340444 },
+		{"id" : 2, "text" : "순위", "head" : 4, "label" : "NP_CNJ", "mod" : [], "weight" : 0.206771 },
+		{"id" : 3, "text" : "및", "head" : 4, "label" : "AP", "mod" : [], "weight" : 0.591365 },
+		{"id" : 4, "text" : "결과", "head" : 5, "label" : "NP_OBJ", "mod" : [1, 2, 3], "weight" : 0.498158 },
+		{"id" : 5, "text" : "보기", "head" : -1, "label" : "VP", "mod" : [4], "weight" : 0.000438584 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_OBJ", "text" : "☞ U-20월드컵 순위 및 결과", "begin" : 0, "end" : 4, "key_begin" : 0, "head_phrase" : 1, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "VP", "text" : "P#0@OBJ결과 보기", "begin" : 0, "end" : 5, "key_begin" : 5, "head_phrase" : -1, "sub_phrase" : [0], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "보", "sense" : 1, "word_id" : 5, "weight" : 0.256029,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 4, "text" : "결과", "weight" : 0.256029 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "iMBC 취재팀 | 화면캡쳐 MBC",
+	"morp" : [
+		{"id" : 0, "lemma" : "iMBC", "type" : "SL", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "취재", "type" : "NNG", "position" : 5, "weight" : 0.9 },
+		{"id" : 2, "lemma" : "팀", "type" : "NNG", "position" : 11, "weight" : 0.184232 },
+		{"id" : 3, "lemma" : "|", "type" : "SW", "position" : 15, "weight" : 1 },
+		{"id" : 4, "lemma" : "화면", "type" : "NNG", "position" : 17, "weight" : 0.264683 },
+		{"id" : 5, "lemma" : "캡쳐", "type" : "NNP", "position" : 23, "weight" : 0.6 },
+		{"id" : 6, "lemma" : "MBC", "type" : "SL", "position" : 30, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "iMBC/SL", "target" : "iMBC", "word_id" : 0, "m_begin" : 0, "m_end" : 0},
+		{"id" : 1, "result" : "취재팀/NNG", "target" : "취재팀", "word_id" : 1, "m_begin" : 1, "m_end" : 2},
+		{"id" : 2, "result" : "|/SW", "target" : "|", "word_id" : 2, "m_begin" : 3, "m_end" : 3},
+		{"id" : 3, "result" : "화면캡쳐/NNG", "target" : "화면캡쳐", "word_id" : 3, "m_begin" : 4, "m_end" : 5},
+		{"id" : 4, "result" : "MBC/SL", "target" : "MBC", "word_id" : 4, "m_begin" : 6, "m_end" : 6}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "iMBC", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "취재", "type" : "NNG", "scode" : "02", "weight" : 3, "position" : 5, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "팀", "type" : "NNG", "scode" : "01", "weight" : 3, "position" : 11, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "|", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 15, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "화면", "type" : "NNG", "scode" : "05", "weight" : 2, "position" : 17, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "캡쳐", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 23, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "MBC", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 6, "end" : 6}
+	],
+	"word" : [
+		{"id" : 0, "text" : "iMBC", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "취재팀", "type" : "", "begin" : 1, "end" : 2},
+		{"id" : 2, "text" : "|", "type" : "", "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "화면캡쳐", "type" : "", "begin" : 4, "end" : 5},
+		{"id" : 4, "text" : "MBC", "type" : "", "begin" : 6, "end" : 6}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "iMBC", "type" : "OGG_MEDIA", "begin" : 0, "end" : 0, "weight" : 0.544875, "common_noun" : 0},
+		{"id" : 1, "text" : "MBC", "type" : "OGG_MEDIA", "begin" : 6, "end" : 6, "weight" : 0.555163, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "iMBC", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.590977 },
+		{"id" : 1, "text" : "취재팀", "head" : 2, "label" : "NP", "mod" : [0], "weight" : 0.509311 },
+		{"id" : 2, "text" : "|", "head" : 4, "label" : "NP", "mod" : [1], "weight" : 0.37209 },
+		{"id" : 3, "text" : "화면캡쳐", "head" : 4, "label" : "NP", "mod" : [], "weight" : 0.752431 },
+		{"id" : 4, "text" : "MBC", "head" : -1, "label" : "NP", "mod" : [2, 3], "weight" : 0.0536927 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "iMBC 취재팀 | 화면캡쳐 MBC", "begin" : 0, "end" : 4, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "Copyrights ⓒ iMBC (enews.imbc.com) 무단복제 및 재배포 금지",
+	"morp" : [
+		{"id" : 0, "lemma" : "Copyrights", "type" : "SL", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "ⓒ", "type" : "SW", "position" : 11, "weight" : 1 },
+		{"id" : 2, "lemma" : "iMBC", "type" : "SL", "position" : 15, "weight" : 1 },
+		{"id" : 3, "lemma" : "(", "type" : "SS", "position" : 20, "weight" : 1 },
+		{"id" : 4, "lemma" : "enews", "type" : "SL", "position" : 21, "weight" : 1 },
+		{"id" : 5, "lemma" : ".", "type" : "SF", "position" : 26, "weight" : 1 },
+		{"id" : 6, "lemma" : "imbc", "type" : "SL", "position" : 27, "weight" : 1 },
+		{"id" : 7, "lemma" : ".", "type" : "SF", "position" : 31, "weight" : 1 },
+		{"id" : 8, "lemma" : "com", "type" : "SL", "position" : 32, "weight" : 1 },
+		{"id" : 9, "lemma" : ")", "type" : "SS", "position" : 35, "weight" : 1 },
+		{"id" : 10, "lemma" : "무단", "type" : "NNG", "position" : 37, "weight" : 0.9 },
+		{"id" : 11, "lemma" : "복제", "type" : "NNG", "position" : 43, "weight" : 0.9 },
+		{"id" : 12, "lemma" : "및", "type" : "MAJ", "position" : 50, "weight" : 0.00215414 },
+		{"id" : 13, "lemma" : "재", "type" : "XPN", "position" : 54, "weight" : 0.00098195 },
+		{"id" : 14, "lemma" : "배포", "type" : "NNG", "position" : 57, "weight" : 0.9 },
+		{"id" : 15, "lemma" : "금지", "type" : "NNG", "position" : 64, "weight" : 0.184637 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "Copyrights/SL", "target" : "Copyrights", "word_id" : 0, "m_begin" : 0, "m_end" : 0},
+		{"id" : 1, "result" : "ⓒ/SW", "target" : "ⓒ", "word_id" : 1, "m_begin" : 1, "m_end" : 1},
+		{"id" : 2, "result" : "iMBC/SL", "target" : "iMBC", "word_id" : 2, "m_begin" : 2, "m_end" : 2},
+		{"id" : 3, "result" : "(/SS+enews/SL+./SF+imbc/SL+./SF+com/SL+)/SS", "target" : "(enews.imbc.com)", "word_id" : 3, "m_begin" : 3, "m_end" : 9},
+		{"id" : 4, "result" : "무단복제/NNG", "target" : "무단복제", "word_id" : 4, "m_begin" : 10, "m_end" : 11},
+		{"id" : 5, "result" : "및/MAJ", "target" : "및", "word_id" : 5, "m_begin" : 12, "m_end" : 12},
+		{"id" : 6, "result" : "재배포/NNG", "target" : "재배포", "word_id" : 6, "m_begin" : 13, "m_end" : 14},
+		{"id" : 7, "result" : "금지/NNG", "target" : "금지", "word_id" : 7, "m_begin" : 15, "m_end" : 15}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "Copyrights", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "ⓒ", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 11, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "iMBC", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 15, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "enews", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 21, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "imbc", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 27, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 31, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "com", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 35, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "무단", "type" : "NNG", "scode" : "02", "weight" : 3, "position" : 37, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "복제", "type" : "NNG", "scode" : "03", "weight" : 3, "position" : 43, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "및", "type" : "MAJ", "scode" : "00", "weight" : 0, "position" : 50, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "재", "type" : "XPN", "scode" : "17", "weight" : 1, "position" : 54, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "배포", "type" : "NNG", "scode" : "01", "weight" : 2, "position" : 57, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "금지", "type" : "NNG", "scode" : "04", "weight" : 1, "position" : 64, "begin" : 15, "end" : 15}
+	],
+	"word" : [
+		{"id" : 0, "text" : "Copyrights", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "ⓒ", "type" : "", "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "iMBC", "type" : "", "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "(enews.imbc.com)", "type" : "", "begin" : 3, "end" : 9},
+		{"id" : 4, "text" : "무단복제", "type" : "", "begin" : 10, "end" : 11},
+		{"id" : 5, "text" : "및", "type" : "", "begin" : 12, "end" : 12},
+		{"id" : 6, "text" : "재배포", "type" : "", "begin" : 13, "end" : 14},
+		{"id" : 7, "text" : "금지", "type" : "", "begin" : 15, "end" : 15}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "iMBC", "type" : "OGG_MEDIA", "begin" : 2, "end" : 2, "weight" : 0.675447, "common_noun" : 0},
+		{"id" : 1, "text" : "enews.imbc.com", "type" : "TMI_SITE", "begin" : 4, "end" : 8, "weight" : 0.519305, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "Copyrights", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.188463 },
+		{"id" : 1, "text" : "ⓒ", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.20957 },
+		{"id" : 2, "text" : "iMBC", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.692575 },
+		{"id" : 3, "text" : "(enews.imbc.com)", "head" : 4, "label" : "NP", "mod" : [0, 1, 2], "weight" : 0.124933 },
+		{"id" : 4, "text" : "무단복제", "head" : 6, "label" : "NP_CNJ", "mod" : [3], "weight" : 0.436584 },
+		{"id" : 5, "text" : "및", "head" : 6, "label" : "AP", "mod" : [], "weight" : 0.301134 },
+		{"id" : 6, "text" : "재배포", "head" : 7, "label" : "NP", "mod" : [4, 5], "weight" : 0.556554 },
+		{"id" : 7, "text" : "금지", "head" : -1, "label" : "NP", "mod" : [6], "weight" : 0.000185337 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "Copyrights ⓒ iMBC (enews.imbc.com) 무단복제 및 재배포 금지", "begin" : 0, "end" : 7, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+ ],
+ "entity" : [
+ ]
+}
+

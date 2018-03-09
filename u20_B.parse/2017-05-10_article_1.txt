@@ -1,0 +1,1785 @@
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "수원시, 'U-20 월드컵 2017' 입장권 현장매표소 운영",
+	"morp" : [
+		{"id" : 0, "lemma" : "수원시", "type" : "NNP", "position" : 0, "weight" : 0.088169 },
+		{"id" : 1, "lemma" : ",", "type" : "SP", "position" : 9, "weight" : 1 },
+		{"id" : 2, "lemma" : "'", "type" : "SS", "position" : 11, "weight" : 1 },
+		{"id" : 3, "lemma" : "U", "type" : "SL", "position" : 12, "weight" : 1 },
+		{"id" : 4, "lemma" : "-", "type" : "SS", "position" : 13, "weight" : 1 },
+		{"id" : 5, "lemma" : "20", "type" : "SN", "position" : 14, "weight" : 1 },
+		{"id" : 6, "lemma" : "월드컵", "type" : "NNG", "position" : 17, "weight" : 0.9 },
+		{"id" : 7, "lemma" : "2017", "type" : "SN", "position" : 27, "weight" : 1 },
+		{"id" : 8, "lemma" : "'", "type" : "SS", "position" : 31, "weight" : 1 },
+		{"id" : 9, "lemma" : "입장", "type" : "NNG", "position" : 33, "weight" : 0.1999 },
+		{"id" : 10, "lemma" : "권", "type" : "XSN", "position" : 39, "weight" : 0.0140728 },
+		{"id" : 11, "lemma" : "현장", "type" : "NNG", "position" : 43, "weight" : 0.12982 },
+		{"id" : 12, "lemma" : "매표", "type" : "NNG", "position" : 49, "weight" : 0.9 },
+		{"id" : 13, "lemma" : "소", "type" : "XSN", "position" : 55, "weight" : 0.00141622 },
+		{"id" : 14, "lemma" : "운영", "type" : "NNG", "position" : 59, "weight" : 0.131205 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "수원시/NNG+,/SP", "target" : "수원시,", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "'/SS+U/SL+-/SS+20/SN", "target" : "'U-20", "word_id" : 1, "m_begin" : 2, "m_end" : 5},
+		{"id" : 2, "result" : "월드컵/NNG", "target" : "월드컵", "word_id" : 2, "m_begin" : 6, "m_end" : 6},
+		{"id" : 3, "result" : "2017/SN+'/SS", "target" : "2017'", "word_id" : 3, "m_begin" : 7, "m_end" : 8},
+		{"id" : 4, "result" : "입장권/NNG", "target" : "입장권", "word_id" : 4, "m_begin" : 9, "m_end" : 10},
+		{"id" : 5, "result" : "현장매표소/NNG", "target" : "현장매표소", "word_id" : 5, "m_begin" : 11, "m_end" : 13},
+		{"id" : 6, "result" : "운영/NNG", "target" : "운영", "word_id" : 6, "m_begin" : 14, "m_end" : 14}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "수원시", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 11, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 14, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "월드컵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 17, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "2017", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 27, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 31, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "입장권", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 33, "begin" : 9, "end" : 10},
+		{"id" : 10, "text" : "현장", "type" : "NNG", "scode" : "03", "weight" : 3.2, "position" : 43, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "매표소", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 49, "begin" : 12, "end" : 13},
+		{"id" : 12, "text" : "운영", "type" : "NNG", "scode" : "03", "weight" : 3.2, "position" : 59, "begin" : 14, "end" : 14}
+	],
+	"word" : [
+		{"id" : 0, "text" : "수원시,", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "'U-20", "type" : "", "begin" : 2, "end" : 5},
+		{"id" : 2, "text" : "월드컵", "type" : "", "begin" : 6, "end" : 6},
+		{"id" : 3, "text" : "2017'", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 4, "text" : "입장권", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 5, "text" : "현장매표소", "type" : "", "begin" : 11, "end" : 13},
+		{"id" : 6, "text" : "운영", "type" : "", "begin" : 14, "end" : 14}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "수원시", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 0.249497, "common_noun" : 0},
+		{"id" : 1, "text" : "U-20 월드컵 2017", "type" : "EV_SPORTS", "begin" : 3, "end" : 7, "weight" : 0.569532, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "수원시,", "head" : 6, "label" : "NP", "mod" : [], "weight" : 0.477348 },
+		{"id" : 1, "text" : "'U-20", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.257549 },
+		{"id" : 2, "text" : "월드컵", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.630607 },
+		{"id" : 3, "text" : "2017'", "head" : 6, "label" : "NP", "mod" : [1, 2], "weight" : 0.222177 },
+		{"id" : 4, "text" : "입장권", "head" : 5, "label" : "NP", "mod" : [], "weight" : 0.0882726 },
+		{"id" : 5, "text" : "현장매표소", "head" : 6, "label" : "NP", "mod" : [4], "weight" : 0.66019 },
+		{"id" : 6, "text" : "운영", "head" : -1, "label" : "NP", "mod" : [0, 3, 5], "weight" : 0.0007883 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "수원시, 'U-20 월드컵 2017' 입장권 현장매표소 운영", "begin" : 0, "end" : 6, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "뉴스1",
+	"morp" : [
+		{"id" : 0, "lemma" : "뉴스", "type" : "NNG", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "1", "type" : "SN", "position" : 6, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "뉴스/NNG+1/SN", "target" : "뉴스1", "word_id" : 0, "m_begin" : 0, "m_end" : 1}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "뉴스", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1}
+	],
+	"word" : [
+		{"id" : 0, "text" : "뉴스1", "type" : "", "begin" : 0, "end" : 1}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "뉴스1", "type" : "OGG_MEDIA", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "뉴스1", "head" : -1, "label" : "NP", "mod" : [], "weight" : 0.826727 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "뉴스1", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "SFIFDNews(수원=뉴스1) 권혁민 기자 = 수원시는 U-20 월드컵을 앞두고 오는 19일까지 수원월드컵경기장 빅버드 매점 옆에서 'FIFAU-20 월드컵 코리아 2017' 입장권 현장매표소를 운영한다고 10일 발표했다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "SFIFDNews", "type" : "SL", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "(", "type" : "SS", "position" : 9, "weight" : 1 },
+		{"id" : 2, "lemma" : "수원", "type" : "NNP", "position" : 10, "weight" : 0.0627809 },
+		{"id" : 3, "lemma" : "=", "type" : "SW", "position" : 16, "weight" : 1 },
+		{"id" : 4, "lemma" : "뉴스", "type" : "NNG", "position" : 17, "weight" : 0.9 },
+		{"id" : 5, "lemma" : "1", "type" : "SN", "position" : 23, "weight" : 1 },
+		{"id" : 6, "lemma" : ")", "type" : "SS", "position" : 24, "weight" : 1 },
+		{"id" : 7, "lemma" : "권혁민", "type" : "NNP", "position" : 26, "weight" : 0.6 },
+		{"id" : 8, "lemma" : "기자", "type" : "NNG", "position" : 36, "weight" : 0.281745 },
+		{"id" : 9, "lemma" : "=", "type" : "SW", "position" : 43, "weight" : 1 },
+		{"id" : 10, "lemma" : "수원시", "type" : "NNP", "position" : 45, "weight" : 0.096364 },
+		{"id" : 11, "lemma" : "는", "type" : "JX", "position" : 54, "weight" : 0.0332677 },
+		{"id" : 12, "lemma" : "U", "type" : "SL", "position" : 58, "weight" : 1 },
+		{"id" : 13, "lemma" : "-", "type" : "SS", "position" : 59, "weight" : 1 },
+		{"id" : 14, "lemma" : "20", "type" : "SN", "position" : 60, "weight" : 1 },
+		{"id" : 15, "lemma" : "월드컵", "type" : "NNG", "position" : 63, "weight" : 0.9 },
+		{"id" : 16, "lemma" : "을", "type" : "JKO", "position" : 72, "weight" : 0.129611 },
+		{"id" : 17, "lemma" : "앞두", "type" : "VV", "position" : 76, "weight" : 0.9 },
+		{"id" : 18, "lemma" : "고", "type" : "EC", "position" : 82, "weight" : 0.416679 },
+		{"id" : 19, "lemma" : "오", "type" : "VV", "position" : 86, "weight" : 0.115798 },
+		{"id" : 20, "lemma" : "는", "type" : "ETM", "position" : 89, "weight" : 0.184941 },
+		{"id" : 21, "lemma" : "19", "type" : "SN", "position" : 93, "weight" : 1 },
+		{"id" : 22, "lemma" : "일", "type" : "NNB", "position" : 95, "weight" : 0.126777 },
+		{"id" : 23, "lemma" : "까지", "type" : "JX", "position" : 98, "weight" : 0.105153 },
+		{"id" : 24, "lemma" : "수원", "type" : "NNP", "position" : 105, "weight" : 0.0417585 },
+		{"id" : 25, "lemma" : "월드컵", "type" : "NNG", "position" : 111, "weight" : 0.9 },
+		{"id" : 26, "lemma" : "경기", "type" : "NNG", "position" : 120, "weight" : 0.135556 },
+		{"id" : 27, "lemma" : "장", "type" : "XSN", "position" : 126, "weight" : 0.0110513 },
+		{"id" : 28, "lemma" : "빅버드", "type" : "NNG", "position" : 130, "weight" : 0.1 },
+		{"id" : 29, "lemma" : "매점", "type" : "NNG", "position" : 140, "weight" : 0.9 },
+		{"id" : 30, "lemma" : "옆", "type" : "NNG", "position" : 147, "weight" : 0.9 },
+		{"id" : 31, "lemma" : "에서", "type" : "JKB", "position" : 150, "weight" : 0.153407 },
+		{"id" : 32, "lemma" : "'", "type" : "SS", "position" : 157, "weight" : 1 },
+		{"id" : 33, "lemma" : "FIFAU", "type" : "SL", "position" : 158, "weight" : 1 },
+		{"id" : 34, "lemma" : "-", "type" : "SS", "position" : 163, "weight" : 1 },
+		{"id" : 35, "lemma" : "20", "type" : "SN", "position" : 164, "weight" : 1 },
+		{"id" : 36, "lemma" : "월드컵", "type" : "NNG", "position" : 167, "weight" : 0.9 },
+		{"id" : 37, "lemma" : "코리아", "type" : "NNP", "position" : 177, "weight" : 0.9 },
+		{"id" : 38, "lemma" : "2017", "type" : "SN", "position" : 187, "weight" : 1 },
+		{"id" : 39, "lemma" : "'", "type" : "SS", "position" : 191, "weight" : 1 },
+		{"id" : 40, "lemma" : "입장", "type" : "NNG", "position" : 193, "weight" : 0.1999 },
+		{"id" : 41, "lemma" : "권", "type" : "XSN", "position" : 199, "weight" : 0.0140728 },
+		{"id" : 42, "lemma" : "현장", "type" : "NNG", "position" : 203, "weight" : 0.12982 },
+		{"id" : 43, "lemma" : "매표", "type" : "NNG", "position" : 209, "weight" : 0.9 },
+		{"id" : 44, "lemma" : "소", "type" : "XSN", "position" : 215, "weight" : 0.00141622 },
+		{"id" : 45, "lemma" : "를", "type" : "JKO", "position" : 218, "weight" : 0.0870227 },
+		{"id" : 46, "lemma" : "운영", "type" : "NNG", "position" : 222, "weight" : 0.101348 },
+		{"id" : 47, "lemma" : "하", "type" : "XSV", "position" : 228, "weight" : 0.0001 },
+		{"id" : 48, "lemma" : "ㄴ다고", "type" : "EC", "position" : 228, "weight" : 0.365618 },
+		{"id" : 49, "lemma" : "10", "type" : "SN", "position" : 238, "weight" : 1 },
+		{"id" : 50, "lemma" : "일", "type" : "NNB", "position" : 240, "weight" : 0.126777 },
+		{"id" : 51, "lemma" : "발표", "type" : "NNG", "position" : 244, "weight" : 0.9 },
+		{"id" : 52, "lemma" : "하", "type" : "XSV", "position" : 250, "weight" : 0.0001 },
+		{"id" : 53, "lemma" : "었", "type" : "EP", "position" : 250, "weight" : 0.9 },
+		{"id" : 54, "lemma" : "다", "type" : "EF", "position" : 253, "weight" : 0.640954 },
+		{"id" : 55, "lemma" : ".", "type" : "SF", "position" : 256, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "SFIFDNews/SL+(/SS+수원/NNG+=/SW+뉴스/NNG+1/SN+)/SS", "target" : "SFIFDNews(수원=뉴스1)", "word_id" : 0, "m_begin" : 0, "m_end" : 6},
+		{"id" : 1, "result" : "권혁민/NNG", "target" : "권혁민", "word_id" : 1, "m_begin" : 7, "m_end" : 7},
+		{"id" : 2, "result" : "기자/NNG", "target" : "기자", "word_id" : 2, "m_begin" : 8, "m_end" : 8},
+		{"id" : 3, "result" : "=/SW", "target" : "=", "word_id" : 3, "m_begin" : 9, "m_end" : 9},
+		{"id" : 4, "result" : "수원시/NNG+는/JX", "target" : "수원시는", "word_id" : 4, "m_begin" : 10, "m_end" : 11},
+		{"id" : 5, "result" : "U/SL+-/SS+20/SN", "target" : "U-20", "word_id" : 5, "m_begin" : 12, "m_end" : 14},
+		{"id" : 6, "result" : "월드컵/NNG+을/JKO", "target" : "월드컵을", "word_id" : 6, "m_begin" : 15, "m_end" : 16},
+		{"id" : 7, "result" : "앞두/VV+고/EC", "target" : "앞두고", "word_id" : 7, "m_begin" : 17, "m_end" : 18},
+		{"id" : 8, "result" : "오/VV+는/ETM", "target" : "오는", "word_id" : 8, "m_begin" : 19, "m_end" : 20},
+		{"id" : 9, "result" : "19/SN+일/NNB+까지/JX", "target" : "19일까지", "word_id" : 9, "m_begin" : 21, "m_end" : 23},
+		{"id" : 10, "result" : "수원월드컵경기장/NNG", "target" : "수원월드컵경기장", "word_id" : 10, "m_begin" : 24, "m_end" : 27},
+		{"id" : 11, "result" : "빅버드/NNG", "target" : "빅버드", "word_id" : 11, "m_begin" : 28, "m_end" : 28},
+		{"id" : 12, "result" : "매점/NNG", "target" : "매점", "word_id" : 12, "m_begin" : 29, "m_end" : 29},
+		{"id" : 13, "result" : "옆/NNG+에서/JKB", "target" : "옆에서", "word_id" : 13, "m_begin" : 30, "m_end" : 31},
+		{"id" : 14, "result" : "'/SS+FIFAU/SL+-/SS+20/SN", "target" : "'FIFAU-20", "word_id" : 14, "m_begin" : 32, "m_end" : 35},
+		{"id" : 15, "result" : "월드컵/NNG", "target" : "월드컵", "word_id" : 15, "m_begin" : 36, "m_end" : 36},
+		{"id" : 16, "result" : "코리아/NNG", "target" : "코리아", "word_id" : 16, "m_begin" : 37, "m_end" : 37},
+		{"id" : 17, "result" : "2017/SN+'/SS", "target" : "2017'", "word_id" : 17, "m_begin" : 38, "m_end" : 39},
+		{"id" : 18, "result" : "입장권/NNG", "target" : "입장권", "word_id" : 18, "m_begin" : 40, "m_end" : 41},
+		{"id" : 19, "result" : "현장매표소/NNG+를/JKO", "target" : "현장매표소를", "word_id" : 19, "m_begin" : 42, "m_end" : 45},
+		{"id" : 20, "result" : "운영하/VV+ㄴ다고/EC", "target" : "운영한다고", "word_id" : 20, "m_begin" : 46, "m_end" : 48},
+		{"id" : 21, "result" : "10/SN+일/NNB", "target" : "10일", "word_id" : 21, "m_begin" : 49, "m_end" : 50},
+		{"id" : 22, "result" : "발표하/VV+었/EP+다/EF+./SF", "target" : "발표했다.", "word_id" : 22, "m_begin" : 51, "m_end" : 55}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "SFIFDNews", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "수원", "type" : "NNP", "scode" : "01", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "=", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 16, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "뉴스", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 17, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 23, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 24, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "권혁민", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 26, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "기자", "type" : "NNG", "scode" : "05", "weight" : 3.7, "position" : 36, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "=", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "수원시", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 45, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 58, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 59, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 60, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "월드컵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 63, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 72, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "앞두", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 76, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 82, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "오", "type" : "VV", "scode" : "01", "weight" : 6.7, "position" : 86, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 89, "begin" : 20, "end" : 20},
+		{"id" : 21, "text" : "19", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 93, "begin" : 21, "end" : 21},
+		{"id" : 22, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 6.7, "position" : 95, "begin" : 22, "end" : 22},
+		{"id" : 23, "text" : "까지", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 98, "begin" : 23, "end" : 23},
+		{"id" : 24, "text" : "수원", "type" : "NNP", "scode" : "01", "weight" : 3, "position" : 105, "begin" : 24, "end" : 24},
+		{"id" : 25, "text" : "월드컵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 111, "begin" : 25, "end" : 25},
+		{"id" : 26, "text" : "경기장", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 120, "begin" : 26, "end" : 27},
+		{"id" : 27, "text" : "빅버드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 130, "begin" : 28, "end" : 28},
+		{"id" : 28, "text" : "매점", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 140, "begin" : 29, "end" : 29},
+		{"id" : 29, "text" : "옆", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 147, "begin" : 30, "end" : 30},
+		{"id" : 30, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 150, "begin" : 31, "end" : 31},
+		{"id" : 31, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 157, "begin" : 32, "end" : 32},
+		{"id" : 32, "text" : "FIFAU", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 158, "begin" : 33, "end" : 33},
+		{"id" : 33, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 163, "begin" : 34, "end" : 34},
+		{"id" : 34, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 164, "begin" : 35, "end" : 35},
+		{"id" : 35, "text" : "월드컵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 167, "begin" : 36, "end" : 36},
+		{"id" : 36, "text" : "코리아", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 177, "begin" : 37, "end" : 37},
+		{"id" : 37, "text" : "2017", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 187, "begin" : 38, "end" : 38},
+		{"id" : 38, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 191, "begin" : 39, "end" : 39},
+		{"id" : 39, "text" : "입장권", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 193, "begin" : 40, "end" : 41},
+		{"id" : 40, "text" : "현장", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 203, "begin" : 42, "end" : 42},
+		{"id" : 41, "text" : "매표소", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 209, "begin" : 43, "end" : 44},
+		{"id" : 42, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 218, "begin" : 45, "end" : 45},
+		{"id" : 43, "text" : "운영하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 222, "begin" : 46, "end" : 47},
+		{"id" : 44, "text" : "ㄴ다고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 228, "begin" : 48, "end" : 48},
+		{"id" : 45, "text" : "10", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 238, "begin" : 49, "end" : 49},
+		{"id" : 46, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 4.2, "position" : 240, "begin" : 50, "end" : 50},
+		{"id" : 47, "text" : "발표하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 244, "begin" : 51, "end" : 52},
+		{"id" : 48, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 250, "begin" : 53, "end" : 53},
+		{"id" : 49, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 253, "begin" : 54, "end" : 54},
+		{"id" : 50, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 256, "begin" : 55, "end" : 55}
+	],
+	"word" : [
+		{"id" : 0, "text" : "SFIFDNews(수원=뉴스1)", "type" : "", "begin" : 0, "end" : 6},
+		{"id" : 1, "text" : "권혁민", "type" : "", "begin" : 7, "end" : 7},
+		{"id" : 2, "text" : "기자", "type" : "", "begin" : 8, "end" : 8},
+		{"id" : 3, "text" : "=", "type" : "", "begin" : 9, "end" : 9},
+		{"id" : 4, "text" : "수원시는", "type" : "", "begin" : 10, "end" : 11},
+		{"id" : 5, "text" : "U-20", "type" : "", "begin" : 12, "end" : 14},
+		{"id" : 6, "text" : "월드컵을", "type" : "", "begin" : 15, "end" : 16},
+		{"id" : 7, "text" : "앞두고", "type" : "", "begin" : 17, "end" : 18},
+		{"id" : 8, "text" : "오는", "type" : "", "begin" : 19, "end" : 20},
+		{"id" : 9, "text" : "19일까지", "type" : "", "begin" : 21, "end" : 23},
+		{"id" : 10, "text" : "수원월드컵경기장", "type" : "", "begin" : 24, "end" : 27},
+		{"id" : 11, "text" : "빅버드", "type" : "", "begin" : 28, "end" : 28},
+		{"id" : 12, "text" : "매점", "type" : "", "begin" : 29, "end" : 29},
+		{"id" : 13, "text" : "옆에서", "type" : "", "begin" : 30, "end" : 31},
+		{"id" : 14, "text" : "'FIFAU-20", "type" : "", "begin" : 32, "end" : 35},
+		{"id" : 15, "text" : "월드컵", "type" : "", "begin" : 36, "end" : 36},
+		{"id" : 16, "text" : "코리아", "type" : "", "begin" : 37, "end" : 37},
+		{"id" : 17, "text" : "2017'", "type" : "", "begin" : 38, "end" : 39},
+		{"id" : 18, "text" : "입장권", "type" : "", "begin" : 40, "end" : 41},
+		{"id" : 19, "text" : "현장매표소를", "type" : "", "begin" : 42, "end" : 45},
+		{"id" : 20, "text" : "운영한다고", "type" : "", "begin" : 46, "end" : 48},
+		{"id" : 21, "text" : "10일", "type" : "", "begin" : 49, "end" : 50},
+		{"id" : 22, "text" : "발표했다.", "type" : "", "begin" : 51, "end" : 55}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "SFIFDNews", "type" : "OGG_MEDIA", "begin" : 0, "end" : 0, "weight" : 0.166523, "common_noun" : 0},
+		{"id" : 1, "text" : "수원", "type" : "LCP_CITY", "begin" : 2, "end" : 2, "weight" : 0.466249, "common_noun" : 0},
+		{"id" : 2, "text" : "뉴스1", "type" : "OGG_MEDIA", "begin" : 4, "end" : 5, "weight" : 0.364768, "common_noun" : 0},
+		{"id" : 3, "text" : "권혁민", "type" : "PS_NAME", "begin" : 7, "end" : 7, "weight" : 0.864714, "common_noun" : 0},
+		{"id" : 4, "text" : "기자", "type" : "CV_OCCUPATION", "begin" : 8, "end" : 8, "weight" : 0.759018, "common_noun" : 0},
+		{"id" : 5, "text" : "수원시", "type" : "LCP_CITY", "begin" : 10, "end" : 10, "weight" : 0.324525, "common_noun" : 0},
+		{"id" : 6, "text" : "U-20 월드컵", "type" : "EV_SPORTS", "begin" : 12, "end" : 15, "weight" : 0.595044, "common_noun" : 0},
+		{"id" : 7, "text" : "오는 19일까지", "type" : "DT_OTHERS", "begin" : 19, "end" : 23, "weight" : 0.843945, "common_noun" : 0},
+		{"id" : 8, "text" : "수원월드컵경기장", "type" : "AF_BUILDING", "begin" : 24, "end" : 27, "weight" : 0.84019, "common_noun" : 0},
+		{"id" : 9, "text" : "옆", "type" : "TM_DIRECTION", "begin" : 30, "end" : 30, "weight" : 0.329782, "common_noun" : 0},
+		{"id" : 10, "text" : "FIFAU-20 월드컵 코리아", "type" : "EV_SPORTS", "begin" : 33, "end" : 37, "weight" : 0.578954, "common_noun" : 0},
+		{"id" : 11, "text" : "2017", "type" : "QT_OTHERS", "begin" : 38, "end" : 38, "weight" : 0.233263, "common_noun" : 0},
+		{"id" : 12, "text" : "10일", "type" : "DT_DAY", "begin" : 49, "end" : 50, "weight" : 0.762194, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "SFIFDNews(수원=뉴스1)", "head" : 20, "label" : "NP_SBJ", "mod" : [], "weight" : 0.265624 },
+		{"id" : 1, "text" : "권혁민", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.691499 },
+		{"id" : 2, "text" : "기자", "head" : 3, "label" : "NP", "mod" : [1], "weight" : 0.480668 },
+		{"id" : 3, "text" : "=", "head" : 20, "label" : "NP", "mod" : [2], "weight" : 0.590061 },
+		{"id" : 4, "text" : "수원시는", "head" : 20, "label" : "NP_SBJ", "mod" : [], "weight" : 0.697455 },
+		{"id" : 5, "text" : "U-20", "head" : 6, "label" : "NP", "mod" : [], "weight" : 0.0905689 },
+		{"id" : 6, "text" : "월드컵을", "head" : 7, "label" : "NP_OBJ", "mod" : [5], "weight" : 0.777139 },
+		{"id" : 7, "text" : "앞두고", "head" : 8, "label" : "VP", "mod" : [6], "weight" : 0.560879 },
+		{"id" : 8, "text" : "오는", "head" : 9, "label" : "VP_MOD", "mod" : [7], "weight" : 0.743845 },
+		{"id" : 9, "text" : "19일까지", "head" : 20, "label" : "NP_AJT", "mod" : [8], "weight" : 0.557347 },
+		{"id" : 10, "text" : "수원월드컵경기장", "head" : 12, "label" : "NP", "mod" : [], "weight" : 0.21299 },
+		{"id" : 11, "text" : "빅버드", "head" : 12, "label" : "NP", "mod" : [], "weight" : 0.650776 },
+		{"id" : 12, "text" : "매점", "head" : 13, "label" : "NP", "mod" : [10, 11], "weight" : 0.548973 },
+		{"id" : 13, "text" : "옆에서", "head" : 20, "label" : "NP_AJT", "mod" : [12], "weight" : 0.738294 },
+		{"id" : 14, "text" : "'FIFAU-20", "head" : 16, "label" : "NP", "mod" : [], "weight" : 0.535802 },
+		{"id" : 15, "text" : "월드컵", "head" : 16, "label" : "NP", "mod" : [], "weight" : 0.846846 },
+		{"id" : 16, "text" : "코리아", "head" : 17, "label" : "NP", "mod" : [14, 15], "weight" : 0.535846 },
+		{"id" : 17, "text" : "2017'", "head" : 19, "label" : "NP", "mod" : [16], "weight" : 0.219237 },
+		{"id" : 18, "text" : "입장권", "head" : 19, "label" : "NP", "mod" : [], "weight" : 0.702597 },
+		{"id" : 19, "text" : "현장매표소를", "head" : 20, "label" : "NP_OBJ", "mod" : [17, 18], "weight" : 0.816627 },
+		{"id" : 20, "text" : "운영한다고", "head" : 22, "label" : "VP_CMP", "mod" : [0, 3, 4, 9, 13, 19], "weight" : 0.587923 },
+		{"id" : 21, "text" : "10일", "head" : 22, "label" : "NP_AJT", "mod" : [], "weight" : 0.79994 },
+		{"id" : 22, "text" : "발표했다.", "head" : -1, "label" : "VP", "mod" : [20, 21], "weight" : 3.79365e-07 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "SFIFDNews(수원=뉴스1)", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP", "text" : "권혁민 기자 =", "begin" : 1, "end" : 3, "key_begin" : 1, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_SBJ", "text" : "수원시는", "begin" : 4, "end" : 4, "key_begin" : 4, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_OBJ", "text" : "U-20 월드컵을", "begin" : 5, "end" : 6, "key_begin" : 5, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_AJT", "text" : "P#3@OBJ을 앞두고 오는 19일까지", "begin" : 5, "end" : 9, "key_begin" : 7, "head_phrase" : 7, "sub_phrase" : [3], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "NP_AJT", "text" : "수원월드컵경기장 빅버드 매점 옆에서", "begin" : 10, "end" : 13, "key_begin" : 10, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "NP_OBJ", "text" : "'FIFAU-20 월드컵 코리아 2017' 입장권 현장매표소를", "begin" : 14, "end" : 19, "key_begin" : 14, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "S_CMP", "text" : "P#0@SBJ1) P#1@NP= P#2@SBJ는 P#4@AJT까지 P#5@AJT에서 P#6@OBJ를 운영한다고", "begin" : 0, "end" : 20, "key_begin" : 20, "head_phrase" : 9, "sub_phrase" : [0, 1, 2, 4, 5, 6], "weight" : 0, "element" : [] },
+		{"id" : 8, "label" : "NP_AJT", "text" : "10일", "begin" : 21, "end" : 21, "key_begin" : 21, "head_phrase" : 9, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 9, "label" : "S", "text" : "S#7@CMPㄴ다고 P#8@AJT일 발표했다.", "begin" : 0, "end" : 22, "key_begin" : 22, "head_phrase" : -1, "sub_phrase" : [7, 8], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "앞두", "sense" : 1, "word_id" : 7, "weight" : 0.217417,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 6, "text" : "월드컵을", "weight" : 0.217417 }
+			] },
+		{"verb" : "오", "sense" : 1, "word_id" : 8, "weight" : 0.236228,
+			"argument" : [
+				{"type" : "ARGM-TMP", "word_id" : 7, "text" : "앞두고", "weight" : 0.236228 }
+			] },
+		{"verb" : "운영", "sense" : 1, "word_id" : 20, "weight" : 0.312432,
+			"argument" : [
+				{"type" : "ARGM-TMP", "word_id" : 7, "text" : "앞두고", "weight" : 0.334039 },
+				{"type" : "ARGM-TMP", "word_id" : 9, "text" : "19일까지", "weight" : 0.474685 },
+				{"type" : "ARGM-LOC", "word_id" : 13, "text" : "옆에서", "weight" : 0.209187 },
+				{"type" : "ARG1", "word_id" : 19, "text" : "현장매표소를", "weight" : 0.231819 }
+			] },
+		{"verb" : "발표", "sense" : 1, "word_id" : 22, "weight" : 0.410252,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 20, "text" : "운영한다고", "weight" : 0.399565 },
+				{"type" : "ARGM-TMP", "word_id" : 21, "text" : "10일", "weight" : 0.420938 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "온라인·전화 예매가 익숙하지 않은 시민들을 위해 마련된 매표소로, 운영시간은 월~토요일 오전 9시~오후 6시까지다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "온라인", "type" : "NNG", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "·", "type" : "SP", "position" : 9, "weight" : 1 },
+		{"id" : 2, "lemma" : "전화", "type" : "NNG", "position" : 11, "weight" : 0.531502 },
+		{"id" : 3, "lemma" : "예매", "type" : "NNG", "position" : 18, "weight" : 0.9 },
+		{"id" : 4, "lemma" : "가", "type" : "JKS", "position" : 24, "weight" : 0.066324 },
+		{"id" : 5, "lemma" : "익숙하", "type" : "VA", "position" : 28, "weight" : 0.24913 },
+		{"id" : 6, "lemma" : "지", "type" : "EC", "position" : 37, "weight" : 0.224836 },
+		{"id" : 7, "lemma" : "않", "type" : "VX", "position" : 41, "weight" : 0.256301 },
+		{"id" : 8, "lemma" : "은", "type" : "ETM", "position" : 44, "weight" : 0.109054 },
+		{"id" : 9, "lemma" : "시민", "type" : "NNG", "position" : 48, "weight" : 0.9 },
+		{"id" : 10, "lemma" : "들", "type" : "XSN", "position" : 54, "weight" : 0.0299841 },
+		{"id" : 11, "lemma" : "을", "type" : "JKO", "position" : 57, "weight" : 0.0819193 },
+		{"id" : 12, "lemma" : "위하", "type" : "VV", "position" : 61, "weight" : 0.778555 },
+		{"id" : 13, "lemma" : "어", "type" : "EC", "position" : 64, "weight" : 0.41831 },
+		{"id" : 14, "lemma" : "마련", "type" : "NNG", "position" : 68, "weight" : 0.0866194 },
+		{"id" : 15, "lemma" : "되", "type" : "XSV", "position" : 74, "weight" : 0.000224177 },
+		{"id" : 16, "lemma" : "ㄴ", "type" : "ETM", "position" : 74, "weight" : 0.392321 },
+		{"id" : 17, "lemma" : "매표", "type" : "NNG", "position" : 78, "weight" : 0.9 },
+		{"id" : 18, "lemma" : "소", "type" : "XSN", "position" : 84, "weight" : 0.00141622 },
+		{"id" : 19, "lemma" : "로", "type" : "JKB", "position" : 87, "weight" : 0.121577 },
+		{"id" : 20, "lemma" : ",", "type" : "SP", "position" : 90, "weight" : 1 },
+		{"id" : 21, "lemma" : "운영", "type" : "NNG", "position" : 92, "weight" : 0.531316 },
+		{"id" : 22, "lemma" : "시간", "type" : "NNG", "position" : 98, "weight" : 0.160569 },
+		{"id" : 23, "lemma" : "은", "type" : "JX", "position" : 104, "weight" : 0.0449928 },
+		{"id" : 24, "lemma" : "월", "type" : "NNG", "position" : 108, "weight" : 0.00514385 },
+		{"id" : 25, "lemma" : "~", "type" : "SO", "position" : 111, "weight" : 1 },
+		{"id" : 26, "lemma" : "토", "type" : "NNG", "position" : 112, "weight" : 0.116745 },
+		{"id" : 27, "lemma" : "요일", "type" : "NNG", "position" : 115, "weight" : 0.9 },
+		{"id" : 28, "lemma" : "오전", "type" : "NNG", "position" : 122, "weight" : 0.184658 },
+		{"id" : 29, "lemma" : "9", "type" : "SN", "position" : 129, "weight" : 1 },
+		{"id" : 30, "lemma" : "시", "type" : "NNB", "position" : 130, "weight" : 0.084652 },
+		{"id" : 31, "lemma" : "~", "type" : "SO", "position" : 133, "weight" : 1 },
+		{"id" : 32, "lemma" : "오후", "type" : "NNG", "position" : 134, "weight" : 0.9 },
+		{"id" : 33, "lemma" : "6", "type" : "SN", "position" : 141, "weight" : 1 },
+		{"id" : 34, "lemma" : "시", "type" : "NNB", "position" : 142, "weight" : 0.084652 },
+		{"id" : 35, "lemma" : "까지", "type" : "JX", "position" : 145, "weight" : 0.105153 },
+		{"id" : 36, "lemma" : "다", "type" : "NNG", "position" : 151, "weight" : 0.000234264 },
+		{"id" : 37, "lemma" : ".", "type" : "SF", "position" : 154, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "온라인/NNG+·/SP+전화/NNG", "target" : "온라인·전화", "word_id" : 0, "m_begin" : 0, "m_end" : 2},
+		{"id" : 1, "result" : "예매/NNG+가/JKS", "target" : "예매가", "word_id" : 1, "m_begin" : 3, "m_end" : 4},
+		{"id" : 2, "result" : "익숙하/VA+지/EC", "target" : "익숙하지", "word_id" : 2, "m_begin" : 5, "m_end" : 6},
+		{"id" : 3, "result" : "않/VX+은/ETM", "target" : "않은", "word_id" : 3, "m_begin" : 7, "m_end" : 8},
+		{"id" : 4, "result" : "시민들/NNG+을/JKO", "target" : "시민들을", "word_id" : 4, "m_begin" : 9, "m_end" : 11},
+		{"id" : 5, "result" : "위하/VV+어/EC", "target" : "위해", "word_id" : 5, "m_begin" : 12, "m_end" : 13},
+		{"id" : 6, "result" : "마련되/VV+ㄴ/ETM", "target" : "마련된", "word_id" : 6, "m_begin" : 14, "m_end" : 16},
+		{"id" : 7, "result" : "매표소/NNG+로/JKB+,/SP", "target" : "매표소로,", "word_id" : 7, "m_begin" : 17, "m_end" : 20},
+		{"id" : 8, "result" : "운영시간/NNG+은/JX", "target" : "운영시간은", "word_id" : 8, "m_begin" : 21, "m_end" : 23},
+		{"id" : 9, "result" : "월/NNG+~/SO+토요일/NNG", "target" : "월~토요일", "word_id" : 9, "m_begin" : 24, "m_end" : 27},
+		{"id" : 10, "result" : "오전/NNG", "target" : "오전", "word_id" : 10, "m_begin" : 28, "m_end" : 28},
+		{"id" : 11, "result" : "9/SN+시/NNB+~/SO+오후/NNG", "target" : "9시~오후", "word_id" : 11, "m_begin" : 29, "m_end" : 32},
+		{"id" : 12, "result" : "6/SN+시/NNB+까지/JX+다/NNG+./SF", "target" : "6시까지다.", "word_id" : 12, "m_begin" : 33, "m_end" : 37}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "온라인", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "전화", "type" : "NNG", "scode" : "07", "weight" : 1, "position" : 11, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "예매", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 18, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 24, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "익숙하", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 28, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "지", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 37, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "않", "type" : "VX", "scode" : "00", "weight" : 0, "position" : 41, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 44, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "시민", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 48, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "들", "type" : "XSN", "scode" : "09", "weight" : 6.2, "position" : 54, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 57, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "위하", "type" : "VV", "scode" : "01", "weight" : 5.4, "position" : 61, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 64, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "마련되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 68, "begin" : 14, "end" : 15},
+		{"id" : 15, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 74, "begin" : 16, "end" : 16},
+		{"id" : 16, "text" : "매표소", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 78, "begin" : 17, "end" : 18},
+		{"id" : 17, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 87, "begin" : 19, "end" : 19},
+		{"id" : 18, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 90, "begin" : 20, "end" : 20},
+		{"id" : 19, "text" : "운영", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 92, "begin" : 21, "end" : 21},
+		{"id" : 20, "text" : "시간", "type" : "NNG", "scode" : "04", "weight" : 5.4, "position" : 98, "begin" : 22, "end" : 22},
+		{"id" : 21, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 104, "begin" : 23, "end" : 23},
+		{"id" : 22, "text" : "월", "type" : "NNG", "scode" : "03", "weight" : 4, "position" : 108, "begin" : 24, "end" : 24},
+		{"id" : 23, "text" : "~", "type" : "SO", "scode" : "00", "weight" : 1, "position" : 111, "begin" : 25, "end" : 25},
+		{"id" : 24, "text" : "토요일", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 112, "begin" : 26, "end" : 27},
+		{"id" : 25, "text" : "오전", "type" : "NNG", "scode" : "02", "weight" : 7.4, "position" : 122, "begin" : 28, "end" : 28},
+		{"id" : 26, "text" : "9", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 129, "begin" : 29, "end" : 29},
+		{"id" : 27, "text" : "시", "type" : "NNB", "scode" : "10", "weight" : 6.2, "position" : 130, "begin" : 30, "end" : 30},
+		{"id" : 28, "text" : "~", "type" : "SO", "scode" : "00", "weight" : 1, "position" : 133, "begin" : 31, "end" : 31},
+		{"id" : 29, "text" : "오후", "type" : "NNG", "scode" : "02", "weight" : 5.2, "position" : 134, "begin" : 32, "end" : 32},
+		{"id" : 30, "text" : "6", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 141, "begin" : 33, "end" : 33},
+		{"id" : 31, "text" : "시", "type" : "NNB", "scode" : "10", "weight" : 4.4, "position" : 142, "begin" : 34, "end" : 34},
+		{"id" : 32, "text" : "까지", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 145, "begin" : 35, "end" : 35},
+		{"id" : 33, "text" : "다", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 151, "begin" : 36, "end" : 36},
+		{"id" : 34, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 154, "begin" : 37, "end" : 37}
+	],
+	"word" : [
+		{"id" : 0, "text" : "온라인·전화", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "예매가", "type" : "", "begin" : 3, "end" : 4},
+		{"id" : 2, "text" : "익숙하지", "type" : "", "begin" : 5, "end" : 6},
+		{"id" : 3, "text" : "않은", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 4, "text" : "시민들을", "type" : "", "begin" : 9, "end" : 11},
+		{"id" : 5, "text" : "위해", "type" : "", "begin" : 12, "end" : 13},
+		{"id" : 6, "text" : "마련된", "type" : "", "begin" : 14, "end" : 16},
+		{"id" : 7, "text" : "매표소로,", "type" : "", "begin" : 17, "end" : 20},
+		{"id" : 8, "text" : "운영시간은", "type" : "", "begin" : 21, "end" : 23},
+		{"id" : 9, "text" : "월~토요일", "type" : "", "begin" : 24, "end" : 27},
+		{"id" : 10, "text" : "오전", "type" : "", "begin" : 28, "end" : 28},
+		{"id" : 11, "text" : "9시~오후", "type" : "", "begin" : 29, "end" : 32},
+		{"id" : 12, "text" : "6시까지다.", "type" : "", "begin" : 33, "end" : 37}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "시민", "type" : "CV_POSITION", "begin" : 9, "end" : 9, "weight" : 0.594972, "common_noun" : 0},
+		{"id" : 1, "text" : "월~토요일", "type" : "DT_DURATION", "begin" : 24, "end" : 27, "weight" : 0.768641, "common_noun" : 0},
+		{"id" : 2, "text" : "오전 9시~오후 6시까지", "type" : "TI_DURATION", "begin" : 28, "end" : 35, "weight" : 0.633119, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "온라인·전화", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.524465 },
+		{"id" : 1, "text" : "예매가", "head" : 2, "label" : "NP_SBJ", "mod" : [0], "weight" : 0.0149266 },
+		{"id" : 2, "text" : "익숙하지", "head" : 3, "label" : "VP", "mod" : [1], "weight" : 0.763833 },
+		{"id" : 3, "text" : "않은", "head" : 4, "label" : "VP_MOD", "mod" : [2], "weight" : 0.594531 },
+		{"id" : 4, "text" : "시민들을", "head" : 5, "label" : "NP_OBJ", "mod" : [3], "weight" : 0.893659 },
+		{"id" : 5, "text" : "위해", "head" : 6, "label" : "VP", "mod" : [4], "weight" : 0.48363 },
+		{"id" : 6, "text" : "마련된", "head" : 7, "label" : "VP_MOD", "mod" : [5], "weight" : 0.832136 },
+		{"id" : 7, "text" : "매표소로,", "head" : 12, "label" : "NP_AJT", "mod" : [6], "weight" : 0.50434 },
+		{"id" : 8, "text" : "운영시간은", "head" : 12, "label" : "NP_SBJ", "mod" : [], "weight" : 0.804489 },
+		{"id" : 9, "text" : "월~토요일", "head" : 12, "label" : "NP", "mod" : [], "weight" : 0.65056 },
+		{"id" : 10, "text" : "오전", "head" : 11, "label" : "NP", "mod" : [], "weight" : 0.821673 },
+		{"id" : 11, "text" : "9시~오후", "head" : 12, "label" : "NP", "mod" : [10], "weight" : 0.665825 },
+		{"id" : 12, "text" : "6시까지다.", "head" : -1, "label" : "NP", "mod" : [7, 8, 9, 11], "weight" : 5.07258e-05 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "온라인·전화 예매가", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : 1, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "S_MOD", "text" : "P#0@SBJ가 익숙하지 않은", "begin" : 0, "end" : 3, "key_begin" : 2, "head_phrase" : 2, "sub_phrase" : [0], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_OBJ", "text" : "S#1@MOD은 시민들을", "begin" : 0, "end" : 4, "key_begin" : 4, "head_phrase" : 3, "sub_phrase" : [1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "VP_MOD", "text" : "P#2@OBJ을 위해 마련된", "begin" : 0, "end" : 6, "key_begin" : 5, "head_phrase" : 4, "sub_phrase" : [2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_AJT", "text" : "P#3@MODㄴ 매표소로,", "begin" : 0, "end" : 7, "key_begin" : 7, "head_phrase" : 6, "sub_phrase" : [3], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "NP_SBJ", "text" : "운영시간은", "begin" : 8, "end" : 8, "key_begin" : 8, "head_phrase" : 6, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "S", "text" : "P#4@AJT로, P#5@SBJ은 월~토요일 오전 9시~오후 6시까지다.", "begin" : 0, "end" : 12, "key_begin" : 9, "head_phrase" : -1, "sub_phrase" : [4, 5], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "익숙하", "sense" : 1, "word_id" : 2, "weight" : 0.35746,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 1, "text" : "예매가", "weight" : 0.319546 },
+				{"type" : "ARGM-NEG", "word_id" : 3, "text" : "않은", "weight" : 0.395373 }
+			] },
+		{"verb" : "위하", "sense" : 1, "word_id" : 5, "weight" : 0.419493,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 4, "text" : "시민들을", "weight" : 0.419493 }
+			] },
+		{"verb" : "마련", "sense" : 1, "word_id" : 6, "weight" : 0.318693,
+			"argument" : [
+				{"type" : "ARGM-PRP", "word_id" : 5, "text" : "위해", "weight" : 0.34029 },
+				{"type" : "ARG1", "word_id" : 7, "text" : "매표소로,", "weight" : 0.297096 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "일요일에는 운영하지 않는다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "일", "type" : "NNG", "position" : 0, "weight" : 0.28038 },
+		{"id" : 1, "lemma" : "요일", "type" : "NNG", "position" : 3, "weight" : 0.9 },
+		{"id" : 2, "lemma" : "에", "type" : "JKB", "position" : 9, "weight" : 0.153364 },
+		{"id" : 3, "lemma" : "는", "type" : "JX", "position" : 12, "weight" : 0.0387928 },
+		{"id" : 4, "lemma" : "운영", "type" : "NNG", "position" : 16, "weight" : 0.324748 },
+		{"id" : 5, "lemma" : "하", "type" : "XSV", "position" : 22, "weight" : 0.0001 },
+		{"id" : 6, "lemma" : "지", "type" : "EC", "position" : 25, "weight" : 0.260723 },
+		{"id" : 7, "lemma" : "않", "type" : "VX", "position" : 29, "weight" : 0.256301 },
+		{"id" : 8, "lemma" : "는다", "type" : "EF", "position" : 32, "weight" : 0.181907 },
+		{"id" : 9, "lemma" : ".", "type" : "SF", "position" : 38, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "일요일/NNG+에/JKB+는/JX", "target" : "일요일에는", "word_id" : 0, "m_begin" : 0, "m_end" : 3},
+		{"id" : 1, "result" : "운영하/VV+지/EC", "target" : "운영하지", "word_id" : 1, "m_begin" : 4, "m_end" : 6},
+		{"id" : 2, "result" : "않/VX+는다/EF+./SF", "target" : "않는다.", "word_id" : 2, "m_begin" : 7, "m_end" : 9}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "일요일", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "운영하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 16, "begin" : 4, "end" : 5},
+		{"id" : 4, "text" : "지", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 6, "end" : 6},
+		{"id" : 5, "text" : "않", "type" : "VX", "scode" : "00", "weight" : 0, "position" : 29, "begin" : 7, "end" : 7},
+		{"id" : 6, "text" : "는다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 8, "end" : 8},
+		{"id" : 7, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 38, "begin" : 9, "end" : 9}
+	],
+	"word" : [
+		{"id" : 0, "text" : "일요일에는", "type" : "", "begin" : 0, "end" : 3},
+		{"id" : 1, "text" : "운영하지", "type" : "", "begin" : 4, "end" : 6},
+		{"id" : 2, "text" : "않는다.", "type" : "", "begin" : 7, "end" : 9}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "일요일", "type" : "DT_OTHERS", "begin" : 0, "end" : 1, "weight" : 0.4735, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "일요일에는", "head" : 1, "label" : "NP_AJT", "mod" : [], "weight" : 0.717603 },
+		{"id" : 1, "text" : "운영하지", "head" : 2, "label" : "VP", "mod" : [0], "weight" : 0.73305 },
+		{"id" : 2, "text" : "않는다.", "head" : -1, "label" : "VP", "mod" : [1], "weight" : 0.434825 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_AJT", "text" : "일요일에는", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 1, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "VP", "text" : "P#0@AJT는 운영하지 않는다.", "begin" : 0, "end" : 2, "key_begin" : 1, "head_phrase" : -1, "sub_phrase" : [0], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "운영", "sense" : 1, "word_id" : 1, "weight" : 0.329823,
+			"argument" : [
+				{"type" : "ARGM-TMP", "word_id" : 0, "text" : "일요일에는", "weight" : 0.21664 },
+				{"type" : "ARGM-NEG", "word_id" : 2, "text" : "않는다.", "weight" : 0.443006 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "현장매표소에서는 신용카드로만 구매할 수 있으며, 발급된 입장권은 분실 등의 사유로 재발급받을 수 없다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "현장", "type" : "NNG", "position" : 0, "weight" : 0.433093 },
+		{"id" : 1, "lemma" : "매표", "type" : "NNG", "position" : 6, "weight" : 0.9 },
+		{"id" : 2, "lemma" : "소", "type" : "XSN", "position" : 12, "weight" : 0.00141622 },
+		{"id" : 3, "lemma" : "에서", "type" : "JKB", "position" : 15, "weight" : 0.121718 },
+		{"id" : 4, "lemma" : "는", "type" : "JX", "position" : 21, "weight" : 0.0387928 },
+		{"id" : 5, "lemma" : "신용", "type" : "NNG", "position" : 25, "weight" : 0.9 },
+		{"id" : 6, "lemma" : "카드", "type" : "NNG", "position" : 31, "weight" : 0.9 },
+		{"id" : 7, "lemma" : "로", "type" : "JKB", "position" : 37, "weight" : 0.153229 },
+		{"id" : 8, "lemma" : "만", "type" : "JX", "position" : 40, "weight" : 0.0704508 },
+		{"id" : 9, "lemma" : "구매", "type" : "NNG", "position" : 44, "weight" : 0.9 },
+		{"id" : 10, "lemma" : "하", "type" : "XSV", "position" : 50, "weight" : 0.0001 },
+		{"id" : 11, "lemma" : "ㄹ", "type" : "ETM", "position" : 50, "weight" : 0.387847 },
+		{"id" : 12, "lemma" : "수", "type" : "NNB", "position" : 54, "weight" : 0.215617 },
+		{"id" : 13, "lemma" : "있", "type" : "VA", "position" : 58, "weight" : 0.0518488 },
+		{"id" : 14, "lemma" : "으며", "type" : "EC", "position" : 61, "weight" : 0.321076 },
+		{"id" : 15, "lemma" : ",", "type" : "SP", "position" : 67, "weight" : 1 },
+		{"id" : 16, "lemma" : "발급", "type" : "NNG", "position" : 69, "weight" : 0.9 },
+		{"id" : 17, "lemma" : "되", "type" : "XSV", "position" : 75, "weight" : 0.000224177 },
+		{"id" : 18, "lemma" : "ㄴ", "type" : "ETM", "position" : 75, "weight" : 0.392321 },
+		{"id" : 19, "lemma" : "입장", "type" : "NNG", "position" : 79, "weight" : 0.658508 },
+		{"id" : 20, "lemma" : "권", "type" : "XSN", "position" : 85, "weight" : 0.0140728 },
+		{"id" : 21, "lemma" : "은", "type" : "JX", "position" : 88, "weight" : 0.100393 },
+		{"id" : 22, "lemma" : "분실", "type" : "NNG", "position" : 92, "weight" : 0.9 },
+		{"id" : 23, "lemma" : "등", "type" : "NNB", "position" : 99, "weight" : 0.0146757 },
+		{"id" : 24, "lemma" : "의", "type" : "JKG", "position" : 102, "weight" : 0.0520933 },
+		{"id" : 25, "lemma" : "사유", "type" : "NNG", "position" : 106, "weight" : 0.869327 },
+		{"id" : 26, "lemma" : "로", "type" : "JKB", "position" : 112, "weight" : 0.153229 },
+		{"id" : 27, "lemma" : "재", "type" : "XPN", "position" : 116, "weight" : 0.000345089 },
+		{"id" : 28, "lemma" : "발급", "type" : "NNG", "position" : 119, "weight" : 0.9 },
+		{"id" : 29, "lemma" : "받", "type" : "VV", "position" : 125, "weight" : 0.0147799 },
+		{"id" : 30, "lemma" : "을", "type" : "ETM", "position" : 128, "weight" : 0.0216774 },
+		{"id" : 31, "lemma" : "수", "type" : "NNB", "position" : 132, "weight" : 0.215617 },
+		{"id" : 32, "lemma" : "없", "type" : "VA", "position" : 136, "weight" : 0.101269 },
+		{"id" : 33, "lemma" : "다", "type" : "EF", "position" : 139, "weight" : 0.132573 },
+		{"id" : 34, "lemma" : ".", "type" : "SF", "position" : 142, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "현장매표소/NNG+에서/JKB+는/JX", "target" : "현장매표소에서는", "word_id" : 0, "m_begin" : 0, "m_end" : 4},
+		{"id" : 1, "result" : "신용카드/NNG+로/JKB+만/JX", "target" : "신용카드로만", "word_id" : 1, "m_begin" : 5, "m_end" : 8},
+		{"id" : 2, "result" : "구매하/VV+ㄹ/ETM", "target" : "구매할", "word_id" : 2, "m_begin" : 9, "m_end" : 11},
+		{"id" : 3, "result" : "수/NNB", "target" : "수", "word_id" : 3, "m_begin" : 12, "m_end" : 12},
+		{"id" : 4, "result" : "있/VA+으며/EC+,/SP", "target" : "있으며,", "word_id" : 4, "m_begin" : 13, "m_end" : 15},
+		{"id" : 5, "result" : "발급되/VV+ㄴ/ETM", "target" : "발급된", "word_id" : 5, "m_begin" : 16, "m_end" : 18},
+		{"id" : 6, "result" : "입장권/NNG+은/JX", "target" : "입장권은", "word_id" : 6, "m_begin" : 19, "m_end" : 21},
+		{"id" : 7, "result" : "분실/NNG", "target" : "분실", "word_id" : 7, "m_begin" : 22, "m_end" : 22},
+		{"id" : 8, "result" : "등/NNB+의/JKG", "target" : "등의", "word_id" : 8, "m_begin" : 23, "m_end" : 24},
+		{"id" : 9, "result" : "사유/NNG+로/JKB", "target" : "사유로", "word_id" : 9, "m_begin" : 25, "m_end" : 26},
+		{"id" : 10, "result" : "재발급/NNG+받/VV+을/ETM", "target" : "재발급받을", "word_id" : 10, "m_begin" : 27, "m_end" : 30},
+		{"id" : 11, "result" : "수/NNB", "target" : "수", "word_id" : 11, "m_begin" : 31, "m_end" : 31},
+		{"id" : 12, "result" : "없/VA+다/EF+./SF", "target" : "없다.", "word_id" : 12, "m_begin" : 32, "m_end" : 34}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "현장", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "매표소", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 6, "begin" : 1, "end" : 2},
+		{"id" : 2, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 15, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 21, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "신용카드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 25, "begin" : 5, "end" : 6},
+		{"id" : 5, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 37, "begin" : 7, "end" : 7},
+		{"id" : 6, "text" : "만", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 40, "begin" : 8, "end" : 8},
+		{"id" : 7, "text" : "구매하", "type" : "VV", "scode" : "02", "weight" : 2, "position" : 44, "begin" : 9, "end" : 10},
+		{"id" : 8, "text" : "ㄹ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 50, "begin" : 11, "end" : 11},
+		{"id" : 9, "text" : "수", "type" : "NNB", "scode" : "02", "weight" : 6.39923, "position" : 54, "begin" : 12, "end" : 12},
+		{"id" : 10, "text" : "있", "type" : "VA", "scode" : "01", "weight" : 3.2, "position" : 58, "begin" : 13, "end" : 13},
+		{"id" : 11, "text" : "으며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 14, "end" : 14},
+		{"id" : 12, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 15, "end" : 15},
+		{"id" : 13, "text" : "발급되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 69, "begin" : 16, "end" : 17},
+		{"id" : 14, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 75, "begin" : 18, "end" : 18},
+		{"id" : 15, "text" : "입장권", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 79, "begin" : 19, "end" : 20},
+		{"id" : 16, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 88, "begin" : 21, "end" : 21},
+		{"id" : 17, "text" : "분실", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 92, "begin" : 22, "end" : 22},
+		{"id" : 18, "text" : "등", "type" : "NNB", "scode" : "05", "weight" : 7.38406, "position" : 99, "begin" : 23, "end" : 23},
+		{"id" : 19, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 102, "begin" : 24, "end" : 24},
+		{"id" : 20, "text" : "사유", "type" : "NNG", "scode" : "07", "weight" : 1.95, "position" : 106, "begin" : 25, "end" : 25},
+		{"id" : 21, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 112, "begin" : 26, "end" : 26},
+		{"id" : 22, "text" : "재", "type" : "XPN", "scode" : "17", "weight" : 5, "position" : 116, "begin" : 27, "end" : 27},
+		{"id" : 23, "text" : "발급", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 119, "begin" : 28, "end" : 28},
+		{"id" : 24, "text" : "받", "type" : "VV", "scode" : "01", "weight" : 8.8, "position" : 125, "begin" : 29, "end" : 29},
+		{"id" : 25, "text" : "을", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 128, "begin" : 30, "end" : 30},
+		{"id" : 26, "text" : "수", "type" : "NNB", "scode" : "02", "weight" : 7.59925, "position" : 132, "begin" : 31, "end" : 31},
+		{"id" : 27, "text" : "없", "type" : "VA", "scode" : "01", "weight" : 3.2, "position" : 136, "begin" : 32, "end" : 32},
+		{"id" : 28, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 139, "begin" : 33, "end" : 33},
+		{"id" : 29, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 142, "begin" : 34, "end" : 34}
+	],
+	"word" : [
+		{"id" : 0, "text" : "현장매표소에서는", "type" : "", "begin" : 0, "end" : 4},
+		{"id" : 1, "text" : "신용카드로만", "type" : "", "begin" : 5, "end" : 8},
+		{"id" : 2, "text" : "구매할", "type" : "", "begin" : 9, "end" : 11},
+		{"id" : 3, "text" : "수", "type" : "", "begin" : 12, "end" : 12},
+		{"id" : 4, "text" : "있으며,", "type" : "", "begin" : 13, "end" : 15},
+		{"id" : 5, "text" : "발급된", "type" : "", "begin" : 16, "end" : 18},
+		{"id" : 6, "text" : "입장권은", "type" : "", "begin" : 19, "end" : 21},
+		{"id" : 7, "text" : "분실", "type" : "", "begin" : 22, "end" : 22},
+		{"id" : 8, "text" : "등의", "type" : "", "begin" : 23, "end" : 24},
+		{"id" : 9, "text" : "사유로", "type" : "", "begin" : 25, "end" : 26},
+		{"id" : 10, "text" : "재발급받을", "type" : "", "begin" : 27, "end" : 30},
+		{"id" : 11, "text" : "수", "type" : "", "begin" : 31, "end" : 31},
+		{"id" : 12, "text" : "없다.", "type" : "", "begin" : 32, "end" : 34}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "신용카드", "type" : "CV_CURRENCY", "begin" : 5, "end" : 6, "weight" : 1, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "현장매표소에서는", "head" : 2, "label" : "NP_AJT", "mod" : [], "weight" : 0.670075 },
+		{"id" : 1, "text" : "신용카드로만", "head" : 2, "label" : "NP_AJT", "mod" : [], "weight" : 0.436839 },
+		{"id" : 2, "text" : "구매할", "head" : 3, "label" : "VP_MOD", "mod" : [0, 1], "weight" : 0.732341 },
+		{"id" : 3, "text" : "수", "head" : 4, "label" : "NP_SBJ", "mod" : [2], "weight" : 0.882184 },
+		{"id" : 4, "text" : "있으며,", "head" : 10, "label" : "VP", "mod" : [3], "weight" : 0.0219902 },
+		{"id" : 5, "text" : "발급된", "head" : 6, "label" : "VP_MOD", "mod" : [], "weight" : 0.655549 },
+		{"id" : 6, "text" : "입장권은", "head" : 10, "label" : "NP_SBJ", "mod" : [5], "weight" : 0.579684 },
+		{"id" : 7, "text" : "분실", "head" : 8, "label" : "NP", "mod" : [], "weight" : 0.757608 },
+		{"id" : 8, "text" : "등의", "head" : 9, "label" : "NP_MOD", "mod" : [7], "weight" : 0.626096 },
+		{"id" : 9, "text" : "사유로", "head" : 10, "label" : "NP_AJT", "mod" : [8], "weight" : 0.80438 },
+		{"id" : 10, "text" : "재발급받을", "head" : 11, "label" : "VP_MOD", "mod" : [4, 6, 9], "weight" : 0.742153 },
+		{"id" : 11, "text" : "수", "head" : 12, "label" : "NP_SBJ", "mod" : [10], "weight" : 0.740971 },
+		{"id" : 12, "text" : "없다.", "head" : -1, "label" : "VP", "mod" : [11], "weight" : 0.000233085 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_AJT", "text" : "현장매표소에서는", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_AJT", "text" : "신용카드로만", "begin" : 1, "end" : 1, "key_begin" : 1, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "VP_MOD", "text" : "P#0@AJT는 P#1@AJT만 구매할", "begin" : 0, "end" : 2, "key_begin" : 2, "head_phrase" : 3, "sub_phrase" : [0, 1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_SBJ", "text" : "P#2@MODㄹ 수", "begin" : 0, "end" : 3, "key_begin" : 3, "head_phrase" : 4, "sub_phrase" : [2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "S", "text" : "P#3@SBJ수 있으며,", "begin" : 0, "end" : 4, "key_begin" : 4, "head_phrase" : 7, "sub_phrase" : [3], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "NP_SBJ", "text" : "발급된 입장권은", "begin" : 5, "end" : 6, "key_begin" : 5, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "NP_AJT", "text" : "분실 등의 사유로", "begin" : 7, "end" : 9, "key_begin" : 7, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "S_MOD", "text" : "S#4@S으며, P#5@SBJ은 P#6@AJT로 재발급받을", "begin" : 0, "end" : 10, "key_begin" : 10, "head_phrase" : 8, "sub_phrase" : [4, 5, 6], "weight" : 0, "element" : [] },
+		{"id" : 8, "label" : "NP_SBJ", "text" : "S#7@MOD을 수", "begin" : 0, "end" : 11, "key_begin" : 11, "head_phrase" : 9, "sub_phrase" : [7], "weight" : 0, "element" : [] },
+		{"id" : 9, "label" : "S", "text" : "P#8@SBJ수 없다.", "begin" : 0, "end" : 12, "key_begin" : 12, "head_phrase" : -1, "sub_phrase" : [8], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "구매", "sense" : 1, "word_id" : 2, "weight" : 0.361606,
+			"argument" : [
+				{"type" : "ARGM-INS", "word_id" : 1, "text" : "신용카드로만", "weight" : 0.0735239 },
+				{"type" : "AUX", "word_id" : 4, "text" : "있으며,", "weight" : 0.649687 }
+			] },
+		{"verb" : "발급", "sense" : 1, "word_id" : 5, "weight" : 0.46849,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 6, "text" : "입장권은", "weight" : 0.46849 }
+			] },
+		{"verb" : "재", "sense" : 1, "word_id" : 10, "weight" : 0.272383,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 6, "text" : "입장권은", "weight" : 0.323712 },
+				{"type" : "ARG3", "word_id" : 9, "text" : "사유로", "weight" : 0.117884 },
+				{"type" : "ARGM-NEG", "word_id" : 12, "text" : "없다.", "weight" : 0.375554 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 1,
+	"reserve_str" : "",
+	"text" : " 11장 이상 구매 시 30% 할인을 받을 수 있다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "11", "type" : "SN", "position" : 144, "weight" : 1 },
+		{"id" : 1, "lemma" : "장", "type" : "NNB", "position" : 146, "weight" : 0.104428 },
+		{"id" : 2, "lemma" : "이상", "type" : "NNG", "position" : 150, "weight" : 0.109953 },
+		{"id" : 3, "lemma" : "구매", "type" : "NNG", "position" : 157, "weight" : 0.9 },
+		{"id" : 4, "lemma" : "시", "type" : "NNG", "position" : 164, "weight" : 0.0346872 },
+		{"id" : 5, "lemma" : "30", "type" : "SN", "position" : 168, "weight" : 1 },
+		{"id" : 6, "lemma" : "%", "type" : "SW", "position" : 170, "weight" : 1 },
+		{"id" : 7, "lemma" : "할인", "type" : "NNG", "position" : 172, "weight" : 0.9 },
+		{"id" : 8, "lemma" : "을", "type" : "JKO", "position" : 178, "weight" : 0.129611 },
+		{"id" : 9, "lemma" : "받", "type" : "VV", "position" : 182, "weight" : 0.765648 },
+		{"id" : 10, "lemma" : "을", "type" : "ETM", "position" : 185, "weight" : 0.0216774 },
+		{"id" : 11, "lemma" : "수", "type" : "NNB", "position" : 189, "weight" : 0.215617 },
+		{"id" : 12, "lemma" : "있", "type" : "VA", "position" : 193, "weight" : 0.0518488 },
+		{"id" : 13, "lemma" : "다", "type" : "EF", "position" : 196, "weight" : 0.132573 },
+		{"id" : 14, "lemma" : ".", "type" : "SF", "position" : 199, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "11/SN+장/NNB", "target" : "11장", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "이상/NNG", "target" : "이상", "word_id" : 1, "m_begin" : 2, "m_end" : 2},
+		{"id" : 2, "result" : "구매/NNG", "target" : "구매", "word_id" : 2, "m_begin" : 3, "m_end" : 3},
+		{"id" : 3, "result" : "시/NNG", "target" : "시", "word_id" : 3, "m_begin" : 4, "m_end" : 4},
+		{"id" : 4, "result" : "30/SN+%/SW", "target" : "30%", "word_id" : 4, "m_begin" : 5, "m_end" : 6},
+		{"id" : 5, "result" : "할인/NNG+을/JKO", "target" : "할인을", "word_id" : 5, "m_begin" : 7, "m_end" : 8},
+		{"id" : 6, "result" : "받/VV+을/ETM", "target" : "받을", "word_id" : 6, "m_begin" : 9, "m_end" : 10},
+		{"id" : 7, "result" : "수/NNB", "target" : "수", "word_id" : 7, "m_begin" : 11, "m_end" : 11},
+		{"id" : 8, "result" : "있/VA+다/EF+./SF", "target" : "있다.", "word_id" : 8, "m_begin" : 12, "m_end" : 14}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "11", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "장", "type" : "NNB", "scode" : "22", "weight" : 2.2, "position" : 146, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "이상", "type" : "NNG", "scode" : "05", "weight" : 3.11667, "position" : 150, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "구매", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 157, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "시", "type" : "NNG", "scode" : "13", "weight" : 1.86667, "position" : 164, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "30", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 168, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "%", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 170, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "할인", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 172, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 178, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "받", "type" : "VV", "scode" : "01", "weight" : 5.39036, "position" : 182, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "을", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 185, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "수", "type" : "NNB", "scode" : "02", "weight" : 5.39923, "position" : 189, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "있", "type" : "VA", "scode" : "01", "weight" : 2.2, "position" : 193, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 196, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 199, "begin" : 14, "end" : 14}
+	],
+	"word" : [
+		{"id" : 0, "text" : "11장", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "이상", "type" : "", "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "구매", "type" : "", "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "시", "type" : "", "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "30%", "type" : "", "begin" : 5, "end" : 6},
+		{"id" : 5, "text" : "할인을", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 6, "text" : "받을", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 7, "text" : "수", "type" : "", "begin" : 11, "end" : 11},
+		{"id" : 8, "text" : "있다.", "type" : "", "begin" : 12, "end" : 14}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "11장", "type" : "QT_COUNT", "begin" : 0, "end" : 1, "weight" : 0.57963, "common_noun" : 0},
+		{"id" : 1, "text" : "30%", "type" : "QT_PERCENTAGE", "begin" : 5, "end" : 6, "weight" : 0.804802, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "11장", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.436873 },
+		{"id" : 1, "text" : "이상", "head" : 3, "label" : "NP", "mod" : [0], "weight" : 0.0768214 },
+		{"id" : 2, "text" : "구매", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.806575 },
+		{"id" : 3, "text" : "시", "head" : 5, "label" : "NP", "mod" : [1, 2], "weight" : 0.395625 },
+		{"id" : 4, "text" : "30%", "head" : 5, "label" : "NP", "mod" : [], "weight" : 0.421538 },
+		{"id" : 5, "text" : "할인을", "head" : 6, "label" : "NP_OBJ", "mod" : [3, 4], "weight" : 0.757504 },
+		{"id" : 6, "text" : "받을", "head" : 7, "label" : "VP_MOD", "mod" : [5], "weight" : 0.807935 },
+		{"id" : 7, "text" : "수", "head" : 8, "label" : "NP_SBJ", "mod" : [6], "weight" : 0.77761 },
+		{"id" : 8, "text" : "있다.", "head" : -1, "label" : "VP", "mod" : [7], "weight" : 0.00140131 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_OBJ", "text" : "11장 이상 구매 시 30% 할인을", "begin" : 0, "end" : 5, "key_begin" : 0, "head_phrase" : 1, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "VP_MOD", "text" : "P#0@OBJ을 받을", "begin" : 0, "end" : 6, "key_begin" : 6, "head_phrase" : 2, "sub_phrase" : [0], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_SBJ", "text" : "P#1@MOD을 수", "begin" : 0, "end" : 7, "key_begin" : 7, "head_phrase" : 3, "sub_phrase" : [1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "S", "text" : "P#2@SBJ수 있다.", "begin" : 0, "end" : 8, "key_begin" : 8, "head_phrase" : -1, "sub_phrase" : [2], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "받", "sense" : 1, "word_id" : 6, "weight" : 0.305372,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 5, "text" : "할인을", "weight" : 0.137438 },
+				{"type" : "AUX", "word_id" : 8, "text" : "있다.", "weight" : 0.473306 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "입장권은 U-20 월드컵 홈페이지(http://kr.FIFA.com/u20ticket)나 전화(인터파크 콜센터, 1544-1555)로도 구매할 수 있다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "입장", "type" : "NNG", "position" : 0, "weight" : 0.437727 },
+		{"id" : 1, "lemma" : "권", "type" : "XSN", "position" : 6, "weight" : 0.0140728 },
+		{"id" : 2, "lemma" : "은", "type" : "JX", "position" : 9, "weight" : 0.100393 },
+		{"id" : 3, "lemma" : "U", "type" : "SL", "position" : 13, "weight" : 1 },
+		{"id" : 4, "lemma" : "-", "type" : "SS", "position" : 14, "weight" : 1 },
+		{"id" : 5, "lemma" : "20", "type" : "SN", "position" : 15, "weight" : 1 },
+		{"id" : 6, "lemma" : "월드컵", "type" : "NNG", "position" : 18, "weight" : 0.9 },
+		{"id" : 7, "lemma" : "홈", "type" : "NNG", "position" : 28, "weight" : 0.184586 },
+		{"id" : 8, "lemma" : "페이지", "type" : "NNG", "position" : 31, "weight" : 0.184132 },
+		{"id" : 9, "lemma" : "(", "type" : "SS", "position" : 40, "weight" : 1 },
+		{"id" : 10, "lemma" : "http", "type" : "SL", "position" : 41, "weight" : 1 },
+		{"id" : 11, "lemma" : ":", "type" : "SP", "position" : 45, "weight" : 1 },
+		{"id" : 12, "lemma" : "/", "type" : "SP", "position" : 46, "weight" : 1 },
+		{"id" : 13, "lemma" : "/", "type" : "SP", "position" : 47, "weight" : 1 },
+		{"id" : 14, "lemma" : "kr", "type" : "SL", "position" : 48, "weight" : 1 },
+		{"id" : 15, "lemma" : ".", "type" : "SF", "position" : 50, "weight" : 1 },
+		{"id" : 16, "lemma" : "FIFA", "type" : "SL", "position" : 51, "weight" : 1 },
+		{"id" : 17, "lemma" : ".", "type" : "SF", "position" : 55, "weight" : 1 },
+		{"id" : 18, "lemma" : "com", "type" : "SL", "position" : 56, "weight" : 1 },
+		{"id" : 19, "lemma" : "/", "type" : "SP", "position" : 59, "weight" : 1 },
+		{"id" : 20, "lemma" : "u", "type" : "SL", "position" : 60, "weight" : 1 },
+		{"id" : 21, "lemma" : "20", "type" : "SN", "position" : 61, "weight" : 1 },
+		{"id" : 22, "lemma" : "ticket", "type" : "SL", "position" : 63, "weight" : 1 },
+		{"id" : 23, "lemma" : ")", "type" : "SS", "position" : 69, "weight" : 1 },
+		{"id" : 24, "lemma" : "나", "type" : "JC", "position" : 70, "weight" : 0.00136451 },
+		{"id" : 25, "lemma" : "전화", "type" : "NNG", "position" : 74, "weight" : 0.802932 },
+		{"id" : 26, "lemma" : "(", "type" : "SS", "position" : 80, "weight" : 1 },
+		{"id" : 27, "lemma" : "인터파크", "type" : "NNP", "position" : 81, "weight" : 0.063241 },
+		{"id" : 28, "lemma" : "콜센터", "type" : "NNP", "position" : 94, "weight" : 0.6 },
+		{"id" : 29, "lemma" : ",", "type" : "SP", "position" : 103, "weight" : 1 },
+		{"id" : 30, "lemma" : "1544", "type" : "SN", "position" : 105, "weight" : 1 },
+		{"id" : 31, "lemma" : "-", "type" : "SS", "position" : 109, "weight" : 1 },
+		{"id" : 32, "lemma" : "1555", "type" : "SN", "position" : 110, "weight" : 1 },
+		{"id" : 33, "lemma" : ")", "type" : "SS", "position" : 114, "weight" : 1 },
+		{"id" : 34, "lemma" : "로", "type" : "JKB", "position" : 115, "weight" : 0.0485504 },
+		{"id" : 35, "lemma" : "도", "type" : "JX", "position" : 118, "weight" : 0.0912297 },
+		{"id" : 36, "lemma" : "구매", "type" : "NNG", "position" : 122, "weight" : 0.9 },
+		{"id" : 37, "lemma" : "하", "type" : "XSV", "position" : 128, "weight" : 0.0001 },
+		{"id" : 38, "lemma" : "ㄹ", "type" : "ETM", "position" : 128, "weight" : 0.387847 },
+		{"id" : 39, "lemma" : "수", "type" : "NNB", "position" : 132, "weight" : 0.215617 },
+		{"id" : 40, "lemma" : "있", "type" : "VA", "position" : 136, "weight" : 0.0518488 },
+		{"id" : 41, "lemma" : "다", "type" : "EF", "position" : 139, "weight" : 0.132573 },
+		{"id" : 42, "lemma" : ".", "type" : "SF", "position" : 142, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "입장권/NNG+은/JX", "target" : "입장권은", "word_id" : 0, "m_begin" : 0, "m_end" : 2},
+		{"id" : 1, "result" : "U/SL+-/SS+20/SN", "target" : "U-20", "word_id" : 1, "m_begin" : 3, "m_end" : 5},
+		{"id" : 2, "result" : "월드컵/NNG", "target" : "월드컵", "word_id" : 2, "m_begin" : 6, "m_end" : 6},
+		{"id" : 3, "result" : "홈페이지/NNG+(/SS+http/SL+:/SP+//SP+//SP+kr/SL+./SF+FIFA/SL+./SF+com/SL+//SP+u/SL+20/SN+ticket/SL+)/SS+이나/JC", "target" : "홈페이지(http://kr.FIFA.com/u20ticket)나", "word_id" : 3, "m_begin" : 7, "m_end" : 24},
+		{"id" : 4, "result" : "전화/NNG+(/SS+인터파크/NNG", "target" : "전화(인터파크", "word_id" : 4, "m_begin" : 25, "m_end" : 27},
+		{"id" : 5, "result" : "콜센터/NNG+,/SP", "target" : "콜센터,", "word_id" : 5, "m_begin" : 28, "m_end" : 29},
+		{"id" : 6, "result" : "1544/SN+-/SS+1555/SN+)/SS+로/JKB+도/JX", "target" : "1544-1555)로도", "word_id" : 6, "m_begin" : 30, "m_end" : 35},
+		{"id" : 7, "result" : "구매하/VV+ㄹ/ETM", "target" : "구매할", "word_id" : 7, "m_begin" : 36, "m_end" : 38},
+		{"id" : 8, "result" : "수/NNB", "target" : "수", "word_id" : 8, "m_begin" : 39, "m_end" : 39},
+		{"id" : 9, "result" : "있/VA+다/EF+./SF", "target" : "있다.", "word_id" : 9, "m_begin" : 40, "m_end" : 42}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "입장권", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 14, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 15, "begin" : 5, "end" : 5},
+		{"id" : 5, "text" : "월드컵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 18, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "홈페이지", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 28, "begin" : 7, "end" : 8},
+		{"id" : 7, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 40, "begin" : 9, "end" : 9},
+		{"id" : 8, "text" : "http", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 41, "begin" : 10, "end" : 10},
+		{"id" : 9, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 45, "begin" : 11, "end" : 11},
+		{"id" : 10, "text" : "/", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 46, "begin" : 12, "end" : 12},
+		{"id" : 11, "text" : "/", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 47, "begin" : 13, "end" : 13},
+		{"id" : 12, "text" : "kr", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 48, "begin" : 14, "end" : 14},
+		{"id" : 13, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 50, "begin" : 15, "end" : 15},
+		{"id" : 14, "text" : "FIFA", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 51, "begin" : 16, "end" : 16},
+		{"id" : 15, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 55, "begin" : 17, "end" : 17},
+		{"id" : 16, "text" : "com", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 56, "begin" : 18, "end" : 18},
+		{"id" : 17, "text" : "/", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 59, "begin" : 19, "end" : 19},
+		{"id" : 18, "text" : "u", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 60, "begin" : 20, "end" : 20},
+		{"id" : 19, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 21, "end" : 21},
+		{"id" : 20, "text" : "ticket", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 22, "end" : 22},
+		{"id" : 21, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 69, "begin" : 23, "end" : 23},
+		{"id" : 22, "text" : "나", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 24, "end" : 24},
+		{"id" : 23, "text" : "전화", "type" : "NNG", "scode" : "07", "weight" : 1, "position" : 74, "begin" : 25, "end" : 25},
+		{"id" : 24, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 80, "begin" : 26, "end" : 26},
+		{"id" : 25, "text" : "인터파크", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 81, "begin" : 27, "end" : 27},
+		{"id" : 26, "text" : "콜센터", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 94, "begin" : 28, "end" : 28},
+		{"id" : 27, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 103, "begin" : 29, "end" : 29},
+		{"id" : 28, "text" : "1544", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 30, "end" : 30},
+		{"id" : 29, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 109, "begin" : 31, "end" : 31},
+		{"id" : 30, "text" : "1555", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 110, "begin" : 32, "end" : 32},
+		{"id" : 31, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 114, "begin" : 33, "end" : 33},
+		{"id" : 32, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 34, "end" : 34},
+		{"id" : 33, "text" : "도", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 118, "begin" : 35, "end" : 35},
+		{"id" : 34, "text" : "구매하", "type" : "VV", "scode" : "02", "weight" : 1, "position" : 122, "begin" : 36, "end" : 37},
+		{"id" : 35, "text" : "ㄹ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 128, "begin" : 38, "end" : 38},
+		{"id" : 36, "text" : "수", "type" : "NNB", "scode" : "02", "weight" : 3.19923, "position" : 132, "begin" : 39, "end" : 39},
+		{"id" : 37, "text" : "있", "type" : "VA", "scode" : "01", "weight" : 1, "position" : 136, "begin" : 40, "end" : 40},
+		{"id" : 38, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 139, "begin" : 41, "end" : 41},
+		{"id" : 39, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 142, "begin" : 42, "end" : 42}
+	],
+	"word" : [
+		{"id" : 0, "text" : "입장권은", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "U-20", "type" : "", "begin" : 3, "end" : 5},
+		{"id" : 2, "text" : "월드컵", "type" : "", "begin" : 6, "end" : 6},
+		{"id" : 3, "text" : "홈페이지(http://kr.FIFA.com/u20ticket)나", "type" : "", "begin" : 7, "end" : 24},
+		{"id" : 4, "text" : "전화(인터파크", "type" : "", "begin" : 25, "end" : 27},
+		{"id" : 5, "text" : "콜센터,", "type" : "", "begin" : 28, "end" : 29},
+		{"id" : 6, "text" : "1544-1555)로도", "type" : "", "begin" : 30, "end" : 35},
+		{"id" : 7, "text" : "구매할", "type" : "", "begin" : 36, "end" : 38},
+		{"id" : 8, "text" : "수", "type" : "", "begin" : 39, "end" : 39},
+		{"id" : 9, "text" : "있다.", "type" : "", "begin" : 40, "end" : 42}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "U-20 월드컵", "type" : "EV_SPORTS", "begin" : 3, "end" : 6, "weight" : 0.477298, "common_noun" : 0},
+		{"id" : 1, "text" : "홈페이지", "type" : "TMI_SERVICE", "begin" : 7, "end" : 8, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "http://kr.FIFA.com/u20", "type" : "TMI_SITE", "begin" : 10, "end" : 21, "weight" : 0.664998, "common_noun" : 0},
+		{"id" : 3, "text" : "전화", "type" : "TMI_HW", "begin" : 25, "end" : 25, "weight" : 0.331093, "common_noun" : 0},
+		{"id" : 4, "text" : "인터파크", "type" : "OGG_ECONOMY", "begin" : 27, "end" : 27, "weight" : 0.376286, "common_noun" : 0},
+		{"id" : 5, "text" : "1544-1555", "type" : "QT_PHONE", "begin" : 30, "end" : 32, "weight" : 0.42787, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "입장권은", "head" : 7, "label" : "NP_SBJ", "mod" : [], "weight" : 0.54454 },
+		{"id" : 1, "text" : "U-20", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.555008 },
+		{"id" : 2, "text" : "월드컵", "head" : 3, "label" : "NP", "mod" : [1], "weight" : 0.221808 },
+		{"id" : 3, "text" : "홈페이지(http://kr.FIFA.com/u20ticket)나", "head" : 6, "label" : "NP_CNJ", "mod" : [2], "weight" : 0.712602 },
+		{"id" : 4, "text" : "전화(인터파크", "head" : 5, "label" : "NP", "mod" : [], "weight" : 0.383439 },
+		{"id" : 5, "text" : "콜센터,", "head" : 6, "label" : "NP_CNJ", "mod" : [4], "weight" : 0.0128578 },
+		{"id" : 6, "text" : "1544-1555)로도", "head" : 7, "label" : "NP_AJT", "mod" : [3, 5], "weight" : 0.550083 },
+		{"id" : 7, "text" : "구매할", "head" : 8, "label" : "VP_MOD", "mod" : [0, 6], "weight" : 0.738836 },
+		{"id" : 8, "text" : "수", "head" : 9, "label" : "NP_SBJ", "mod" : [7], "weight" : 0.769334 },
+		{"id" : 9, "text" : "있다.", "head" : -1, "label" : "VP", "mod" : [8], "weight" : 4.68866e-05 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "입장권은", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_AJT", "text" : "U-20 월드컵 홈페이지(http://kr.FIFA.com/u20ticket)나 전화(인터파크 콜센터, 1544-1555)로도", "begin" : 1, "end" : 6, "key_begin" : 1, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, 
+			"element" : [
+				{ "text" : "U-20 월드컵 홈페이지(http://kr.FIFA.com/u20ticket)", "label" : "NP_AJT", "begin" : 3, "end" : 23, "ne_type" : "" },
+				{ "text" : "전화(인터파크 콜센터", "label" : "NP_AJT", "begin" : 25, "end" : 28, "ne_type" : "" },
+				{ "text" : "1544-1555)", "label" : "NP_AJT", "begin" : 30, "end" : 33, "ne_type" : "QT_PHONE" }
+			] },
+		{"id" : 2, "label" : "S_MOD", "text" : "P#0@SBJ은 P#1@AJT도 구매할", "begin" : 0, "end" : 7, "key_begin" : 7, "head_phrase" : 3, "sub_phrase" : [0, 1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_SBJ", "text" : "S#2@MODㄹ 수", "begin" : 0, "end" : 8, "key_begin" : 8, "head_phrase" : 4, "sub_phrase" : [2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "S", "text" : "P#3@SBJ수 있다.", "begin" : 0, "end" : 9, "key_begin" : 9, "head_phrase" : -1, "sub_phrase" : [3], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "구매", "sense" : 1, "word_id" : 7, "weight" : 0.334293,
+			"argument" : [
+				{"type" : "ARGM-TMP", "word_id" : 6, "text" : "1544-1555)로도", "weight" : 0.0839268 },
+				{"type" : "AUX", "word_id" : 9, "text" : "있다.", "weight" : 0.584659 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "U-20 대회는 오는 20일부터 6월 11일까지 23일간 열린다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "U", "type" : "SL", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "-", "type" : "SS", "position" : 1, "weight" : 1 },
+		{"id" : 2, "lemma" : "20", "type" : "SN", "position" : 2, "weight" : 1 },
+		{"id" : 3, "lemma" : "대회", "type" : "NNG", "position" : 5, "weight" : 0.9 },
+		{"id" : 4, "lemma" : "는", "type" : "JX", "position" : 11, "weight" : 0.0287565 },
+		{"id" : 5, "lemma" : "오", "type" : "VV", "position" : 15, "weight" : 0.0752259 },
+		{"id" : 6, "lemma" : "는", "type" : "ETM", "position" : 18, "weight" : 0.184941 },
+		{"id" : 7, "lemma" : "20", "type" : "SN", "position" : 22, "weight" : 1 },
+		{"id" : 8, "lemma" : "일", "type" : "NNB", "position" : 24, "weight" : 0.126777 },
+		{"id" : 9, "lemma" : "부터", "type" : "JX", "position" : 27, "weight" : 0.105319 },
+		{"id" : 10, "lemma" : "6", "type" : "SN", "position" : 34, "weight" : 1 },
+		{"id" : 11, "lemma" : "월", "type" : "NNB", "position" : 35, "weight" : 0.408539 },
+		{"id" : 12, "lemma" : "11", "type" : "SN", "position" : 39, "weight" : 1 },
+		{"id" : 13, "lemma" : "일", "type" : "NNB", "position" : 41, "weight" : 0.126777 },
+		{"id" : 14, "lemma" : "까지", "type" : "JX", "position" : 44, "weight" : 0.105153 },
+		{"id" : 15, "lemma" : "23", "type" : "SN", "position" : 51, "weight" : 1 },
+		{"id" : 16, "lemma" : "일", "type" : "NNB", "position" : 53, "weight" : 0.126777 },
+		{"id" : 17, "lemma" : "간", "type" : "XSN", "position" : 56, "weight" : 0.0078671 },
+		{"id" : 18, "lemma" : "열리", "type" : "VV", "position" : 60, "weight" : 0.9 },
+		{"id" : 19, "lemma" : "ㄴ다", "type" : "EF", "position" : 63, "weight" : 0.0793196 },
+		{"id" : 20, "lemma" : ".", "type" : "SF", "position" : 69, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "U/SL+-/SS+20/SN", "target" : "U-20", "word_id" : 0, "m_begin" : 0, "m_end" : 2},
+		{"id" : 1, "result" : "대회/NNG+는/JX", "target" : "대회는", "word_id" : 1, "m_begin" : 3, "m_end" : 4},
+		{"id" : 2, "result" : "오/VV+는/ETM", "target" : "오는", "word_id" : 2, "m_begin" : 5, "m_end" : 6},
+		{"id" : 3, "result" : "20/SN+일/NNB+부터/JX", "target" : "20일부터", "word_id" : 3, "m_begin" : 7, "m_end" : 9},
+		{"id" : 4, "result" : "6/SN+월/NNB", "target" : "6월", "word_id" : 4, "m_begin" : 10, "m_end" : 11},
+		{"id" : 5, "result" : "11/SN+일/NNB+까지/JX", "target" : "11일까지", "word_id" : 5, "m_begin" : 12, "m_end" : 14},
+		{"id" : 6, "result" : "23/SN+일간/NNB", "target" : "23일간", "word_id" : 6, "m_begin" : 15, "m_end" : 17},
+		{"id" : 7, "result" : "열리/VV+ㄴ다/EF+./SF", "target" : "열린다.", "word_id" : 7, "m_begin" : 18, "m_end" : 20}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "U", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 1, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 2, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "대회", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 5, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 11, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "오", "type" : "VV", "scode" : "01", "weight" : 1, "position" : 15, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 18, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "20", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 22, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 3.2, "position" : 24, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "부터", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 27, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "6", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 34, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "월", "type" : "NNB", "scode" : "02", "weight" : 2.2, "position" : 35, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "11", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 2.2, "position" : 41, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "까지", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 44, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "23", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 51, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 2.2, "position" : 53, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "간", "type" : "XSN", "scode" : "16", "weight" : 1, "position" : 56, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "열리", "type" : "VV", "scode" : "02", "weight" : 1, "position" : 60, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 69, "begin" : 20, "end" : 20}
+	],
+	"word" : [
+		{"id" : 0, "text" : "U-20", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "대회는", "type" : "", "begin" : 3, "end" : 4},
+		{"id" : 2, "text" : "오는", "type" : "", "begin" : 5, "end" : 6},
+		{"id" : 3, "text" : "20일부터", "type" : "", "begin" : 7, "end" : 9},
+		{"id" : 4, "text" : "6월", "type" : "", "begin" : 10, "end" : 11},
+		{"id" : 5, "text" : "11일까지", "type" : "", "begin" : 12, "end" : 14},
+		{"id" : 6, "text" : "23일간", "type" : "", "begin" : 15, "end" : 17},
+		{"id" : 7, "text" : "열린다.", "type" : "", "begin" : 18, "end" : 20}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "U-20 대회", "type" : "EV_SPORTS", "begin" : 0, "end" : 3, "weight" : 0.626346, "common_noun" : 0},
+		{"id" : 1, "text" : "오는 20일부터 6월 11일까지", "type" : "DT_DURATION", "begin" : 5, "end" : 14, "weight" : 0.848311, "common_noun" : 0},
+		{"id" : 2, "text" : "23일간", "type" : "DT_DURATION", "begin" : 15, "end" : 17, "weight" : 0.735299, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "U-20", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.605294 },
+		{"id" : 1, "text" : "대회는", "head" : 7, "label" : "NP_SBJ", "mod" : [0], "weight" : 0.642927 },
+		{"id" : 2, "text" : "오는", "head" : 3, "label" : "VP_MOD", "mod" : [], "weight" : 0.0802294 },
+		{"id" : 3, "text" : "20일부터", "head" : 7, "label" : "NP_AJT", "mod" : [2], "weight" : 0.426428 },
+		{"id" : 4, "text" : "6월", "head" : 5, "label" : "NP", "mod" : [], "weight" : 0.671274 },
+		{"id" : 5, "text" : "11일까지", "head" : 7, "label" : "NP_AJT", "mod" : [4], "weight" : 0.833371 },
+		{"id" : 6, "text" : "23일간", "head" : 7, "label" : "NP_AJT", "mod" : [], "weight" : 0.699046 },
+		{"id" : 7, "text" : "열린다.", "head" : -1, "label" : "VP", "mod" : [1, 5, 6, 3], "weight" : 0.00448893 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "U-20 대회는", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : 3, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_AJT", "text" : "오는 20일부터 6월 11일까지", "begin" : 2, "end" : 5, "key_begin" : 2, "head_phrase" : 3, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_AJT", "text" : "23일간", "begin" : 6, "end" : 6, "key_begin" : 6, "head_phrase" : 3, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "S", "text" : "P#0@SBJ는 P#1@AJT까지 P#2@AJT간 열린다.", "begin" : 0, "end" : 7, "key_begin" : 7, "head_phrase" : -1, "sub_phrase" : [0, 1, 2], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "오", "sense" : 1, "word_id" : 2, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "열리", "sense" : 1, "word_id" : 7, "weight" : 0.39882,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 1, "text" : "대회는", "weight" : 0.341358 },
+				{"type" : "ARGM-TMP", "word_id" : 3, "text" : "20일부터", "weight" : 0.480089 },
+				{"type" : "ARGM-TMP", "word_id" : 5, "text" : "11일까지", "weight" : 0.441129 },
+				{"type" : "ARGM-TMP", "word_id" : 6, "text" : "23일간", "weight" : 0.332704 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 1,
+	"reserve_str" : "",
+	"text" : " 수원·전주·인천·대전·천안·제주 6개 도시에서 52경기가 열리며 수원시에 대회 본부가 설치된다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "수원", "type" : "NNP", "position" : 71, "weight" : 0.083109 },
+		{"id" : 1, "lemma" : "·", "type" : "SP", "position" : 77, "weight" : 1 },
+		{"id" : 2, "lemma" : "전주", "type" : "NNG", "position" : 79, "weight" : 0.117803 },
+		{"id" : 3, "lemma" : "·", "type" : "SP", "position" : 85, "weight" : 1 },
+		{"id" : 4, "lemma" : "인천", "type" : "NNP", "position" : 87, "weight" : 0.12371 },
+		{"id" : 5, "lemma" : "·", "type" : "SP", "position" : 93, "weight" : 1 },
+		{"id" : 6, "lemma" : "대전", "type" : "NNG", "position" : 95, "weight" : 0.336858 },
+		{"id" : 7, "lemma" : "·", "type" : "SP", "position" : 101, "weight" : 1 },
+		{"id" : 8, "lemma" : "천안", "type" : "NNG", "position" : 103, "weight" : 0.0393778 },
+		{"id" : 9, "lemma" : "·", "type" : "SP", "position" : 109, "weight" : 1 },
+		{"id" : 10, "lemma" : "제주", "type" : "NNP", "position" : 111, "weight" : 0.120213 },
+		{"id" : 11, "lemma" : "6", "type" : "SN", "position" : 118, "weight" : 1 },
+		{"id" : 12, "lemma" : "개", "type" : "NNB", "position" : 119, "weight" : 0.363274 },
+		{"id" : 13, "lemma" : "도시", "type" : "NNG", "position" : 123, "weight" : 0.110208 },
+		{"id" : 14, "lemma" : "에서", "type" : "JKB", "position" : 129, "weight" : 0.153407 },
+		{"id" : 15, "lemma" : "52", "type" : "SN", "position" : 136, "weight" : 1 },
+		{"id" : 16, "lemma" : "경기", "type" : "NNG", "position" : 138, "weight" : 0.0735654 },
+		{"id" : 17, "lemma" : "가", "type" : "JKS", "position" : 144, "weight" : 0.066324 },
+		{"id" : 18, "lemma" : "열리", "type" : "VV", "position" : 148, "weight" : 0.9 },
+		{"id" : 19, "lemma" : "며", "type" : "EC", "position" : 154, "weight" : 0.429701 },
+		{"id" : 20, "lemma" : "수원시", "type" : "NNP", "position" : 158, "weight" : 0.021695 },
+		{"id" : 21, "lemma" : "에", "type" : "JKB", "position" : 167, "weight" : 0.0823628 },
+		{"id" : 22, "lemma" : "대회", "type" : "NNG", "position" : 171, "weight" : 0.9 },
+		{"id" : 23, "lemma" : "본부", "type" : "NNG", "position" : 178, "weight" : 0.9 },
+		{"id" : 24, "lemma" : "가", "type" : "JKS", "position" : 184, "weight" : 0.066324 },
+		{"id" : 25, "lemma" : "설치", "type" : "NNG", "position" : 188, "weight" : 0.154717 },
+		{"id" : 26, "lemma" : "되", "type" : "XSV", "position" : 194, "weight" : 0.000224177 },
+		{"id" : 27, "lemma" : "ㄴ다", "type" : "EF", "position" : 194, "weight" : 0.0449045 },
+		{"id" : 28, "lemma" : ".", "type" : "SF", "position" : 200, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "수원/NNG+·/SP+전주/NNG+·/SP+인천/NNG+·/SP+대전/NNG+·/SP+천안/NNG+·/SP+제주/NNG", "target" : "수원·전주·인천·대전·천안·제주", "word_id" : 0, "m_begin" : 0, "m_end" : 10},
+		{"id" : 1, "result" : "6/SN+개/NNB", "target" : "6개", "word_id" : 1, "m_begin" : 11, "m_end" : 12},
+		{"id" : 2, "result" : "도시/NNG+에서/JKB", "target" : "도시에서", "word_id" : 2, "m_begin" : 13, "m_end" : 14},
+		{"id" : 3, "result" : "52/SN+경기/NNG+가/JKS", "target" : "52경기가", "word_id" : 3, "m_begin" : 15, "m_end" : 17},
+		{"id" : 4, "result" : "열리/VV+며/EC", "target" : "열리며", "word_id" : 4, "m_begin" : 18, "m_end" : 19},
+		{"id" : 5, "result" : "수원시/NNG+에/JKB", "target" : "수원시에", "word_id" : 5, "m_begin" : 20, "m_end" : 21},
+		{"id" : 6, "result" : "대회/NNG", "target" : "대회", "word_id" : 6, "m_begin" : 22, "m_end" : 22},
+		{"id" : 7, "result" : "본부/NNG+가/JKS", "target" : "본부가", "word_id" : 7, "m_begin" : 23, "m_end" : 24},
+		{"id" : 8, "result" : "설치되/VV+ㄴ다/EF+./SF", "target" : "설치된다.", "word_id" : 8, "m_begin" : 25, "m_end" : 28}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "수원", "type" : "NNP", "scode" : "01", "weight" : 5, "position" : 71, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "전주", "type" : "NNG", "scode" : "23", "weight" : 1, "position" : 79, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 85, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "인천", "type" : "NNP", "scode" : "02", "weight" : 5, "position" : 87, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 93, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "대전", "type" : "NNG", "scode" : "07", "weight" : 1, "position" : 95, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 101, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "천안", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 103, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 109, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "제주", "type" : "NNP", "scode" : "07", "weight" : 5, "position" : 111, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "6", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 118, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "개", "type" : "NNB", "scode" : "10", "weight" : 12.7, "position" : 119, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "도시", "type" : "NNG", "scode" : "03", "weight" : 5, "position" : 123, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 129, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "52", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 136, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "경기", "type" : "NNG", "scode" : "11", "weight" : 3, "position" : 138, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "열리", "type" : "VV", "scode" : "02", "weight" : 6.9, "position" : 148, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 154, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : "수원시", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 158, "begin" : 20, "end" : 20},
+		{"id" : 21, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 167, "begin" : 21, "end" : 21},
+		{"id" : 22, "text" : "대회", "type" : "NNG", "scode" : "02", "weight" : 3.2, "position" : 171, "begin" : 22, "end" : 22},
+		{"id" : 23, "text" : "본부", "type" : "NNG", "scode" : "03", "weight" : 2, "position" : 178, "begin" : 23, "end" : 23},
+		{"id" : 24, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 184, "begin" : 24, "end" : 24},
+		{"id" : 25, "text" : "설치되", "type" : "VV", "scode" : "01", "weight" : 1, "position" : 188, "begin" : 25, "end" : 26},
+		{"id" : 26, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 194, "begin" : 27, "end" : 27},
+		{"id" : 27, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 200, "begin" : 28, "end" : 28}
+	],
+	"word" : [
+		{"id" : 0, "text" : "수원·전주·인천·대전·천안·제주", "type" : "", "begin" : 0, "end" : 10},
+		{"id" : 1, "text" : "6개", "type" : "", "begin" : 11, "end" : 12},
+		{"id" : 2, "text" : "도시에서", "type" : "", "begin" : 13, "end" : 14},
+		{"id" : 3, "text" : "52경기가", "type" : "", "begin" : 15, "end" : 17},
+		{"id" : 4, "text" : "열리며", "type" : "", "begin" : 18, "end" : 19},
+		{"id" : 5, "text" : "수원시에", "type" : "", "begin" : 20, "end" : 21},
+		{"id" : 6, "text" : "대회", "type" : "", "begin" : 22, "end" : 22},
+		{"id" : 7, "text" : "본부가", "type" : "", "begin" : 23, "end" : 24},
+		{"id" : 8, "text" : "설치된다.", "type" : "", "begin" : 25, "end" : 28}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "수원", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 0.434105, "common_noun" : 0},
+		{"id" : 1, "text" : "전주", "type" : "LCP_CITY", "begin" : 2, "end" : 2, "weight" : 0.522512, "common_noun" : 0},
+		{"id" : 2, "text" : "인천", "type" : "LCP_CITY", "begin" : 4, "end" : 4, "weight" : 0.626194, "common_noun" : 0},
+		{"id" : 3, "text" : "대전", "type" : "LCP_CITY", "begin" : 6, "end" : 6, "weight" : 0.578764, "common_noun" : 0},
+		{"id" : 4, "text" : "천안", "type" : "LCP_CITY", "begin" : 8, "end" : 8, "weight" : 0.402331, "common_noun" : 0},
+		{"id" : 5, "text" : "제주", "type" : "LCP_PROVINCE", "begin" : 10, "end" : 10, "weight" : 0.567812, "common_noun" : 0},
+		{"id" : 6, "text" : "6개", "type" : "QT_COUNT", "begin" : 11, "end" : 12, "weight" : 0.547364, "common_noun" : 0},
+		{"id" : 7, "text" : "52경기", "type" : "QT_SPORTS", "begin" : 15, "end" : 16, "weight" : 0.722658, "common_noun" : 0},
+		{"id" : 8, "text" : "수원시", "type" : "LCP_CITY", "begin" : 20, "end" : 20, "weight" : 0.158381, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "수원·전주·인천·대전·천안·제주", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.515781 },
+		{"id" : 1, "text" : "6개", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.750914 },
+		{"id" : 2, "text" : "도시에서", "head" : 4, "label" : "NP_AJT", "mod" : [0, 1], "weight" : 0.830845 },
+		{"id" : 3, "text" : "52경기가", "head" : 4, "label" : "NP_SBJ", "mod" : [], "weight" : 0.669228 },
+		{"id" : 4, "text" : "열리며", "head" : 8, "label" : "VP", "mod" : [2, 3], "weight" : 0.809247 },
+		{"id" : 5, "text" : "수원시에", "head" : 8, "label" : "NP_AJT", "mod" : [], "weight" : 0.794853 },
+		{"id" : 6, "text" : "대회", "head" : 7, "label" : "NP", "mod" : [], "weight" : 0.749873 },
+		{"id" : 7, "text" : "본부가", "head" : 8, "label" : "NP_SBJ", "mod" : [6], "weight" : 0.781499 },
+		{"id" : 8, "text" : "설치된다.", "head" : -1, "label" : "VP", "mod" : [4, 5, 7], "weight" : 0.0726868 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_AJT", "text" : "수원·전주·인천·대전·천안·제주 6개 도시에서", "begin" : 0, "end" : 2, "key_begin" : 0, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_SBJ", "text" : "52경기가", "begin" : 3, "end" : 3, "key_begin" : 3, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "S", "text" : "P#0@AJT에서 P#1@SBJ가 열리며", "begin" : 0, "end" : 4, "key_begin" : 4, "head_phrase" : 5, "sub_phrase" : [0, 1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_AJT", "text" : "수원시에", "begin" : 5, "end" : 5, "key_begin" : 5, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_SBJ", "text" : "대회 본부가", "begin" : 6, "end" : 7, "key_begin" : 6, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "S", "text" : "S#2@S며 P#3@AJT에 P#4@SBJ가 설치된다.", "begin" : 0, "end" : 8, "key_begin" : 8, "head_phrase" : -1, "sub_phrase" : [2, 3, 4], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "열리", "sense" : 1, "word_id" : 4, "weight" : 0.421477,
+			"argument" : [
+				{"type" : "ARGM-LOC", "word_id" : 2, "text" : "도시에서", "weight" : 0.33359 },
+				{"type" : "ARG1", "word_id" : 3, "text" : "52경기가", "weight" : 0.509363 }
+			] },
+		{"verb" : "설치", "sense" : 1, "word_id" : 8, "weight" : 0.426547,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 5, "text" : "수원시에", "weight" : 0.33884 },
+				{"type" : "ARG1", "word_id" : 7, "text" : "본부가", "weight" : 0.514254 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 2,
+	"reserve_str" : "",
+	"text" : " 6개 대륙에서 24개국이 참가한다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "6", "type" : "SN", "position" : 202, "weight" : 1 },
+		{"id" : 1, "lemma" : "개", "type" : "NNB", "position" : 203, "weight" : 0.363274 },
+		{"id" : 2, "lemma" : "대륙", "type" : "NNG", "position" : 207, "weight" : 0.9 },
+		{"id" : 3, "lemma" : "에서", "type" : "JKB", "position" : 213, "weight" : 0.153407 },
+		{"id" : 4, "lemma" : "24", "type" : "SN", "position" : 220, "weight" : 1 },
+		{"id" : 5, "lemma" : "개국", "type" : "NNB", "position" : 222, "weight" : 0.362453 },
+		{"id" : 6, "lemma" : "이", "type" : "JKS", "position" : 228, "weight" : 0.0376169 },
+		{"id" : 7, "lemma" : "참가", "type" : "NNG", "position" : 232, "weight" : 0.9 },
+		{"id" : 8, "lemma" : "하", "type" : "XSV", "position" : 238, "weight" : 0.0001 },
+		{"id" : 9, "lemma" : "ㄴ다", "type" : "EF", "position" : 238, "weight" : 0.0449045 },
+		{"id" : 10, "lemma" : ".", "type" : "SF", "position" : 244, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "6/SN+개/NNB", "target" : "6개", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "대륙/NNG+에서/JKB", "target" : "대륙에서", "word_id" : 1, "m_begin" : 2, "m_end" : 3},
+		{"id" : 2, "result" : "24/SN+개국/NNB+이/JKS", "target" : "24개국이", "word_id" : 2, "m_begin" : 4, "m_end" : 6},
+		{"id" : 3, "result" : "참가하/VV+ㄴ다/EF+./SF", "target" : "참가한다.", "word_id" : 3, "m_begin" : 7, "m_end" : 10}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "6", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 202, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "개", "type" : "NNB", "scode" : "10", "weight" : 1, "position" : 203, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "대륙", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 207, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 213, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "24", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 220, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "개국", "type" : "NNB", "scode" : "01", "weight" : 4.4, "position" : 222, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 228, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "참가하", "type" : "VV", "scode" : "01", "weight" : 1, "position" : 232, "begin" : 7, "end" : 8},
+		{"id" : 8, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 238, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 244, "begin" : 10, "end" : 10}
+	],
+	"word" : [
+		{"id" : 0, "text" : "6개", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "대륙에서", "type" : "", "begin" : 2, "end" : 3},
+		{"id" : 2, "text" : "24개국이", "type" : "", "begin" : 4, "end" : 6},
+		{"id" : 3, "text" : "참가한다.", "type" : "", "begin" : 7, "end" : 10}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "6개", "type" : "QT_COUNT", "begin" : 0, "end" : 1, "weight" : 0.698295, "common_noun" : 0},
+		{"id" : 1, "text" : "24개국", "type" : "QT_COUNT", "begin" : 4, "end" : 5, "weight" : 0.781459, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "6개", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.701863 },
+		{"id" : 1, "text" : "대륙에서", "head" : 3, "label" : "NP_AJT", "mod" : [0], "weight" : 0.886848 },
+		{"id" : 2, "text" : "24개국이", "head" : 3, "label" : "NP_SBJ", "mod" : [], "weight" : 0.759208 },
+		{"id" : 3, "text" : "참가한다.", "head" : -1, "label" : "VP", "mod" : [1, 2], "weight" : 0.425187 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_AJT", "text" : "6개 대륙에서", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_SBJ", "text" : "24개국이", "begin" : 2, "end" : 2, "key_begin" : 2, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "S", "text" : "P#0@AJT에서 P#1@SBJ이 참가한다.", "begin" : 0, "end" : 3, "key_begin" : 3, "head_phrase" : -1, "sub_phrase" : [0, 1], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "참가", "sense" : 1, "word_id" : 3, "weight" : 0.175892,
+			"argument" : [
+				{"type" : "ARGM-LOC", "word_id" : 1, "text" : "대륙에서", "weight" : 0.126735 },
+				{"type" : "ARG0", "word_id" : 2, "text" : "24개국이", "weight" : 0.225048 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "수원월드컵경기장에서는 예선 6경기, 16강전, 8강전, 3~4위전, 결승전 등 10경기가 개최된다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "수원", "type" : "NNP", "position" : 0, "weight" : 0.083109 },
+		{"id" : 1, "lemma" : "월드컵", "type" : "NNG", "position" : 6, "weight" : 0.9 },
+		{"id" : 2, "lemma" : "경기", "type" : "NNG", "position" : 15, "weight" : 0.135556 },
+		{"id" : 3, "lemma" : "장", "type" : "XSN", "position" : 21, "weight" : 0.0110513 },
+		{"id" : 4, "lemma" : "에서", "type" : "JKB", "position" : 24, "weight" : 0.121718 },
+		{"id" : 5, "lemma" : "는", "type" : "JX", "position" : 30, "weight" : 0.0387928 },
+		{"id" : 6, "lemma" : "예선", "type" : "NNG", "position" : 34, "weight" : 0.9 },
+		{"id" : 7, "lemma" : "6", "type" : "SN", "position" : 41, "weight" : 1 },
+		{"id" : 8, "lemma" : "경기", "type" : "NNG", "position" : 42, "weight" : 0.0735654 },
+		{"id" : 9, "lemma" : ",", "type" : "SP", "position" : 48, "weight" : 1 },
+		{"id" : 10, "lemma" : "16", "type" : "SN", "position" : 50, "weight" : 1 },
+		{"id" : 11, "lemma" : "강전", "type" : "NNP", "position" : 52, "weight" : 0.6 },
+		{"id" : 12, "lemma" : ",", "type" : "SP", "position" : 58, "weight" : 1 },
+		{"id" : 13, "lemma" : "8", "type" : "SN", "position" : 60, "weight" : 1 },
+		{"id" : 14, "lemma" : "강", "type" : "NNG", "position" : 61, "weight" : 0.0849025 },
+		{"id" : 15, "lemma" : "전", "type" : "XSN", "position" : 64, "weight" : 0.00343717 },
+		{"id" : 16, "lemma" : ",", "type" : "SP", "position" : 67, "weight" : 1 },
+		{"id" : 17, "lemma" : "3", "type" : "SN", "position" : 69, "weight" : 1 },
+		{"id" : 18, "lemma" : "~", "type" : "SO", "position" : 70, "weight" : 1 },
+		{"id" : 19, "lemma" : "4", "type" : "SN", "position" : 71, "weight" : 1 },
+		{"id" : 20, "lemma" : "위전", "type" : "NNG", "position" : 72, "weight" : 0.1 },
+		{"id" : 21, "lemma" : ",", "type" : "SP", "position" : 78, "weight" : 1 },
+		{"id" : 22, "lemma" : "결승", "type" : "NNG", "position" : 80, "weight" : 0.9 },
+		{"id" : 23, "lemma" : "전", "type" : "XSN", "position" : 86, "weight" : 0.00343717 },
+		{"id" : 24, "lemma" : "등", "type" : "NNB", "position" : 90, "weight" : 0.0282544 },
+		{"id" : 25, "lemma" : "10", "type" : "SN", "position" : 94, "weight" : 1 },
+		{"id" : 26, "lemma" : "경기", "type" : "NNG", "position" : 96, "weight" : 0.0735654 },
+		{"id" : 27, "lemma" : "가", "type" : "JKS", "position" : 102, "weight" : 0.066324 },
+		{"id" : 28, "lemma" : "개최", "type" : "NNG", "position" : 106, "weight" : 0.9 },
+		{"id" : 29, "lemma" : "되", "type" : "XSV", "position" : 112, "weight" : 0.000224177 },
+		{"id" : 30, "lemma" : "ㄴ다", "type" : "EF", "position" : 112, "weight" : 0.0449045 },
+		{"id" : 31, "lemma" : ".", "type" : "SF", "position" : 118, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "수원월드컵경기장/NNG+에서/JKB+는/JX", "target" : "수원월드컵경기장에서는", "word_id" : 0, "m_begin" : 0, "m_end" : 5},
+		{"id" : 1, "result" : "예선/NNG", "target" : "예선", "word_id" : 1, "m_begin" : 6, "m_end" : 6},
+		{"id" : 2, "result" : "6/SN+경기/NNG+,/SP", "target" : "6경기,", "word_id" : 2, "m_begin" : 7, "m_end" : 9},
+		{"id" : 3, "result" : "16/SN+강전/NNG+,/SP", "target" : "16강전,", "word_id" : 3, "m_begin" : 10, "m_end" : 12},
+		{"id" : 4, "result" : "8/SN+강전/NNG+,/SP", "target" : "8강전,", "word_id" : 4, "m_begin" : 13, "m_end" : 16},
+		{"id" : 5, "result" : "3/SN+~/SO+4/SN+위전/NNG+,/SP", "target" : "3~4위전,", "word_id" : 5, "m_begin" : 17, "m_end" : 21},
+		{"id" : 6, "result" : "결승전/NNG", "target" : "결승전", "word_id" : 6, "m_begin" : 22, "m_end" : 23},
+		{"id" : 7, "result" : "등/NNB", "target" : "등", "word_id" : 7, "m_begin" : 24, "m_end" : 24},
+		{"id" : 8, "result" : "10/SN+경기/NNG+가/JKS", "target" : "10경기가", "word_id" : 8, "m_begin" : 25, "m_end" : 27},
+		{"id" : 9, "result" : "개최되/VV+ㄴ다/EF+./SF", "target" : "개최된다.", "word_id" : 9, "m_begin" : 28, "m_end" : 31}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "수원", "type" : "NNP", "scode" : "01", "weight" : 3, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "월드컵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 6, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "경기장", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 15, "begin" : 2, "end" : 3},
+		{"id" : 3, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 24, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 5, "end" : 5},
+		{"id" : 5, "text" : "예선", "type" : "NNG", "scode" : "02", "weight" : 4.2, "position" : 34, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "6", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 41, "begin" : 7, "end" : 7},
+		{"id" : 7, "text" : "경기", "type" : "NNG", "scode" : "11", "weight" : 10.2353, "position" : 42, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 48, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : "16", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 50, "begin" : 10, "end" : 10},
+		{"id" : 10, "text" : "강전", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 52, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 58, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : "8", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 60, "begin" : 13, "end" : 13},
+		{"id" : 13, "text" : "강전", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 61, "begin" : 14, "end" : 15},
+		{"id" : 14, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 16, "end" : 16},
+		{"id" : 15, "text" : "3", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 69, "begin" : 17, "end" : 17},
+		{"id" : 16, "text" : "~", "type" : "SO", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 18, "end" : 18},
+		{"id" : 17, "text" : "4", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 71, "begin" : 19, "end" : 19},
+		{"id" : 18, "text" : "위전", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 72, "begin" : 20, "end" : 20},
+		{"id" : 19, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 78, "begin" : 21, "end" : 21},
+		{"id" : 20, "text" : "결승전", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 80, "begin" : 22, "end" : 23},
+		{"id" : 21, "text" : "등", "type" : "NNB", "scode" : "05", "weight" : 4.2, "position" : 90, "begin" : 24, "end" : 24},
+		{"id" : 22, "text" : "10", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 94, "begin" : 25, "end" : 25},
+		{"id" : 23, "text" : "경기", "type" : "NNG", "scode" : "11", "weight" : 2.2, "position" : 96, "begin" : 26, "end" : 26},
+		{"id" : 24, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 102, "begin" : 27, "end" : 27},
+		{"id" : 25, "text" : "개최되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 106, "begin" : 28, "end" : 29},
+		{"id" : 26, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 112, "begin" : 30, "end" : 30},
+		{"id" : 27, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 118, "begin" : 31, "end" : 31}
+	],
+	"word" : [
+		{"id" : 0, "text" : "수원월드컵경기장에서는", "type" : "", "begin" : 0, "end" : 5},
+		{"id" : 1, "text" : "예선", "type" : "", "begin" : 6, "end" : 6},
+		{"id" : 2, "text" : "6경기,", "type" : "", "begin" : 7, "end" : 9},
+		{"id" : 3, "text" : "16강전,", "type" : "", "begin" : 10, "end" : 12},
+		{"id" : 4, "text" : "8강전,", "type" : "", "begin" : 13, "end" : 16},
+		{"id" : 5, "text" : "3~4위전,", "type" : "", "begin" : 17, "end" : 21},
+		{"id" : 6, "text" : "결승전", "type" : "", "begin" : 22, "end" : 23},
+		{"id" : 7, "text" : "등", "type" : "", "begin" : 24, "end" : 24},
+		{"id" : 8, "text" : "10경기가", "type" : "", "begin" : 25, "end" : 27},
+		{"id" : 9, "text" : "개최된다.", "type" : "", "begin" : 28, "end" : 31}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "수원월드컵경기장", "type" : "AF_BUILDING", "begin" : 0, "end" : 3, "weight" : 0.851688, "common_noun" : 0},
+		{"id" : 1, "text" : "예선", "type" : "EV_SPORTS", "begin" : 6, "end" : 6, "weight" : 0.535146, "common_noun" : 0},
+		{"id" : 2, "text" : "6경기", "type" : "QT_SPORTS", "begin" : 7, "end" : 8, "weight" : 0.484688, "common_noun" : 0},
+		{"id" : 3, "text" : "16강전", "type" : "EV_SPORTS", "begin" : 10, "end" : 11, "weight" : 0.466659, "common_noun" : 0},
+		{"id" : 4, "text" : "8강전", "type" : "EV_SPORTS", "begin" : 13, "end" : 15, "weight" : 0.628702, "common_noun" : 0},
+		{"id" : 5, "text" : "3~4위전", "type" : "EV_SPORTS", "begin" : 17, "end" : 20, "weight" : 0.581933, "common_noun" : 0},
+		{"id" : 6, "text" : "결승전", "type" : "EV_SPORTS", "begin" : 22, "end" : 23, "weight" : 0.620116, "common_noun" : 0},
+		{"id" : 7, "text" : "10경기", "type" : "QT_SPORTS", "begin" : 25, "end" : 26, "weight" : 0.739891, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "수원월드컵경기장에서는", "head" : 9, "label" : "NP_AJT", "mod" : [], "weight" : 0.794302 },
+		{"id" : 1, "text" : "예선", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.521835 },
+		{"id" : 2, "text" : "6경기,", "head" : 6, "label" : "NP_CNJ", "mod" : [1], "weight" : 0.54364 },
+		{"id" : 3, "text" : "16강전,", "head" : 6, "label" : "NP_CNJ", "mod" : [], "weight" : 0.629548 },
+		{"id" : 4, "text" : "8강전,", "head" : 6, "label" : "NP_CNJ", "mod" : [], "weight" : 0.524227 },
+		{"id" : 5, "text" : "3~4위전,", "head" : 6, "label" : "NP_CNJ", "mod" : [], "weight" : 0.299113 },
+		{"id" : 6, "text" : "결승전", "head" : 7, "label" : "NP", "mod" : [2, 3, 4, 5], "weight" : 0.572553 },
+		{"id" : 7, "text" : "등", "head" : 8, "label" : "NP", "mod" : [6], "weight" : 0.227192 },
+		{"id" : 8, "text" : "10경기가", "head" : 9, "label" : "NP_SBJ", "mod" : [7], "weight" : 0.81976 },
+		{"id" : 9, "text" : "개최된다.", "head" : -1, "label" : "VP", "mod" : [0, 8], "weight" : 0.00218966 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_AJT", "text" : "수원월드컵경기장에서는", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_SBJ", "text" : "예선 6경기, 16강전, 8강전, 3~4위전, 결승전 등 10경기가", "begin" : 1, "end" : 8, "key_begin" : 1, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "S", "text" : "P#0@AJT는 P#1@SBJ가 개최된다.", "begin" : 0, "end" : 9, "key_begin" : 9, "head_phrase" : -1, "sub_phrase" : [0, 1], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "개최", "sense" : 1, "word_id" : 9, "weight" : 0.359762,
+			"argument" : [
+				{"type" : "ARGM-LOC", "word_id" : 0, "text" : "수원월드컵경기장에서는", "weight" : 0.318525 },
+				{"type" : "ARG1", "word_id" : 8, "text" : "10경기가", "weight" : 0.400999 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 1,
+	"reserve_str" : "",
+	"text" : "hm0712@news1.kr/",
+	"morp" : [
+		{"id" : 0, "lemma" : "hm", "type" : "SL", "position" : 119, "weight" : 1 },
+		{"id" : 1, "lemma" : "0712", "type" : "SN", "position" : 121, "weight" : 1 },
+		{"id" : 2, "lemma" : "@", "type" : "SW", "position" : 125, "weight" : 1 },
+		{"id" : 3, "lemma" : "news", "type" : "SL", "position" : 126, "weight" : 1 },
+		{"id" : 4, "lemma" : "1", "type" : "SN", "position" : 130, "weight" : 1 },
+		{"id" : 5, "lemma" : ".", "type" : "SF", "position" : 131, "weight" : 1 },
+		{"id" : 6, "lemma" : "kr", "type" : "SL", "position" : 132, "weight" : 1 },
+		{"id" : 7, "lemma" : "/", "type" : "SP", "position" : 134, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "hm/SL+0712/SN+@/SW+news/SL+1/SN+./SF+kr/SL+//SP", "target" : "hm0712@news1.kr/", "word_id" : 0, "m_begin" : 0, "m_end" : 7}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "hm", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 119, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "0712", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 121, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "@", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 125, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "news", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 126, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 130, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 131, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "kr", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 132, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "/", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 134, "begin" : 7, "end" : 7}
+	],
+	"word" : [
+		{"id" : 0, "text" : "hm0712@news1.kr/", "type" : "", "begin" : 0, "end" : 7}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "hm0712@news1.kr", "type" : "TMI_EMAIL", "begin" : 0, "end" : 6, "weight" : 0.572048, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "hm0712@news1.kr/", "head" : -1, "label" : "NP", "mod" : [], "weight" : 0.862875 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "hm0712@news1.kr/", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "[© 뉴스1코리아(",
+	"morp" : [
+		{"id" : 0, "lemma" : "[", "type" : "SS", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "©", "type" : "SW", "position" : 1, "weight" : 1 },
+		{"id" : 2, "lemma" : "뉴스", "type" : "NNG", "position" : 4, "weight" : 0.9 },
+		{"id" : 3, "lemma" : "1", "type" : "SN", "position" : 10, "weight" : 1 },
+		{"id" : 4, "lemma" : "코리아", "type" : "NNP", "position" : 11, "weight" : 0.9 },
+		{"id" : 5, "lemma" : "(", "type" : "SS", "position" : 20, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "[/SS+©/SW", "target" : "[©", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "뉴스/NNG+1/SN+코리아/NNG+(/SS", "target" : "뉴스1코리아(", "word_id" : 1, "m_begin" : 2, "m_end" : 5}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "[", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "©", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 1, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "뉴스", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 4, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "코리아", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 11, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 5, "end" : 5}
+	],
+	"word" : [
+		{"id" : 0, "text" : "[©", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "뉴스1코리아(", "type" : "", "begin" : 2, "end" : 5}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "뉴스1코리아", "type" : "OGG_MEDIA", "begin" : 2, "end" : 4, "weight" : 0.284042, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "[©", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.597029 },
+		{"id" : 1, "text" : "뉴스1코리아(", "head" : -1, "label" : "NP", "mod" : [0], "weight" : 0.417036 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "[© 뉴스1코리아(", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "), 무단 전재 및 재배포 금지]",
+	"morp" : [
+		{"id" : 0, "lemma" : ")", "type" : "SS", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : ",", "type" : "SP", "position" : 1, "weight" : 1 },
+		{"id" : 2, "lemma" : "무단", "type" : "NNG", "position" : 3, "weight" : 0.9 },
+		{"id" : 3, "lemma" : "전재", "type" : "NNG", "position" : 10, "weight" : 0.6 },
+		{"id" : 4, "lemma" : "및", "type" : "MAJ", "position" : 17, "weight" : 0.00215414 },
+		{"id" : 5, "lemma" : "재", "type" : "XPN", "position" : 21, "weight" : 0.00098195 },
+		{"id" : 6, "lemma" : "배포", "type" : "NNG", "position" : 24, "weight" : 0.9 },
+		{"id" : 7, "lemma" : "금지", "type" : "NNG", "position" : 31, "weight" : 0.184637 },
+		{"id" : 8, "lemma" : "]", "type" : "SS", "position" : 37, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : ")/SS+,/SP", "target" : "),", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "무단/NNG", "target" : "무단", "word_id" : 1, "m_begin" : 2, "m_end" : 2},
+		{"id" : 2, "result" : "전재/NNG", "target" : "전재", "word_id" : 2, "m_begin" : 3, "m_end" : 3},
+		{"id" : 3, "result" : "및/MAJ", "target" : "및", "word_id" : 3, "m_begin" : 4, "m_end" : 4},
+		{"id" : 4, "result" : "재배포/NNG", "target" : "재배포", "word_id" : 4, "m_begin" : 5, "m_end" : 6},
+		{"id" : 5, "result" : "금지/NNG+]/SS", "target" : "금지]", "word_id" : 5, "m_begin" : 7, "m_end" : 8}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 1, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "무단", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 3, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "전재", "type" : "NNG", "scode" : "10", "weight" : 1, "position" : 10, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "및", "type" : "MAJ", "scode" : "00", "weight" : 0, "position" : 17, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "재", "type" : "XPN", "scode" : "17", "weight" : 1, "position" : 21, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "배포", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 24, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "금지", "type" : "NNG", "scode" : "04", "weight" : 1, "position" : 31, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "]", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 37, "begin" : 8, "end" : 8}
+	],
+	"word" : [
+		{"id" : 0, "text" : "),", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "무단", "type" : "", "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "전재", "type" : "", "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "및", "type" : "", "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "재배포", "type" : "", "begin" : 5, "end" : 6},
+		{"id" : 5, "text" : "금지]", "type" : "", "begin" : 7, "end" : 8}
+	],
+	"NE" : [
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "),", "head" : 5, "label" : "NP_CNJ", "mod" : [], "weight" : 0.0912455 },
+		{"id" : 1, "text" : "무단", "head" : 2, "label" : "NP", "mod" : [], "weight" : 0.412427 },
+		{"id" : 2, "text" : "전재", "head" : 4, "label" : "NP_CNJ", "mod" : [1], "weight" : 0.111704 },
+		{"id" : 3, "text" : "및", "head" : 4, "label" : "AP", "mod" : [], "weight" : 0.231982 },
+		{"id" : 4, "text" : "재배포", "head" : 5, "label" : "NP", "mod" : [2, 3], "weight" : 0.508718 },
+		{"id" : 5, "text" : "금지]", "head" : -1, "label" : "NP", "mod" : [0, 4], "weight" : 0.000372746 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "), 무단 전재 및 재배포 금지]", "begin" : 0, "end" : 5, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, 
+			"element" : [
+				{ "text" : ")", "label" : "NP", "begin" : 0, "end" : 0, "ne_type" : "" },
+				{ "text" : "무단 전재 및 재배포 금지]", "label" : "NP", "begin" : 2, "end" : 8, "ne_type" : "" }
+			] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+ ],
+ "entity" : [
+ ]
+}
+

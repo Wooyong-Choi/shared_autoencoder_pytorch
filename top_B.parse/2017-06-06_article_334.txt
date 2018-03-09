@@ -1,0 +1,2477 @@
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "빅뱅 탑, 약물 과다복용 중환자실 입원",
+	"morp" : [
+		{"id" : 0, "lemma" : "빅뱅", "type" : "NNG", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "탑", "type" : "NNG", "position" : 7, "weight" : 0.9 },
+		{"id" : 2, "lemma" : ",", "type" : "SP", "position" : 10, "weight" : 1 },
+		{"id" : 3, "lemma" : "약물", "type" : "NNG", "position" : 12, "weight" : 0.9 },
+		{"id" : 4, "lemma" : "과다", "type" : "NNG", "position" : 19, "weight" : 0.9 },
+		{"id" : 5, "lemma" : "복용", "type" : "NNG", "position" : 25, "weight" : 0.9 },
+		{"id" : 6, "lemma" : "중", "type" : "XPN", "position" : 32, "weight" : 0.0001 },
+		{"id" : 7, "lemma" : "환자", "type" : "NNG", "position" : 35, "weight" : 0.9 },
+		{"id" : 8, "lemma" : "실", "type" : "XSN", "position" : 41, "weight" : 0.0165296 },
+		{"id" : 9, "lemma" : "입원", "type" : "NNG", "position" : 45, "weight" : 0.9 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "빅뱅/NNG", "target" : "빅뱅", "word_id" : 0, "m_begin" : 0, "m_end" : 0},
+		{"id" : 1, "result" : "탑/NNG+,/SP", "target" : "탑,", "word_id" : 1, "m_begin" : 1, "m_end" : 2},
+		{"id" : 2, "result" : "약물/NNG", "target" : "약물", "word_id" : 2, "m_begin" : 3, "m_end" : 3},
+		{"id" : 3, "result" : "과다복용/NNG", "target" : "과다복용", "word_id" : 3, "m_begin" : 4, "m_end" : 5},
+		{"id" : 4, "result" : "중환자실/NNG", "target" : "중환자실", "word_id" : 4, "m_begin" : 6, "m_end" : 8},
+		{"id" : 5, "result" : "입원/NNG", "target" : "입원", "word_id" : 5, "m_begin" : 9, "m_end" : 9}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "빅뱅", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "탑", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 7, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "약물", "type" : "NNG", "scode" : "01", "weight" : 2.38308, "position" : 12, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "과다", "type" : "NNG", "scode" : "01", "weight" : 2, "position" : 19, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "복용", "type" : "NNG", "scode" : "01", "weight" : 3.88308, "position" : 25, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "중환자실", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 32, "begin" : 6, "end" : 8},
+		{"id" : 7, "text" : "입원", "type" : "NNG", "scode" : "01", "weight" : 3.2, "position" : 45, "begin" : 9, "end" : 9}
+	],
+	"word" : [
+		{"id" : 0, "text" : "빅뱅", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "탑,", "type" : "", "begin" : 1, "end" : 2},
+		{"id" : 2, "text" : "약물", "type" : "", "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "과다복용", "type" : "", "begin" : 4, "end" : 5},
+		{"id" : 4, "text" : "중환자실", "type" : "", "begin" : 6, "end" : 8},
+		{"id" : 5, "text" : "입원", "type" : "", "begin" : 9, "end" : 9}
+	],
+	"NE" : [
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "빅뱅", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.843123 },
+		{"id" : 1, "text" : "탑,", "head" : 5, "label" : "NP_CNJ", "mod" : [0], "weight" : 0.29858 },
+		{"id" : 2, "text" : "약물", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.693102 },
+		{"id" : 3, "text" : "과다복용", "head" : 4, "label" : "NP", "mod" : [2], "weight" : 0.317358 },
+		{"id" : 4, "text" : "중환자실", "head" : 5, "label" : "NP", "mod" : [3], "weight" : 0.745632 },
+		{"id" : 5, "text" : "입원", "head" : -1, "label" : "NP", "mod" : [1, 4], "weight" : 0.0328391 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "빅뱅 탑, 약물 과다복용 중환자실 입원", "begin" : 0, "end" : 5, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, 
+			"element" : [
+				{ "text" : "빅뱅 탑", "label" : "NP", "begin" : 0, "end" : 1, "ne_type" : "" },
+				{ "text" : "약물 과다복용 중환자실 입원", "label" : "NP", "begin" : 3, "end" : 9, "ne_type" : "" }
+			] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "세계일보",
+	"morp" : [
+		{"id" : 0, "lemma" : "세계일보", "type" : "NNP", "position" : 0, "weight" : 0.8 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "세계일보/NNG", "target" : "세계일보", "word_id" : 0, "m_begin" : 0, "m_end" : 0}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "세계일보", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0}
+	],
+	"word" : [
+		{"id" : 0, "text" : "세계일보", "type" : "", "begin" : 0, "end" : 0}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "세계일보", "type" : "AFW_DOCUMENT", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "세계일보", "head" : -1, "label" : "NP", "mod" : [], "weight" : 0.754477 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "세계일보", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "처방받은 신경안정제로 추정 / 잠 못 깨 이송… “곧 정상생활 가능”",
+	"morp" : [
+		{"id" : 0, "lemma" : "처방", "type" : "NNG", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "받", "type" : "VV", "position" : 6, "weight" : 0.0147799 },
+		{"id" : 2, "lemma" : "은", "type" : "ETM", "position" : 9, "weight" : 0.109632 },
+		{"id" : 3, "lemma" : "신경", "type" : "NNG", "position" : 13, "weight" : 0.658106 },
+		{"id" : 4, "lemma" : "안정", "type" : "NNG", "position" : 19, "weight" : 0.184724 },
+		{"id" : 5, "lemma" : "제", "type" : "XSN", "position" : 25, "weight" : 0.00596315 },
+		{"id" : 6, "lemma" : "로", "type" : "JKB", "position" : 28, "weight" : 0.121577 },
+		{"id" : 7, "lemma" : "추정", "type" : "NNG", "position" : 32, "weight" : 0.207036 },
+		{"id" : 8, "lemma" : "/", "type" : "SP", "position" : 39, "weight" : 1 },
+		{"id" : 9, "lemma" : "잠", "type" : "NNG", "position" : 41, "weight" : 0.531163 },
+		{"id" : 10, "lemma" : "못", "type" : "MAG", "position" : 45, "weight" : 0.00456775 },
+		{"id" : 11, "lemma" : "깨", "type" : "VV", "position" : 49, "weight" : 0.363092 },
+		{"id" : 12, "lemma" : "어", "type" : "EC", "position" : 49, "weight" : 0.41831 },
+		{"id" : 13, "lemma" : "이송", "type" : "NNG", "position" : 53, "weight" : 0.9 },
+		{"id" : 14, "lemma" : "…", "type" : "SE", "position" : 59, "weight" : 1 },
+		{"id" : 15, "lemma" : "“", "type" : "SS", "position" : 63, "weight" : 1 },
+		{"id" : 16, "lemma" : "곧", "type" : "MAG", "position" : 66, "weight" : 0.017611 },
+		{"id" : 17, "lemma" : "정상", "type" : "NNG", "position" : 70, "weight" : 0.26113 },
+		{"id" : 18, "lemma" : "생활", "type" : "NNG", "position" : 76, "weight" : 0.9 },
+		{"id" : 19, "lemma" : "가능", "type" : "NNG", "position" : 83, "weight" : 0.184025 },
+		{"id" : 20, "lemma" : "”", "type" : "SS", "position" : 89, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "처방/NNG+받/VV+은/ETM", "target" : "처방받은", "word_id" : 0, "m_begin" : 0, "m_end" : 2},
+		{"id" : 1, "result" : "신경안정제/NNG+로/JKB", "target" : "신경안정제로", "word_id" : 1, "m_begin" : 3, "m_end" : 6},
+		{"id" : 2, "result" : "추정/NNG", "target" : "추정", "word_id" : 2, "m_begin" : 7, "m_end" : 7},
+		{"id" : 3, "result" : "//SP", "target" : "/", "word_id" : 3, "m_begin" : 8, "m_end" : 8},
+		{"id" : 4, "result" : "잠/NNG", "target" : "잠", "word_id" : 4, "m_begin" : 9, "m_end" : 9},
+		{"id" : 5, "result" : "못/MAG", "target" : "못", "word_id" : 5, "m_begin" : 10, "m_end" : 10},
+		{"id" : 6, "result" : "깨/VV+어/EC", "target" : "깨", "word_id" : 6, "m_begin" : 11, "m_end" : 12},
+		{"id" : 7, "result" : "이송/NNG+…/SE", "target" : "이송…", "word_id" : 7, "m_begin" : 13, "m_end" : 14},
+		{"id" : 8, "result" : "“/SS+곧/MAG", "target" : "“곧", "word_id" : 8, "m_begin" : 15, "m_end" : 16},
+		{"id" : 9, "result" : "정상생활/NNG", "target" : "정상생활", "word_id" : 9, "m_begin" : 17, "m_end" : 18},
+		{"id" : 10, "result" : "가능/NNG+”/SS", "target" : "가능”", "word_id" : 10, "m_begin" : 19, "m_end" : 20}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "처방", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "받", "type" : "VV", "scode" : "01", "weight" : 6.2, "position" : 6, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "신경안정제", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 3, "end" : 5},
+		{"id" : 4, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 28, "begin" : 6, "end" : 6},
+		{"id" : 5, "text" : "추정", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 32, "begin" : 7, "end" : 7},
+		{"id" : 6, "text" : "/", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 8, "end" : 8},
+		{"id" : 7, "text" : "잠", "type" : "NNG", "scode" : "01", "weight" : 4.4, "position" : 41, "begin" : 9, "end" : 9},
+		{"id" : 8, "text" : "못", "type" : "MAG", "scode" : "04", "weight" : 3.2, "position" : 45, "begin" : 10, "end" : 10},
+		{"id" : 9, "text" : "깨", "type" : "VV", "scode" : "01", "weight" : 5.17861, "position" : 49, "begin" : 11, "end" : 11},
+		{"id" : 10, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 12, "end" : 12},
+		{"id" : 11, "text" : "이송", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 53, "begin" : 13, "end" : 13},
+		{"id" : 12, "text" : "…", "type" : "SE", "scode" : "00", "weight" : 1, "position" : 59, "begin" : 14, "end" : 14},
+		{"id" : 13, "text" : "“", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 15, "end" : 15},
+		{"id" : 14, "text" : "곧", "type" : "MAG", "scode" : "01", "weight" : 5.4, "position" : 66, "begin" : 16, "end" : 16},
+		{"id" : 15, "text" : "정상", "type" : "NNG", "scode" : "02", "weight" : 4.2, "position" : 70, "begin" : 17, "end" : 17},
+		{"id" : 16, "text" : "생활", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 76, "begin" : 18, "end" : 18},
+		{"id" : 17, "text" : "가능", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 83, "begin" : 19, "end" : 19},
+		{"id" : 18, "text" : "”", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 89, "begin" : 20, "end" : 20}
+	],
+	"word" : [
+		{"id" : 0, "text" : "처방받은", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "신경안정제로", "type" : "", "begin" : 3, "end" : 6},
+		{"id" : 2, "text" : "추정", "type" : "", "begin" : 7, "end" : 7},
+		{"id" : 3, "text" : "/", "type" : "", "begin" : 8, "end" : 8},
+		{"id" : 4, "text" : "잠", "type" : "", "begin" : 9, "end" : 9},
+		{"id" : 5, "text" : "못", "type" : "", "begin" : 10, "end" : 10},
+		{"id" : 6, "text" : "깨", "type" : "", "begin" : 11, "end" : 12},
+		{"id" : 7, "text" : "이송…", "type" : "", "begin" : 13, "end" : 14},
+		{"id" : 8, "text" : "“곧", "type" : "", "begin" : 15, "end" : 16},
+		{"id" : 9, "text" : "정상생활", "type" : "", "begin" : 17, "end" : 18},
+		{"id" : 10, "text" : "가능”", "type" : "", "begin" : 19, "end" : 20}
+	],
+	"NE" : [
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "처방받은", "head" : 1, "label" : "VP_MOD", "mod" : [], "weight" : 0.730031 },
+		{"id" : 1, "text" : "신경안정제로", "head" : 10, "label" : "NP_AJT", "mod" : [0], "weight" : 0.615436 },
+		{"id" : 2, "text" : "추정", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.662887 },
+		{"id" : 3, "text" : "/", "head" : 6, "label" : "X", "mod" : [2], "weight" : 0.137904 },
+		{"id" : 4, "text" : "잠", "head" : 6, "label" : "NP_OBJ", "mod" : [], "weight" : 0.667232 },
+		{"id" : 5, "text" : "못", "head" : 6, "label" : "AP", "mod" : [], "weight" : 0.719592 },
+		{"id" : 6, "text" : "깨", "head" : 7, "label" : "VP", "mod" : [3, 4, 5], "weight" : 0.231411 },
+		{"id" : 7, "text" : "이송…", "head" : 10, "label" : "NP", "mod" : [6], "weight" : 0.676678 },
+		{"id" : 8, "text" : "“곧", "head" : 10, "label" : "AP", "mod" : [], "weight" : 0.829707 },
+		{"id" : 9, "text" : "정상생활", "head" : 10, "label" : "NP", "mod" : [], "weight" : 0.747353 },
+		{"id" : 10, "text" : "가능”", "head" : -1, "label" : "NP", "mod" : [1, 7, 8, 9], "weight" : 0.000855417 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_AJT", "text" : "처방받은 신경안정제로", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "X", "text" : "추정 /", "begin" : 2, "end" : 3, "key_begin" : 2, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_OBJ", "text" : "잠", "begin" : 4, "end" : 4, "key_begin" : 4, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "AP", "text" : "못", "begin" : 5, "end" : 5, "key_begin" : 5, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "VP", "text" : "P#1@X/ P#2@OBJ잠 P#3@AP못 깨", "begin" : 2, "end" : 6, "key_begin" : 6, "head_phrase" : 5, "sub_phrase" : [1, 2, 3], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "NP", "text" : "P#0@AJT로 P#4@VP어 이송… “곧 정상생활 가능”", "begin" : 0, "end" : 10, "key_begin" : 7, "head_phrase" : -1, "sub_phrase" : [0, 4], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "처방", "sense" : 1, "word_id" : 0, "weight" : 0.380812,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 1, "text" : "신경안정제로", "weight" : 0.380812 }
+			] },
+		{"verb" : "깨", "sense" : 1, "word_id" : 6, "weight" : 0.114478,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 4, "text" : "잠", "weight" : 0.106908 },
+				{"type" : "ARGM-NEG", "word_id" : 5, "text" : "못", "weight" : 0.122047 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "의무경찰 복무 중 과거 대마초를 피운 혐의가 드러나 재판에 넘겨진 인기그룹 빅뱅 멤버 탑(30·본명 최승현·사진)이 6일 약물 과다복용으로 병원에 입원했다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "의무", "type" : "NNG", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "경찰", "type" : "NNG", "position" : 6, "weight" : 0.9 },
+		{"id" : 2, "lemma" : "복무", "type" : "NNG", "position" : 13, "weight" : 0.9 },
+		{"id" : 3, "lemma" : "중", "type" : "NNB", "position" : 20, "weight" : 0.013531 },
+		{"id" : 4, "lemma" : "과거", "type" : "NNG", "position" : 24, "weight" : 0.9 },
+		{"id" : 5, "lemma" : "대마", "type" : "NNG", "position" : 31, "weight" : 0.177908 },
+		{"id" : 6, "lemma" : "초", "type" : "NNG", "position" : 37, "weight" : 0.0244202 },
+		{"id" : 7, "lemma" : "를", "type" : "JKO", "position" : 40, "weight" : 0.137686 },
+		{"id" : 8, "lemma" : "피우", "type" : "VV", "position" : 44, "weight" : 0.775582 },
+		{"id" : 9, "lemma" : "ㄴ", "type" : "ETM", "position" : 47, "weight" : 0.304215 },
+		{"id" : 10, "lemma" : "혐의", "type" : "NNG", "position" : 51, "weight" : 0.9 },
+		{"id" : 11, "lemma" : "가", "type" : "JKS", "position" : 57, "weight" : 0.066324 },
+		{"id" : 12, "lemma" : "드러나", "type" : "VV", "position" : 61, "weight" : 0.9 },
+		{"id" : 13, "lemma" : "아", "type" : "EC", "position" : 67, "weight" : 0.398809 },
+		{"id" : 14, "lemma" : "재판", "type" : "NNG", "position" : 71, "weight" : 0.9 },
+		{"id" : 15, "lemma" : "에", "type" : "JKB", "position" : 77, "weight" : 0.153364 },
+		{"id" : 16, "lemma" : "넘기", "type" : "VV", "position" : 81, "weight" : 0.9 },
+		{"id" : 17, "lemma" : "어", "type" : "EC", "position" : 84, "weight" : 0.41831 },
+		{"id" : 18, "lemma" : "지", "type" : "VX", "position" : 84, "weight" : 0.0539764 },
+		{"id" : 19, "lemma" : "ㄴ", "type" : "ETM", "position" : 84, "weight" : 0.302612 },
+		{"id" : 20, "lemma" : "인기", "type" : "NNG", "position" : 91, "weight" : 0.9 },
+		{"id" : 21, "lemma" : "그룹", "type" : "NNG", "position" : 97, "weight" : 0.184738 },
+		{"id" : 22, "lemma" : "빅뱅", "type" : "NNG", "position" : 104, "weight" : 0.9 },
+		{"id" : 23, "lemma" : "멤버", "type" : "NNG", "position" : 111, "weight" : 0.9 },
+		{"id" : 24, "lemma" : "탑", "type" : "NNG", "position" : 118, "weight" : 0.9 },
+		{"id" : 25, "lemma" : "(", "type" : "SS", "position" : 121, "weight" : 1 },
+		{"id" : 26, "lemma" : "30", "type" : "SN", "position" : 122, "weight" : 1 },
+		{"id" : 27, "lemma" : "·", "type" : "SP", "position" : 124, "weight" : 1 },
+		{"id" : 28, "lemma" : "본명", "type" : "NNG", "position" : 126, "weight" : 0.9 },
+		{"id" : 29, "lemma" : "최승현", "type" : "NNP", "position" : 133, "weight" : 0.6 },
+		{"id" : 30, "lemma" : "·", "type" : "SP", "position" : 142, "weight" : 1 },
+		{"id" : 31, "lemma" : "사진", "type" : "NNG", "position" : 144, "weight" : 0.531324 },
+		{"id" : 32, "lemma" : ")", "type" : "SS", "position" : 150, "weight" : 1 },
+		{"id" : 33, "lemma" : "이", "type" : "JKS", "position" : 151, "weight" : 0.00786134 },
+		{"id" : 34, "lemma" : "6", "type" : "SN", "position" : 155, "weight" : 1 },
+		{"id" : 35, "lemma" : "일", "type" : "NNB", "position" : 156, "weight" : 0.126777 },
+		{"id" : 36, "lemma" : "약물", "type" : "NNG", "position" : 160, "weight" : 0.9 },
+		{"id" : 37, "lemma" : "과다", "type" : "NNG", "position" : 167, "weight" : 0.9 },
+		{"id" : 38, "lemma" : "복용", "type" : "NNG", "position" : 173, "weight" : 0.9 },
+		{"id" : 39, "lemma" : "으로", "type" : "JKB", "position" : 179, "weight" : 0.153406 },
+		{"id" : 40, "lemma" : "병원", "type" : "NNG", "position" : 186, "weight" : 0.9 },
+		{"id" : 41, "lemma" : "에", "type" : "JKB", "position" : 192, "weight" : 0.153364 },
+		{"id" : 42, "lemma" : "입원", "type" : "NNG", "position" : 196, "weight" : 0.9 },
+		{"id" : 43, "lemma" : "하", "type" : "XSV", "position" : 202, "weight" : 0.0001 },
+		{"id" : 44, "lemma" : "었", "type" : "EP", "position" : 202, "weight" : 0.9 },
+		{"id" : 45, "lemma" : "다", "type" : "EF", "position" : 205, "weight" : 0.640954 },
+		{"id" : 46, "lemma" : ".", "type" : "SF", "position" : 208, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "의무경찰/NNG", "target" : "의무경찰", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "복무/NNG", "target" : "복무", "word_id" : 1, "m_begin" : 2, "m_end" : 2},
+		{"id" : 2, "result" : "중/NNB", "target" : "중", "word_id" : 2, "m_begin" : 3, "m_end" : 3},
+		{"id" : 3, "result" : "과거/NNG", "target" : "과거", "word_id" : 3, "m_begin" : 4, "m_end" : 4},
+		{"id" : 4, "result" : "대마초/NNG+를/JKO", "target" : "대마초를", "word_id" : 4, "m_begin" : 5, "m_end" : 7},
+		{"id" : 5, "result" : "피우/VV+ㄴ/ETM", "target" : "피운", "word_id" : 5, "m_begin" : 8, "m_end" : 9},
+		{"id" : 6, "result" : "혐의/NNG+가/JKS", "target" : "혐의가", "word_id" : 6, "m_begin" : 10, "m_end" : 11},
+		{"id" : 7, "result" : "드러나/VV+어/EC", "target" : "드러나", "word_id" : 7, "m_begin" : 12, "m_end" : 13},
+		{"id" : 8, "result" : "재판/NNG+에/JKB", "target" : "재판에", "word_id" : 8, "m_begin" : 14, "m_end" : 15},
+		{"id" : 9, "result" : "넘기/VV+어/EC+지/VX+ㄴ/ETM", "target" : "넘겨진", "word_id" : 9, "m_begin" : 16, "m_end" : 19},
+		{"id" : 10, "result" : "인기그룹/NNG", "target" : "인기그룹", "word_id" : 10, "m_begin" : 20, "m_end" : 21},
+		{"id" : 11, "result" : "빅뱅/NNG", "target" : "빅뱅", "word_id" : 11, "m_begin" : 22, "m_end" : 22},
+		{"id" : 12, "result" : "멤버/NNG", "target" : "멤버", "word_id" : 12, "m_begin" : 23, "m_end" : 23},
+		{"id" : 13, "result" : "탑/NNG+(/SS+30/SN+·/SP+본명/NNG", "target" : "탑(30·본명", "word_id" : 13, "m_begin" : 24, "m_end" : 28},
+		{"id" : 14, "result" : "최승현/NNG+·/SP+사진/NNG+)/SS+이/JKS", "target" : "최승현·사진)이", "word_id" : 14, "m_begin" : 29, "m_end" : 33},
+		{"id" : 15, "result" : "6/SN+일/NNB", "target" : "6일", "word_id" : 15, "m_begin" : 34, "m_end" : 35},
+		{"id" : 16, "result" : "약물/NNG", "target" : "약물", "word_id" : 16, "m_begin" : 36, "m_end" : 36},
+		{"id" : 17, "result" : "과다복용/NNG+으로/JKB", "target" : "과다복용으로", "word_id" : 17, "m_begin" : 37, "m_end" : 39},
+		{"id" : 18, "result" : "병원/NNG+에/JKB", "target" : "병원에", "word_id" : 18, "m_begin" : 40, "m_end" : 41},
+		{"id" : 19, "result" : "입원하/VV+었/EP+다/EF+./SF", "target" : "입원했다.", "word_id" : 19, "m_begin" : 42, "m_end" : 46}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "의무경찰", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "복무", "type" : "NNG", "scode" : "02", "weight" : 3.2, "position" : 13, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "중", "type" : "NNB", "scode" : "04", "weight" : 8.6, "position" : 20, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "과거", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 24, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "대마초", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 31, "begin" : 5, "end" : 6},
+		{"id" : 5, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 40, "begin" : 7, "end" : 7},
+		{"id" : 6, "text" : "피우", "type" : "VV", "scode" : "01", "weight" : 2, "position" : 44, "begin" : 8, "end" : 8},
+		{"id" : 7, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 47, "begin" : 9, "end" : 9},
+		{"id" : 8, "text" : "혐의", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 51, "begin" : 10, "end" : 10},
+		{"id" : 9, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 57, "begin" : 11, "end" : 11},
+		{"id" : 10, "text" : "드러나", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 61, "begin" : 12, "end" : 12},
+		{"id" : 11, "text" : "아", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 13, "end" : 13},
+		{"id" : 12, "text" : "재판", "type" : "NNG", "scode" : "06", "weight" : 3.2, "position" : 71, "begin" : 14, "end" : 14},
+		{"id" : 13, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 15, "end" : 15},
+		{"id" : 14, "text" : "넘기", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 81, "begin" : 16, "end" : 16},
+		{"id" : 15, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 84, "begin" : 17, "end" : 17},
+		{"id" : 16, "text" : "지", "type" : "VX", "scode" : "04", "weight" : 12, "position" : 84, "begin" : 18, "end" : 18},
+		{"id" : 17, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 84, "begin" : 19, "end" : 19},
+		{"id" : 18, "text" : "인기", "type" : "NNG", "scode" : "01", "weight" : 3, "position" : 91, "begin" : 20, "end" : 20},
+		{"id" : 19, "text" : "그룹", "type" : "NNG", "scode" : "01", "weight" : 3, "position" : 97, "begin" : 21, "end" : 21},
+		{"id" : 20, "text" : "빅뱅", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 104, "begin" : 22, "end" : 22},
+		{"id" : 21, "text" : "멤버", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 111, "begin" : 23, "end" : 23},
+		{"id" : 22, "text" : "탑", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 118, "begin" : 24, "end" : 24},
+		{"id" : 23, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 121, "begin" : 25, "end" : 25},
+		{"id" : 24, "text" : "30", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 122, "begin" : 26, "end" : 26},
+		{"id" : 25, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 124, "begin" : 27, "end" : 27},
+		{"id" : 26, "text" : "본명", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 126, "begin" : 28, "end" : 28},
+		{"id" : 27, "text" : "최승현", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 133, "begin" : 29, "end" : 29},
+		{"id" : 28, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 142, "begin" : 30, "end" : 30},
+		{"id" : 29, "text" : "사진", "type" : "NNG", "scode" : "07", "weight" : 1, "position" : 144, "begin" : 31, "end" : 31},
+		{"id" : 30, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 150, "begin" : 32, "end" : 32},
+		{"id" : 31, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 151, "begin" : 33, "end" : 33},
+		{"id" : 32, "text" : "6", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 155, "begin" : 34, "end" : 34},
+		{"id" : 33, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 1, "position" : 156, "begin" : 35, "end" : 35},
+		{"id" : 34, "text" : "약물", "type" : "NNG", "scode" : "01", "weight" : 1.88308, "position" : 160, "begin" : 36, "end" : 36},
+		{"id" : 35, "text" : "과다", "type" : "NNG", "scode" : "01", "weight" : 2, "position" : 167, "begin" : 37, "end" : 37},
+		{"id" : 36, "text" : "복용", "type" : "NNG", "scode" : "01", "weight" : 3.88308, "position" : 173, "begin" : 38, "end" : 38},
+		{"id" : 37, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 179, "begin" : 39, "end" : 39},
+		{"id" : 38, "text" : "병원", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 186, "begin" : 40, "end" : 40},
+		{"id" : 39, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 192, "begin" : 41, "end" : 41},
+		{"id" : 40, "text" : "입원하", "type" : "VV", "scode" : "01", "weight" : 2.2, "position" : 196, "begin" : 42, "end" : 43},
+		{"id" : 41, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 202, "begin" : 44, "end" : 44},
+		{"id" : 42, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 205, "begin" : 45, "end" : 45},
+		{"id" : 43, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 208, "begin" : 46, "end" : 46}
+	],
+	"word" : [
+		{"id" : 0, "text" : "의무경찰", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "복무", "type" : "", "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "중", "type" : "", "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "과거", "type" : "", "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "대마초를", "type" : "", "begin" : 5, "end" : 7},
+		{"id" : 5, "text" : "피운", "type" : "", "begin" : 8, "end" : 9},
+		{"id" : 6, "text" : "혐의가", "type" : "", "begin" : 10, "end" : 11},
+		{"id" : 7, "text" : "드러나", "type" : "", "begin" : 12, "end" : 13},
+		{"id" : 8, "text" : "재판에", "type" : "", "begin" : 14, "end" : 15},
+		{"id" : 9, "text" : "넘겨진", "type" : "", "begin" : 16, "end" : 19},
+		{"id" : 10, "text" : "인기그룹", "type" : "", "begin" : 20, "end" : 21},
+		{"id" : 11, "text" : "빅뱅", "type" : "", "begin" : 22, "end" : 22},
+		{"id" : 12, "text" : "멤버", "type" : "", "begin" : 23, "end" : 23},
+		{"id" : 13, "text" : "탑(30·본명", "type" : "", "begin" : 24, "end" : 28},
+		{"id" : 14, "text" : "최승현·사진)이", "type" : "", "begin" : 29, "end" : 33},
+		{"id" : 15, "text" : "6일", "type" : "", "begin" : 34, "end" : 35},
+		{"id" : 16, "text" : "약물", "type" : "", "begin" : 36, "end" : 36},
+		{"id" : 17, "text" : "과다복용으로", "type" : "", "begin" : 37, "end" : 39},
+		{"id" : 18, "text" : "병원에", "type" : "", "begin" : 40, "end" : 41},
+		{"id" : 19, "text" : "입원했다.", "type" : "", "begin" : 42, "end" : 46}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "의무경찰", "type" : "CV_OCCUPATION", "begin" : 0, "end" : 1, "weight" : 0.429494, "common_noun" : 0},
+		{"id" : 1, "text" : "대마초", "type" : "PT_GRASS", "begin" : 5, "end" : 6, "weight" : 0.398671, "common_noun" : 0},
+		{"id" : 2, "text" : "빅뱅", "type" : "PS_NAME", "begin" : 22, "end" : 22, "weight" : 0.616777, "common_noun" : 0},
+		{"id" : 3, "text" : "멤버", "type" : "CV_POSITION", "begin" : 23, "end" : 23, "weight" : 0.4474, "common_noun" : 0},
+		{"id" : 4, "text" : "탑", "type" : "PS_NAME", "begin" : 24, "end" : 24, "weight" : 0.29966, "common_noun" : 0},
+		{"id" : 5, "text" : "30", "type" : "QT_AGE", "begin" : 26, "end" : 26, "weight" : 0.308893, "common_noun" : 0},
+		{"id" : 6, "text" : "최승현", "type" : "PS_NAME", "begin" : 29, "end" : 29, "weight" : 0.715011, "common_noun" : 0},
+		{"id" : 7, "text" : "6일", "type" : "DT_DAY", "begin" : 34, "end" : 35, "weight" : 0.843043, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "의무경찰", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.780487 },
+		{"id" : 1, "text" : "복무", "head" : 2, "label" : "NP", "mod" : [0], "weight" : 0.788208 },
+		{"id" : 2, "text" : "중", "head" : 7, "label" : "NP_AJT", "mod" : [1], "weight" : 0.381873 },
+		{"id" : 3, "text" : "과거", "head" : 4, "label" : "NP", "mod" : [], "weight" : 0.334966 },
+		{"id" : 4, "text" : "대마초를", "head" : 5, "label" : "NP_OBJ", "mod" : [3], "weight" : 0.763431 },
+		{"id" : 5, "text" : "피운", "head" : 6, "label" : "VP_MOD", "mod" : [4], "weight" : 0.667125 },
+		{"id" : 6, "text" : "혐의가", "head" : 7, "label" : "NP_SBJ", "mod" : [5], "weight" : 0.839516 },
+		{"id" : 7, "text" : "드러나", "head" : 9, "label" : "VP", "mod" : [2, 6], "weight" : 0.427771 },
+		{"id" : 8, "text" : "재판에", "head" : 9, "label" : "NP_AJT", "mod" : [], "weight" : 0.645942 },
+		{"id" : 9, "text" : "넘겨진", "head" : 14, "label" : "VP_MOD", "mod" : [7, 8], "weight" : 0.854042 },
+		{"id" : 10, "text" : "인기그룹", "head" : 11, "label" : "NP", "mod" : [], "weight" : 0.0841459 },
+		{"id" : 11, "text" : "빅뱅", "head" : 12, "label" : "NP", "mod" : [10], "weight" : 0.659939 },
+		{"id" : 12, "text" : "멤버", "head" : 13, "label" : "NP", "mod" : [11], "weight" : 0.382573 },
+		{"id" : 13, "text" : "탑(30·본명", "head" : 14, "label" : "NP", "mod" : [12], "weight" : 0.662654 },
+		{"id" : 14, "text" : "최승현·사진)이", "head" : 19, "label" : "NP_SBJ", "mod" : [9, 13], "weight" : 0.866062 },
+		{"id" : 15, "text" : "6일", "head" : 19, "label" : "NP_AJT", "mod" : [], "weight" : 0.774606 },
+		{"id" : 16, "text" : "약물", "head" : 17, "label" : "NP", "mod" : [], "weight" : 0.763928 },
+		{"id" : 17, "text" : "과다복용으로", "head" : 19, "label" : "NP_AJT", "mod" : [16], "weight" : 0.874077 },
+		{"id" : 18, "text" : "병원에", "head" : 19, "label" : "NP_AJT", "mod" : [], "weight" : 0.753025 },
+		{"id" : 19, "text" : "입원했다.", "head" : -1, "label" : "VP", "mod" : [14, 15, 17, 18], "weight" : 3.08197e-05 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_AJT", "text" : "의무경찰 복무 중", "begin" : 0, "end" : 2, "key_begin" : 0, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_OBJ", "text" : "과거 대마초를", "begin" : 3, "end" : 4, "key_begin" : 3, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "VP_MOD", "text" : "P#1@OBJ를 피운", "begin" : 3, "end" : 5, "key_begin" : 5, "head_phrase" : 3, "sub_phrase" : [1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_SBJ", "text" : "P#2@MODㄴ 혐의가", "begin" : 3, "end" : 6, "key_begin" : 6, "head_phrase" : 4, "sub_phrase" : [2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "S", "text" : "P#0@AJT중 P#3@SBJ가 드러나", "begin" : 0, "end" : 7, "key_begin" : 7, "head_phrase" : 6, "sub_phrase" : [0, 3], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "NP_AJT", "text" : "재판에", "begin" : 8, "end" : 8, "key_begin" : 8, "head_phrase" : 6, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "S_MOD", "text" : "S#4@S아 P#5@AJT에 넘겨진", "begin" : 0, "end" : 9, "key_begin" : 9, "head_phrase" : 7, "sub_phrase" : [4, 5], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "NP_SBJ", "text" : "S#6@MODㄴ 인기그룹 빅뱅 멤버 탑(30·본명 최승현·사진)이", "begin" : 0, "end" : 14, "key_begin" : 10, "head_phrase" : 11, "sub_phrase" : [6], "weight" : 0, "element" : [] },
+		{"id" : 8, "label" : "NP_AJT", "text" : "6일", "begin" : 15, "end" : 15, "key_begin" : 15, "head_phrase" : 11, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 9, "label" : "NP_AJT", "text" : "약물 과다복용으로", "begin" : 16, "end" : 17, "key_begin" : 16, "head_phrase" : 11, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 10, "label" : "NP_AJT", "text" : "병원에", "begin" : 18, "end" : 18, "key_begin" : 18, "head_phrase" : 11, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 11, "label" : "S", "text" : "P#7@SBJ이 P#8@AJT일 P#9@AJT으로 P#10@AJT에 입원했다.", "begin" : 0, "end" : 19, "key_begin" : 19, "head_phrase" : -1, "sub_phrase" : [7, 8, 9, 10], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "피우", "sense" : 1, "word_id" : 5, "weight" : 0.319614,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 4, "text" : "대마초를", "weight" : 0.471911 },
+				{"type" : "ARG2", "word_id" : 6, "text" : "혐의가", "weight" : 0.167317 }
+			] },
+		{"verb" : "드러나", "sense" : 1, "word_id" : 7, "weight" : 0.22388,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 6, "text" : "혐의가", "weight" : 0.22388 }
+			] },
+		{"verb" : "넘기", "sense" : 1, "word_id" : 9, "weight" : 0.258238,
+			"argument" : [
+				{"type" : "ARGM-CAU", "word_id" : 7, "text" : "드러나", "weight" : 0.323282 },
+				{"type" : "ARG2", "word_id" : 8, "text" : "재판에", "weight" : 0.168383 },
+				{"type" : "ARG1", "word_id" : 14, "text" : "최승현·사진)이", "weight" : 0.283048 }
+			] },
+		{"verb" : "입원", "sense" : 1, "word_id" : 19, "weight" : 0.263803,
+			"argument" : [
+				{"type" : "ARGM-CAU", "word_id" : 7, "text" : "드러나", "weight" : 0.354671 },
+				{"type" : "ARG1", "word_id" : 14, "text" : "최승현·사진)이", "weight" : 0.176698 },
+				{"type" : "ARGM-TMP", "word_id" : 15, "text" : "6일", "weight" : 0.382828 },
+				{"type" : "ARGM-PRD", "word_id" : 17, "text" : "과다복용으로", "weight" : 0.0761874 },
+				{"type" : "ARG2", "word_id" : 18, "text" : "병원에", "weight" : 0.328633 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "경찰에 따르면 이날 오전 서울 양천구 신월동 서울경찰청 4기동단 부대 안에서 잠을 자던 최씨가 잠에서 깨지 못해 낮 12시쯤 인근 병원으로 옮겨졌다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "경찰", "type" : "NNG", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "에", "type" : "JKB", "position" : 6, "weight" : 0.153364 },
+		{"id" : 2, "lemma" : "따르", "type" : "VV", "position" : 10, "weight" : 0.9 },
+		{"id" : 3, "lemma" : "면", "type" : "EC", "position" : 16, "weight" : 0.399365 },
+		{"id" : 4, "lemma" : "이날", "type" : "NNG", "position" : 20, "weight" : 0.9 },
+		{"id" : 5, "lemma" : "오전", "type" : "NNG", "position" : 27, "weight" : 0.184658 },
+		{"id" : 6, "lemma" : "서울", "type" : "NNP", "position" : 34, "weight" : 0.00704221 },
+		{"id" : 7, "lemma" : "양천구", "type" : "NNP", "position" : 41, "weight" : 0.9 },
+		{"id" : 8, "lemma" : "신월동", "type" : "NNP", "position" : 51, "weight" : 0.75 },
+		{"id" : 9, "lemma" : "서울", "type" : "NNP", "position" : 61, "weight" : 0.0802692 },
+		{"id" : 10, "lemma" : "경찰", "type" : "NNG", "position" : 67, "weight" : 0.9 },
+		{"id" : 11, "lemma" : "청", "type" : "XSN", "position" : 73, "weight" : 0.0130066 },
+		{"id" : 12, "lemma" : "4", "type" : "SN", "position" : 77, "weight" : 1 },
+		{"id" : 13, "lemma" : "기동", "type" : "NNG", "position" : 78, "weight" : 0.9 },
+		{"id" : 14, "lemma" : "단", "type" : "XSN", "position" : 84, "weight" : 0.00809175 },
+		{"id" : 15, "lemma" : "부대", "type" : "NNG", "position" : 88, "weight" : 0.13121 },
+		{"id" : 16, "lemma" : "안", "type" : "NNG", "position" : 95, "weight" : 0.0903732 },
+		{"id" : 17, "lemma" : "에서", "type" : "JKB", "position" : 98, "weight" : 0.153407 },
+		{"id" : 18, "lemma" : "잠", "type" : "NNG", "position" : 105, "weight" : 0.207875 },
+		{"id" : 19, "lemma" : "을", "type" : "JKO", "position" : 108, "weight" : 0.129611 },
+		{"id" : 20, "lemma" : "자", "type" : "VV", "position" : 112, "weight" : 0.0717575 },
+		{"id" : 21, "lemma" : "던", "type" : "ETM", "position" : 115, "weight" : 0.317449 },
+		{"id" : 22, "lemma" : "최", "type" : "NNP", "position" : 119, "weight" : 0.0230911 },
+		{"id" : 23, "lemma" : "씨", "type" : "NNB", "position" : 122, "weight" : 0.0450504 },
+		{"id" : 24, "lemma" : "가", "type" : "JKS", "position" : 125, "weight" : 0.0691641 },
+		{"id" : 25, "lemma" : "잠", "type" : "NNG", "position" : 129, "weight" : 0.209071 },
+		{"id" : 26, "lemma" : "에서", "type" : "JKB", "position" : 132, "weight" : 0.153407 },
+		{"id" : 27, "lemma" : "깨", "type" : "VV", "position" : 139, "weight" : 0.414656 },
+		{"id" : 28, "lemma" : "지", "type" : "EC", "position" : 142, "weight" : 0.301842 },
+		{"id" : 29, "lemma" : "못하", "type" : "VX", "position" : 146, "weight" : 0.225592 },
+		{"id" : 30, "lemma" : "어", "type" : "EC", "position" : 149, "weight" : 0.257443 },
+		{"id" : 31, "lemma" : "낮", "type" : "NNG", "position" : 153, "weight" : 0.0568283 },
+		{"id" : 32, "lemma" : "12", "type" : "SN", "position" : 157, "weight" : 1 },
+		{"id" : 33, "lemma" : "시", "type" : "NNB", "position" : 159, "weight" : 0.084652 },
+		{"id" : 34, "lemma" : "쯤", "type" : "XSN", "position" : 162, "weight" : 0.0225302 },
+		{"id" : 35, "lemma" : "인근", "type" : "NNG", "position" : 166, "weight" : 0.9 },
+		{"id" : 36, "lemma" : "병원", "type" : "NNG", "position" : 173, "weight" : 0.9 },
+		{"id" : 37, "lemma" : "으로", "type" : "JKB", "position" : 179, "weight" : 0.153406 },
+		{"id" : 38, "lemma" : "옮기", "type" : "VV", "position" : 186, "weight" : 0.9 },
+		{"id" : 39, "lemma" : "어", "type" : "EC", "position" : 189, "weight" : 0.41831 },
+		{"id" : 40, "lemma" : "지", "type" : "VX", "position" : 189, "weight" : 0.0539764 },
+		{"id" : 41, "lemma" : "었", "type" : "EP", "position" : 189, "weight" : 0.9 },
+		{"id" : 42, "lemma" : "다", "type" : "EF", "position" : 195, "weight" : 0.640954 },
+		{"id" : 43, "lemma" : ".", "type" : "SF", "position" : 198, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "경찰/NNG+에/JKB", "target" : "경찰에", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "따르/VV+면/EC", "target" : "따르면", "word_id" : 1, "m_begin" : 2, "m_end" : 3},
+		{"id" : 2, "result" : "이날/NNG", "target" : "이날", "word_id" : 2, "m_begin" : 4, "m_end" : 4},
+		{"id" : 3, "result" : "오전/NNG", "target" : "오전", "word_id" : 3, "m_begin" : 5, "m_end" : 5},
+		{"id" : 4, "result" : "서울/NNG", "target" : "서울", "word_id" : 4, "m_begin" : 6, "m_end" : 6},
+		{"id" : 5, "result" : "양천구/NNG", "target" : "양천구", "word_id" : 5, "m_begin" : 7, "m_end" : 7},
+		{"id" : 6, "result" : "신월동/NNG", "target" : "신월동", "word_id" : 6, "m_begin" : 8, "m_end" : 8},
+		{"id" : 7, "result" : "서울경찰청/NNG", "target" : "서울경찰청", "word_id" : 7, "m_begin" : 9, "m_end" : 11},
+		{"id" : 8, "result" : "4/SN+기동단/NNG", "target" : "4기동단", "word_id" : 8, "m_begin" : 12, "m_end" : 14},
+		{"id" : 9, "result" : "부대/NNG", "target" : "부대", "word_id" : 9, "m_begin" : 15, "m_end" : 15},
+		{"id" : 10, "result" : "안/NNG+에서/JKB", "target" : "안에서", "word_id" : 10, "m_begin" : 16, "m_end" : 17},
+		{"id" : 11, "result" : "잠/NNG+을/JKO", "target" : "잠을", "word_id" : 11, "m_begin" : 18, "m_end" : 19},
+		{"id" : 12, "result" : "자/VV+던/ETM", "target" : "자던", "word_id" : 12, "m_begin" : 20, "m_end" : 21},
+		{"id" : 13, "result" : "최/NNG+씨/NNB+가/JKS", "target" : "최씨가", "word_id" : 13, "m_begin" : 22, "m_end" : 24},
+		{"id" : 14, "result" : "잠/NNG+에서/JKB", "target" : "잠에서", "word_id" : 14, "m_begin" : 25, "m_end" : 26},
+		{"id" : 15, "result" : "깨/VV+지/EC", "target" : "깨지", "word_id" : 15, "m_begin" : 27, "m_end" : 28},
+		{"id" : 16, "result" : "못하/VX+어/EC", "target" : "못해", "word_id" : 16, "m_begin" : 29, "m_end" : 30},
+		{"id" : 17, "result" : "낮/NNG", "target" : "낮", "word_id" : 17, "m_begin" : 31, "m_end" : 31},
+		{"id" : 18, "result" : "12/SN+시쯤/NNB", "target" : "12시쯤", "word_id" : 18, "m_begin" : 32, "m_end" : 34},
+		{"id" : 19, "result" : "인근/NNG", "target" : "인근", "word_id" : 19, "m_begin" : 35, "m_end" : 35},
+		{"id" : 20, "result" : "병원/NNG+으로/JKB", "target" : "병원으로", "word_id" : 20, "m_begin" : 36, "m_end" : 37},
+		{"id" : 21, "result" : "옮기/VV+어/EC+지/VX+었/EP+다/EF+./SF", "target" : "옮겨졌다.", "word_id" : 21, "m_begin" : 38, "m_end" : 43}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "경찰", "type" : "NNG", "scode" : "04", "weight" : 2, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "따르", "type" : "VV", "scode" : "01", "weight" : 4.2, "position" : 10, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "면", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 16, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "이날", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "오전", "type" : "NNG", "scode" : "02", "weight" : 4.7, "position" : 27, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "서울", "type" : "NNP", "scode" : "01", "weight" : 5, "position" : 34, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "양천구", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 41, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "신월동", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 51, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "서울", "type" : "NNP", "scode" : "01", "weight" : 4, "position" : 61, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "경찰청", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 67, "begin" : 10, "end" : 11},
+		{"id" : 11, "text" : "4", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : "기동", "type" : "NNG", "scode" : "03", "weight" : 6.7, "position" : 78, "begin" : 13, "end" : 13},
+		{"id" : 13, "text" : "단", "type" : "XSN", "scode" : "20", "weight" : 4.5, "position" : 84, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "부대", "type" : "NNG", "scode" : "08", "weight" : 8.1, "position" : 88, "begin" : 15, "end" : 15},
+		{"id" : 15, "text" : "안", "type" : "NNG", "scode" : "01", "weight" : 7.6, "position" : 95, "begin" : 16, "end" : 16},
+		{"id" : 16, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 98, "begin" : 17, "end" : 17},
+		{"id" : 17, "text" : "잠", "type" : "NNG", "scode" : "01", "weight" : 4.4, "position" : 105, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 108, "begin" : 19, "end" : 19},
+		{"id" : 19, "text" : "자", "type" : "VV", "scode" : "01", "weight" : 8.1, "position" : 112, "begin" : 20, "end" : 20},
+		{"id" : 20, "text" : "던", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 21, "end" : 21},
+		{"id" : 21, "text" : "최", "type" : "NNP", "scode" : "02", "weight" : 4.2, "position" : 119, "begin" : 22, "end" : 22},
+		{"id" : 22, "text" : "씨", "type" : "NNB", "scode" : "07", "weight" : 8.6, "position" : 122, "begin" : 23, "end" : 23},
+		{"id" : 23, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 125, "begin" : 24, "end" : 24},
+		{"id" : 24, "text" : "잠", "type" : "NNG", "scode" : "01", "weight" : 5.9, "position" : 129, "begin" : 25, "end" : 25},
+		{"id" : 25, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 132, "begin" : 26, "end" : 26},
+		{"id" : 26, "text" : "깨", "type" : "VV", "scode" : "02", "weight" : 3.31182, "position" : 139, "begin" : 27, "end" : 27},
+		{"id" : 27, "text" : "지", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 142, "begin" : 28, "end" : 28},
+		{"id" : 28, "text" : "못하", "type" : "VX", "scode" : "00", "weight" : 0, "position" : 146, "begin" : 29, "end" : 29},
+		{"id" : 29, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 149, "begin" : 30, "end" : 30},
+		{"id" : 30, "text" : "낮", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 153, "begin" : 31, "end" : 31},
+		{"id" : 31, "text" : "12", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 157, "begin" : 32, "end" : 32},
+		{"id" : 32, "text" : "시", "type" : "NNB", "scode" : "10", "weight" : 5.4, "position" : 159, "begin" : 33, "end" : 33},
+		{"id" : 33, "text" : "쯤", "type" : "XSN", "scode" : "02", "weight" : 2, "position" : 162, "begin" : 34, "end" : 34},
+		{"id" : 34, "text" : "인근", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 166, "begin" : 35, "end" : 35},
+		{"id" : 35, "text" : "병원", "type" : "NNG", "scode" : "02", "weight" : 3.2, "position" : 173, "begin" : 36, "end" : 36},
+		{"id" : 36, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 179, "begin" : 37, "end" : 37},
+		{"id" : 37, "text" : "옮기", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 186, "begin" : 38, "end" : 38},
+		{"id" : 38, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 189, "begin" : 39, "end" : 39},
+		{"id" : 39, "text" : "지", "type" : "VX", "scode" : "04", "weight" : 8.8, "position" : 189, "begin" : 40, "end" : 40},
+		{"id" : 40, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 189, "begin" : 41, "end" : 41},
+		{"id" : 41, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 195, "begin" : 42, "end" : 42},
+		{"id" : 42, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 198, "begin" : 43, "end" : 43}
+	],
+	"word" : [
+		{"id" : 0, "text" : "경찰에", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "따르면", "type" : "", "begin" : 2, "end" : 3},
+		{"id" : 2, "text" : "이날", "type" : "", "begin" : 4, "end" : 4},
+		{"id" : 3, "text" : "오전", "type" : "", "begin" : 5, "end" : 5},
+		{"id" : 4, "text" : "서울", "type" : "", "begin" : 6, "end" : 6},
+		{"id" : 5, "text" : "양천구", "type" : "", "begin" : 7, "end" : 7},
+		{"id" : 6, "text" : "신월동", "type" : "", "begin" : 8, "end" : 8},
+		{"id" : 7, "text" : "서울경찰청", "type" : "", "begin" : 9, "end" : 11},
+		{"id" : 8, "text" : "4기동단", "type" : "", "begin" : 12, "end" : 14},
+		{"id" : 9, "text" : "부대", "type" : "", "begin" : 15, "end" : 15},
+		{"id" : 10, "text" : "안에서", "type" : "", "begin" : 16, "end" : 17},
+		{"id" : 11, "text" : "잠을", "type" : "", "begin" : 18, "end" : 19},
+		{"id" : 12, "text" : "자던", "type" : "", "begin" : 20, "end" : 21},
+		{"id" : 13, "text" : "최씨가", "type" : "", "begin" : 22, "end" : 24},
+		{"id" : 14, "text" : "잠에서", "type" : "", "begin" : 25, "end" : 26},
+		{"id" : 15, "text" : "깨지", "type" : "", "begin" : 27, "end" : 28},
+		{"id" : 16, "text" : "못해", "type" : "", "begin" : 29, "end" : 30},
+		{"id" : 17, "text" : "낮", "type" : "", "begin" : 31, "end" : 31},
+		{"id" : 18, "text" : "12시쯤", "type" : "", "begin" : 32, "end" : 34},
+		{"id" : 19, "text" : "인근", "type" : "", "begin" : 35, "end" : 35},
+		{"id" : 20, "text" : "병원으로", "type" : "", "begin" : 36, "end" : 37},
+		{"id" : 21, "text" : "옮겨졌다.", "type" : "", "begin" : 38, "end" : 43}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "경찰", "type" : "OGG_POLITICS", "begin" : 0, "end" : 0, "weight" : 0.299925, "common_noun" : 0},
+		{"id" : 1, "text" : "오전", "type" : "TI_DURATION", "begin" : 5, "end" : 5, "weight" : 0.616087, "common_noun" : 0},
+		{"id" : 2, "text" : "서울", "type" : "LCP_CAPITALCITY", "begin" : 6, "end" : 6, "weight" : 0.803365, "common_noun" : 0},
+		{"id" : 3, "text" : "양천구", "type" : "LCP_COUNTY", "begin" : 7, "end" : 7, "weight" : 0.657428, "common_noun" : 0},
+		{"id" : 4, "text" : "신월동", "type" : "LCP_COUNTY", "begin" : 8, "end" : 8, "weight" : 0.758104, "common_noun" : 0},
+		{"id" : 5, "text" : "서울경찰청", "type" : "OGG_POLITICS", "begin" : 9, "end" : 11, "weight" : 0.882095, "common_noun" : 0},
+		{"id" : 6, "text" : "4기동단", "type" : "QT_ORDER", "begin" : 12, "end" : 14, "weight" : 0.273506, "common_noun" : 0},
+		{"id" : 7, "text" : "최", "type" : "PS_NAME", "begin" : 22, "end" : 22, "weight" : 0.829818, "common_noun" : 0},
+		{"id" : 8, "text" : "낮 12시", "type" : "TI_HOUR", "begin" : 31, "end" : 33, "weight" : 0.464337, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "경찰에", "head" : 1, "label" : "NP_AJT", "mod" : [], "weight" : 0.786712 },
+		{"id" : 1, "text" : "따르면", "head" : 21, "label" : "VP", "mod" : [0], "weight" : 0.786499 },
+		{"id" : 2, "text" : "이날", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.594972 },
+		{"id" : 3, "text" : "오전", "head" : 21, "label" : "NP_AJT", "mod" : [2], "weight" : 0.536319 },
+		{"id" : 4, "text" : "서울", "head" : 5, "label" : "NP", "mod" : [], "weight" : 0.743535 },
+		{"id" : 5, "text" : "양천구", "head" : 6, "label" : "NP", "mod" : [4], "weight" : 0.639824 },
+		{"id" : 6, "text" : "신월동", "head" : 7, "label" : "NP", "mod" : [5], "weight" : 0.227069 },
+		{"id" : 7, "text" : "서울경찰청", "head" : 8, "label" : "NP", "mod" : [6], "weight" : 0.235804 },
+		{"id" : 8, "text" : "4기동단", "head" : 9, "label" : "NP", "mod" : [7], "weight" : 0.487632 },
+		{"id" : 9, "text" : "부대", "head" : 10, "label" : "NP", "mod" : [8], "weight" : 0.774531 },
+		{"id" : 10, "text" : "안에서", "head" : 12, "label" : "NP_AJT", "mod" : [9], "weight" : 0.724346 },
+		{"id" : 11, "text" : "잠을", "head" : 12, "label" : "NP_OBJ", "mod" : [], "weight" : 0.816087 },
+		{"id" : 12, "text" : "자던", "head" : 13, "label" : "VP_MOD", "mod" : [10, 11], "weight" : 0.731885 },
+		{"id" : 13, "text" : "최씨가", "head" : 15, "label" : "NP_SBJ", "mod" : [12], "weight" : 0.635962 },
+		{"id" : 14, "text" : "잠에서", "head" : 15, "label" : "NP_AJT", "mod" : [], "weight" : 0.847799 },
+		{"id" : 15, "text" : "깨지", "head" : 16, "label" : "VP", "mod" : [13, 14], "weight" : 0.816788 },
+		{"id" : 16, "text" : "못해", "head" : 21, "label" : "VP", "mod" : [15], "weight" : 0.820875 },
+		{"id" : 17, "text" : "낮", "head" : 18, "label" : "NP", "mod" : [], "weight" : 0.879314 },
+		{"id" : 18, "text" : "12시쯤", "head" : 21, "label" : "NP_AJT", "mod" : [17], "weight" : 0.618096 },
+		{"id" : 19, "text" : "인근", "head" : 20, "label" : "NP", "mod" : [], "weight" : 0.602376 },
+		{"id" : 20, "text" : "병원으로", "head" : 21, "label" : "NP_AJT", "mod" : [19], "weight" : 0.809383 },
+		{"id" : 21, "text" : "옮겨졌다.", "head" : -1, "label" : "VP", "mod" : [1, 3, 16, 18, 20], "weight" : 6.0345e-05 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_AJT", "text" : "경찰에", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 1, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "VP", "text" : "P#0@AJT에 따르면", "begin" : 0, "end" : 1, "key_begin" : 1, "head_phrase" : 11, "sub_phrase" : [0], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_AJT", "text" : "이날 오전", "begin" : 2, "end" : 3, "key_begin" : 2, "head_phrase" : 11, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_AJT", "text" : "서울 양천구 신월동 서울경찰청 4기동단 부대 안에서", "begin" : 4, "end" : 10, "key_begin" : 4, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_OBJ", "text" : "잠을", "begin" : 11, "end" : 11, "key_begin" : 11, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "VP_MOD", "text" : "P#3@AJT에서 P#4@OBJ을 자던", "begin" : 4, "end" : 12, "key_begin" : 12, "head_phrase" : 6, "sub_phrase" : [3, 4], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "NP_SBJ", "text" : "P#5@MOD던 최씨가", "begin" : 4, "end" : 13, "key_begin" : 13, "head_phrase" : 8, "sub_phrase" : [5], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "NP_AJT", "text" : "잠에서", "begin" : 14, "end" : 14, "key_begin" : 14, "head_phrase" : 8, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 8, "label" : "S", "text" : "P#6@SBJ가 P#7@AJT에서 깨지 못해", "begin" : 4, "end" : 16, "key_begin" : 15, "head_phrase" : 11, "sub_phrase" : [6, 7], "weight" : 0, "element" : [] },
+		{"id" : 9, "label" : "NP_AJT", "text" : "낮 12시쯤", "begin" : 17, "end" : 18, "key_begin" : 17, "head_phrase" : 11, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 10, "label" : "NP_AJT", "text" : "인근 병원으로", "begin" : 19, "end" : 20, "key_begin" : 19, "head_phrase" : 11, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 11, "label" : "S", "text" : "P#1@VP면 P#2@AJT오전 S#8@S어 P#9@AJT쯤 P#10@AJT으로 옮겨졌다.", "begin" : 0, "end" : 21, "key_begin" : 21, "head_phrase" : -1, "sub_phrase" : [1, 2, 8, 9, 10], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "따르", "sense" : 2, "word_id" : 1, "weight" : 0.479209,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 0, "text" : "경찰에", "weight" : 1 }
+			] },
+		{"verb" : "자", "sense" : 1, "word_id" : 12, "weight" : 0.308397,
+			"argument" : [
+				{"type" : "ARGM-LOC", "word_id" : 10, "text" : "안에서", "weight" : 0.287365 },
+				{"type" : "ARG1", "word_id" : 11, "text" : "잠을", "weight" : 0.322259 },
+				{"type" : "ARG0", "word_id" : 13, "text" : "최씨가", "weight" : 0.315567 }
+			] },
+		{"verb" : "깨", "sense" : 1, "word_id" : 15, "weight" : 0.291541,
+			"argument" : [
+				{"type" : "ARGM-CND", "word_id" : 1, "text" : "따르면", "weight" : 0.384334 },
+				{"type" : "ARG0", "word_id" : 13, "text" : "최씨가", "weight" : 0.251489 },
+				{"type" : "ARGM-LOC", "word_id" : 14, "text" : "잠에서", "weight" : 0.137361 },
+				{"type" : "ARGM-NEG", "word_id" : 16, "text" : "못해", "weight" : 0.39298 }
+			] },
+		{"verb" : "옮기", "sense" : 1, "word_id" : 21, "weight" : 0.279572,
+			"argument" : [
+				{"type" : "ARGM-DIS", "word_id" : 1, "text" : "따르면", "weight" : 0.463169 },
+				{"type" : "ARGM-TMP", "word_id" : 3, "text" : "오전", "weight" : 0.215404 },
+				{"type" : "ARGM-NEG", "word_id" : 16, "text" : "못해", "weight" : 0.148178 },
+				{"type" : "ARGM-TMP", "word_id" : 18, "text" : "12시쯤", "weight" : 0.0932139 },
+				{"type" : "ARG3", "word_id" : 20, "text" : "병원으로", "weight" : 0.477897 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "경찰 관계자는 “최씨가 전날 평소에 먹던 신경안정제를 먹고 잠을 잤고, 아침에 깨웠지만 계속 자려고 해서 그대로 뒀지만 잠을 깨지 못하는 것 같아 병원으로 옮겼다”며 “소변 등을 검사했으나 이상이 없고 이름을 부르거나 꼬집으면 반응을 보인다”고 말했다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "경찰", "type" : "NNG", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "관계", "type" : "NNG", "position" : 7, "weight" : 0.9 },
+		{"id" : 2, "lemma" : "자", "type" : "XSN", "position" : 13, "weight" : 0.00398741 },
+		{"id" : 3, "lemma" : "는", "type" : "JX", "position" : 16, "weight" : 0.0641645 },
+		{"id" : 4, "lemma" : "“", "type" : "SS", "position" : 20, "weight" : 1 },
+		{"id" : 5, "lemma" : "최", "type" : "NNP", "position" : 23, "weight" : 0.0555119 },
+		{"id" : 6, "lemma" : "씨", "type" : "NNB", "position" : 26, "weight" : 0.0450504 },
+		{"id" : 7, "lemma" : "가", "type" : "JKS", "position" : 29, "weight" : 0.0691641 },
+		{"id" : 8, "lemma" : "전날", "type" : "NNG", "position" : 33, "weight" : 0.9 },
+		{"id" : 9, "lemma" : "평소", "type" : "NNG", "position" : 40, "weight" : 0.9 },
+		{"id" : 10, "lemma" : "에", "type" : "JKB", "position" : 46, "weight" : 0.153364 },
+		{"id" : 11, "lemma" : "먹", "type" : "VV", "position" : 50, "weight" : 0.424687 },
+		{"id" : 12, "lemma" : "던", "type" : "ETM", "position" : 53, "weight" : 0.317449 },
+		{"id" : 13, "lemma" : "신경", "type" : "NNG", "position" : 57, "weight" : 0.658106 },
+		{"id" : 14, "lemma" : "안정", "type" : "NNG", "position" : 63, "weight" : 0.184724 },
+		{"id" : 15, "lemma" : "제", "type" : "XSN", "position" : 69, "weight" : 0.00596315 },
+		{"id" : 16, "lemma" : "를", "type" : "JKO", "position" : 72, "weight" : 0.0870227 },
+		{"id" : 17, "lemma" : "먹", "type" : "VV", "position" : 76, "weight" : 0.742472 },
+		{"id" : 18, "lemma" : "고", "type" : "EC", "position" : 79, "weight" : 0.416679 },
+		{"id" : 19, "lemma" : "잠", "type" : "NNG", "position" : 83, "weight" : 0.219243 },
+		{"id" : 20, "lemma" : "을", "type" : "JKO", "position" : 86, "weight" : 0.129611 },
+		{"id" : 21, "lemma" : "자", "type" : "VV", "position" : 90, "weight" : 0.0717575 },
+		{"id" : 22, "lemma" : "았", "type" : "EP", "position" : 90, "weight" : 0.9 },
+		{"id" : 23, "lemma" : "고", "type" : "EC", "position" : 93, "weight" : 0.190901 },
+		{"id" : 24, "lemma" : ",", "type" : "SP", "position" : 96, "weight" : 1 },
+		{"id" : 25, "lemma" : "아침", "type" : "NNG", "position" : 98, "weight" : 0.531496 },
+		{"id" : 26, "lemma" : "에", "type" : "JKB", "position" : 104, "weight" : 0.153364 },
+		{"id" : 27, "lemma" : "깨우", "type" : "VV", "position" : 108, "weight" : 0.9 },
+		{"id" : 28, "lemma" : "었", "type" : "EP", "position" : 111, "weight" : 0.9 },
+		{"id" : 29, "lemma" : "지만", "type" : "EC", "position" : 114, "weight" : 0.194093 },
+		{"id" : 30, "lemma" : "계속", "type" : "MAG", "position" : 121, "weight" : 0.0462275 },
+		{"id" : 31, "lemma" : "자", "type" : "VV", "position" : 128, "weight" : 0.0359406 },
+		{"id" : 32, "lemma" : "려고", "type" : "EC", "position" : 131, "weight" : 0.424175 },
+		{"id" : 33, "lemma" : "하", "type" : "VV", "position" : 138, "weight" : 0.140183 },
+		{"id" : 34, "lemma" : "어서", "type" : "EC", "position" : 138, "weight" : 0.421998 },
+		{"id" : 35, "lemma" : "그대로", "type" : "MAG", "position" : 145, "weight" : 0.9 },
+		{"id" : 36, "lemma" : "뒀", "type" : "VV", "position" : 155, "weight" : 0 },
+		{"id" : 37, "lemma" : "지만", "type" : "EC", "position" : 158, "weight" : 0.423647 },
+		{"id" : 38, "lemma" : "잠", "type" : "NNG", "position" : 165, "weight" : 0.219243 },
+		{"id" : 39, "lemma" : "을", "type" : "JKO", "position" : 168, "weight" : 0.129611 },
+		{"id" : 40, "lemma" : "깨", "type" : "VV", "position" : 172, "weight" : 0.724934 },
+		{"id" : 41, "lemma" : "지", "type" : "EC", "position" : 175, "weight" : 0.301842 },
+		{"id" : 42, "lemma" : "못하", "type" : "VX", "position" : 179, "weight" : 0.225592 },
+		{"id" : 43, "lemma" : "는", "type" : "ETM", "position" : 185, "weight" : 0.183966 },
+		{"id" : 44, "lemma" : "것", "type" : "NNB", "position" : 189, "weight" : 0.228788 },
+		{"id" : 45, "lemma" : "같", "type" : "VA", "position" : 193, "weight" : 0.101272 },
+		{"id" : 46, "lemma" : "아", "type" : "EC", "position" : 196, "weight" : 0.297065 },
+		{"id" : 47, "lemma" : "병원", "type" : "NNG", "position" : 200, "weight" : 0.9 },
+		{"id" : 48, "lemma" : "으로", "type" : "JKB", "position" : 206, "weight" : 0.153406 },
+		{"id" : 49, "lemma" : "옮기", "type" : "VV", "position" : 213, "weight" : 0.9 },
+		{"id" : 50, "lemma" : "었", "type" : "EP", "position" : 216, "weight" : 0.9 },
+		{"id" : 51, "lemma" : "다", "type" : "EF", "position" : 219, "weight" : 0.640954 },
+		{"id" : 52, "lemma" : "”", "type" : "SS", "position" : 222, "weight" : 1 },
+		{"id" : 53, "lemma" : "며", "type" : "EC", "position" : 225, "weight" : 0.00532489 },
+		{"id" : 54, "lemma" : "“", "type" : "SS", "position" : 229, "weight" : 1 },
+		{"id" : 55, "lemma" : "소변", "type" : "NNG", "position" : 232, "weight" : 0.9 },
+		{"id" : 56, "lemma" : "등", "type" : "NNB", "position" : 239, "weight" : 0.0146757 },
+		{"id" : 57, "lemma" : "을", "type" : "JKO", "position" : 242, "weight" : 0.0630104 },
+		{"id" : 58, "lemma" : "검사", "type" : "NNG", "position" : 246, "weight" : 0.9 },
+		{"id" : 59, "lemma" : "하", "type" : "XSV", "position" : 252, "weight" : 0.0001 },
+		{"id" : 60, "lemma" : "었", "type" : "EP", "position" : 252, "weight" : 0.9 },
+		{"id" : 61, "lemma" : "으나", "type" : "EC", "position" : 255, "weight" : 0.197698 },
+		{"id" : 62, "lemma" : "이상", "type" : "NNG", "position" : 262, "weight" : 0.218107 },
+		{"id" : 63, "lemma" : "이", "type" : "JKS", "position" : 268, "weight" : 0.0360723 },
+		{"id" : 64, "lemma" : "없", "type" : "VA", "position" : 272, "weight" : 0.249359 },
+		{"id" : 65, "lemma" : "고", "type" : "EC", "position" : 275, "weight" : 0.310376 },
+		{"id" : 66, "lemma" : "이름", "type" : "NNG", "position" : 279, "weight" : 0.9 },
+		{"id" : 67, "lemma" : "을", "type" : "JKO", "position" : 285, "weight" : 0.129611 },
+		{"id" : 68, "lemma" : "부르", "type" : "VV", "position" : 289, "weight" : 0.763243 },
+		{"id" : 69, "lemma" : "거나", "type" : "EC", "position" : 295, "weight" : 0.421781 },
+		{"id" : 70, "lemma" : "꼬집", "type" : "VV", "position" : 302, "weight" : 0.9 },
+		{"id" : 71, "lemma" : "으면", "type" : "EC", "position" : 308, "weight" : 0.427071 },
+		{"id" : 72, "lemma" : "반응", "type" : "NNG", "position" : 315, "weight" : 0.9 },
+		{"id" : 73, "lemma" : "을", "type" : "JKO", "position" : 321, "weight" : 0.129611 },
+		{"id" : 74, "lemma" : "보이", "type" : "VV", "position" : 325, "weight" : 0.776105 },
+		{"id" : 75, "lemma" : "ㄴ다", "type" : "EF", "position" : 328, "weight" : 0.0793196 },
+		{"id" : 76, "lemma" : "”", "type" : "SS", "position" : 334, "weight" : 1 },
+		{"id" : 77, "lemma" : "고", "type" : "JKQ", "position" : 337, "weight" : 0.000541335 },
+		{"id" : 78, "lemma" : "말", "type" : "NNG", "position" : 341, "weight" : 0.0618649 },
+		{"id" : 79, "lemma" : "하", "type" : "XSV", "position" : 344, "weight" : 0.0001 },
+		{"id" : 80, "lemma" : "었", "type" : "EP", "position" : 344, "weight" : 0.9 },
+		{"id" : 81, "lemma" : "다", "type" : "EF", "position" : 347, "weight" : 0.640954 },
+		{"id" : 82, "lemma" : ".", "type" : "SF", "position" : 350, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "경찰/NNG", "target" : "경찰", "word_id" : 0, "m_begin" : 0, "m_end" : 0},
+		{"id" : 1, "result" : "관계자/NNG+는/JX", "target" : "관계자는", "word_id" : 1, "m_begin" : 1, "m_end" : 3},
+		{"id" : 2, "result" : "“/SS+최/NNG+씨/NNB+가/JKS", "target" : "“최씨가", "word_id" : 2, "m_begin" : 4, "m_end" : 7},
+		{"id" : 3, "result" : "전날/NNG", "target" : "전날", "word_id" : 3, "m_begin" : 8, "m_end" : 8},
+		{"id" : 4, "result" : "평소/NNG+에/JKB", "target" : "평소에", "word_id" : 4, "m_begin" : 9, "m_end" : 10},
+		{"id" : 5, "result" : "먹/VV+던/ETM", "target" : "먹던", "word_id" : 5, "m_begin" : 11, "m_end" : 12},
+		{"id" : 6, "result" : "신경안정제/NNG+를/JKO", "target" : "신경안정제를", "word_id" : 6, "m_begin" : 13, "m_end" : 16},
+		{"id" : 7, "result" : "먹/VV+고/EC", "target" : "먹고", "word_id" : 7, "m_begin" : 17, "m_end" : 18},
+		{"id" : 8, "result" : "잠/NNG+을/JKO", "target" : "잠을", "word_id" : 8, "m_begin" : 19, "m_end" : 20},
+		{"id" : 9, "result" : "자/VV+었/EP+고/EC+,/SP", "target" : "잤고,", "word_id" : 9, "m_begin" : 21, "m_end" : 24},
+		{"id" : 10, "result" : "아침/NNG+에/JKB", "target" : "아침에", "word_id" : 10, "m_begin" : 25, "m_end" : 26},
+		{"id" : 11, "result" : "깨우/VV+었/EP+지만/EC", "target" : "깨웠지만", "word_id" : 11, "m_begin" : 27, "m_end" : 29},
+		{"id" : 12, "result" : "계속/MAG", "target" : "계속", "word_id" : 12, "m_begin" : 30, "m_end" : 30},
+		{"id" : 13, "result" : "자/VV+려고/EC", "target" : "자려고", "word_id" : 13, "m_begin" : 31, "m_end" : 32},
+		{"id" : 14, "result" : "하/VV+어서/EC", "target" : "해서", "word_id" : 14, "m_begin" : 33, "m_end" : 34},
+		{"id" : 15, "result" : "그대로/MAG", "target" : "그대로", "word_id" : 15, "m_begin" : 35, "m_end" : 35},
+		{"id" : 16, "result" : "뒀/VV+지만/EC", "target" : "뒀지만", "word_id" : 16, "m_begin" : 36, "m_end" : 37},
+		{"id" : 17, "result" : "잠/NNG+을/JKO", "target" : "잠을", "word_id" : 17, "m_begin" : 38, "m_end" : 39},
+		{"id" : 18, "result" : "깨/VV+지/EC", "target" : "깨지", "word_id" : 18, "m_begin" : 40, "m_end" : 41},
+		{"id" : 19, "result" : "못하/VX+는/ETM", "target" : "못하는", "word_id" : 19, "m_begin" : 42, "m_end" : 43},
+		{"id" : 20, "result" : "것/NNB", "target" : "것", "word_id" : 20, "m_begin" : 44, "m_end" : 44},
+		{"id" : 21, "result" : "같/VA+어/EC", "target" : "같아", "word_id" : 21, "m_begin" : 45, "m_end" : 46},
+		{"id" : 22, "result" : "병원/NNG+으로/JKB", "target" : "병원으로", "word_id" : 22, "m_begin" : 47, "m_end" : 48},
+		{"id" : 23, "result" : "옮기/VV+었/EP+다/EF+”/SS+며/EC", "target" : "옮겼다”며", "word_id" : 23, "m_begin" : 49, "m_end" : 53},
+		{"id" : 24, "result" : "“/SS+소변/NNG", "target" : "“소변", "word_id" : 24, "m_begin" : 54, "m_end" : 55},
+		{"id" : 25, "result" : "등/NNB+을/JKO", "target" : "등을", "word_id" : 25, "m_begin" : 56, "m_end" : 57},
+		{"id" : 26, "result" : "검사하/VV+었/EP+으나/EC", "target" : "검사했으나", "word_id" : 26, "m_begin" : 58, "m_end" : 61},
+		{"id" : 27, "result" : "이상/NNG+이/JKS", "target" : "이상이", "word_id" : 27, "m_begin" : 62, "m_end" : 63},
+		{"id" : 28, "result" : "없/VA+고/EC", "target" : "없고", "word_id" : 28, "m_begin" : 64, "m_end" : 65},
+		{"id" : 29, "result" : "이름/NNG+을/JKO", "target" : "이름을", "word_id" : 29, "m_begin" : 66, "m_end" : 67},
+		{"id" : 30, "result" : "부르/VV+거나/EC", "target" : "부르거나", "word_id" : 30, "m_begin" : 68, "m_end" : 69},
+		{"id" : 31, "result" : "꼬집/VV+으면/EC", "target" : "꼬집으면", "word_id" : 31, "m_begin" : 70, "m_end" : 71},
+		{"id" : 32, "result" : "반응/NNG+을/JKO", "target" : "반응을", "word_id" : 32, "m_begin" : 72, "m_end" : 73},
+		{"id" : 33, "result" : "보이/VV+ㄴ다/EF+”/SS+고/JKQ", "target" : "보인다”고", "word_id" : 33, "m_begin" : 74, "m_end" : 77},
+		{"id" : 34, "result" : "말하/VV+었/EP+다/EF+./SF", "target" : "말했다.", "word_id" : 34, "m_begin" : 78, "m_end" : 82}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "경찰", "type" : "NNG", "scode" : "04", "weight" : 2.5, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "관계자", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 2},
+		{"id" : 2, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 16, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "“", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "최", "type" : "NNP", "scode" : "02", "weight" : 3, "position" : 23, "begin" : 5, "end" : 5},
+		{"id" : 5, "text" : "씨", "type" : "NNB", "scode" : "07", "weight" : 9.6, "position" : 26, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 29, "begin" : 7, "end" : 7},
+		{"id" : 7, "text" : "전날", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 33, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : "평소", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 40, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 46, "begin" : 10, "end" : 10},
+		{"id" : 10, "text" : "먹", "type" : "VV", "scode" : "02", "weight" : 7.6, "position" : 50, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "던", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 53, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : "신경안정제", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 57, "begin" : 13, "end" : 15},
+		{"id" : 13, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 72, "begin" : 16, "end" : 16},
+		{"id" : 14, "text" : "먹", "type" : "VV", "scode" : "02", "weight" : 6.6, "position" : 76, "begin" : 17, "end" : 17},
+		{"id" : 15, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 79, "begin" : 18, "end" : 18},
+		{"id" : 16, "text" : "잠", "type" : "NNG", "scode" : "01", "weight" : 9.8, "position" : 83, "begin" : 19, "end" : 19},
+		{"id" : 17, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 86, "begin" : 20, "end" : 20},
+		{"id" : 18, "text" : "자", "type" : "VV", "scode" : "01", "weight" : 8.8, "position" : 90, "begin" : 21, "end" : 21},
+		{"id" : 19, "text" : "았", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 90, "begin" : 22, "end" : 22},
+		{"id" : 20, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 93, "begin" : 23, "end" : 23},
+		{"id" : 21, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 96, "begin" : 24, "end" : 24},
+		{"id" : 22, "text" : "아침", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 98, "begin" : 25, "end" : 25},
+		{"id" : 23, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 104, "begin" : 26, "end" : 26},
+		{"id" : 24, "text" : "깨우", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 108, "begin" : 27, "end" : 27},
+		{"id" : 25, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 111, "begin" : 28, "end" : 28},
+		{"id" : 26, "text" : "지만", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 114, "begin" : 29, "end" : 29},
+		{"id" : 27, "text" : "계속", "type" : "MAG", "scode" : "04", "weight" : 6.6, "position" : 121, "begin" : 30, "end" : 30},
+		{"id" : 28, "text" : "자", "type" : "VV", "scode" : "01", "weight" : 6.6, "position" : 128, "begin" : 31, "end" : 31},
+		{"id" : 29, "text" : "려고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 131, "begin" : 32, "end" : 32},
+		{"id" : 30, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 6.6, "position" : 138, "begin" : 33, "end" : 33},
+		{"id" : 31, "text" : "어서", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 138, "begin" : 34, "end" : 34},
+		{"id" : 32, "text" : "그대로", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 145, "begin" : 35, "end" : 35},
+		{"id" : 33, "text" : "뒀", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 155, "begin" : 36, "end" : 36},
+		{"id" : 34, "text" : "지만", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 158, "begin" : 37, "end" : 37},
+		{"id" : 35, "text" : "잠", "type" : "NNG", "scode" : "01", "weight" : 4.4, "position" : 165, "begin" : 38, "end" : 38},
+		{"id" : 36, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 168, "begin" : 39, "end" : 39},
+		{"id" : 37, "text" : "깨", "type" : "VV", "scode" : "01", "weight" : 3.17861, "position" : 172, "begin" : 40, "end" : 40},
+		{"id" : 38, "text" : "지", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 175, "begin" : 41, "end" : 41},
+		{"id" : 39, "text" : "못하", "type" : "VX", "scode" : "00", "weight" : 0, "position" : 179, "begin" : 42, "end" : 42},
+		{"id" : 40, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 185, "begin" : 43, "end" : 43},
+		{"id" : 41, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 6.6, "position" : 189, "begin" : 44, "end" : 44},
+		{"id" : 42, "text" : "같", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 193, "begin" : 45, "end" : 45},
+		{"id" : 43, "text" : "아", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 196, "begin" : 46, "end" : 46},
+		{"id" : 44, "text" : "병원", "type" : "NNG", "scode" : "02", "weight" : 4.2, "position" : 200, "begin" : 47, "end" : 47},
+		{"id" : 45, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 206, "begin" : 48, "end" : 48},
+		{"id" : 46, "text" : "옮기", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 213, "begin" : 49, "end" : 49},
+		{"id" : 47, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 216, "begin" : 50, "end" : 50},
+		{"id" : 48, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 219, "begin" : 51, "end" : 51},
+		{"id" : 49, "text" : "”", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 222, "begin" : 52, "end" : 52},
+		{"id" : 50, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 225, "begin" : 53, "end" : 53},
+		{"id" : 51, "text" : "“", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 229, "begin" : 54, "end" : 54},
+		{"id" : 52, "text" : "소변", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 232, "begin" : 55, "end" : 55},
+		{"id" : 53, "text" : "등", "type" : "NNB", "scode" : "05", "weight" : 5.63313, "position" : 239, "begin" : 56, "end" : 56},
+		{"id" : 54, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 242, "begin" : 57, "end" : 57},
+		{"id" : 55, "text" : "검사하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 246, "begin" : 58, "end" : 59},
+		{"id" : 56, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 252, "begin" : 60, "end" : 60},
+		{"id" : 57, "text" : "으나", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 255, "begin" : 61, "end" : 61},
+		{"id" : 58, "text" : "이상", "type" : "NNG", "scode" : "12", "weight" : 4.35391, "position" : 262, "begin" : 62, "end" : 62},
+		{"id" : 59, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 268, "begin" : 63, "end" : 63},
+		{"id" : 60, "text" : "없", "type" : "VA", "scode" : "01", "weight" : 8.8, "position" : 272, "begin" : 64, "end" : 64},
+		{"id" : 61, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 275, "begin" : 65, "end" : 65},
+		{"id" : 62, "text" : "이름", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 279, "begin" : 66, "end" : 66},
+		{"id" : 63, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 285, "begin" : 67, "end" : 67},
+		{"id" : 64, "text" : "부르", "type" : "VV", "scode" : "01", "weight" : 5.4, "position" : 289, "begin" : 68, "end" : 68},
+		{"id" : 65, "text" : "거나", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 295, "begin" : 69, "end" : 69},
+		{"id" : 66, "text" : "꼬집", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 302, "begin" : 70, "end" : 70},
+		{"id" : 67, "text" : "으면", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 308, "begin" : 71, "end" : 71},
+		{"id" : 68, "text" : "반응", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 315, "begin" : 72, "end" : 72},
+		{"id" : 69, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 321, "begin" : 73, "end" : 73},
+		{"id" : 70, "text" : "보이", "type" : "VV", "scode" : "01", "weight" : 2.6431, "position" : 325, "begin" : 74, "end" : 74},
+		{"id" : 71, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 328, "begin" : 75, "end" : 75},
+		{"id" : 72, "text" : "”", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 334, "begin" : 76, "end" : 76},
+		{"id" : 73, "text" : "고", "type" : "JKQ", "scode" : "00", "weight" : 1, "position" : 337, "begin" : 77, "end" : 77},
+		{"id" : 74, "text" : "말하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 341, "begin" : 78, "end" : 79},
+		{"id" : 75, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 344, "begin" : 80, "end" : 80},
+		{"id" : 76, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 347, "begin" : 81, "end" : 81},
+		{"id" : 77, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 350, "begin" : 82, "end" : 82}
+	],
+	"word" : [
+		{"id" : 0, "text" : "경찰", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "관계자는", "type" : "", "begin" : 1, "end" : 3},
+		{"id" : 2, "text" : "“최씨가", "type" : "", "begin" : 4, "end" : 7},
+		{"id" : 3, "text" : "전날", "type" : "", "begin" : 8, "end" : 8},
+		{"id" : 4, "text" : "평소에", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 5, "text" : "먹던", "type" : "", "begin" : 11, "end" : 12},
+		{"id" : 6, "text" : "신경안정제를", "type" : "", "begin" : 13, "end" : 16},
+		{"id" : 7, "text" : "먹고", "type" : "", "begin" : 17, "end" : 18},
+		{"id" : 8, "text" : "잠을", "type" : "", "begin" : 19, "end" : 20},
+		{"id" : 9, "text" : "잤고,", "type" : "", "begin" : 21, "end" : 24},
+		{"id" : 10, "text" : "아침에", "type" : "", "begin" : 25, "end" : 26},
+		{"id" : 11, "text" : "깨웠지만", "type" : "", "begin" : 27, "end" : 29},
+		{"id" : 12, "text" : "계속", "type" : "", "begin" : 30, "end" : 30},
+		{"id" : 13, "text" : "자려고", "type" : "", "begin" : 31, "end" : 32},
+		{"id" : 14, "text" : "해서", "type" : "", "begin" : 33, "end" : 34},
+		{"id" : 15, "text" : "그대로", "type" : "", "begin" : 35, "end" : 35},
+		{"id" : 16, "text" : "뒀지만", "type" : "", "begin" : 36, "end" : 37},
+		{"id" : 17, "text" : "잠을", "type" : "", "begin" : 38, "end" : 39},
+		{"id" : 18, "text" : "깨지", "type" : "", "begin" : 40, "end" : 41},
+		{"id" : 19, "text" : "못하는", "type" : "", "begin" : 42, "end" : 43},
+		{"id" : 20, "text" : "것", "type" : "", "begin" : 44, "end" : 44},
+		{"id" : 21, "text" : "같아", "type" : "", "begin" : 45, "end" : 46},
+		{"id" : 22, "text" : "병원으로", "type" : "", "begin" : 47, "end" : 48},
+		{"id" : 23, "text" : "옮겼다”며", "type" : "", "begin" : 49, "end" : 53},
+		{"id" : 24, "text" : "“소변", "type" : "", "begin" : 54, "end" : 55},
+		{"id" : 25, "text" : "등을", "type" : "", "begin" : 56, "end" : 57},
+		{"id" : 26, "text" : "검사했으나", "type" : "", "begin" : 58, "end" : 61},
+		{"id" : 27, "text" : "이상이", "type" : "", "begin" : 62, "end" : 63},
+		{"id" : 28, "text" : "없고", "type" : "", "begin" : 64, "end" : 65},
+		{"id" : 29, "text" : "이름을", "type" : "", "begin" : 66, "end" : 67},
+		{"id" : 30, "text" : "부르거나", "type" : "", "begin" : 68, "end" : 69},
+		{"id" : 31, "text" : "꼬집으면", "type" : "", "begin" : 70, "end" : 71},
+		{"id" : 32, "text" : "반응을", "type" : "", "begin" : 72, "end" : 73},
+		{"id" : 33, "text" : "보인다”고", "type" : "", "begin" : 74, "end" : 77},
+		{"id" : 34, "text" : "말했다.", "type" : "", "begin" : 78, "end" : 82}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "경찰", "type" : "OGG_POLITICS", "begin" : 0, "end" : 0, "weight" : 0.34611, "common_noun" : 0},
+		{"id" : 1, "text" : "최", "type" : "PS_NAME", "begin" : 5, "end" : 5, "weight" : 0.615856, "common_noun" : 0},
+		{"id" : 2, "text" : "전날", "type" : "DT_DAY", "begin" : 8, "end" : 8, "weight" : 0.374942, "common_noun" : 0},
+		{"id" : 3, "text" : "아침", "type" : "TI_DURATION", "begin" : 25, "end" : 25, "weight" : 0.492731, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "경찰", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.675722 },
+		{"id" : 1, "text" : "관계자는", "head" : 23, "label" : "NP_SBJ", "mod" : [0], "weight" : 0.0975756 },
+		{"id" : 2, "text" : "“최씨가", "head" : 7, "label" : "NP_SBJ", "mod" : [], "weight" : 0.391951 },
+		{"id" : 3, "text" : "전날", "head" : 5, "label" : "NP_AJT", "mod" : [], "weight" : 0.107514 },
+		{"id" : 4, "text" : "평소에", "head" : 5, "label" : "NP_AJT", "mod" : [], "weight" : 0.5242 },
+		{"id" : 5, "text" : "먹던", "head" : 6, "label" : "VP_MOD", "mod" : [3, 4], "weight" : 0.686362 },
+		{"id" : 6, "text" : "신경안정제를", "head" : 7, "label" : "NP_OBJ", "mod" : [5], "weight" : 0.769429 },
+		{"id" : 7, "text" : "먹고", "head" : 9, "label" : "VP", "mod" : [2, 6], "weight" : 0.828303 },
+		{"id" : 8, "text" : "잠을", "head" : 9, "label" : "NP_OBJ", "mod" : [], "weight" : 0.757979 },
+		{"id" : 9, "text" : "잤고,", "head" : 11, "label" : "VP", "mod" : [7, 8], "weight" : 0.782687 },
+		{"id" : 10, "text" : "아침에", "head" : 11, "label" : "NP_AJT", "mod" : [], "weight" : 0.825015 },
+		{"id" : 11, "text" : "깨웠지만", "head" : 13, "label" : "VP", "mod" : [9, 10], "weight" : 0.670413 },
+		{"id" : 12, "text" : "계속", "head" : 13, "label" : "AP", "mod" : [], "weight" : 0.816344 },
+		{"id" : 13, "text" : "자려고", "head" : 14, "label" : "VP", "mod" : [11, 12], "weight" : 0.540505 },
+		{"id" : 14, "text" : "해서", "head" : 16, "label" : "VP", "mod" : [13], "weight" : 0.792698 },
+		{"id" : 15, "text" : "그대로", "head" : 16, "label" : "AP", "mod" : [], "weight" : 0.846605 },
+		{"id" : 16, "text" : "뒀지만", "head" : 21, "label" : "VP", "mod" : [14, 15], "weight" : 0.691578 },
+		{"id" : 17, "text" : "잠을", "head" : 18, "label" : "NP_OBJ", "mod" : [], "weight" : 0.384168 },
+		{"id" : 18, "text" : "깨지", "head" : 19, "label" : "VP", "mod" : [17], "weight" : 0.780733 },
+		{"id" : 19, "text" : "못하는", "head" : 20, "label" : "VP_MOD", "mod" : [18], "weight" : 0.823448 },
+		{"id" : 20, "text" : "것", "head" : 21, "label" : "NP", "mod" : [19], "weight" : 0.654124 },
+		{"id" : 21, "text" : "같아", "head" : 23, "label" : "VP", "mod" : [16, 20], "weight" : 0.638681 },
+		{"id" : 22, "text" : "병원으로", "head" : 23, "label" : "NP_AJT", "mod" : [], "weight" : 0.738966 },
+		{"id" : 23, "text" : "옮겼다”며", "head" : 33, "label" : "VP", "mod" : [1, 21, 22], "weight" : 0.232784 },
+		{"id" : 24, "text" : "“소변", "head" : 25, "label" : "NP", "mod" : [], "weight" : 0.588306 },
+		{"id" : 25, "text" : "등을", "head" : 26, "label" : "NP_OBJ", "mod" : [24], "weight" : 0.751481 },
+		{"id" : 26, "text" : "검사했으나", "head" : 28, "label" : "VP", "mod" : [25], "weight" : 0.594733 },
+		{"id" : 27, "text" : "이상이", "head" : 28, "label" : "NP_SBJ", "mod" : [], "weight" : 0.684867 },
+		{"id" : 28, "text" : "없고", "head" : 30, "label" : "VP", "mod" : [26, 27], "weight" : 0.705827 },
+		{"id" : 29, "text" : "이름을", "head" : 30, "label" : "NP_OBJ", "mod" : [], "weight" : 0.773743 },
+		{"id" : 30, "text" : "부르거나", "head" : 31, "label" : "VP", "mod" : [28, 29], "weight" : 0.671012 },
+		{"id" : 31, "text" : "꼬집으면", "head" : 33, "label" : "VP", "mod" : [30], "weight" : 0.703792 },
+		{"id" : 32, "text" : "반응을", "head" : 33, "label" : "NP_OBJ", "mod" : [], "weight" : 0.758023 },
+		{"id" : 33, "text" : "보인다”고", "head" : 34, "label" : "VP_CMP", "mod" : [23, 31, 32], "weight" : 0.662975 },
+		{"id" : 34, "text" : "말했다.", "head" : -1, "label" : "VP", "mod" : [33], "weight" : 1.52386e-08 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "경찰 관계자는", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : 1, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "S", "text" : "P#0@SBJ는 “최씨가 전날 평소에 먹던 신경안정제를 먹고 잠을 잤고, 아침에 깨웠지만 계속 자려고 해서 그대로 뒀지만 잠을 깨지 못하는 것 같아 병원으로 옮겼다”며", "begin" : 0, "end" : 23, "key_begin" : 2, "head_phrase" : 2, "sub_phrase" : [0], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "S_CMP", "text" : "S#1@S며 “소변 등을 검사했으나 이상이 없고 이름을 부르거나 꼬집으면 반응을 보인다”고", "begin" : 0, "end" : 33, "key_begin" : 24, "head_phrase" : 3, "sub_phrase" : [1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "S", "text" : "S#2@CMP고 말했다.", "begin" : 0, "end" : 34, "key_begin" : 34, "head_phrase" : -1, "sub_phrase" : [2], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "먹", "sense" : 1, "word_id" : 5, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "먹", "sense" : 1, "word_id" : 7, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "자", "sense" : 1, "word_id" : 9, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "깨우", "sense" : 1, "word_id" : 11, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "자", "sense" : 1, "word_id" : 13, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "하", "sense" : 2, "word_id" : 14, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "뒀", "sense" : 1, "word_id" : 16, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "깨", "sense" : 1, "word_id" : 18, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "같", "sense" : 1, "word_id" : 21, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "옮기", "sense" : 1, "word_id" : 23, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "검사", "sense" : 1, "word_id" : 26, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "없", "sense" : 1, "word_id" : 28, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "부르", "sense" : 1, "word_id" : 30, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "꼬집", "sense" : 1, "word_id" : 31, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "보이", "sense" : 1, "word_id" : 33, "weight" : 0,
+			"argument" : [
+			] },
+		{"verb" : "말", "sense" : 1, "word_id" : 34, "weight" : 0,
+			"argument" : [
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "병원 측은 최씨가 약물을 과다복용한 것으로 추정하고 1∼2일 후 약물에 들어있는 수면제 성분이 빠지면 최씨가 생활하는 데 지장이 없을 것으로 전망했다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "병원", "type" : "NNG", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "측", "type" : "NNB", "position" : 7, "weight" : 0.0157941 },
+		{"id" : 2, "lemma" : "은", "type" : "JX", "position" : 10, "weight" : 0.0688243 },
+		{"id" : 3, "lemma" : "최", "type" : "NNP", "position" : 14, "weight" : 0.0369235 },
+		{"id" : 4, "lemma" : "씨", "type" : "NNB", "position" : 17, "weight" : 0.0450504 },
+		{"id" : 5, "lemma" : "가", "type" : "JKS", "position" : 20, "weight" : 0.0691641 },
+		{"id" : 6, "lemma" : "약물", "type" : "NNG", "position" : 24, "weight" : 0.9 },
+		{"id" : 7, "lemma" : "을", "type" : "JKO", "position" : 30, "weight" : 0.129611 },
+		{"id" : 8, "lemma" : "과다", "type" : "NNG", "position" : 34, "weight" : 0.9 },
+		{"id" : 9, "lemma" : "복용", "type" : "NNG", "position" : 40, "weight" : 0.9 },
+		{"id" : 10, "lemma" : "하", "type" : "VV", "position" : 46, "weight" : 0.00929845 },
+		{"id" : 11, "lemma" : "ㄴ", "type" : "ETM", "position" : 46, "weight" : 0.304215 },
+		{"id" : 12, "lemma" : "것", "type" : "NNB", "position" : 50, "weight" : 0.228788 },
+		{"id" : 13, "lemma" : "으로", "type" : "JKB", "position" : 53, "weight" : 0.135596 },
+		{"id" : 14, "lemma" : "추정", "type" : "NNG", "position" : 60, "weight" : 0.207036 },
+		{"id" : 15, "lemma" : "하", "type" : "XSV", "position" : 66, "weight" : 0.0001 },
+		{"id" : 16, "lemma" : "고", "type" : "EC", "position" : 69, "weight" : 0.359917 },
+		{"id" : 17, "lemma" : "1", "type" : "SN", "position" : 73, "weight" : 1 },
+		{"id" : 18, "lemma" : "∼", "type" : "SO", "position" : 74, "weight" : 1 },
+		{"id" : 19, "lemma" : "2", "type" : "SN", "position" : 77, "weight" : 1 },
+		{"id" : 20, "lemma" : "일", "type" : "NNB", "position" : 78, "weight" : 0.126777 },
+		{"id" : 21, "lemma" : "후", "type" : "NNG", "position" : 82, "weight" : 0.110109 },
+		{"id" : 22, "lemma" : "약물", "type" : "NNG", "position" : 86, "weight" : 0.9 },
+		{"id" : 23, "lemma" : "에", "type" : "JKB", "position" : 92, "weight" : 0.153364 },
+		{"id" : 24, "lemma" : "들", "type" : "VV", "position" : 96, "weight" : 0.0522369 },
+		{"id" : 25, "lemma" : "어", "type" : "EC", "position" : 99, "weight" : 0.41831 },
+		{"id" : 26, "lemma" : "있", "type" : "VX", "position" : 102, "weight" : 0.125953 },
+		{"id" : 27, "lemma" : "는", "type" : "ETM", "position" : 105, "weight" : 0.183966 },
+		{"id" : 28, "lemma" : "수면", "type" : "NNG", "position" : 109, "weight" : 0.9 },
+		{"id" : 29, "lemma" : "제", "type" : "XSN", "position" : 115, "weight" : 0.00596315 },
+		{"id" : 30, "lemma" : "성분", "type" : "NNG", "position" : 119, "weight" : 0.9 },
+		{"id" : 31, "lemma" : "이", "type" : "JKS", "position" : 125, "weight" : 0.0360723 },
+		{"id" : 32, "lemma" : "빠지", "type" : "VV", "position" : 129, "weight" : 0.306683 },
+		{"id" : 33, "lemma" : "면", "type" : "EC", "position" : 135, "weight" : 0.399365 },
+		{"id" : 34, "lemma" : "최", "type" : "NNP", "position" : 139, "weight" : 0.0180822 },
+		{"id" : 35, "lemma" : "씨", "type" : "NNB", "position" : 142, "weight" : 0.0450504 },
+		{"id" : 36, "lemma" : "가", "type" : "JKS", "position" : 145, "weight" : 0.0691641 },
+		{"id" : 37, "lemma" : "생활", "type" : "NNG", "position" : 149, "weight" : 0.9 },
+		{"id" : 38, "lemma" : "하", "type" : "XSV", "position" : 155, "weight" : 0.0001 },
+		{"id" : 39, "lemma" : "는", "type" : "ETM", "position" : 158, "weight" : 0.238503 },
+		{"id" : 40, "lemma" : "데", "type" : "NNB", "position" : 162, "weight" : 0.226476 },
+		{"id" : 41, "lemma" : "지장", "type" : "NNG", "position" : 166, "weight" : 0.109492 },
+		{"id" : 42, "lemma" : "이", "type" : "JKS", "position" : 172, "weight" : 0.0360723 },
+		{"id" : 43, "lemma" : "없", "type" : "VA", "position" : 176, "weight" : 0.249359 },
+		{"id" : 44, "lemma" : "을", "type" : "ETM", "position" : 179, "weight" : 0.0306722 },
+		{"id" : 45, "lemma" : "것", "type" : "NNB", "position" : 183, "weight" : 0.228788 },
+		{"id" : 46, "lemma" : "으로", "type" : "JKB", "position" : 186, "weight" : 0.135596 },
+		{"id" : 47, "lemma" : "전망", "type" : "NNG", "position" : 193, "weight" : 0.207936 },
+		{"id" : 48, "lemma" : "하", "type" : "XSV", "position" : 199, "weight" : 0.0001 },
+		{"id" : 49, "lemma" : "었", "type" : "EP", "position" : 199, "weight" : 0.9 },
+		{"id" : 50, "lemma" : "다", "type" : "EF", "position" : 202, "weight" : 0.640954 },
+		{"id" : 51, "lemma" : ".", "type" : "SF", "position" : 205, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "병원/NNG", "target" : "병원", "word_id" : 0, "m_begin" : 0, "m_end" : 0},
+		{"id" : 1, "result" : "측/NNB+은/JX", "target" : "측은", "word_id" : 1, "m_begin" : 1, "m_end" : 2},
+		{"id" : 2, "result" : "최/NNG+씨/NNB+가/JKS", "target" : "최씨가", "word_id" : 2, "m_begin" : 3, "m_end" : 5},
+		{"id" : 3, "result" : "약물/NNG+을/JKO", "target" : "약물을", "word_id" : 3, "m_begin" : 6, "m_end" : 7},
+		{"id" : 4, "result" : "과다복용/NNG+하/VV+ㄴ/ETM", "target" : "과다복용한", "word_id" : 4, "m_begin" : 8, "m_end" : 11},
+		{"id" : 5, "result" : "것/NNB+으로/JKB", "target" : "것으로", "word_id" : 5, "m_begin" : 12, "m_end" : 13},
+		{"id" : 6, "result" : "추정하/VV+고/EC", "target" : "추정하고", "word_id" : 6, "m_begin" : 14, "m_end" : 16},
+		{"id" : 7, "result" : "1/SN+∼/SO+2/SN+일/NNB", "target" : "1∼2일", "word_id" : 7, "m_begin" : 17, "m_end" : 20},
+		{"id" : 8, "result" : "후/NNG", "target" : "후", "word_id" : 8, "m_begin" : 21, "m_end" : 21},
+		{"id" : 9, "result" : "약물/NNG+에/JKB", "target" : "약물에", "word_id" : 9, "m_begin" : 22, "m_end" : 23},
+		{"id" : 10, "result" : "들/VV+어/EC+있/VX+는/ETM", "target" : "들어있는", "word_id" : 10, "m_begin" : 24, "m_end" : 27},
+		{"id" : 11, "result" : "수면제/NNG", "target" : "수면제", "word_id" : 11, "m_begin" : 28, "m_end" : 29},
+		{"id" : 12, "result" : "성분/NNG+이/JKS", "target" : "성분이", "word_id" : 12, "m_begin" : 30, "m_end" : 31},
+		{"id" : 13, "result" : "빠지/VV+면/EC", "target" : "빠지면", "word_id" : 13, "m_begin" : 32, "m_end" : 33},
+		{"id" : 14, "result" : "최/NNG+씨/NNB+가/JKS", "target" : "최씨가", "word_id" : 14, "m_begin" : 34, "m_end" : 36},
+		{"id" : 15, "result" : "생활하/VV+는/ETM", "target" : "생활하는", "word_id" : 15, "m_begin" : 37, "m_end" : 39},
+		{"id" : 16, "result" : "데/NNB", "target" : "데", "word_id" : 16, "m_begin" : 40, "m_end" : 40},
+		{"id" : 17, "result" : "지장/NNG+이/JKS", "target" : "지장이", "word_id" : 17, "m_begin" : 41, "m_end" : 42},
+		{"id" : 18, "result" : "없/VA+을/ETM", "target" : "없을", "word_id" : 18, "m_begin" : 43, "m_end" : 44},
+		{"id" : 19, "result" : "것/NNB+으로/JKB", "target" : "것으로", "word_id" : 19, "m_begin" : 45, "m_end" : 46},
+		{"id" : 20, "result" : "전망하/VV+었/EP+다/EF+./SF", "target" : "전망했다.", "word_id" : 20, "m_begin" : 47, "m_end" : 51}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "병원", "type" : "NNG", "scode" : "02", "weight" : 1.5, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "측", "type" : "NNB", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "최", "type" : "NNP", "scode" : "02", "weight" : 3.2, "position" : 14, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "씨", "type" : "NNB", "scode" : "07", "weight" : 10.6, "position" : 17, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "약물", "type" : "NNG", "scode" : "01", "weight" : 2.99736, "position" : 24, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "과다", "type" : "NNG", "scode" : "01", "weight" : 2, "position" : 34, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "복용", "type" : "NNG", "scode" : "01", "weight" : 3.88308, "position" : 40, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 6.5, "position" : 46, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 46, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 8.6, "position" : 50, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 53, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "추정하", "type" : "VV", "scode" : "01", "weight" : 2, "position" : 60, "begin" : 14, "end" : 15},
+		{"id" : 15, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 69, "begin" : 16, "end" : 16},
+		{"id" : 16, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 73, "begin" : 17, "end" : 17},
+		{"id" : 17, "text" : "∼", "type" : "SO", "scode" : "00", "weight" : 1, "position" : 74, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : "2", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 19, "end" : 19},
+		{"id" : 19, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 2.2, "position" : 78, "begin" : 20, "end" : 20},
+		{"id" : 20, "text" : "후", "type" : "NNG", "scode" : "08", "weight" : 5.36, "position" : 82, "begin" : 21, "end" : 21},
+		{"id" : 21, "text" : "약물", "type" : "NNG", "scode" : "03", "weight" : 1.7, "position" : 86, "begin" : 22, "end" : 22},
+		{"id" : 22, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 92, "begin" : 23, "end" : 23},
+		{"id" : 23, "text" : "들", "type" : "VV", "scode" : "01", "weight" : 4.26, "position" : 96, "begin" : 24, "end" : 24},
+		{"id" : 24, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 99, "begin" : 25, "end" : 25},
+		{"id" : 25, "text" : "있", "type" : "VX", "scode" : "01", "weight" : 12, "position" : 102, "begin" : 26, "end" : 26},
+		{"id" : 26, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 27, "end" : 27},
+		{"id" : 27, "text" : "수면제", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 109, "begin" : 28, "end" : 29},
+		{"id" : 28, "text" : "성분", "type" : "NNG", "scode" : "01", "weight" : 4.4, "position" : 119, "begin" : 30, "end" : 30},
+		{"id" : 29, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 125, "begin" : 31, "end" : 31},
+		{"id" : 30, "text" : "빠지", "type" : "VV", "scode" : "02", "weight" : 3.2, "position" : 129, "begin" : 32, "end" : 32},
+		{"id" : 31, "text" : "면", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 135, "begin" : 33, "end" : 33},
+		{"id" : 32, "text" : "최", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 139, "begin" : 34, "end" : 34},
+		{"id" : 33, "text" : "씨", "type" : "NNB", "scode" : "07", "weight" : 6.4, "position" : 142, "begin" : 35, "end" : 35},
+		{"id" : 34, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 145, "begin" : 36, "end" : 36},
+		{"id" : 35, "text" : "생활하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 149, "begin" : 37, "end" : 38},
+		{"id" : 36, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 158, "begin" : 39, "end" : 39},
+		{"id" : 37, "text" : "데", "type" : "NNB", "scode" : "01", "weight" : 9.9, "position" : 162, "begin" : 40, "end" : 40},
+		{"id" : 38, "text" : "지장", "type" : "NNG", "scode" : "03", "weight" : 3.2, "position" : 166, "begin" : 41, "end" : 41},
+		{"id" : 39, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 172, "begin" : 42, "end" : 42},
+		{"id" : 40, "text" : "없", "type" : "VA", "scode" : "01", "weight" : 3.2, "position" : 176, "begin" : 43, "end" : 43},
+		{"id" : 41, "text" : "을", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 179, "begin" : 44, "end" : 44},
+		{"id" : 42, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 6.6, "position" : 183, "begin" : 45, "end" : 45},
+		{"id" : 43, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 186, "begin" : 46, "end" : 46},
+		{"id" : 44, "text" : "전망하", "type" : "VV", "scode" : "02", "weight" : 1, "position" : 193, "begin" : 47, "end" : 48},
+		{"id" : 45, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 199, "begin" : 49, "end" : 49},
+		{"id" : 46, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 202, "begin" : 50, "end" : 50},
+		{"id" : 47, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 205, "begin" : 51, "end" : 51}
+	],
+	"word" : [
+		{"id" : 0, "text" : "병원", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "측은", "type" : "", "begin" : 1, "end" : 2},
+		{"id" : 2, "text" : "최씨가", "type" : "", "begin" : 3, "end" : 5},
+		{"id" : 3, "text" : "약물을", "type" : "", "begin" : 6, "end" : 7},
+		{"id" : 4, "text" : "과다복용한", "type" : "", "begin" : 8, "end" : 11},
+		{"id" : 5, "text" : "것으로", "type" : "", "begin" : 12, "end" : 13},
+		{"id" : 6, "text" : "추정하고", "type" : "", "begin" : 14, "end" : 16},
+		{"id" : 7, "text" : "1∼2일", "type" : "", "begin" : 17, "end" : 20},
+		{"id" : 8, "text" : "후", "type" : "", "begin" : 21, "end" : 21},
+		{"id" : 9, "text" : "약물에", "type" : "", "begin" : 22, "end" : 23},
+		{"id" : 10, "text" : "들어있는", "type" : "", "begin" : 24, "end" : 27},
+		{"id" : 11, "text" : "수면제", "type" : "", "begin" : 28, "end" : 29},
+		{"id" : 12, "text" : "성분이", "type" : "", "begin" : 30, "end" : 31},
+		{"id" : 13, "text" : "빠지면", "type" : "", "begin" : 32, "end" : 33},
+		{"id" : 14, "text" : "최씨가", "type" : "", "begin" : 34, "end" : 36},
+		{"id" : 15, "text" : "생활하는", "type" : "", "begin" : 37, "end" : 39},
+		{"id" : 16, "text" : "데", "type" : "", "begin" : 40, "end" : 40},
+		{"id" : 17, "text" : "지장이", "type" : "", "begin" : 41, "end" : 42},
+		{"id" : 18, "text" : "없을", "type" : "", "begin" : 43, "end" : 44},
+		{"id" : 19, "text" : "것으로", "type" : "", "begin" : 45, "end" : 46},
+		{"id" : 20, "text" : "전망했다.", "type" : "", "begin" : 47, "end" : 51}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "최", "type" : "PS_NAME", "begin" : 3, "end" : 3, "weight" : 0.710105, "common_noun" : 0},
+		{"id" : 1, "text" : "1∼2일 후", "type" : "DT_DURATION", "begin" : 17, "end" : 21, "weight" : 0.713759, "common_noun" : 0},
+		{"id" : 2, "text" : "수면제", "type" : "TMM_DRUG", "begin" : 28, "end" : 29, "weight" : 0.458173, "common_noun" : 0},
+		{"id" : 3, "text" : "최", "type" : "PS_NAME", "begin" : 34, "end" : 34, "weight" : 0.672296, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "병원", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.696094 },
+		{"id" : 1, "text" : "측은", "head" : 6, "label" : "NP_SBJ", "mod" : [0], "weight" : 0.489771 },
+		{"id" : 2, "text" : "최씨가", "head" : 4, "label" : "NP_SBJ", "mod" : [], "weight" : 0.52711 },
+		{"id" : 3, "text" : "약물을", "head" : 4, "label" : "NP_OBJ", "mod" : [], "weight" : 0.713227 },
+		{"id" : 4, "text" : "과다복용한", "head" : 5, "label" : "VP_MOD", "mod" : [2, 3], "weight" : 0.636286 },
+		{"id" : 5, "text" : "것으로", "head" : 6, "label" : "NP_AJT", "mod" : [4], "weight" : 0.721149 },
+		{"id" : 6, "text" : "추정하고", "head" : 13, "label" : "VP", "mod" : [1, 5], "weight" : 0.364192 },
+		{"id" : 7, "text" : "1∼2일", "head" : 8, "label" : "NP", "mod" : [], "weight" : 0.618035 },
+		{"id" : 8, "text" : "후", "head" : 13, "label" : "NP_AJT", "mod" : [7], "weight" : 0.743071 },
+		{"id" : 9, "text" : "약물에", "head" : 10, "label" : "NP_AJT", "mod" : [], "weight" : 0.735031 },
+		{"id" : 10, "text" : "들어있는", "head" : 12, "label" : "VP_MOD", "mod" : [9], "weight" : 0.613211 },
+		{"id" : 11, "text" : "수면제", "head" : 12, "label" : "NP", "mod" : [], "weight" : 0.684108 },
+		{"id" : 12, "text" : "성분이", "head" : 13, "label" : "NP_SBJ", "mod" : [10, 11], "weight" : 0.816648 },
+		{"id" : 13, "text" : "빠지면", "head" : 18, "label" : "VP", "mod" : [6, 8, 12], "weight" : 0.221511 },
+		{"id" : 14, "text" : "최씨가", "head" : 15, "label" : "NP_SBJ", "mod" : [], "weight" : 0.386577 },
+		{"id" : 15, "text" : "생활하는", "head" : 16, "label" : "VP_MOD", "mod" : [14], "weight" : 0.797658 },
+		{"id" : 16, "text" : "데", "head" : 18, "label" : "NP_AJT", "mod" : [15], "weight" : 0.525215 },
+		{"id" : 17, "text" : "지장이", "head" : 18, "label" : "NP_SBJ", "mod" : [], "weight" : 0.722068 },
+		{"id" : 18, "text" : "없을", "head" : 19, "label" : "VP_MOD", "mod" : [13, 16, 17], "weight" : 0.737912 },
+		{"id" : 19, "text" : "것으로", "head" : 20, "label" : "NP_AJT", "mod" : [18], "weight" : 0.759863 },
+		{"id" : 20, "text" : "전망했다.", "head" : -1, "label" : "VP", "mod" : [19], "weight" : 2.9777e-05 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "병원 측은", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_SBJ", "text" : "최씨가", "begin" : 2, "end" : 2, "key_begin" : 2, "head_phrase" : 3, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_OBJ", "text" : "약물을", "begin" : 3, "end" : 3, "key_begin" : 3, "head_phrase" : 3, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "S_MOD", "text" : "P#1@SBJ가 P#2@OBJ을 과다복용한", "begin" : 2, "end" : 4, "key_begin" : 4, "head_phrase" : 4, "sub_phrase" : [1, 2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_AJT", "text" : "S#3@MODㄴ 것으로", "begin" : 2, "end" : 5, "key_begin" : 5, "head_phrase" : 5, "sub_phrase" : [3], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "S", "text" : "P#0@SBJ은 P#4@AJT으로 추정하고", "begin" : 0, "end" : 6, "key_begin" : 6, "head_phrase" : 10, "sub_phrase" : [0, 4], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "NP_AJT", "text" : "1∼2일 후", "begin" : 7, "end" : 8, "key_begin" : 7, "head_phrase" : 10, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "NP_AJT", "text" : "약물에", "begin" : 9, "end" : 9, "key_begin" : 9, "head_phrase" : 8, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 8, "label" : "VP_MOD", "text" : "P#7@AJT에 들어있는", "begin" : 9, "end" : 10, "key_begin" : 10, "head_phrase" : 9, "sub_phrase" : [7], "weight" : 0, "element" : [] },
+		{"id" : 9, "label" : "NP_SBJ", "text" : "P#8@MOD는 수면제 성분이", "begin" : 9, "end" : 12, "key_begin" : 11, "head_phrase" : 10, "sub_phrase" : [8], "weight" : 0, "element" : [] },
+		{"id" : 10, "label" : "S", "text" : "S#5@S고 P#6@AJT후 P#9@SBJ이 빠지면", "begin" : 0, "end" : 13, "key_begin" : 13, "head_phrase" : 15, "sub_phrase" : [5, 6, 9], "weight" : 0, "element" : [] },
+		{"id" : 11, "label" : "NP_SBJ", "text" : "최씨가", "begin" : 14, "end" : 14, "key_begin" : 14, "head_phrase" : 12, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 12, "label" : "S_MOD", "text" : "P#11@SBJ가 생활하는", "begin" : 14, "end" : 15, "key_begin" : 15, "head_phrase" : 13, "sub_phrase" : [11], "weight" : 0, "element" : [] },
+		{"id" : 13, "label" : "NP_AJT", "text" : "S#12@MOD는 데", "begin" : 14, "end" : 16, "key_begin" : 16, "head_phrase" : 15, "sub_phrase" : [12], "weight" : 0, "element" : [] },
+		{"id" : 14, "label" : "NP_SBJ", "text" : "지장이", "begin" : 17, "end" : 17, "key_begin" : 17, "head_phrase" : 15, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 15, "label" : "S_MOD", "text" : "S#10@S면 P#13@AJT데 P#14@SBJ이 없을", "begin" : 0, "end" : 18, "key_begin" : 18, "head_phrase" : 16, "sub_phrase" : [10, 13, 14], "weight" : 0, "element" : [] },
+		{"id" : 16, "label" : "NP_AJT", "text" : "S#15@MOD을 것으로", "begin" : 0, "end" : 19, "key_begin" : 19, "head_phrase" : 17, "sub_phrase" : [15], "weight" : 0, "element" : [] },
+		{"id" : 17, "label" : "VP", "text" : "P#16@AJT으로 전망했다.", "begin" : 0, "end" : 20, "key_begin" : 20, "head_phrase" : -1, "sub_phrase" : [16], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "과다", "sense" : 1, "word_id" : 4, "weight" : 0.364343,
+			"argument" : [
+				{"type" : "ARG0", "word_id" : 2, "text" : "최씨가", "weight" : 0.36363 },
+				{"type" : "ARG1", "word_id" : 3, "text" : "약물을", "weight" : 0.365057 }
+			] },
+		{"verb" : "추정", "sense" : 1, "word_id" : 6, "weight" : 0.3142,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 5, "text" : "것으로", "weight" : 0.3142 }
+			] },
+		{"verb" : "들", "sense" : 2, "word_id" : 10, "weight" : 0.367807,
+			"argument" : [
+				{"type" : "ARGM-TMP", "word_id" : 8, "text" : "후", "weight" : 0.260871 },
+				{"type" : "ARG2", "word_id" : 9, "text" : "약물에", "weight" : 0.397393 },
+				{"type" : "ARG1", "word_id" : 12, "text" : "성분이", "weight" : 0.445156 }
+			] },
+		{"verb" : "빠지", "sense" : 1, "word_id" : 13, "weight" : 0.479319,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 12, "text" : "성분이", "weight" : 0.479319 }
+			] },
+		{"verb" : "생활", "sense" : 1, "word_id" : 15, "weight" : 0.343927,
+			"argument" : [
+				{"type" : "ARGM-DIS", "word_id" : 13, "text" : "빠지면", "weight" : 0.132711 },
+				{"type" : "ARG0", "word_id" : 14, "text" : "최씨가", "weight" : 0.555144 }
+			] },
+		{"verb" : "없", "sense" : 1, "word_id" : 18, "weight" : 0.263603,
+			"argument" : [
+				{"type" : "ARGM-DIS", "word_id" : 16, "text" : "데", "weight" : 0.18942 },
+				{"type" : "ARG1", "word_id" : 17, "text" : "지장이", "weight" : 0.337787 }
+			] },
+		{"verb" : "전망", "sense" : 1, "word_id" : 20, "weight" : 0.313055,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 19, "text" : "것으로", "weight" : 0.313055 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 1,
+	"reserve_str" : "",
+	"text" : " 최씨는 현재 의식이 회복된 상태로 중환자실에서 치료를 받고 있다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "최", "type" : "NNP", "position" : 207, "weight" : 0.0734863 },
+		{"id" : 1, "lemma" : "씨", "type" : "NNB", "position" : 210, "weight" : 0.0450504 },
+		{"id" : 2, "lemma" : "는", "type" : "JX", "position" : 213, "weight" : 0.043988 },
+		{"id" : 3, "lemma" : "현재", "type" : "MAG", "position" : 217, "weight" : 0.0759763 },
+		{"id" : 4, "lemma" : "의식", "type" : "NNG", "position" : 224, "weight" : 0.261391 },
+		{"id" : 5, "lemma" : "이", "type" : "JKS", "position" : 230, "weight" : 0.0360723 },
+		{"id" : 6, "lemma" : "회복", "type" : "NNG", "position" : 234, "weight" : 0.9 },
+		{"id" : 7, "lemma" : "되", "type" : "XSV", "position" : 240, "weight" : 0.000224177 },
+		{"id" : 8, "lemma" : "ㄴ", "type" : "ETM", "position" : 240, "weight" : 0.392321 },
+		{"id" : 9, "lemma" : "상태", "type" : "NNG", "position" : 244, "weight" : 0.658577 },
+		{"id" : 10, "lemma" : "로", "type" : "JKB", "position" : 250, "weight" : 0.153229 },
+		{"id" : 11, "lemma" : "중", "type" : "XPN", "position" : 254, "weight" : 0.0001 },
+		{"id" : 12, "lemma" : "환자", "type" : "NNG", "position" : 257, "weight" : 0.9 },
+		{"id" : 13, "lemma" : "실", "type" : "XSN", "position" : 263, "weight" : 0.0165296 },
+		{"id" : 14, "lemma" : "에서", "type" : "JKB", "position" : 266, "weight" : 0.121718 },
+		{"id" : 15, "lemma" : "치료", "type" : "NNG", "position" : 273, "weight" : 0.9 },
+		{"id" : 16, "lemma" : "를", "type" : "JKO", "position" : 279, "weight" : 0.137686 },
+		{"id" : 17, "lemma" : "받", "type" : "VV", "position" : 283, "weight" : 0.765648 },
+		{"id" : 18, "lemma" : "고", "type" : "EC", "position" : 286, "weight" : 0.416679 },
+		{"id" : 19, "lemma" : "있", "type" : "VX", "position" : 290, "weight" : 0.125953 },
+		{"id" : 20, "lemma" : "다", "type" : "EF", "position" : 293, "weight" : 0.180366 },
+		{"id" : 21, "lemma" : ".", "type" : "SF", "position" : 296, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "최/NNG+씨/NNB+는/JX", "target" : "최씨는", "word_id" : 0, "m_begin" : 0, "m_end" : 2},
+		{"id" : 1, "result" : "현재/MAG", "target" : "현재", "word_id" : 1, "m_begin" : 3, "m_end" : 3},
+		{"id" : 2, "result" : "의식/NNG+이/JKS", "target" : "의식이", "word_id" : 2, "m_begin" : 4, "m_end" : 5},
+		{"id" : 3, "result" : "회복되/VV+ㄴ/ETM", "target" : "회복된", "word_id" : 3, "m_begin" : 6, "m_end" : 8},
+		{"id" : 4, "result" : "상태/NNG+로/JKB", "target" : "상태로", "word_id" : 4, "m_begin" : 9, "m_end" : 10},
+		{"id" : 5, "result" : "중환자실/NNG+에서/JKB", "target" : "중환자실에서", "word_id" : 5, "m_begin" : 11, "m_end" : 14},
+		{"id" : 6, "result" : "치료/NNG+를/JKO", "target" : "치료를", "word_id" : 6, "m_begin" : 15, "m_end" : 16},
+		{"id" : 7, "result" : "받/VV+고/EC", "target" : "받고", "word_id" : 7, "m_begin" : 17, "m_end" : 18},
+		{"id" : 8, "result" : "있/VX+다/EF+./SF", "target" : "있다.", "word_id" : 8, "m_begin" : 19, "m_end" : 21}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "최", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 207, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "씨", "type" : "NNB", "scode" : "07", "weight" : 6.4, "position" : 210, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 213, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "현재", "type" : "MAG", "scode" : "02", "weight" : 4.7, "position" : 217, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "의식", "type" : "NNG", "scode" : "03", "weight" : 7.075, "position" : 224, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 230, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "회복되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 234, "begin" : 6, "end" : 7},
+		{"id" : 7, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 240, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : "상태", "type" : "NNG", "scode" : "01", "weight" : 6.6, "position" : 244, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 250, "begin" : 10, "end" : 10},
+		{"id" : 10, "text" : "중환자실", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 254, "begin" : 11, "end" : 13},
+		{"id" : 11, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 266, "begin" : 14, "end" : 14},
+		{"id" : 12, "text" : "치료", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 273, "begin" : 15, "end" : 15},
+		{"id" : 13, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 279, "begin" : 16, "end" : 16},
+		{"id" : 14, "text" : "받", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 283, "begin" : 17, "end" : 17},
+		{"id" : 15, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 286, "begin" : 18, "end" : 18},
+		{"id" : 16, "text" : "있", "type" : "VX", "scode" : "01", "weight" : 4.4, "position" : 290, "begin" : 19, "end" : 19},
+		{"id" : 17, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 293, "begin" : 20, "end" : 20},
+		{"id" : 18, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 296, "begin" : 21, "end" : 21}
+	],
+	"word" : [
+		{"id" : 0, "text" : "최씨는", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "현재", "type" : "", "begin" : 3, "end" : 3},
+		{"id" : 2, "text" : "의식이", "type" : "", "begin" : 4, "end" : 5},
+		{"id" : 3, "text" : "회복된", "type" : "", "begin" : 6, "end" : 8},
+		{"id" : 4, "text" : "상태로", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 5, "text" : "중환자실에서", "type" : "", "begin" : 11, "end" : 14},
+		{"id" : 6, "text" : "치료를", "type" : "", "begin" : 15, "end" : 16},
+		{"id" : 7, "text" : "받고", "type" : "", "begin" : 17, "end" : 18},
+		{"id" : 8, "text" : "있다.", "type" : "", "begin" : 19, "end" : 21}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "최", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.669752, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "최씨는", "head" : 7, "label" : "NP_SBJ", "mod" : [], "weight" : 0.703576 },
+		{"id" : 1, "text" : "현재", "head" : 7, "label" : "AP", "mod" : [], "weight" : 0.525406 },
+		{"id" : 2, "text" : "의식이", "head" : 3, "label" : "NP_SBJ", "mod" : [], "weight" : 0.578949 },
+		{"id" : 3, "text" : "회복된", "head" : 4, "label" : "VP_MOD", "mod" : [2], "weight" : 0.833066 },
+		{"id" : 4, "text" : "상태로", "head" : 7, "label" : "NP_AJT", "mod" : [3], "weight" : 0.670503 },
+		{"id" : 5, "text" : "중환자실에서", "head" : 7, "label" : "NP_AJT", "mod" : [], "weight" : 0.746547 },
+		{"id" : 6, "text" : "치료를", "head" : 7, "label" : "NP_OBJ", "mod" : [], "weight" : 0.697802 },
+		{"id" : 7, "text" : "받고", "head" : 8, "label" : "VP", "mod" : [0, 1, 4, 5, 6], "weight" : 0.716334 },
+		{"id" : 8, "text" : "있다.", "head" : -1, "label" : "VP", "mod" : [7], "weight" : 0.0326945 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "최씨는", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "AP", "text" : "현재", "begin" : 1, "end" : 1, "key_begin" : 1, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_SBJ", "text" : "의식이", "begin" : 2, "end" : 2, "key_begin" : 2, "head_phrase" : 3, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "S_MOD", "text" : "P#2@SBJ이 회복된", "begin" : 2, "end" : 3, "key_begin" : 3, "head_phrase" : 4, "sub_phrase" : [2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_AJT", "text" : "S#3@MODㄴ 상태로", "begin" : 2, "end" : 4, "key_begin" : 4, "head_phrase" : 7, "sub_phrase" : [3], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "NP_AJT", "text" : "중환자실에서", "begin" : 5, "end" : 5, "key_begin" : 5, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "NP_OBJ", "text" : "치료를", "begin" : 6, "end" : 6, "key_begin" : 6, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "S", "text" : "P#0@SBJ는 P#1@AP현재 P#4@AJT로 P#5@AJT에서 P#6@OBJ를 받고 있다.", "begin" : 0, "end" : 8, "key_begin" : 7, "head_phrase" : -1, "sub_phrase" : [0, 1, 4, 5, 6], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "회복", "sense" : 1, "word_id" : 3, "weight" : 0.282888,
+			"argument" : [
+				{"type" : "ARGM-TMP", "word_id" : 1, "text" : "현재", "weight" : 0.299743 },
+				{"type" : "ARG1", "word_id" : 2, "text" : "의식이", "weight" : 0.266032 }
+			] },
+		{"verb" : "받", "sense" : 1, "word_id" : 7, "weight" : 0.404436,
+			"argument" : [
+				{"type" : "ARG0", "word_id" : 0, "text" : "최씨는", "weight" : 0.251544 },
+				{"type" : "ARGM-TMP", "word_id" : 1, "text" : "현재", "weight" : 0.453421 },
+				{"type" : "ARGM-LOC", "word_id" : 5, "text" : "중환자실에서", "weight" : 0.184346 },
+				{"type" : "ARG1", "word_id" : 6, "text" : "치료를", "weight" : 0.383123 },
+				{"type" : "AUX", "word_id" : 8, "text" : "있다.", "weight" : 0.749745 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 2,
+	"reserve_str" : "",
+	"text" : " 과다복용한 신경안정제는 평소에 처방받아 갖고 있던 약으로 전해졌다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "과다", "type" : "NNG", "position" : 298, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "복용", "type" : "NNG", "position" : 304, "weight" : 0.9 },
+		{"id" : 2, "lemma" : "한", "type" : "MM", "position" : 310, "weight" : 0.00309921 },
+		{"id" : 3, "lemma" : "신경", "type" : "NNG", "position" : 314, "weight" : 0.73663 },
+		{"id" : 4, "lemma" : "안정", "type" : "NNG", "position" : 320, "weight" : 0.184724 },
+		{"id" : 5, "lemma" : "제", "type" : "XSN", "position" : 326, "weight" : 0.00596315 },
+		{"id" : 6, "lemma" : "는", "type" : "JX", "position" : 329, "weight" : 0.0641645 },
+		{"id" : 7, "lemma" : "평소", "type" : "NNG", "position" : 333, "weight" : 0.9 },
+		{"id" : 8, "lemma" : "에", "type" : "JKB", "position" : 339, "weight" : 0.153364 },
+		{"id" : 9, "lemma" : "처방", "type" : "NNG", "position" : 343, "weight" : 0.9 },
+		{"id" : 10, "lemma" : "받", "type" : "VV", "position" : 349, "weight" : 0.0147799 },
+		{"id" : 11, "lemma" : "아", "type" : "EC", "position" : 352, "weight" : 0.398809 },
+		{"id" : 12, "lemma" : "갖", "type" : "VV", "position" : 356, "weight" : 0.225563 },
+		{"id" : 13, "lemma" : "고", "type" : "EC", "position" : 359, "weight" : 0.416679 },
+		{"id" : 14, "lemma" : "있", "type" : "VX", "position" : 363, "weight" : 0.125953 },
+		{"id" : 15, "lemma" : "던", "type" : "ETM", "position" : 366, "weight" : 0.315776 },
+		{"id" : 16, "lemma" : "약", "type" : "NNG", "position" : 370, "weight" : 0.33569 },
+		{"id" : 17, "lemma" : "으로", "type" : "JKB", "position" : 373, "weight" : 0.153406 },
+		{"id" : 18, "lemma" : "전하", "type" : "VV", "position" : 380, "weight" : 0.420227 },
+		{"id" : 19, "lemma" : "어", "type" : "EC", "position" : 383, "weight" : 0.41831 },
+		{"id" : 20, "lemma" : "지", "type" : "VX", "position" : 383, "weight" : 0.0539764 },
+		{"id" : 21, "lemma" : "었", "type" : "EP", "position" : 383, "weight" : 0.9 },
+		{"id" : 22, "lemma" : "다", "type" : "EF", "position" : 389, "weight" : 0.640954 },
+		{"id" : 23, "lemma" : ".", "type" : "SF", "position" : 392, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "과다복용/NNG+한/MM", "target" : "과다복용한", "word_id" : 0, "m_begin" : 0, "m_end" : 2},
+		{"id" : 1, "result" : "신경안정제/NNG+는/JX", "target" : "신경안정제는", "word_id" : 1, "m_begin" : 3, "m_end" : 6},
+		{"id" : 2, "result" : "평소/NNG+에/JKB", "target" : "평소에", "word_id" : 2, "m_begin" : 7, "m_end" : 8},
+		{"id" : 3, "result" : "처방/NNG+받/VV+어/EC", "target" : "처방받아", "word_id" : 3, "m_begin" : 9, "m_end" : 11},
+		{"id" : 4, "result" : "갖/VV+고/EC", "target" : "갖고", "word_id" : 4, "m_begin" : 12, "m_end" : 13},
+		{"id" : 5, "result" : "있/VX+던/ETM", "target" : "있던", "word_id" : 5, "m_begin" : 14, "m_end" : 15},
+		{"id" : 6, "result" : "약/NNG+으로/JKB", "target" : "약으로", "word_id" : 6, "m_begin" : 16, "m_end" : 17},
+		{"id" : 7, "result" : "전하/VV+어/EC+지/VX+었/EP+다/EF+./SF", "target" : "전해졌다.", "word_id" : 7, "m_begin" : 18, "m_end" : 23}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "과다", "type" : "NNG", "scode" : "01", "weight" : 3, "position" : 298, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "복용", "type" : "NNG", "scode" : "01", "weight" : 2, "position" : 304, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "한", "type" : "MM", "scode" : "01", "weight" : 4.2, "position" : 310, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "신경안정제", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 314, "begin" : 3, "end" : 5},
+		{"id" : 4, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 329, "begin" : 6, "end" : 6},
+		{"id" : 5, "text" : "평소", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 333, "begin" : 7, "end" : 7},
+		{"id" : 6, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 339, "begin" : 8, "end" : 8},
+		{"id" : 7, "text" : "처방", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 343, "begin" : 9, "end" : 9},
+		{"id" : 8, "text" : "받", "type" : "VV", "scode" : "01", "weight" : 9.6, "position" : 349, "begin" : 10, "end" : 10},
+		{"id" : 9, "text" : "아", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 352, "begin" : 11, "end" : 11},
+		{"id" : 10, "text" : "갖", "type" : "VV", "scode" : "01", "weight" : 3.2, "position" : 356, "begin" : 12, "end" : 12},
+		{"id" : 11, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 359, "begin" : 13, "end" : 13},
+		{"id" : 12, "text" : "있", "type" : "VX", "scode" : "01", "weight" : 9.8, "position" : 363, "begin" : 14, "end" : 14},
+		{"id" : 13, "text" : "던", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 366, "begin" : 15, "end" : 15},
+		{"id" : 14, "text" : "약", "type" : "NNG", "scode" : "07", "weight" : 1, "position" : 370, "begin" : 16, "end" : 16},
+		{"id" : 15, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 373, "begin" : 17, "end" : 17},
+		{"id" : 16, "text" : "전하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 380, "begin" : 18, "end" : 18},
+		{"id" : 17, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 383, "begin" : 19, "end" : 19},
+		{"id" : 18, "text" : "지", "type" : "VX", "scode" : "04", "weight" : 5.4, "position" : 383, "begin" : 20, "end" : 20},
+		{"id" : 19, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 383, "begin" : 21, "end" : 21},
+		{"id" : 20, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 389, "begin" : 22, "end" : 22},
+		{"id" : 21, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 392, "begin" : 23, "end" : 23}
+	],
+	"word" : [
+		{"id" : 0, "text" : "과다복용한", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "신경안정제는", "type" : "", "begin" : 3, "end" : 6},
+		{"id" : 2, "text" : "평소에", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 3, "text" : "처방받아", "type" : "", "begin" : 9, "end" : 11},
+		{"id" : 4, "text" : "갖고", "type" : "", "begin" : 12, "end" : 13},
+		{"id" : 5, "text" : "있던", "type" : "", "begin" : 14, "end" : 15},
+		{"id" : 6, "text" : "약으로", "type" : "", "begin" : 16, "end" : 17},
+		{"id" : 7, "text" : "전해졌다.", "type" : "", "begin" : 18, "end" : 23}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "한", "type" : "QT_COUNT", "begin" : 2, "end" : 2, "weight" : 0.34832, "common_noun" : 0},
+		{"id" : 1, "text" : "신경안정제", "type" : "TMM_DRUG", "begin" : 3, "end" : 5, "weight" : 0.229175, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "과다복용한", "head" : 1, "label" : "DP", "mod" : [], "weight" : 0.507374 },
+		{"id" : 1, "text" : "신경안정제는", "head" : 3, "label" : "NP_SBJ", "mod" : [0], "weight" : 0.342946 },
+		{"id" : 2, "text" : "평소에", "head" : 3, "label" : "NP_AJT", "mod" : [], "weight" : 0.565785 },
+		{"id" : 3, "text" : "처방받아", "head" : 4, "label" : "VP", "mod" : [1, 2], "weight" : 0.34232 },
+		{"id" : 4, "text" : "갖고", "head" : 5, "label" : "VP", "mod" : [3], "weight" : 0.89586 },
+		{"id" : 5, "text" : "있던", "head" : 6, "label" : "VP_MOD", "mod" : [4], "weight" : 0.610099 },
+		{"id" : 6, "text" : "약으로", "head" : 7, "label" : "NP_AJT", "mod" : [5], "weight" : 0.826678 },
+		{"id" : 7, "text" : "전해졌다.", "head" : -1, "label" : "VP", "mod" : [6], "weight" : 0.0116773 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "과다복용한 신경안정제는", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_AJT", "text" : "평소에", "begin" : 2, "end" : 2, "key_begin" : 2, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "S_MOD", "text" : "P#0@SBJ는 P#1@AJT에 처방받아 갖고 있던", "begin" : 0, "end" : 5, "key_begin" : 3, "head_phrase" : 3, "sub_phrase" : [0, 1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_AJT", "text" : "S#2@MOD던 약으로", "begin" : 0, "end" : 6, "key_begin" : 6, "head_phrase" : 4, "sub_phrase" : [2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "VP", "text" : "P#3@AJT으로 전해졌다.", "begin" : 0, "end" : 7, "key_begin" : 7, "head_phrase" : -1, "sub_phrase" : [3], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "처방", "sense" : 1, "word_id" : 3, "weight" : 0.252925,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 2, "text" : "평소에", "weight" : 0.252925 }
+			] },
+		{"verb" : "갖", "sense" : 1, "word_id" : 4, "weight" : 0.30405,
+			"argument" : [
+				{"type" : "ARGM-INS", "word_id" : 3, "text" : "처방받아", "weight" : 0.072193 },
+				{"type" : "AUX", "word_id" : 5, "text" : "있던", "weight" : 0.535907 }
+			] },
+		{"verb" : "전하", "sense" : 1, "word_id" : 7, "weight" : 0.111403,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 6, "text" : "약으로", "weight" : 0.111403 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "서울경찰청 홍보담당관실 악대 소속 의무경찰로 강남경찰서에서 복무 중이던 최씨는 입대 전인 지난해 10월 집에서 가수 연습생 한모(21·여)씨와 4차례 대마초를 흡연한 혐의가 드러나 조사를 받았다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "서울", "type" : "NNP", "position" : 0, "weight" : 0.0885284 },
+		{"id" : 1, "lemma" : "경찰", "type" : "NNG", "position" : 6, "weight" : 0.9 },
+		{"id" : 2, "lemma" : "청", "type" : "XSN", "position" : 12, "weight" : 0.0130066 },
+		{"id" : 3, "lemma" : "홍보", "type" : "NNG", "position" : 16, "weight" : 0.130407 },
+		{"id" : 4, "lemma" : "담당", "type" : "NNG", "position" : 22, "weight" : 0.184654 },
+		{"id" : 5, "lemma" : "관", "type" : "XSN", "position" : 28, "weight" : 0.0123777 },
+		{"id" : 6, "lemma" : "실", "type" : "XSN", "position" : 31, "weight" : 0.00569095 },
+		{"id" : 7, "lemma" : "악대", "type" : "NNG", "position" : 35, "weight" : 0.9 },
+		{"id" : 8, "lemma" : "소속", "type" : "NNG", "position" : 42, "weight" : 0.9 },
+		{"id" : 9, "lemma" : "의무", "type" : "NNG", "position" : 49, "weight" : 0.9 },
+		{"id" : 10, "lemma" : "경찰", "type" : "NNG", "position" : 55, "weight" : 0.9 },
+		{"id" : 11, "lemma" : "로", "type" : "JKB", "position" : 61, "weight" : 0.153229 },
+		{"id" : 12, "lemma" : "강남", "type" : "NNP", "position" : 65, "weight" : 0.0224652 },
+		{"id" : 13, "lemma" : "경찰", "type" : "NNG", "position" : 71, "weight" : 0.9 },
+		{"id" : 14, "lemma" : "서", "type" : "NNG", "position" : 77, "weight" : 0.00374413 },
+		{"id" : 15, "lemma" : "에서", "type" : "JKB", "position" : 80, "weight" : 0.153407 },
+		{"id" : 16, "lemma" : "복무", "type" : "NNG", "position" : 87, "weight" : 0.9 },
+		{"id" : 17, "lemma" : "중", "type" : "NNB", "position" : 94, "weight" : 0.013531 },
+		{"id" : 18, "lemma" : "이", "type" : "VCP", "position" : 97, "weight" : 0.0607843 },
+		{"id" : 19, "lemma" : "던", "type" : "ETM", "position" : 100, "weight" : 0.230313 },
+		{"id" : 20, "lemma" : "최", "type" : "NNP", "position" : 104, "weight" : 0.0230911 },
+		{"id" : 21, "lemma" : "씨", "type" : "NNB", "position" : 107, "weight" : 0.0450504 },
+		{"id" : 22, "lemma" : "는", "type" : "JX", "position" : 110, "weight" : 0.043988 },
+		{"id" : 23, "lemma" : "입대", "type" : "NNG", "position" : 114, "weight" : 0.32265 },
+		{"id" : 24, "lemma" : "전", "type" : "NNG", "position" : 121, "weight" : 0.107818 },
+		{"id" : 25, "lemma" : "이", "type" : "VCP", "position" : 124, "weight" : 0.0177525 },
+		{"id" : 26, "lemma" : "ㄴ", "type" : "ETM", "position" : 124, "weight" : 0.220712 },
+		{"id" : 27, "lemma" : "지난", "type" : "NNG", "position" : 128, "weight" : 0.479157 },
+		{"id" : 28, "lemma" : "해", "type" : "NNG", "position" : 134, "weight" : 0.124011 },
+		{"id" : 29, "lemma" : "10", "type" : "SN", "position" : 138, "weight" : 1 },
+		{"id" : 30, "lemma" : "월", "type" : "NNB", "position" : 140, "weight" : 0.408539 },
+		{"id" : 31, "lemma" : "집", "type" : "NNG", "position" : 144, "weight" : 0.103494 },
+		{"id" : 32, "lemma" : "에서", "type" : "JKB", "position" : 147, "weight" : 0.153407 },
+		{"id" : 33, "lemma" : "가수", "type" : "NNG", "position" : 154, "weight" : 0.9 },
+		{"id" : 34, "lemma" : "연습", "type" : "NNG", "position" : 161, "weight" : 0.9 },
+		{"id" : 35, "lemma" : "생", "type" : "XSN", "position" : 167, "weight" : 0.0182941 },
+		{"id" : 36, "lemma" : "한모", "type" : "NNG", "position" : 171, "weight" : 0.1 },
+		{"id" : 37, "lemma" : "(", "type" : "SS", "position" : 177, "weight" : 1 },
+		{"id" : 38, "lemma" : "21", "type" : "SN", "position" : 178, "weight" : 1 },
+		{"id" : 39, "lemma" : "·", "type" : "SP", "position" : 180, "weight" : 1 },
+		{"id" : 40, "lemma" : "여", "type" : "NNG", "position" : 182, "weight" : 0.0347026 },
+		{"id" : 41, "lemma" : ")", "type" : "SS", "position" : 185, "weight" : 1 },
+		{"id" : 42, "lemma" : "씨", "type" : "NNB", "position" : 186, "weight" : 0.0119292 },
+		{"id" : 43, "lemma" : "와", "type" : "JC", "position" : 189, "weight" : 0.00249375 },
+		{"id" : 44, "lemma" : "4", "type" : "SN", "position" : 193, "weight" : 1 },
+		{"id" : 45, "lemma" : "차례", "type" : "NNG", "position" : 194, "weight" : 0.9 },
+		{"id" : 46, "lemma" : "대마", "type" : "NNG", "position" : 201, "weight" : 0.177908 },
+		{"id" : 47, "lemma" : "초", "type" : "NNG", "position" : 207, "weight" : 0.0244202 },
+		{"id" : 48, "lemma" : "를", "type" : "JKO", "position" : 210, "weight" : 0.137686 },
+		{"id" : 49, "lemma" : "흡연", "type" : "NNG", "position" : 214, "weight" : 0.9 },
+		{"id" : 50, "lemma" : "하", "type" : "XSV", "position" : 220, "weight" : 0.0001 },
+		{"id" : 51, "lemma" : "ㄴ", "type" : "ETM", "position" : 220, "weight" : 0.392321 },
+		{"id" : 52, "lemma" : "혐의", "type" : "NNG", "position" : 224, "weight" : 0.9 },
+		{"id" : 53, "lemma" : "가", "type" : "JKS", "position" : 230, "weight" : 0.066324 },
+		{"id" : 54, "lemma" : "드러나", "type" : "VV", "position" : 234, "weight" : 0.9 },
+		{"id" : 55, "lemma" : "아", "type" : "EC", "position" : 240, "weight" : 0.398809 },
+		{"id" : 56, "lemma" : "조사", "type" : "NNG", "position" : 244, "weight" : 0.219386 },
+		{"id" : 57, "lemma" : "를", "type" : "JKO", "position" : 250, "weight" : 0.137686 },
+		{"id" : 58, "lemma" : "받", "type" : "VV", "position" : 254, "weight" : 0.765648 },
+		{"id" : 59, "lemma" : "았", "type" : "EP", "position" : 257, "weight" : 0.9 },
+		{"id" : 60, "lemma" : "다", "type" : "EF", "position" : 260, "weight" : 0.640954 },
+		{"id" : 61, "lemma" : ".", "type" : "SF", "position" : 263, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "서울경찰청/NNG", "target" : "서울경찰청", "word_id" : 0, "m_begin" : 0, "m_end" : 2},
+		{"id" : 1, "result" : "홍보담당관실/NNG", "target" : "홍보담당관실", "word_id" : 1, "m_begin" : 3, "m_end" : 6},
+		{"id" : 2, "result" : "악대/NNG", "target" : "악대", "word_id" : 2, "m_begin" : 7, "m_end" : 7},
+		{"id" : 3, "result" : "소속/NNG", "target" : "소속", "word_id" : 3, "m_begin" : 8, "m_end" : 8},
+		{"id" : 4, "result" : "의무경찰/NNG+로/JKB", "target" : "의무경찰로", "word_id" : 4, "m_begin" : 9, "m_end" : 11},
+		{"id" : 5, "result" : "강남경찰서/NNG+에서/JKB", "target" : "강남경찰서에서", "word_id" : 5, "m_begin" : 12, "m_end" : 15},
+		{"id" : 6, "result" : "복무/NNG", "target" : "복무", "word_id" : 6, "m_begin" : 16, "m_end" : 16},
+		{"id" : 7, "result" : "중/NNB+이/VCP+던/ETM", "target" : "중이던", "word_id" : 7, "m_begin" : 17, "m_end" : 19},
+		{"id" : 8, "result" : "최/NNG+씨/NNB+는/JX", "target" : "최씨는", "word_id" : 8, "m_begin" : 20, "m_end" : 22},
+		{"id" : 9, "result" : "입대/NNG", "target" : "입대", "word_id" : 9, "m_begin" : 23, "m_end" : 23},
+		{"id" : 10, "result" : "전/NNG+이/VCP+ㄴ/ETM", "target" : "전인", "word_id" : 10, "m_begin" : 24, "m_end" : 26},
+		{"id" : 11, "result" : "지난해/NNG", "target" : "지난해", "word_id" : 11, "m_begin" : 27, "m_end" : 28},
+		{"id" : 12, "result" : "10/SN+월/NNB", "target" : "10월", "word_id" : 12, "m_begin" : 29, "m_end" : 30},
+		{"id" : 13, "result" : "집/NNG+에서/JKB", "target" : "집에서", "word_id" : 13, "m_begin" : 31, "m_end" : 32},
+		{"id" : 14, "result" : "가수/NNG", "target" : "가수", "word_id" : 14, "m_begin" : 33, "m_end" : 33},
+		{"id" : 15, "result" : "연습생/NNG", "target" : "연습생", "word_id" : 15, "m_begin" : 34, "m_end" : 35},
+		{"id" : 16, "result" : "한모/NNG+(/SS+21/SN+·/SP+여/NNG+)/SS+씨/NNB+와/JC", "target" : "한모(21·여)씨와", "word_id" : 16, "m_begin" : 36, "m_end" : 43},
+		{"id" : 17, "result" : "4/SN+차례/NNG", "target" : "4차례", "word_id" : 17, "m_begin" : 44, "m_end" : 45},
+		{"id" : 18, "result" : "대마초/NNG+를/JKO", "target" : "대마초를", "word_id" : 18, "m_begin" : 46, "m_end" : 48},
+		{"id" : 19, "result" : "흡연하/VV+ㄴ/ETM", "target" : "흡연한", "word_id" : 19, "m_begin" : 49, "m_end" : 51},
+		{"id" : 20, "result" : "혐의/NNG+가/JKS", "target" : "혐의가", "word_id" : 20, "m_begin" : 52, "m_end" : 53},
+		{"id" : 21, "result" : "드러나/VV+어/EC", "target" : "드러나", "word_id" : 21, "m_begin" : 54, "m_end" : 55},
+		{"id" : 22, "result" : "조사/NNG+를/JKO", "target" : "조사를", "word_id" : 22, "m_begin" : 56, "m_end" : 57},
+		{"id" : 23, "result" : "받/VV+었/EP+다/EF+./SF", "target" : "받았다.", "word_id" : 23, "m_begin" : 58, "m_end" : 61}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "서울", "type" : "NNP", "scode" : "01", "weight" : 4, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "경찰청", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 6, "begin" : 1, "end" : 2},
+		{"id" : 2, "text" : "홍보", "type" : "NNG", "scode" : "01", "weight" : 3.5, "position" : 16, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "담당관", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 22, "begin" : 4, "end" : 5},
+		{"id" : 4, "text" : "실", "type" : "XSN", "scode" : "12", "weight" : 5.5, "position" : 31, "begin" : 6, "end" : 6},
+		{"id" : 5, "text" : "악대", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 35, "begin" : 7, "end" : 7},
+		{"id" : 6, "text" : "소속", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 42, "begin" : 8, "end" : 8},
+		{"id" : 7, "text" : "의무경찰", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 49, "begin" : 9, "end" : 10},
+		{"id" : 8, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 11, "end" : 11},
+		{"id" : 9, "text" : "강남", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 65, "begin" : 12, "end" : 12},
+		{"id" : 10, "text" : "경찰서", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 71, "begin" : 13, "end" : 14},
+		{"id" : 11, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 80, "begin" : 15, "end" : 15},
+		{"id" : 12, "text" : "복무", "type" : "NNG", "scode" : "02", "weight" : 3.2, "position" : 87, "begin" : 16, "end" : 16},
+		{"id" : 13, "text" : "중", "type" : "NNB", "scode" : "04", "weight" : 11.2, "position" : 94, "begin" : 17, "end" : 17},
+		{"id" : 14, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 97, "begin" : 18, "end" : 18},
+		{"id" : 15, "text" : "던", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 100, "begin" : 19, "end" : 19},
+		{"id" : 16, "text" : "최", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 104, "begin" : 20, "end" : 20},
+		{"id" : 17, "text" : "씨", "type" : "NNB", "scode" : "07", "weight" : 7.6, "position" : 107, "begin" : 21, "end" : 21},
+		{"id" : 18, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 110, "begin" : 22, "end" : 22},
+		{"id" : 19, "text" : "입대", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 114, "begin" : 23, "end" : 23},
+		{"id" : 20, "text" : "전", "type" : "NNG", "scode" : "08", "weight" : 5.70417, "position" : 121, "begin" : 24, "end" : 24},
+		{"id" : 21, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 124, "begin" : 25, "end" : 25},
+		{"id" : 22, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 124, "begin" : 26, "end" : 26},
+		{"id" : 23, "text" : "지난해", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 128, "begin" : 27, "end" : 28},
+		{"id" : 24, "text" : "10", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 138, "begin" : 29, "end" : 29},
+		{"id" : 25, "text" : "월", "type" : "NNB", "scode" : "02", "weight" : 6.4, "position" : 140, "begin" : 30, "end" : 30},
+		{"id" : 26, "text" : "집", "type" : "NNG", "scode" : "01", "weight" : 4.2, "position" : 144, "begin" : 31, "end" : 31},
+		{"id" : 27, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 147, "begin" : 32, "end" : 32},
+		{"id" : 28, "text" : "가수", "type" : "NNG", "scode" : "11", "weight" : 3, "position" : 154, "begin" : 33, "end" : 33},
+		{"id" : 29, "text" : "연습생", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 161, "begin" : 34, "end" : 35},
+		{"id" : 30, "text" : "한모", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 171, "begin" : 36, "end" : 36},
+		{"id" : 31, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 177, "begin" : 37, "end" : 37},
+		{"id" : 32, "text" : "21", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 178, "begin" : 38, "end" : 38},
+		{"id" : 33, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 180, "begin" : 39, "end" : 39},
+		{"id" : 34, "text" : "여", "type" : "NNG", "scode" : "07", "weight" : 1, "position" : 182, "begin" : 40, "end" : 40},
+		{"id" : 35, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 185, "begin" : 41, "end" : 41},
+		{"id" : 36, "text" : "씨", "type" : "NNB", "scode" : "07", "weight" : 6, "position" : 186, "begin" : 42, "end" : 42},
+		{"id" : 37, "text" : "와", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 189, "begin" : 43, "end" : 43},
+		{"id" : 38, "text" : "4", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 193, "begin" : 44, "end" : 44},
+		{"id" : 39, "text" : "차례", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 194, "begin" : 45, "end" : 45},
+		{"id" : 40, "text" : "대마초", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 201, "begin" : 46, "end" : 47},
+		{"id" : 41, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 210, "begin" : 48, "end" : 48},
+		{"id" : 42, "text" : "흡연하", "type" : "VV", "scode" : "01", "weight" : 1, "position" : 214, "begin" : 49, "end" : 50},
+		{"id" : 43, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 220, "begin" : 51, "end" : 51},
+		{"id" : 44, "text" : "혐의", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 224, "begin" : 52, "end" : 52},
+		{"id" : 45, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 230, "begin" : 53, "end" : 53},
+		{"id" : 46, "text" : "드러나", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 234, "begin" : 54, "end" : 54},
+		{"id" : 47, "text" : "아", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 240, "begin" : 55, "end" : 55},
+		{"id" : 48, "text" : "조사", "type" : "NNG", "scode" : "30", "weight" : 4.01891, "position" : 244, "begin" : 56, "end" : 56},
+		{"id" : 49, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 250, "begin" : 57, "end" : 57},
+		{"id" : 50, "text" : "받", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 254, "begin" : 58, "end" : 58},
+		{"id" : 51, "text" : "았", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 257, "begin" : 59, "end" : 59},
+		{"id" : 52, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 260, "begin" : 60, "end" : 60},
+		{"id" : 53, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 263, "begin" : 61, "end" : 61}
+	],
+	"word" : [
+		{"id" : 0, "text" : "서울경찰청", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "홍보담당관실", "type" : "", "begin" : 3, "end" : 6},
+		{"id" : 2, "text" : "악대", "type" : "", "begin" : 7, "end" : 7},
+		{"id" : 3, "text" : "소속", "type" : "", "begin" : 8, "end" : 8},
+		{"id" : 4, "text" : "의무경찰로", "type" : "", "begin" : 9, "end" : 11},
+		{"id" : 5, "text" : "강남경찰서에서", "type" : "", "begin" : 12, "end" : 15},
+		{"id" : 6, "text" : "복무", "type" : "", "begin" : 16, "end" : 16},
+		{"id" : 7, "text" : "중이던", "type" : "", "begin" : 17, "end" : 19},
+		{"id" : 8, "text" : "최씨는", "type" : "", "begin" : 20, "end" : 22},
+		{"id" : 9, "text" : "입대", "type" : "", "begin" : 23, "end" : 23},
+		{"id" : 10, "text" : "전인", "type" : "", "begin" : 24, "end" : 26},
+		{"id" : 11, "text" : "지난해", "type" : "", "begin" : 27, "end" : 28},
+		{"id" : 12, "text" : "10월", "type" : "", "begin" : 29, "end" : 30},
+		{"id" : 13, "text" : "집에서", "type" : "", "begin" : 31, "end" : 32},
+		{"id" : 14, "text" : "가수", "type" : "", "begin" : 33, "end" : 33},
+		{"id" : 15, "text" : "연습생", "type" : "", "begin" : 34, "end" : 35},
+		{"id" : 16, "text" : "한모(21·여)씨와", "type" : "", "begin" : 36, "end" : 43},
+		{"id" : 17, "text" : "4차례", "type" : "", "begin" : 44, "end" : 45},
+		{"id" : 18, "text" : "대마초를", "type" : "", "begin" : 46, "end" : 48},
+		{"id" : 19, "text" : "흡연한", "type" : "", "begin" : 49, "end" : 51},
+		{"id" : 20, "text" : "혐의가", "type" : "", "begin" : 52, "end" : 53},
+		{"id" : 21, "text" : "드러나", "type" : "", "begin" : 54, "end" : 55},
+		{"id" : 22, "text" : "조사를", "type" : "", "begin" : 56, "end" : 57},
+		{"id" : 23, "text" : "받았다.", "type" : "", "begin" : 58, "end" : 61}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "서울경찰청", "type" : "OGG_POLITICS", "begin" : 0, "end" : 2, "weight" : 0.889261, "common_noun" : 0},
+		{"id" : 1, "text" : "홍보담당관", "type" : "CV_POSITION", "begin" : 3, "end" : 5, "weight" : 0.525753, "common_noun" : 0},
+		{"id" : 2, "text" : "의무경찰", "type" : "CV_OCCUPATION", "begin" : 9, "end" : 10, "weight" : 0.434209, "common_noun" : 0},
+		{"id" : 3, "text" : "강남경찰서", "type" : "OGG_POLITICS", "begin" : 12, "end" : 14, "weight" : 0.798082, "common_noun" : 0},
+		{"id" : 4, "text" : "최", "type" : "PS_NAME", "begin" : 20, "end" : 20, "weight" : 0.64504, "common_noun" : 0},
+		{"id" : 5, "text" : "지난해 10월", "type" : "DT_OTHERS", "begin" : 27, "end" : 30, "weight" : 0.834714, "common_noun" : 0},
+		{"id" : 6, "text" : "가수", "type" : "CV_OCCUPATION", "begin" : 33, "end" : 33, "weight" : 0.525332, "common_noun" : 0},
+		{"id" : 7, "text" : "연습생", "type" : "CV_POSITION", "begin" : 34, "end" : 35, "weight" : 0.313814, "common_noun" : 0},
+		{"id" : 8, "text" : "한모", "type" : "PS_NAME", "begin" : 36, "end" : 36, "weight" : 0.140252, "common_noun" : 0},
+		{"id" : 9, "text" : "21", "type" : "QT_AGE", "begin" : 38, "end" : 38, "weight" : 0.242108, "common_noun" : 0},
+		{"id" : 10, "text" : "4차례", "type" : "QT_COUNT", "begin" : 44, "end" : 45, "weight" : 0.691417, "common_noun" : 0},
+		{"id" : 11, "text" : "대마초", "type" : "PT_GRASS", "begin" : 46, "end" : 47, "weight" : 0.323985, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "서울경찰청", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.460303 },
+		{"id" : 1, "text" : "홍보담당관실", "head" : 3, "label" : "NP", "mod" : [0], "weight" : 0.240594 },
+		{"id" : 2, "text" : "악대", "head" : 3, "label" : "NP", "mod" : [], "weight" : 0.418254 },
+		{"id" : 3, "text" : "소속", "head" : 4, "label" : "NP", "mod" : [1, 2], "weight" : 0.735657 },
+		{"id" : 4, "text" : "의무경찰로", "head" : 7, "label" : "NP_AJT", "mod" : [3], "weight" : 0.0615247 },
+		{"id" : 5, "text" : "강남경찰서에서", "head" : 7, "label" : "NP_AJT", "mod" : [], "weight" : 0.443119 },
+		{"id" : 6, "text" : "복무", "head" : 7, "label" : "NP", "mod" : [], "weight" : 0.623303 },
+		{"id" : 7, "text" : "중이던", "head" : 8, "label" : "VNP_MOD", "mod" : [4, 5, 6], "weight" : 0.642156 },
+		{"id" : 8, "text" : "최씨는", "head" : 21, "label" : "NP_SBJ", "mod" : [7], "weight" : 0.853981 },
+		{"id" : 9, "text" : "입대", "head" : 10, "label" : "NP", "mod" : [], "weight" : 0.770763 },
+		{"id" : 10, "text" : "전인", "head" : 12, "label" : "VNP_MOD", "mod" : [9], "weight" : 0.511967 },
+		{"id" : 11, "text" : "지난해", "head" : 12, "label" : "NP", "mod" : [], "weight" : 0.625255 },
+		{"id" : 12, "text" : "10월", "head" : 21, "label" : "NP_AJT", "mod" : [10, 11], "weight" : 0.790729 },
+		{"id" : 13, "text" : "집에서", "head" : 21, "label" : "NP_AJT", "mod" : [], "weight" : 0.805262 },
+		{"id" : 14, "text" : "가수", "head" : 15, "label" : "NP", "mod" : [], "weight" : 0.602489 },
+		{"id" : 15, "text" : "연습생", "head" : 16, "label" : "NP", "mod" : [14], "weight" : 0.726697 },
+		{"id" : 16, "text" : "한모(21·여)씨와", "head" : 20, "label" : "NP_CNJ", "mod" : [15], "weight" : 0.287277 },
+		{"id" : 17, "text" : "4차례", "head" : 18, "label" : "NP", "mod" : [], "weight" : 0.472948 },
+		{"id" : 18, "text" : "대마초를", "head" : 19, "label" : "NP_OBJ", "mod" : [17], "weight" : 0.669168 },
+		{"id" : 19, "text" : "흡연한", "head" : 20, "label" : "VP_MOD", "mod" : [18], "weight" : 0.753352 },
+		{"id" : 20, "text" : "혐의가", "head" : 21, "label" : "NP_SBJ", "mod" : [16, 19], "weight" : 0.780425 },
+		{"id" : 21, "text" : "드러나", "head" : 23, "label" : "VP", "mod" : [8, 12, 13, 20], "weight" : 0.82577 },
+		{"id" : 22, "text" : "조사를", "head" : 23, "label" : "NP_OBJ", "mod" : [], "weight" : 0.699726 },
+		{"id" : 23, "text" : "받았다.", "head" : -1, "label" : "VP", "mod" : [21, 22], "weight" : 4.96713e-07 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_AJT", "text" : "서울경찰청 홍보담당관실 악대 소속 의무경찰로", "begin" : 0, "end" : 4, "key_begin" : 0, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_AJT", "text" : "강남경찰서에서", "begin" : 5, "end" : 5, "key_begin" : 5, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "VNP_MOD", "text" : "P#0@AJT로 P#1@AJT에서 복무 중이던", "begin" : 0, "end" : 7, "key_begin" : 6, "head_phrase" : 3, "sub_phrase" : [0, 1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_SBJ", "text" : "P#2@MOD던 최씨는", "begin" : 0, "end" : 8, "key_begin" : 8, "head_phrase" : 11, "sub_phrase" : [2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "VNP_MOD", "text" : "입대 전인", "begin" : 9, "end" : 10, "key_begin" : 9, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "NP_AJT", "text" : "P#4@MODㄴ 지난해 10월", "begin" : 9, "end" : 12, "key_begin" : 11, "head_phrase" : 11, "sub_phrase" : [4], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "NP_AJT", "text" : "집에서", "begin" : 13, "end" : 13, "key_begin" : 13, "head_phrase" : 11, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "NP_CNJ", "text" : "가수 연습생 한모(21·여)씨와", "begin" : 14, "end" : 16, "key_begin" : 14, "head_phrase" : 10, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 8, "label" : "NP_OBJ", "text" : "4차례 대마초를", "begin" : 17, "end" : 18, "key_begin" : 17, "head_phrase" : 9, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 9, "label" : "VP_MOD", "text" : "P#8@OBJ를 흡연한", "begin" : 17, "end" : 19, "key_begin" : 19, "head_phrase" : 10, "sub_phrase" : [8], "weight" : 0, "element" : [] },
+		{"id" : 10, "label" : "NP_SBJ", "text" : "P#7@CNJ와 P#9@MODㄴ 혐의가", "begin" : 14, "end" : 20, "key_begin" : 20, "head_phrase" : 11, "sub_phrase" : [7, 9], "weight" : 0, 
+			"element" : [
+				{ "text" : "가수 연습생 한모(21·여)씨", "label" : "NP_SBJ", "begin" : 33, "end" : 42, "ne_type" : "" },
+				{ "text" : "4차례 대마초를 흡연한 혐의", "label" : "NP_SBJ", "begin" : 44, "end" : 52, "ne_type" : "" }
+			] },
+		{"id" : 11, "label" : "S", "text" : "P#3@SBJ는 P#5@AJT월 P#6@AJT에서 P#10@SBJ가 드러나", "begin" : 0, "end" : 21, "key_begin" : 21, "head_phrase" : 13, "sub_phrase" : [3, 5, 6, 10], "weight" : 0, "element" : [] },
+		{"id" : 12, "label" : "NP_OBJ", "text" : "조사를", "begin" : 22, "end" : 22, "key_begin" : 22, "head_phrase" : 13, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 13, "label" : "S", "text" : "S#11@S아 P#12@OBJ를 받았다.", "begin" : 0, "end" : 23, "key_begin" : 23, "head_phrase" : -1, "sub_phrase" : [11, 12], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "흡연", "sense" : 1, "word_id" : 19, "weight" : 0.477938,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 18, "text" : "대마초를", "weight" : 0.477938 }
+			] },
+		{"verb" : "드러나", "sense" : 1, "word_id" : 21, "weight" : 0.315378,
+			"argument" : [
+				{"type" : "ARGM-LOC", "word_id" : 13, "text" : "집에서", "weight" : 0.382442 },
+				{"type" : "ARG1", "word_id" : 20, "text" : "혐의가", "weight" : 0.248313 }
+			] },
+		{"verb" : "받", "sense" : 1, "word_id" : 23, "weight" : 0.425889,
+			"argument" : [
+				{"type" : "ARGM-LOC", "word_id" : 13, "text" : "집에서", "weight" : 0.281526 },
+				{"type" : "ARGM-CAU", "word_id" : 21, "text" : "드러나", "weight" : 0.416308 },
+				{"type" : "ARG1", "word_id" : 22, "text" : "조사를", "weight" : 0.579833 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 1,
+	"reserve_str" : "",
+	"text" : " 서울중앙지검 강력부는 전날 마약류 관리에 관한 법률 위반 혐의로 최씨를 불구속 기소했다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "서울중앙", "type" : "NNP", "position" : 265, "weight" : 0.6 },
+		{"id" : 1, "lemma" : "지검", "type" : "NNG", "position" : 277, "weight" : 0.9 },
+		{"id" : 2, "lemma" : "강력", "type" : "NNG", "position" : 284, "weight" : 0.9 },
+		{"id" : 3, "lemma" : "부", "type" : "XSN", "position" : 290, "weight" : 0.0112289 },
+		{"id" : 4, "lemma" : "는", "type" : "JX", "position" : 293, "weight" : 0.0641645 },
+		{"id" : 5, "lemma" : "전날", "type" : "NNG", "position" : 297, "weight" : 0.9 },
+		{"id" : 6, "lemma" : "마약", "type" : "NNG", "position" : 304, "weight" : 0.9 },
+		{"id" : 7, "lemma" : "류", "type" : "XSN", "position" : 310, "weight" : 0.0293167 },
+		{"id" : 8, "lemma" : "관리", "type" : "NNG", "position" : 314, "weight" : 0.9 },
+		{"id" : 9, "lemma" : "에", "type" : "JKB", "position" : 320, "weight" : 0.153364 },
+		{"id" : 10, "lemma" : "관", "type" : "NNG", "position" : 324, "weight" : 0.130437 },
+		{"id" : 11, "lemma" : "하", "type" : "XSV", "position" : 327, "weight" : 0.0001 },
+		{"id" : 12, "lemma" : "ㄴ", "type" : "ETM", "position" : 327, "weight" : 0.392321 },
+		{"id" : 13, "lemma" : "법률", "type" : "NNG", "position" : 331, "weight" : 0.9 },
+		{"id" : 14, "lemma" : "위반", "type" : "NNG", "position" : 338, "weight" : 0.9 },
+		{"id" : 15, "lemma" : "혐의", "type" : "NNG", "position" : 345, "weight" : 0.9 },
+		{"id" : 16, "lemma" : "로", "type" : "JKB", "position" : 351, "weight" : 0.153229 },
+		{"id" : 17, "lemma" : "최", "type" : "NNP", "position" : 355, "weight" : 0.0189436 },
+		{"id" : 18, "lemma" : "씨", "type" : "NNB", "position" : 358, "weight" : 0.0450504 },
+		{"id" : 19, "lemma" : "를", "type" : "JKO", "position" : 361, "weight" : 0.0669358 },
+		{"id" : 20, "lemma" : "불", "type" : "XPN", "position" : 365, "weight" : 0.0001 },
+		{"id" : 21, "lemma" : "구속", "type" : "NNG", "position" : 368, "weight" : 0.9 },
+		{"id" : 22, "lemma" : "기소", "type" : "NNG", "position" : 375, "weight" : 0.183349 },
+		{"id" : 23, "lemma" : "하", "type" : "XSV", "position" : 381, "weight" : 0.0001 },
+		{"id" : 24, "lemma" : "었", "type" : "EP", "position" : 381, "weight" : 0.9 },
+		{"id" : 25, "lemma" : "다", "type" : "EF", "position" : 384, "weight" : 0.640954 },
+		{"id" : 26, "lemma" : ".", "type" : "SF", "position" : 387, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "서울중앙지검/NNG", "target" : "서울중앙지검", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "강력부/NNG+는/JX", "target" : "강력부는", "word_id" : 1, "m_begin" : 2, "m_end" : 4},
+		{"id" : 2, "result" : "전날/NNG", "target" : "전날", "word_id" : 2, "m_begin" : 5, "m_end" : 5},
+		{"id" : 3, "result" : "마약류/NNG", "target" : "마약류", "word_id" : 3, "m_begin" : 6, "m_end" : 7},
+		{"id" : 4, "result" : "관리/NNG+에/JKB", "target" : "관리에", "word_id" : 4, "m_begin" : 8, "m_end" : 9},
+		{"id" : 5, "result" : "관하/VV+ㄴ/ETM", "target" : "관한", "word_id" : 5, "m_begin" : 10, "m_end" : 12},
+		{"id" : 6, "result" : "법률/NNG", "target" : "법률", "word_id" : 6, "m_begin" : 13, "m_end" : 13},
+		{"id" : 7, "result" : "위반/NNG", "target" : "위반", "word_id" : 7, "m_begin" : 14, "m_end" : 14},
+		{"id" : 8, "result" : "혐의/NNG+로/JKB", "target" : "혐의로", "word_id" : 8, "m_begin" : 15, "m_end" : 16},
+		{"id" : 9, "result" : "최/NNG+씨/NNB+를/JKO", "target" : "최씨를", "word_id" : 9, "m_begin" : 17, "m_end" : 19},
+		{"id" : 10, "result" : "불구속/NNG", "target" : "불구속", "word_id" : 10, "m_begin" : 20, "m_end" : 21},
+		{"id" : 11, "result" : "기소하/VV+었/EP+다/EF+./SF", "target" : "기소했다.", "word_id" : 11, "m_begin" : 22, "m_end" : 26}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "서울중앙", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 265, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "지검", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 277, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "강력부", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 284, "begin" : 2, "end" : 3},
+		{"id" : 3, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 293, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "전날", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 297, "begin" : 5, "end" : 5},
+		{"id" : 5, "text" : "마약", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 304, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "류", "type" : "XSN", "scode" : "03", "weight" : 4, "position" : 310, "begin" : 7, "end" : 7},
+		{"id" : 7, "text" : "관리", "type" : "NNG", "scode" : "04", "weight" : 4.23362, "position" : 314, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 320, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : "관하", "type" : "VV", "scode" : "02", "weight" : 8.8, "position" : 324, "begin" : 10, "end" : 11},
+		{"id" : 10, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 327, "begin" : 12, "end" : 12},
+		{"id" : 11, "text" : "법률", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 331, "begin" : 13, "end" : 13},
+		{"id" : 12, "text" : "위반", "type" : "NNG", "scode" : "03", "weight" : 7.6, "position" : 338, "begin" : 14, "end" : 14},
+		{"id" : 13, "text" : "혐의", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 345, "begin" : 15, "end" : 15},
+		{"id" : 14, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 351, "begin" : 16, "end" : 16},
+		{"id" : 15, "text" : "최", "type" : "NNP", "scode" : "02", "weight" : 3, "position" : 355, "begin" : 17, "end" : 17},
+		{"id" : 16, "text" : "씨", "type" : "NNB", "scode" : "07", "weight" : 8.4, "position" : 358, "begin" : 18, "end" : 18},
+		{"id" : 17, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 361, "begin" : 19, "end" : 19},
+		{"id" : 18, "text" : "불구속", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 365, "begin" : 20, "end" : 21},
+		{"id" : 19, "text" : "기소하", "type" : "VV", "scode" : "01", "weight" : 2.5, "position" : 375, "begin" : 22, "end" : 23},
+		{"id" : 20, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 381, "begin" : 24, "end" : 24},
+		{"id" : 21, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 384, "begin" : 25, "end" : 25},
+		{"id" : 22, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 387, "begin" : 26, "end" : 26}
+	],
+	"word" : [
+		{"id" : 0, "text" : "서울중앙지검", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "강력부는", "type" : "", "begin" : 2, "end" : 4},
+		{"id" : 2, "text" : "전날", "type" : "", "begin" : 5, "end" : 5},
+		{"id" : 3, "text" : "마약류", "type" : "", "begin" : 6, "end" : 7},
+		{"id" : 4, "text" : "관리에", "type" : "", "begin" : 8, "end" : 9},
+		{"id" : 5, "text" : "관한", "type" : "", "begin" : 10, "end" : 12},
+		{"id" : 6, "text" : "법률", "type" : "", "begin" : 13, "end" : 13},
+		{"id" : 7, "text" : "위반", "type" : "", "begin" : 14, "end" : 14},
+		{"id" : 8, "text" : "혐의로", "type" : "", "begin" : 15, "end" : 16},
+		{"id" : 9, "text" : "최씨를", "type" : "", "begin" : 17, "end" : 19},
+		{"id" : 10, "text" : "불구속", "type" : "", "begin" : 20, "end" : 21},
+		{"id" : 11, "text" : "기소했다.", "type" : "", "begin" : 22, "end" : 26}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "서울중앙지검", "type" : "OGG_POLITICS", "begin" : 0, "end" : 1, "weight" : 0.884703, "common_noun" : 0},
+		{"id" : 1, "text" : "강력부", "type" : "OGG_POLITICS", "begin" : 2, "end" : 3, "weight" : 0.438846, "common_noun" : 0},
+		{"id" : 2, "text" : "전날", "type" : "DT_DAY", "begin" : 5, "end" : 5, "weight" : 0.470051, "common_noun" : 0},
+		{"id" : 3, "text" : "마약류 관리에 관한 법률 위반", "type" : "CV_LAW", "begin" : 6, "end" : 14, "weight" : 0.844329, "common_noun" : 0},
+		{"id" : 4, "text" : "최", "type" : "PS_NAME", "begin" : 17, "end" : 17, "weight" : 0.601981, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "서울중앙지검", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.76613 },
+		{"id" : 1, "text" : "강력부는", "head" : 11, "label" : "NP_SBJ", "mod" : [0], "weight" : 0.763202 },
+		{"id" : 2, "text" : "전날", "head" : 11, "label" : "NP_AJT", "mod" : [], "weight" : 0.677067 },
+		{"id" : 3, "text" : "마약류", "head" : 4, "label" : "NP", "mod" : [], "weight" : 0.504227 },
+		{"id" : 4, "text" : "관리에", "head" : 5, "label" : "NP_AJT", "mod" : [3], "weight" : 0.791038 },
+		{"id" : 5, "text" : "관한", "head" : 7, "label" : "VP_MOD", "mod" : [4], "weight" : 0.811372 },
+		{"id" : 6, "text" : "법률", "head" : 7, "label" : "NP", "mod" : [], "weight" : 0.470982 },
+		{"id" : 7, "text" : "위반", "head" : 8, "label" : "NP", "mod" : [5, 6], "weight" : 0.779378 },
+		{"id" : 8, "text" : "혐의로", "head" : 11, "label" : "NP_AJT", "mod" : [7], "weight" : 0.814826 },
+		{"id" : 9, "text" : "최씨를", "head" : 11, "label" : "NP_OBJ", "mod" : [], "weight" : 0.690452 },
+		{"id" : 10, "text" : "불구속", "head" : 11, "label" : "NP_AJT", "mod" : [], "weight" : 0.165358 },
+		{"id" : 11, "text" : "기소했다.", "head" : -1, "label" : "VP", "mod" : [1, 2, 8, 9, 10], "weight" : 0.00270357 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "서울중앙지검 강력부는", "begin" : 0, "end" : 1, "key_begin" : 0, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_AJT", "text" : "전날", "begin" : 2, "end" : 2, "key_begin" : 2, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_AJT", "text" : "마약류 관리에 관한 법률 위반 혐의로", "begin" : 3, "end" : 8, "key_begin" : 3, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_OBJ", "text" : "최씨를", "begin" : 9, "end" : 9, "key_begin" : 9, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "NP_AJT", "text" : "불구속", "begin" : 10, "end" : 10, "key_begin" : 10, "head_phrase" : 5, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "S", "text" : "P#0@SBJ는 P#1@AJT전날 P#2@AJT로 P#3@OBJ를 P#4@AJT구속 기소했다.", "begin" : 0, "end" : 11, "key_begin" : 11, "head_phrase" : -1, "sub_phrase" : [0, 1, 2, 3, 4], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "관", "sense" : 1, "word_id" : 5, "weight" : 0.329755,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 4, "text" : "관리에", "weight" : 0.305432 },
+				{"type" : "ARG1", "word_id" : 7, "text" : "위반", "weight" : 0.354079 }
+			] },
+		{"verb" : "기소", "sense" : 1, "word_id" : 11, "weight" : 0.257767,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 8, "text" : "혐의로", "weight" : 0.277479 },
+				{"type" : "ARG1", "word_id" : 9, "text" : "최씨를", "weight" : 0.360189 },
+				{"type" : "ARG2", "word_id" : 10, "text" : "불구속", "weight" : 0.135633 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 2,
+	"reserve_str" : "",
+	"text" : " 경찰은 최씨가 재판에 넘겨짐에 따라 최씨를 서울청 소속 4기동단으로 전보하고 직위해제했다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "경찰", "type" : "NNG", "position" : 389, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "은", "type" : "JX", "position" : 395, "weight" : 0.0449928 },
+		{"id" : 2, "lemma" : "최", "type" : "NNP", "position" : 399, "weight" : 0.0369235 },
+		{"id" : 3, "lemma" : "씨", "type" : "NNB", "position" : 402, "weight" : 0.0450504 },
+		{"id" : 4, "lemma" : "가", "type" : "JKS", "position" : 405, "weight" : 0.0691641 },
+		{"id" : 5, "lemma" : "재판", "type" : "NNG", "position" : 409, "weight" : 0.9 },
+		{"id" : 6, "lemma" : "에", "type" : "JKB", "position" : 415, "weight" : 0.153364 },
+		{"id" : 7, "lemma" : "넘겨지", "type" : "VV", "position" : 419, "weight" : 0 },
+		{"id" : 8, "lemma" : "ㅁ", "type" : "ETN", "position" : 425, "weight" : 0.0393459 },
+		{"id" : 9, "lemma" : "에", "type" : "JKB", "position" : 428, "weight" : 0.131408 },
+		{"id" : 10, "lemma" : "따르", "type" : "VV", "position" : 432, "weight" : 0.9 },
+		{"id" : 11, "lemma" : "아", "type" : "EC", "position" : 435, "weight" : 0.398809 },
+		{"id" : 12, "lemma" : "최", "type" : "NNP", "position" : 439, "weight" : 0.0180822 },
+		{"id" : 13, "lemma" : "씨", "type" : "NNB", "position" : 442, "weight" : 0.0450504 },
+		{"id" : 14, "lemma" : "를", "type" : "JKO", "position" : 445, "weight" : 0.0669358 },
+		{"id" : 15, "lemma" : "서울", "type" : "NNP", "position" : 449, "weight" : 0.00419771 },
+		{"id" : 16, "lemma" : "청", "type" : "NNG", "position" : 455, "weight" : 0.134865 },
+		{"id" : 17, "lemma" : "소속", "type" : "NNG", "position" : 459, "weight" : 0.9 },
+		{"id" : 18, "lemma" : "4", "type" : "SN", "position" : 466, "weight" : 1 },
+		{"id" : 19, "lemma" : "기동", "type" : "NNG", "position" : 467, "weight" : 0.9 },
+		{"id" : 20, "lemma" : "단", "type" : "XSN", "position" : 473, "weight" : 0.00809175 },
+		{"id" : 21, "lemma" : "으로", "type" : "JKB", "position" : 476, "weight" : 0.121717 },
+		{"id" : 22, "lemma" : "전보", "type" : "NNG", "position" : 483, "weight" : 0.207394 },
+		{"id" : 23, "lemma" : "하", "type" : "XSV", "position" : 489, "weight" : 0.0001 },
+		{"id" : 24, "lemma" : "고", "type" : "EC", "position" : 492, "weight" : 0.359917 },
+		{"id" : 25, "lemma" : "직위", "type" : "NNG", "position" : 496, "weight" : 0.9 },
+		{"id" : 26, "lemma" : "해제", "type" : "NNG", "position" : 502, "weight" : 0.9 },
+		{"id" : 27, "lemma" : "하", "type" : "XSV", "position" : 508, "weight" : 0.0001 },
+		{"id" : 28, "lemma" : "었", "type" : "EP", "position" : 508, "weight" : 0.9 },
+		{"id" : 29, "lemma" : "다", "type" : "EF", "position" : 511, "weight" : 0.640954 },
+		{"id" : 30, "lemma" : ".", "type" : "SF", "position" : 514, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "경찰/NNG+은/JX", "target" : "경찰은", "word_id" : 0, "m_begin" : 0, "m_end" : 1},
+		{"id" : 1, "result" : "최/NNG+씨/NNB+가/JKS", "target" : "최씨가", "word_id" : 1, "m_begin" : 2, "m_end" : 4},
+		{"id" : 2, "result" : "재판/NNG+에/JKB", "target" : "재판에", "word_id" : 2, "m_begin" : 5, "m_end" : 6},
+		{"id" : 3, "result" : "넘겨지/VV+ㅁ/ETN+에/JKB", "target" : "넘겨짐에", "word_id" : 3, "m_begin" : 7, "m_end" : 9},
+		{"id" : 4, "result" : "따르/VV+어/EC", "target" : "따라", "word_id" : 4, "m_begin" : 10, "m_end" : 11},
+		{"id" : 5, "result" : "최/NNG+씨/NNB+를/JKO", "target" : "최씨를", "word_id" : 5, "m_begin" : 12, "m_end" : 14},
+		{"id" : 6, "result" : "서울청/NNG", "target" : "서울청", "word_id" : 6, "m_begin" : 15, "m_end" : 16},
+		{"id" : 7, "result" : "소속/NNG", "target" : "소속", "word_id" : 7, "m_begin" : 17, "m_end" : 17},
+		{"id" : 8, "result" : "4/SN+기동단/NNG+으로/JKB", "target" : "4기동단으로", "word_id" : 8, "m_begin" : 18, "m_end" : 21},
+		{"id" : 9, "result" : "전보하/VV+고/EC", "target" : "전보하고", "word_id" : 9, "m_begin" : 22, "m_end" : 24},
+		{"id" : 10, "result" : "직위해제하/VV+었/EP+다/EF+./SF", "target" : "직위해제했다.", "word_id" : 10, "m_begin" : 25, "m_end" : 30}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "경찰", "type" : "NNG", "scode" : "04", "weight" : 2.5, "position" : 389, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 395, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "최", "type" : "NNP", "scode" : "02", "weight" : 2, "position" : 399, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "씨", "type" : "NNB", "scode" : "07", "weight" : 6.4, "position" : 402, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 405, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "재판", "type" : "NNG", "scode" : "06", "weight" : 5.7, "position" : 409, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 415, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "넘겨지", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 419, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "ㅁ", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 425, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 428, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "따르", "type" : "VV", "scode" : "01", "weight" : 9.14, "position" : 432, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "아", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 435, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "최", "type" : "NNP", "scode" : "02", "weight" : 2.5, "position" : 439, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "씨", "type" : "NNB", "scode" : "07", "weight" : 8.9, "position" : 442, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 445, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "서울", "type" : "NNP", "scode" : "01", "weight" : 7.7, "position" : 449, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "청", "type" : "NNG", "scode" : "10", "weight" : 3.33333, "position" : 455, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "소속", "type" : "NNG", "scode" : "01", "weight" : 2.5, "position" : 459, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "4", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 466, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "기동", "type" : "NNG", "scode" : "03", "weight" : 2.5, "position" : 467, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : "단", "type" : "XSN", "scode" : "20", "weight" : 4.5, "position" : 473, "begin" : 20, "end" : 20},
+		{"id" : 21, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 476, "begin" : 21, "end" : 21},
+		{"id" : 22, "text" : "전보하", "type" : "VV", "scode" : "06", "weight" : 1, "position" : 483, "begin" : 22, "end" : 23},
+		{"id" : 23, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 492, "begin" : 24, "end" : 24},
+		{"id" : 24, "text" : "직위", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 496, "begin" : 25, "end" : 25},
+		{"id" : 25, "text" : "해제하", "type" : "VV", "scode" : "02", "weight" : 2, "position" : 502, "begin" : 26, "end" : 27},
+		{"id" : 26, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 508, "begin" : 28, "end" : 28},
+		{"id" : 27, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 511, "begin" : 29, "end" : 29},
+		{"id" : 28, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 514, "begin" : 30, "end" : 30}
+	],
+	"word" : [
+		{"id" : 0, "text" : "경찰은", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "최씨가", "type" : "", "begin" : 2, "end" : 4},
+		{"id" : 2, "text" : "재판에", "type" : "", "begin" : 5, "end" : 6},
+		{"id" : 3, "text" : "넘겨짐에", "type" : "", "begin" : 7, "end" : 9},
+		{"id" : 4, "text" : "따라", "type" : "", "begin" : 10, "end" : 11},
+		{"id" : 5, "text" : "최씨를", "type" : "", "begin" : 12, "end" : 14},
+		{"id" : 6, "text" : "서울청", "type" : "", "begin" : 15, "end" : 16},
+		{"id" : 7, "text" : "소속", "type" : "", "begin" : 17, "end" : 17},
+		{"id" : 8, "text" : "4기동단으로", "type" : "", "begin" : 18, "end" : 21},
+		{"id" : 9, "text" : "전보하고", "type" : "", "begin" : 22, "end" : 24},
+		{"id" : 10, "text" : "직위해제했다.", "type" : "", "begin" : 25, "end" : 30}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "경찰", "type" : "OGG_POLITICS", "begin" : 0, "end" : 0, "weight" : 0.347634, "common_noun" : 0},
+		{"id" : 1, "text" : "최", "type" : "PS_NAME", "begin" : 2, "end" : 2, "weight" : 0.767725, "common_noun" : 0},
+		{"id" : 2, "text" : "최", "type" : "PS_NAME", "begin" : 12, "end" : 12, "weight" : 0.574907, "common_noun" : 0},
+		{"id" : 3, "text" : "서울청", "type" : "OGG_POLITICS", "begin" : 15, "end" : 16, "weight" : 0.642137, "common_noun" : 0},
+		{"id" : 4, "text" : "4기동단", "type" : "QT_ORDER", "begin" : 18, "end" : 20, "weight" : 0.576278, "common_noun" : 0},
+		{"id" : 5, "text" : "직위해제", "type" : "CV_LAW", "begin" : 25, "end" : 26, "weight" : 1, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "경찰은", "head" : 3, "label" : "NP_SBJ", "mod" : [], "weight" : 0.621822 },
+		{"id" : 1, "text" : "최씨가", "head" : 3, "label" : "NP_SBJ", "mod" : [], "weight" : 0.814888 },
+		{"id" : 2, "text" : "재판에", "head" : 3, "label" : "NP_AJT", "mod" : [], "weight" : 0.838244 },
+		{"id" : 3, "text" : "넘겨짐에", "head" : 4, "label" : "VP_AJT", "mod" : [0, 1, 2], "weight" : 0.638113 },
+		{"id" : 4, "text" : "따라", "head" : 9, "label" : "VP", "mod" : [3], "weight" : 0.800521 },
+		{"id" : 5, "text" : "최씨를", "head" : 9, "label" : "NP_OBJ", "mod" : [], "weight" : 0.736916 },
+		{"id" : 6, "text" : "서울청", "head" : 7, "label" : "NP", "mod" : [], "weight" : 0.558254 },
+		{"id" : 7, "text" : "소속", "head" : 8, "label" : "NP", "mod" : [6], "weight" : 0.690962 },
+		{"id" : 8, "text" : "4기동단으로", "head" : 9, "label" : "NP_AJT", "mod" : [7], "weight" : 0.823126 },
+		{"id" : 9, "text" : "전보하고", "head" : 10, "label" : "VP", "mod" : [4, 5, 8], "weight" : 0.807755 },
+		{"id" : 10, "text" : "직위해제했다.", "head" : -1, "label" : "VP", "mod" : [9], "weight" : 0.0159698 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_SBJ", "text" : "경찰은", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 3, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_SBJ", "text" : "최씨가", "begin" : 1, "end" : 1, "key_begin" : 1, "head_phrase" : 3, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_AJT", "text" : "재판에", "begin" : 2, "end" : 2, "key_begin" : 2, "head_phrase" : 3, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "S_AJT", "text" : "P#0@SBJ은 P#1@SBJ가 P#2@AJT에 넘겨짐에", "begin" : 0, "end" : 3, "key_begin" : 3, "head_phrase" : 4, "sub_phrase" : [0, 1, 2], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "S", "text" : "S#3@AJT에 따라", "begin" : 0, "end" : 4, "key_begin" : 4, "head_phrase" : 7, "sub_phrase" : [3], "weight" : 0, "element" : [] },
+		{"id" : 5, "label" : "NP_OBJ", "text" : "최씨를", "begin" : 5, "end" : 5, "key_begin" : 5, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 6, "label" : "NP_AJT", "text" : "서울청 소속 4기동단으로", "begin" : 6, "end" : 8, "key_begin" : 6, "head_phrase" : 7, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 7, "label" : "S", "text" : "S#4@S아 P#5@OBJ를 P#6@AJT으로 전보하고 직위해제했다.", "begin" : 0, "end" : 10, "key_begin" : 9, "head_phrase" : -1, "sub_phrase" : [4, 5, 6], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "넘겨지", "sense" : 1, "word_id" : 3, "weight" : 0.277591,
+			"argument" : [
+				{"type" : "ARG0", "word_id" : 1, "text" : "최씨가", "weight" : 0.225513 },
+				{"type" : "ARG2", "word_id" : 2, "text" : "재판에", "weight" : 0.329668 }
+			] },
+		{"verb" : "따르", "sense" : 2, "word_id" : 4, "weight" : 0.38597,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 3, "text" : "넘겨짐에", "weight" : 1 }
+			] },
+		{"verb" : "전보", "sense" : 1, "word_id" : 9, "weight" : 0.31642,
+			"argument" : [
+				{"type" : "ARGM-CAU", "word_id" : 4, "text" : "따라", "weight" : 0.357242 },
+				{"type" : "ARG1", "word_id" : 5, "text" : "최씨를", "weight" : 0.475236 },
+				{"type" : "ARG2", "word_id" : 8, "text" : "4기동단으로", "weight" : 0.116783 }
+			] },
+		{"verb" : "직위", "sense" : 1, "word_id" : 10, "weight" : 0,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 5, "text" : "최씨를", "weight" : 0.475236 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 3,
+	"reserve_str" : "",
+	"text" : " 직위해제가 되면 그 기간만큼은 복무기간에 포함되지 않는다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "직위", "type" : "NNG", "position" : 516, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "해제", "type" : "NNG", "position" : 522, "weight" : 0.9 },
+		{"id" : 2, "lemma" : "가", "type" : "JKC", "position" : 528, "weight" : 0.000442184 },
+		{"id" : 3, "lemma" : "되", "type" : "VV", "position" : 532, "weight" : 0.542406 },
+		{"id" : 4, "lemma" : "면", "type" : "EC", "position" : 535, "weight" : 0.399365 },
+		{"id" : 5, "lemma" : "그", "type" : "MM", "position" : 539, "weight" : 0.0123347 },
+		{"id" : 6, "lemma" : "기간", "type" : "NNG", "position" : 543, "weight" : 0.9 },
+		{"id" : 7, "lemma" : "만큼", "type" : "JX", "position" : 549, "weight" : 0.021635 },
+		{"id" : 8, "lemma" : "은", "type" : "JX", "position" : 555, "weight" : 0.00773878 },
+		{"id" : 9, "lemma" : "복무", "type" : "NNG", "position" : 559, "weight" : 0.9 },
+		{"id" : 10, "lemma" : "기간", "type" : "NNG", "position" : 565, "weight" : 0.9 },
+		{"id" : 11, "lemma" : "에", "type" : "JKB", "position" : 571, "weight" : 0.153364 },
+		{"id" : 12, "lemma" : "포함", "type" : "NNG", "position" : 575, "weight" : 0.9 },
+		{"id" : 13, "lemma" : "되", "type" : "XSV", "position" : 581, "weight" : 0.000224177 },
+		{"id" : 14, "lemma" : "지", "type" : "EC", "position" : 584, "weight" : 0.260723 },
+		{"id" : 15, "lemma" : "않", "type" : "VX", "position" : 588, "weight" : 0.256301 },
+		{"id" : 16, "lemma" : "는다", "type" : "EF", "position" : 591, "weight" : 0.181907 },
+		{"id" : 17, "lemma" : ".", "type" : "SF", "position" : 597, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "직위해제/NNG+가/JKC", "target" : "직위해제가", "word_id" : 0, "m_begin" : 0, "m_end" : 2},
+		{"id" : 1, "result" : "되/VV+면/EC", "target" : "되면", "word_id" : 1, "m_begin" : 3, "m_end" : 4},
+		{"id" : 2, "result" : "그/MM", "target" : "그", "word_id" : 2, "m_begin" : 5, "m_end" : 5},
+		{"id" : 3, "result" : "기간/NNG+만큼/JX+은/JX", "target" : "기간만큼은", "word_id" : 3, "m_begin" : 6, "m_end" : 8},
+		{"id" : 4, "result" : "복무기간/NNG+에/JKB", "target" : "복무기간에", "word_id" : 4, "m_begin" : 9, "m_end" : 11},
+		{"id" : 5, "result" : "포함되/VV+지/EC", "target" : "포함되지", "word_id" : 5, "m_begin" : 12, "m_end" : 14},
+		{"id" : 6, "result" : "않/VX+는다/EF+./SF", "target" : "않는다.", "word_id" : 6, "m_begin" : 15, "m_end" : 17}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "직위", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 516, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "해제", "type" : "NNG", "scode" : "03", "weight" : 4, "position" : 522, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "가", "type" : "JKC", "scode" : "00", "weight" : 1, "position" : 528, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "되", "type" : "VV", "scode" : "01", "weight" : 7.58608, "position" : 532, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "면", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 535, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "그", "type" : "MM", "scode" : "01", "weight" : 7.6, "position" : 539, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "기간", "type" : "NNG", "scode" : "07", "weight" : 9.27364, "position" : 543, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "만큼", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 549, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 555, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "복무", "type" : "NNG", "scode" : "02", "weight" : 4.2, "position" : 559, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "기간", "type" : "NNG", "scode" : "07", "weight" : 6.87364, "position" : 565, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 571, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "포함되", "type" : "VV", "scode" : "01", "weight" : 1, "position" : 575, "begin" : 12, "end" : 13},
+		{"id" : 13, "text" : "지", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 584, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "않", "type" : "VX", "scode" : "00", "weight" : 0, "position" : 588, "begin" : 15, "end" : 15},
+		{"id" : 15, "text" : "는다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 591, "begin" : 16, "end" : 16},
+		{"id" : 16, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 597, "begin" : 17, "end" : 17}
+	],
+	"word" : [
+		{"id" : 0, "text" : "직위해제가", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "되면", "type" : "", "begin" : 3, "end" : 4},
+		{"id" : 2, "text" : "그", "type" : "", "begin" : 5, "end" : 5},
+		{"id" : 3, "text" : "기간만큼은", "type" : "", "begin" : 6, "end" : 8},
+		{"id" : 4, "text" : "복무기간에", "type" : "", "begin" : 9, "end" : 11},
+		{"id" : 5, "text" : "포함되지", "type" : "", "begin" : 12, "end" : 14},
+		{"id" : 6, "text" : "않는다.", "type" : "", "begin" : 15, "end" : 17}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "직위해제", "type" : "CV_LAW", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "직위해제가", "head" : 1, "label" : "NP_CMP", "mod" : [], "weight" : 0.54813 },
+		{"id" : 1, "text" : "되면", "head" : 5, "label" : "VP", "mod" : [0], "weight" : 0.823052 },
+		{"id" : 2, "text" : "그", "head" : 3, "label" : "DP", "mod" : [], "weight" : 0.695899 },
+		{"id" : 3, "text" : "기간만큼은", "head" : 5, "label" : "NP_AJT", "mod" : [2], "weight" : 0.36688 },
+		{"id" : 4, "text" : "복무기간에", "head" : 5, "label" : "NP_AJT", "mod" : [], "weight" : 0.595328 },
+		{"id" : 5, "text" : "포함되지", "head" : 6, "label" : "VP", "mod" : [1, 3, 4], "weight" : 0.791547 },
+		{"id" : 6, "text" : "않는다.", "head" : -1, "label" : "VP", "mod" : [5], "weight" : 0.0451082 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP_CMP", "text" : "직위해제가", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 1, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "VP", "text" : "P#0@CMP가 되면", "begin" : 0, "end" : 1, "key_begin" : 1, "head_phrase" : 4, "sub_phrase" : [0], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "NP_AJT", "text" : "그 기간만큼은", "begin" : 2, "end" : 3, "key_begin" : 2, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP_AJT", "text" : "복무기간에", "begin" : 4, "end" : 4, "key_begin" : 4, "head_phrase" : 4, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 4, "label" : "VP", "text" : "P#1@VP면 P#2@AJT은 P#3@AJT에 포함되지 않는다.", "begin" : 0, "end" : 6, "key_begin" : 5, "head_phrase" : -1, "sub_phrase" : [1, 2, 3], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "되", "sense" : 1, "word_id" : 1, "weight" : 0.585781,
+			"argument" : [
+				{"type" : "ARG2", "word_id" : 0, "text" : "직위해제가", "weight" : 0.585781 }
+			] },
+		{"verb" : "포함", "sense" : 1, "word_id" : 5, "weight" : 0.368058,
+			"argument" : [
+				{"type" : "ARGM-CND", "word_id" : 1, "text" : "되면", "weight" : 0.246051 },
+				{"type" : "ARG1", "word_id" : 3, "text" : "기간만큼은", "weight" : 0.0918543 },
+				{"type" : "ARG2", "word_id" : 4, "text" : "복무기간에", "weight" : 0.404812 },
+				{"type" : "ARGM-NEG", "word_id" : 6, "text" : "않는다.", "weight" : 0.729515 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "김범수 기자 sway@segye.com",
+	"morp" : [
+		{"id" : 0, "lemma" : "김범수", "type" : "NNP", "position" : 0, "weight" : 0.9 },
+		{"id" : 1, "lemma" : "기자", "type" : "NNG", "position" : 10, "weight" : 0.281745 },
+		{"id" : 2, "lemma" : "sway", "type" : "SL", "position" : 17, "weight" : 1 },
+		{"id" : 3, "lemma" : "@", "type" : "SW", "position" : 21, "weight" : 1 },
+		{"id" : 4, "lemma" : "segye", "type" : "SL", "position" : 22, "weight" : 1 },
+		{"id" : 5, "lemma" : ".", "type" : "SF", "position" : 27, "weight" : 1 },
+		{"id" : 6, "lemma" : "com", "type" : "SL", "position" : 28, "weight" : 1 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "김범수/NNG", "target" : "김범수", "word_id" : 0, "m_begin" : 0, "m_end" : 0},
+		{"id" : 1, "result" : "기자/NNG", "target" : "기자", "word_id" : 1, "m_begin" : 1, "m_end" : 1},
+		{"id" : 2, "result" : "sway/SL+@/SW+segye/SL+./SF+com/SL", "target" : "sway@segye.com", "word_id" : 2, "m_begin" : 2, "m_end" : 6}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "김범수", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "기자", "type" : "NNG", "scode" : "05", "weight" : 1.5, "position" : 10, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "sway", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 17, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "@", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 21, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "segye", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 22, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 27, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "com", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 28, "begin" : 6, "end" : 6}
+	],
+	"word" : [
+		{"id" : 0, "text" : "김범수", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "기자", "type" : "", "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "sway@segye.com", "type" : "", "begin" : 2, "end" : 6}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "김범수", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.923574, "common_noun" : 0},
+		{"id" : 1, "text" : "기자", "type" : "CV_OCCUPATION", "begin" : 1, "end" : 1, "weight" : 0.815017, "common_noun" : 0},
+		{"id" : 2, "text" : "sway@segye.com", "type" : "TMI_EMAIL", "begin" : 2, "end" : 6, "weight" : 0.808797, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "김범수", "head" : 1, "label" : "NP", "mod" : [], "weight" : 0.793873 },
+		{"id" : 1, "text" : "기자", "head" : 2, "label" : "NP", "mod" : [0], "weight" : 0.616101 },
+		{"id" : 2, "text" : "sway@segye.com", "head" : -1, "label" : "NP", "mod" : [1], "weight" : 0.442409 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "김범수 기자 sway@segye.com", "begin" : 0, "end" : 2, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "ⓒ 세상을 보는 눈, 글로벌 미디어",
+	"morp" : [
+		{"id" : 0, "lemma" : "ⓒ", "type" : "SW", "position" : 0, "weight" : 1 },
+		{"id" : 1, "lemma" : "세상", "type" : "NNG", "position" : 4, "weight" : 0.9 },
+		{"id" : 2, "lemma" : "을", "type" : "JKO", "position" : 10, "weight" : 0.129611 },
+		{"id" : 3, "lemma" : "보", "type" : "VV", "position" : 14, "weight" : 0.475105 },
+		{"id" : 4, "lemma" : "는", "type" : "ETM", "position" : 17, "weight" : 0.184941 },
+		{"id" : 5, "lemma" : "눈", "type" : "NNG", "position" : 21, "weight" : 0.658776 },
+		{"id" : 6, "lemma" : ",", "type" : "SP", "position" : 24, "weight" : 1 },
+		{"id" : 7, "lemma" : "글로벌", "type" : "NNG", "position" : 26, "weight" : 0.9 },
+		{"id" : 8, "lemma" : "미디어", "type" : "NNG", "position" : 36, "weight" : 0.9 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "ⓒ/SW", "target" : "ⓒ", "word_id" : 0, "m_begin" : 0, "m_end" : 0},
+		{"id" : 1, "result" : "세상/NNG+을/JKO", "target" : "세상을", "word_id" : 1, "m_begin" : 1, "m_end" : 2},
+		{"id" : 2, "result" : "보/VV+는/ETM", "target" : "보는", "word_id" : 2, "m_begin" : 3, "m_end" : 4},
+		{"id" : 3, "result" : "눈/NNG+,/SP", "target" : "눈,", "word_id" : 3, "m_begin" : 5, "m_end" : 6},
+		{"id" : 4, "result" : "글로벌/NNG", "target" : "글로벌", "word_id" : 4, "m_begin" : 7, "m_end" : 7},
+		{"id" : 5, "result" : "미디어/NNG", "target" : "미디어", "word_id" : 5, "m_begin" : 8, "m_end" : 8}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "ⓒ", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "세상", "type" : "NNG", "scode" : "01", "weight" : 4.4, "position" : 4, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "보", "type" : "VV", "scode" : "01", "weight" : 5.4, "position" : 14, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 17, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "눈", "type" : "NNG", "scode" : "01", "weight" : 5.2362, "position" : 21, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 24, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "글로벌", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 26, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "미디어", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 36, "begin" : 8, "end" : 8}
+	],
+	"word" : [
+		{"id" : 0, "text" : "ⓒ", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "세상을", "type" : "", "begin" : 1, "end" : 2},
+		{"id" : 2, "text" : "보는", "type" : "", "begin" : 3, "end" : 4},
+		{"id" : 3, "text" : "눈,", "type" : "", "begin" : 5, "end" : 6},
+		{"id" : 4, "text" : "글로벌", "type" : "", "begin" : 7, "end" : 7},
+		{"id" : 5, "text" : "미디어", "type" : "", "begin" : 8, "end" : 8}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "눈", "type" : "AM_PART", "begin" : 5, "end" : 5, "weight" : 0.316538, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "ⓒ", "head" : 5, "label" : "NP", "mod" : [], "weight" : 0.572601 },
+		{"id" : 1, "text" : "세상을", "head" : 2, "label" : "NP_OBJ", "mod" : [], "weight" : 0.86538 },
+		{"id" : 2, "text" : "보는", "head" : 3, "label" : "VP_MOD", "mod" : [1], "weight" : 0.773441 },
+		{"id" : 3, "text" : "눈,", "head" : 5, "label" : "NP_CNJ", "mod" : [2], "weight" : 0.172465 },
+		{"id" : 4, "text" : "글로벌", "head" : 5, "label" : "NP", "mod" : [], "weight" : 0.729068 },
+		{"id" : 5, "text" : "미디어", "head" : -1, "label" : "NP", "mod" : [0, 3, 4], "weight" : 0.0384354 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "ⓒ", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : 3, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 1, "label" : "NP_OBJ", "text" : "세상을", "begin" : 1, "end" : 1, "key_begin" : 1, "head_phrase" : 2, "sub_phrase" : [], "weight" : 0, "element" : [] },
+		{"id" : 2, "label" : "VP_MOD", "text" : "P#1@OBJ을 보는", "begin" : 1, "end" : 2, "key_begin" : 2, "head_phrase" : 3, "sub_phrase" : [1], "weight" : 0, "element" : [] },
+		{"id" : 3, "label" : "NP", "text" : "P#0@NPⓒ P#2@MOD는 눈, 글로벌 미디어", "begin" : 0, "end" : 5, "key_begin" : 3, "head_phrase" : -1, "sub_phrase" : [0, 2], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+		{"verb" : "보", "sense" : 1, "word_id" : 2, "weight" : 0.267131,
+			"argument" : [
+				{"type" : "ARG1", "word_id" : 1, "text" : "세상을", "weight" : 0.389102 },
+				{"type" : "ARG0", "word_id" : 3, "text" : "눈,", "weight" : 0.145159 }
+			] }
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "세계일보",
+	"morp" : [
+		{"id" : 0, "lemma" : "세계일보", "type" : "NNP", "position" : 0, "weight" : 0.8 }
+	],
+	"morp_eval" : [
+		{"id" : 0, "result" : "세계일보/NNG", "target" : "세계일보", "word_id" : 0, "m_begin" : 0, "m_end" : 0}
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "세계일보", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0}
+	],
+	"word" : [
+		{"id" : 0, "text" : "세계일보", "type" : "", "begin" : 0, "end" : 0}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "세계일보", "type" : "AFW_DOCUMENT", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+		{"id" : 0, "text" : "세계일보", "head" : -1, "label" : "NP", "mod" : [], "weight" : 0.754477 }
+	],
+	"phrase_dependency" : [
+		{"id" : 0, "label" : "NP", "text" : "세계일보", "begin" : 0, "end" : 0, "key_begin" : 0, "head_phrase" : -1, "sub_phrase" : [], "weight" : 0, "element" : [] }
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+ ],
+ "entity" : [
+ ]
+}
+
