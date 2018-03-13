@@ -8,18 +8,24 @@ def Main():
     top_path = "top_B.parse"
     u20_path = "u20_B.parse"
 
-    list_document, top_document_obj = GetDocumentObj(top_path)
-    time_tensor, loc_tensor, person_organ_tensor, morph_tensor = GetTensor(list_document, top_document_obj)
-    print(time_tensor.shape, loc_tensor.shape, person_organ_tensor.shape, morph_tensor.shape)
-    # list_document, u20_document_obj = GetDocumentObj(u20_path)
-    # time_tensor, loc_tensor, person_organ_tensor, morph_tensor = GetTensor(list_document, u20_document_obj)
+    label_dict = {top_path:0, u20_path:1}
+    list_document = []; start_date = None ; end_date = None
+    list_document, start_date, end_date = GetDocumentObj(list_document, top_path, label_dict[top_path], start_date, end_date)
+    list_document, start_date, end_date = GetDocumentObj(list_document, u20_path, label_dict[u20_path], start_date, end_date)
+
+    documents_obj = DictObj()
+    documents_obj.SetDict(list_document)    
+    time_tensor, loc_tensor, person_organ_tensor, morph_tensor, list_label = GetTensor(list_document, documents_obj, start_date, end_date)	
+    print(time_tensor, loc_tensor, person_organ_tensor, morph_tensor, len(list_label))
+    
 
 class DocumentObj(object):
-    def __init__(self, time, location, person_organ, morph):        
+    def __init__(self, time, location, person_organ, morph, label):        
         self.time = time
         self.location = location
         self.person_organ = person_organ
         self.morph = morph
+        self.label = label
 
 class Dictionary(object):
     def __init__(self):
@@ -54,9 +60,9 @@ def gaussian(time_delta, sig=10):
     x_mu = time_delta
     return np.exp(-np.power(x_mu, 2.) / (2 * np.power(sig, 2.)))
 
-def GetDocumentObj(file_path):
-    list_document = []
-    
+def GetDocumentObj(list_document, file_path, label, start_date, end_date):
+    list_temp_document = []
+        
     for e in sorted(glob.glob(file_path + "/*")):
         start_idx = e.find("/")
         end_idx = e[start_idx:].find("_") + start_idx
@@ -86,7 +92,16 @@ def GetDocumentObj(file_path):
     #     print("[**] location ",list_location)
     #     print("[**] person_organization ",list_person_organization)
     #     print("[**] morphology ",list_morph)
+        
+        # Morph안에서 Location의 중복 제거
+        set_location = set(list_location)
+        for location_e in set_location:
+            check_value = location_e in list_morph
+            while check_value == True:
+                list_morph.remove(location_e)
+                check_value = location_e in list_morph
 
+        # Morph안에서 Person Organization의 중복 제거
         set_person_organization = set(list_person_organization)
         for person_organization_e in set_person_organization:
             check_value = person_organization_e in list_morph
@@ -95,22 +110,30 @@ def GetDocumentObj(file_path):
                 check_value = person_organization_e in list_morph
     #     print("[**] morphology after preprocess ",list_morph)
 
-        doc_obj_element = DocumentObj(time_element, list_location, list_person_organization, list_morph)
-        list_document.append(doc_obj_element)
+        doc_obj_element = DocumentObj(time_element, list_location, list_person_organization, list_morph, label)
+        list_temp_document.append(doc_obj_element)
+        
+    splited_time_0 = list_temp_document[0].time.split("-")
+    temp_start_date = datetime.date(int(splited_time_0[0]), int(splited_time_0[1]), int(splited_time_0[2]))
+    if start_date == None:
+        start_date = temp_start_date
+    elif temp_start_date < start_date:
+        start_date = temp_start_date
+        
+    splited_time_1 = list_temp_document[-1].time.split("-")
+    temp_end_date = datetime.date(int(splited_time_1[0]), int(splited_time_1[1]), int(splited_time_1[2]))
+    if end_date == None:
+        end_date = temp_end_date
+    elif end_date < temp_end_date:
+        end_date = temp_end_date
+        
+    list_document.extend(list_temp_document)
 
-    documents_obj = DictObj()
-    documents_obj.SetDict(list_document)
-    
-    return list_document, documents_obj
+    return list_document, start_date, end_date
 
-def GetTensor(list_document, documents_obj):
-    splited_time_0 = list_document[0].time.split("-")
-    datetime_0 = datetime.date(int(splited_time_0[0]), int(splited_time_0[1]), int(splited_time_0[2]))
-    splited_time_1 = list_document[-1].time.split("-")
-    datetime_1 = datetime.date(int(splited_time_1[0]), int(splited_time_1[1]), int(splited_time_1[2]))
-
-    start_value = datetime_0 - datetime_1
-    end_value = datetime_1 - datetime_0
+def GetTensor(list_document, documents_obj, start_date, end_date):
+    start_value = start_date - end_date
+    end_value = end_date - start_date
     gauss_dict = {i:gaussian(i) for i in range(start_value.days, end_value.days+1)}
         
     # shape : documnet 개수 x 1 [TEMP]
@@ -122,11 +145,12 @@ def GetTensor(list_document, documents_obj):
     # shape : documnet 개수 x morph 사전 개수
     morph_tensor = torch.IntTensor(len(list_document),len(documents_obj.morph.element2idx)).zero_()
     
+    list_label = []
     for i, doc_element in enumerate(list_document):
         temp_splited_time = doc_element.time.split("-")
         temp_datetime = datetime.date(int(temp_splited_time[0]), int(temp_splited_time[1]), int(temp_splited_time[2]))
         for j in range(end_value.days+1):
-            time_tensor[i][j] = gauss_dict[(datetime_0 - temp_datetime).days + j]
+            time_tensor[i][j] = gauss_dict[(start_date - temp_datetime).days + j]
         
         set_location = set(doc_element.location)
         for loc_element in set_location:
@@ -141,8 +165,10 @@ def GetTensor(list_document, documents_obj):
         set_morph = set(doc_element.morph)
         for morph_element in set_morph:
             j = documents_obj.morph.element2idx[morph_element]
-            morph_tensor[i][j] = doc_element.morph.count(morph_element)
-    return time_tensor, loc_tensor, person_organ_tensor, morph_tensor
+            morph_tensor[i][j] = doc_element.morph.count(morph_element)        
+        list_label.append(doc_element.label)
+        
+    return time_tensor, loc_tensor, person_organ_tensor, morph_tensor, list_label
 
-if __name__ == "__main__":
-    Main()
+
+Main()
