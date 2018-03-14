@@ -4,7 +4,7 @@ import torch
 import numpy as np
 import datetime, time
 
-def Main():
+if __name__ == '__main__':
     top_path = "top_B.parse"
     u20_path = "u20_B.parse"
 
@@ -139,11 +139,11 @@ def GetTensor(list_document, documents_obj, start_date, end_date):
     # shape : documnet 개수 x 1 [TEMP]
     time_tensor = torch.FloatTensor(len(list_document),end_value.days+1).zero_()
     # shape : documnet 개수 x location 사전 개수
-    loc_tensor = torch.IntTensor(len(list_document),len(documents_obj.location.element2idx)).zero_()
+    loc_tensor = torch.FloatTensor(len(list_document),len(documents_obj.location.element2idx)).zero_()
     # shape : documnet 개수 x person_organ 사전 개수
-    person_organ_tensor = torch.IntTensor(len(list_document),len(documents_obj.person_organ.element2idx)).zero_()
+    person_organ_tensor = torch.FloatTensor(len(list_document),len(documents_obj.person_organ.element2idx)).zero_()
     # shape : documnet 개수 x morph 사전 개수
-    morph_tensor = torch.IntTensor(len(list_document),len(documents_obj.morph.element2idx)).zero_()
+    morph_tensor = torch.FloatTensor(len(list_document),len(documents_obj.morph.element2idx)).zero_()
     
     list_label = []
     for i, doc_element in enumerate(list_document):
@@ -169,6 +169,3 @@ def GetTensor(list_document, documents_obj, start_date, end_date):
         list_label.append(doc_element.label)
         
     return time_tensor, loc_tensor, person_organ_tensor, morph_tensor, list_label
-
-
-Main()
