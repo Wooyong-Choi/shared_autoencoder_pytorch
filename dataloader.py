@@ -55,7 +55,7 @@ class DictObj(object):
                 self.morph.add_element(morph_element)
 
 # x : interation 돌리는 document 시간, mu : 기준 document 시간, sig : 5는 5일 차이까지 0.5이상
-def gaussian(time_delta, sig=10):
+def gaussian(time_delta, sig=5):
     # x_mu = x - mu
     x_mu = time_delta
     return np.exp(-np.power(x_mu, 2.) / (2 * np.power(sig, 2.)))
@@ -131,10 +131,10 @@ def GetDocumentObj(list_document, file_path, label, start_date, end_date):
 
     return list_document, start_date, end_date
 
-def GetTensor(list_document, documents_obj, start_date, end_date):
+def GetTensor(list_document, documents_obj, start_date, end_date, time_stddev=10):
     start_value = start_date - end_date
     end_value = end_date - start_date
-    gauss_dict = {i:gaussian(i) for i in range(start_value.days, end_value.days+1)}
+    gauss_dict = {i:gaussian(i, sig=time_stddev) for i in range(start_value.days, end_value.days+1)}
         
     # shape : documnet 개수 x 1 [TEMP]
     time_tensor = torch.FloatTensor(len(list_document),end_value.days+1).zero_()
